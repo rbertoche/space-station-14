@@ -10,7 +10,7 @@ namespace Content.Shared.Localizations
         [Dependency] private readonly ILocalizationManager _loc = default!;
 
         // If you want to change your codebase's language, do it here.
-        private const string Culture = "pt-BR";
+        private const string Culture = "en-US";
         private const string FallbackCulture = "en-US"; // Corvax-Localization
 
         /// <summary>
