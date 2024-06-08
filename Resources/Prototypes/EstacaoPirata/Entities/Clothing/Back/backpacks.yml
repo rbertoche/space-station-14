@@ -1,0 +1,8 @@
+- type: entity
+  parent: ClothingBackpack
+  id: ClothingBackpackBlueshield
+  name: Blueshield backpack
+  description: It's a very robust backpack.
+  components:
+  - type: Sprite
+    sprite: EstacaoPirata/Clothing/Back/Backpacks/blueshield.rsi

@@ -1,0 +1,8 @@
+- type: entity
+  parent: ClothingBackpackDuffel
+  id: ClothingBackpackDuffelBlueshield
+  name: Blueshield duffel bag
+  description: A large duffel bag for holding extra tools and supplies.
+  components:
+  - type: Sprite
+    sprite: EstacaoPirata/Clothing/Back/Duffels/blueshield.rsi

@@ -1,0 +1,8 @@
+- type: entity
+  parent: ClothingBackpackSatchel
+  id: ClothingBackpackSatchelBlueshield
+  name: Blueshield satchel
+  description: A trend-setting satchel from a bygone era.
+  components:
+  - type: Sprite
+    sprite: EstacaoPirata/Clothing/Back/Satchels/blueshield.rsi
