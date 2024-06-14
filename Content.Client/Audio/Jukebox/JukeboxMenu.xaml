@@ -23,7 +23,7 @@
         <BoxContainer Orientation="Vertical">
             <PanelContainer StyleClasses="LowDivider" />
             <BoxContainer Orientation="Horizontal" HorizontalExpand="True"
-                          VerticalExpand="False" SizeFlagsStretchRatio="1" HorizontalAlignment="Center" Margin="100 3 3 3">
+                          VerticalExpand="False" SizeFlagsStretchRatio="1" HorizontalAlignment="Center">
                 <Button Name="PlayButton" Text="{Loc 'jukebox-menu-buttonplay'}" />
                 <Button Name="StopButton" Text="{Loc 'jukebox-menu-buttonstop'}" />
             </BoxContainer>
