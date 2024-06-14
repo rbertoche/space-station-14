@@ -1,0 +1,471 @@
+- type: jukebox
+  id: ADoida
+  name: Seu Jorge - A Doida
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/a_doida.ogg
+
+- type: jukebox
+  id: AguasDeMarco
+  name: Elis Regina & Tom Jobim - Águas de Março
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/aguas_de_marco.ogg
+
+- type: jukebox
+  id: BakaMitai
+  name: Mitsuharu Fukuyama - Baka Mitai (Yakuza)
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/baka_mitai.ogg
+
+- type: jukebox
+  id: BreakTheRules
+  name: Simon Viklund - Break The Rules (Payday)
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/break_the_rules.ogg
+
+- type: jukebox
+  id: CanCan
+  name: Jacques Offenbach - Can-Can
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/can-can.ogg
+
+- type: jukebox
+  id: CantinaBand
+  name: John Williams - Cantina Band
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/cantina_band.ogg
+
+- type: jukebox
+  id: ChoraMeLiga
+  name: João Bosco & Vinícius - Chora, Me Liga
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/chora_me_liga.ogg
+
+- type: jukebox
+  id: CliffPolka
+  name: Chelmsford Folk Band - Cliff Polka (Bob Esponja)
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/cliff_polka.ogg
+
+- type: jukebox
+  id: CrazyFrog
+  name: Crazy Frog - Axel F
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/crazy_frog.ogg
+
+- type: jukebox
+  id: CubanPete
+  name: Joseph Norman - Cuban Pete
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/cuban_pete.ogg
+
+- type: jukebox
+  id: DaFunk
+  name: Daft Punk - Da Funk
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/da_funk.ogg
+
+- type: jukebox
+  id: DigitalCircus
+  name: Gooseworx - Your New Home (Digital Circus)
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/DigitalCircus.ogg
+
+- type: jukebox
+  id: DiscoB
+  name: Masayoshi Takanaka - Disco B
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/disco_b.ogg
+
+- type: jukebox
+  id: DoFundoDaGrota
+  name: Baitaca - Do Fundo da Grota
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/do_fundo_da_grota.ogg
+
+- type: jukebox
+  id: DreamSweetInSeaMajor
+  name: Miracle Musical - Dream Sweet In Sea Major
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/dream_sweet_in_sea_major.ogg
+
+- type: jukebox
+  id: DuelOfTheFates
+  name: John Williams - Duel of the Fates
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/duel_of_the_fates.ogg
+
+- type: jukebox
+  id: EntryOfTheGladiators
+  name: Julius Fučík - Entry of the Gladiators
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/entry_of_the_gladiators.ogg
+
+- type: jukebox
+  id: ErvaVenenosa
+  name: Rita Lee - Erva Venenosa
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/erva_venenosa.ogg
+
+- type: jukebox
+  id: EstacaoDoInferno
+  name: RPM - Estação do Inferno
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/estacao_do_inferno.ogg
+
+- type: jukebox
+  id: Evidencias
+  name: Chitãozinho & Xororó - Evidências
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/evidencias.ogg
+
+- type: jukebox
+  id: Exagerado
+  name: Cazuza - Exagerado
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/exagerado.ogg
+
+- type: jukebox
+  id: FeiraDeMangaio
+  name: Clara Nunes - Feira de Mangaio
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/feira_de_mangaio.ogg
+
+- type: jukebox
+  id: GarotaDeIpanema
+  name: Tom Jobim - Garota de Ipanema
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/garota_de_ipanema.ogg
+
+- type: jukebox
+  id: Ghostbusters
+  name: Ray Parker Jr - Ghostbusters
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/ghostbusters.ogg
+
+- type: jukebox
+  id: GodotTheme
+  name: Noriyuki Iwadare - The Fragrance of Dark Coffee (Godot Theme)
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/godot_theme.ogg
+
+- type: jukebox
+  id: HarderBetterFasterStronger
+  name: Daft Punk - Harder, Better, Faster, Stronger
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/harder_better_faster_stronger.ogg
+
+- type: jukebox
+  id: HipShop
+  name: Toby Fox - Hip Shop
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/hip_shop.ogg
+
+- type: jukebox
+  id: IRememberClifford
+  name: Masayoshi Takanaka - I Remember Clifford
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/i_remember_clifford.ogg
+
+- type: jukebox
+  id: ImperialMarch
+  name: John Williams - Imperial March
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/imperial_march.ogg
+
+- type: jukebox
+  id: InTheHallOfTheMountainKing
+  name: Edvard Grieg - In the Hall of the Mountain King
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/in-the-hall-of-the-mountain-king.ogg
+
+- type: jukebox
+  id: JarabeTapatio
+  name: Jesús González Rubio - Jarabe Tapatio
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/jarabe_tapatio.ogg
+
+- type: jukebox
+  id: Lancer
+  name: Toby Fox - Lancer
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/lancer.ogg
+
+- type: jukebox
+  id: LastTrainHome
+  name: Pat Metheny Group - Last Train Home
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/last_train_home.ogg
+
+- type: jukebox
+  id: LionSleepsTonight
+  name: The Tokens - Lion Sleeps Tonight
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/lion_sleeps_tonight.ogg
+
+
+- type: jukebox
+  id: LonelyRollingStar
+  name: Katamari - Lonely Rolling Star
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/lonely_rolling_star.ogg
+
+- type: jukebox
+  id: Malibu
+  name: Masayoshi Takanaka - Malibu
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/malibu.ogg
+
+
+- type: jukebox
+  id: MamboNo5
+  name: Masayoshi Takanaka - Mambo No. 5
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/mambo_no_5.ogg
+
+- type: jukebox
+  id: MasQueNada
+  name: Jorge Ben Jor - Mas, Que Nada!
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/mas_que_nada.ogg
+
+
+- type: jukebox
+  id: MeninaBonitaNaoChora
+  name: Jorge Ben Jor - Menina Bonita Não Chora
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/menina_bonita_nao_chora.ogg
+
+- type: jukebox
+  id: Naja
+  name: RPM - Naja (Ao Vivo)
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/naja.ogg
+
+- type: jukebox
+  id: NeverGonnaGiveYouUp
+  name: Rick Astley - Never Gonna Give You Up
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/never_gonna_give_you_up.ogg
+
+
+- type: jukebox
+  id: NocturneNo2
+  name: Chopin - Nocturne No. 2 in E flat Major, Op. 9,2
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/nocturne_no_2.ogg
+
+- type: jukebox
+  id: OXoteDasMeninas
+  name: Luiz Gonzaga - O Xote das Meninas
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/o_xote_das_meninas.ogg
+
+- type: jukebox
+  id: OhTengoSuerte
+  name: Masayoshi Takanaka - Oh! Tengo Suerte
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/oh_tengo_suerte.ogg
+
+- type: jukebox
+  id: PassTheDutchie
+  name: Musical Youth - Pass the Dutchie
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/pass_the_dutchie.ogg
+
+- type: jukebox
+  id: Revolucao
+  name: Wells Chaplon - Revolução
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/revolucao.ogg
+
+- type: jukebox
+  id: RushEPlayable
+  name: Sheet Music Boss - Rush E (Playable)
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/rush_e_playable.ogg
+
+- type: jukebox
+  id: Samurai
+  name: Djavan - Samurai
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/samurai.ogg
+
+- type: jukebox
+  id: Sandstorm
+  name: Darude - Sandstorm
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/sandstorm.ogg
+
+- type: jukebox
+  id: Sans
+  name: Toby Fox - Sans.
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/sans.ogg
+
+- type: jukebox
+  id: SpaceAsshole
+  name: Chris Remo - Space Asshole
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/space_asshole.ogg
+
+- type: jukebox
+  id: StreetParty
+  name: Tim Haywood - Street Party
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/StreetParty.ogg
+
+- type: jukebox
+  id: TheFinalCountdown
+  name: Europe - The Final Countdown
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/the_final_countdown.ogg
+
+- type: jukebox
+  id: TheFourSeasons
+  name: Antonio Vivaldi - The Four Seasons, Winter
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/the_four_seasons.ogg
+
+- type: jukebox
+  id: TimDomDom
+  name: João Donato - Tim Dom Dom
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/tim_dom_dom.ogg
+
+- type: jukebox
+  id: Tomfoolery
+  name: David Snell - Tomfoolery (Bob Esponja)
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/tomfoolery.ogg
+
+- type: jukebox
+  id: TraditionnelMusette
+  name: Maurice Larcange - Traditionnel Musette
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/traditionnel_musette.ogg
+
+- type: jukebox
+  id: TremDasOnze
+  name: Adorian Barbosa - Trem das Onze
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/trem_das_onze.ogg
+
+- type: jukebox
+  id: VirtualInsanity
+  name: Jamiroquai - Virtual Insanity
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/virtual_insanity.ogg
+
+- type: jukebox
+  id: WaltzOfTheFlowers
+  name: Tchaikovsky - Waltz of the Flowers
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/waltz-of-the-flowers.ogg
+
+- type: jukebox
+  id: WeLikeToParty
+  name: Vengabus - We Like To Party
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/we_like_to_party.ogg
+
+- type: jukebox
+  id: IlhaMegaHetero
+  name: Sweetest Metró - Ilha Mega Hetero
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/ilhamegahetero.ogg
+
+- type: jukebox
+  id: SpaceOddity
+  name: David Bowie - Space Oddity
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/space_oddity.ogg
+
+- type: jukebox
+  id: Africa
+  name: Toto - Africa
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/africa.ogg
+
+- type: jukebox
+  id: BigInJapan
+  name: Alphaville - Big in Japan
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/big_in_japan.ogg
+
+- type: jukebox
+  id: Butterfly
+  name: Smile.dk - Butterfly
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/butterfly.ogg
+
+- type: jukebox
+  id: Fnaf1
+  name: The Living Tombstone - Five Nights at Freddy's 1 Song
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/fnaf1.ogg
+
+- type: jukebox
+  id: Funkytown
+  name: Lipps Inc - Funkytown
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/funkytown.ogg
+
+- type: jukebox
+  id: GoodbyeYellowBrickRoad
+  name: Elton John - Goodbye Yellow Brick Road
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/goodbye_yellow_brick_road.ogg
+
+- type: jukebox
+  id: IDontWantToSetTheWorldOnFire
+  name: The Ink Spots - I Dont Want to Set the World on Fire
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/world_on_fire.ogg
+
+- type: jukebox
+  id: LetsGroove
+  name: Earth, Wind & Fire - Let's Groove
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/lets_groove.ogg
+
+- type: jukebox
+  id: MrBlueSky
+  name: Electric Light Orchestra - Mr. Blue Sky
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/mr_blue_sky.ogg
+
+- type: jukebox
+  id: ParisRooftops
+  name: Peter McConnell - Paris Rooftops
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/paris_rooftops.ogg
+
+- type: jukebox
+  id: PigAndWhistle
+  name: David Arkenstone - Pig and Whistle
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/pig_and_whistle.ogg
+
+- type: jukebox
+  id: Pigstep
+  name: Lena Raine - Pigstep
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/pigstep.ogg
+
+- type: jukebox
+  id: TheSpectre
+  name: Alan Walker - The Spectre
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/the_spectre.ogg
+
+- type: jukebox
+  id: TickerTape
+  name: Gorillaz - Ticker Tape
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/ticker_tape.ogg
+
+- type: jukebox
+  id: Cat&Dog
+  name: C418 - Cat & Dog
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/cat_&_dog.ogg
