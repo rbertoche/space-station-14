@@ -126,8 +126,6 @@ public sealed partial class JukeboxMenu : FancyWindow
         SetSelectedSongText(name);
         PlaybackSlider.MaxValue = length;
         PlaybackSlider.SetValueWithoutEvent(0);
-        VolumeSlider.SetValueWithoutEvent(VolumeSlider.Value); // Tirar isto
-
     }
 
     public void SetVolumeSlider(float volume)

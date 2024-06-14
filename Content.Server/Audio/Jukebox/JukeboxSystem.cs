@@ -73,10 +73,11 @@ public sealed class JukeboxSystem : SharedJukeboxSystem
 
     private void OnJukeboxSetVolume(EntityUid uid, JukeboxComponent component, JukeboxSetVolumeMessage args)
     {
+        SetJukeboxVolume(uid, component, args.Volume);
+
         if (!TryComp<AudioComponent>(component.AudioStream, out var audioComponent))
             return;
 
-        SetJukeboxVolume(uid, component, args.Volume);
         Audio.SetVolume(component.AudioStream, MapToRange(args.Volume, component.MinSlider, component.MaxSlider, component.MinVolume, component.MaxVolume));
     }
 
