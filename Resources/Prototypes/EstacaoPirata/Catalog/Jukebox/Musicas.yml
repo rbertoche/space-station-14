@@ -469,3 +469,27 @@
   name: C418 - Cat & Dog
   path:
     path: /Audio/EstacaoPirata/Jukebox/cat_&_dog.ogg
+
+- type: jukebox
+  id: ToTheGrandLine
+  name: Shirō Hamaguchi - To the Grand Line
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/grand_line.ogg
+
+- type: jukebox
+  id: QuemNaoQuerSouEu
+  name: Seu Jorge - Quem Não Quer Sou Eu
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/quem_nao_quer_sou_eu.ogg
+
+- type: jukebox
+  id: QuandoAGiraGirou
+  name: Zeca Pagodinho - Quando A Gira Girou
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/gira_girou.ogg
+
+- type: jukebox
+  id: TinTin
+  name: TropicalOwl - Tintin on the Moon
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/tintin.ogg
