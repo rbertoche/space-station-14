@@ -113,15 +113,10 @@ public sealed class JukeboxBoundUserInterface : BoundUserInterface
         if (EntMan.TryGetComponent(Owner, out JukeboxComponent? jukebox) &&
             EntMan.TryGetComponent(jukebox.AudioStream, out AudioComponent? audioComp))
         {
-            audioComp.Volume = MapToRange(volume, jukebox.MinSlider, jukebox.MaxSlider, jukebox.MinVolume, jukebox.MaxVolume);
+            audioComp.Volume = SharedJukeboxSystem.MapToRange(volume, jukebox.MinSlider, jukebox.MaxSlider, jukebox.MinVolume, jukebox.MaxVolume);
         }
 
         SendMessage(new JukeboxSetVolumeMessage(sentVolume));
-    }
-
-    private float MapToRange( float value, float leftMin, float leftMax, float rightMin, float rightMax )
-    {
-        return rightMin + ( value - leftMin ) * ( rightMax - rightMin ) / ( leftMax - leftMin );
     }
 
     protected override void Dispose(bool disposing)

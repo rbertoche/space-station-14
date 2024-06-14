@@ -81,12 +81,6 @@ public sealed class JukeboxSystem : SharedJukeboxSystem
         Audio.SetVolume(component.AudioStream, MapToRange(args.Volume, component.MinSlider, component.MaxSlider, component.MinVolume, component.MaxVolume));
     }
 
-    private float MapToRange( float value, float leftMin, float leftMax, float rightMin, float rightMax )
-    {
-        return rightMin + ( value - leftMin ) * ( rightMax - rightMin ) / ( leftMax - leftMin );
-    }
-
-
     private void OnPowerChanged(Entity<JukeboxComponent> entity, ref PowerChangedEvent args)
     {
         TryUpdateVisualState(entity);
