@@ -1,74 +1,74 @@
-﻿[color=#ff0000]Você deve ter 16 anos ou mais velho para jogar. Usuários com menos de 16 anos serão banidos imediatamente.[/color]
-
-[color=#ff0000]Frontier Station é um servidor de Medium Roleplay. Tente mergulhar em seu caráter. Isso inclui fazer seu trabalho como membro da estação ou da tripulação da nave e delegar tarefas que estão fora dessa descrição, ou atacar o espaço como capitão de sua nave. Isso não significa que você é forçado a jogar toda a rodada; Frontier Station é projetado com a jogabilidade pop-in-and-out em mente, onde alguns jogadores vão e vêm, mas sua conta bancária permanece persistente entre as reinicializações do servidor.[/color]
-
-[color=#a4885c]0.[/color] Os administradores podem ignorar todas e quaisquer regras se o considerarem no melhor interesse da rodada, servidor e/ou comunidade em geral.
-        - Eles serão responsabilizados plenamente por suas ações se exercerem esse privilégio.
-
-[color=#a4885c]0.1.[/color] Todas estas regras se aplicam como se pretendem.
-        - Todo exemplo de uma infração de regras não pode ser definido como escrito, portanto, a aplicação das regras está sujeita à interpretação do pessoal da intenção da regra.
-
-[color=#a4885c]1.[/color] Representação erótica (ERP), conteúdo erótico, ou mais de 18 conteúdos sexuais é [color=#ff0000] não permitido em qualquer circunstância [/color].
-
-[color=#a4885c]2.[/color] Siga as expectativas da comunidade. Isso inclui tanto no jogo quanto em outros lugares da nossa comunidade.
-        - Não sejas um idiota nem assediar outros jogadores.
-        - Não evada bans.
-        - Não seja racista nem intolerante.
-        - Não tente causar lag no servidor.
-        - Não faça grief como um não-antagonista; isso inclui contra AFK e SSD / Jogadores Catatônicos.
-        - Não deixe o servidor para evitar a punição da equipe do administrador.
-        - Não use respawn para evitar a punição das forças de segurança, ou reaparecer como o mesmo caráter se for dada uma sentença de confinamento permanente.
-        - Exploits, abuso de bugs, trapaça, power games e outros comportamentos extremamente sem graça são proibidos.
-
-[color=#a4885c]3.[/color] Não use informações obtidas fora dos meios em personagem, e não diga coisas em personagem, In Character (IC) no canal de bate-papo Local Out Of Character (LOOC).
-        - Ou seja, metagaming. Isso se refere especialmente à comunicação entre jogadores fora do jogo através de coisas como Discord, conhecido como meta-comms. Os personagens podem saber tudo sobre mecânicas ou antagonistas no jogo, bem como manter amizades persistentes e relacionamentos com outros personagens quando não com o propósito de obter vantagem injusta, unindo-se por pouca razão do CI.
-        - Não diga coisas LOOC no IC também, como dizer que você “precisa ir afk porque seu cão quer sair”, no bate-papo do CI.
-
-[color=#a4885c]4.[/color] Depois de clonar, renascer ou assumir um papel de fantasma, você deve seguir a nova regra de vida.
-        - Se clonado, ressuscitado ou respawned, você não tem amnésia, mas você só pode se lembrar de detalhes vagos de quem ou o que o matou.
-        - Se assumir um papel de fantasma, você não tem lembranças de vidas passadas para a duração de jogar como um papel fantasma.
-        - Um período de não-agressão de 15 minutos é necessário após a renascimento, então você não pode entrar imediatamente em um navio e tentar matar quem o matou.
-        - Não ajas em nada que viste enquanto fantasma.
-
-[color=#a4885c]5.[/color] Siga as Diretrizes de Chat
-        - Não faça spam.
-        - Não faça publicidade.
-        - Não use Netspeak (i.e. LOL, ROFL, XD, FR).
-        - Discurso de ódio, insultos e fanatismo são [color=#ff0000] não permitido[/color]. Palavras que estão intimamente ligadas ou destinadas a substituir/imitar, os insultos da vida real não são [color=#ff0000] não permitidos[/color].
-[color=#a4885c]6.[/color] Siga as Diretrizes de Representação
-        - O teu nome do IC deve ser realista. Evite nomes de piadas e nomes de pessoas fictícias ou reais, ou nomes que jogam fora deles (por exemplo, Saul Badman (em inglês). Além disso, evite usar os nomes de personagens de outros jogadores conhecidos, você pode não se passar por outros jogadores dessa maneira. (por exemplo, Bilhetes para Bill Carson.) Se a sua espécie tem uma convenção de nomenclatura, certifique-se de segui-la geralmente.
-        - Tratar o seu personagem como uma entidade separada de você, o jogador. As ações, sentimentos e conhecimentos do seu personagem no jogo devem ser baseados apenas nas experiências do personagem e não nas suas como jogador. Ações de roleplay baixas que não têm consideração pelo seu personagem ou pela configuração (Memes, copiar bobo de spam IC) não são aceitáveis.
-        - Experiências anteriores com outros personagens podem levar a meta-amigão, mas você pode não meta-resfriar outro personagem.
-
-[color=#a4885c]7.[/color] Siga as Diretrizes Antagonistas
-        - Todos os papéis fantasmas têm uma descrição definida de como o papel deve ser desempenhado, você deve seguir a descrição do papel do fantasma, a menos que seja dito o contrário por um administrador. Spamming ahelp pedir uma exceção provavelmente levará a ser banido.
-        - Os antagonistas não são necessariamente seus amigos. Traidores, reis de ratos e às vezes bruxos são agentes livres, mas ninguém deve trabalhar em conjunto com xenomorfos, agentes nucleares, dragões espaciais ou zumbis.
-        - Não-piratas podem não ajudar ou trabalhar com tripulações piratas, exemplos são como assistir scanners de massa e derrubá-los de quem atacar, fingir ser reféns, ou conscientemente financiar os piratas para equipamentos / navios.
-
-[color=#a4885c]8.[/color] Os papéis das Forças de Segurança e do Estado-Maior da Estação são mantidos em um padrão mais elevado de roleplay e são estritamente não-antagonistas.
-        - A interpretação das Forças de Segurança como “policiais ruins” e intencionalmente violar a lei espacial é proibida. A Lei Espacial não é opcional para essas funções, e um conhecimento forte é necessário antes de assumir uma posição de segurança.
-        - Os bens apreendidos dos criminosos só podem ser usados para tornar as vítimas inteiras e para pagar por quaisquer multas previstas na lei. Quaisquer excessos financeiros recebidos da venda de bens criminosos devem ser devolvidos aos seus proprietários originais e não devem ser saqueados ou extorquidos pelas forças de segurança. Esta é uma política rigorosa de tolerância zero.
-        - Todos os jogadores que são contratados como tripulação para a estação como equipe de segurança ou serviço, ou através de outros trabalhos diretos que trabalham para contracheques da estação, são considerados não-anilhas e funcionários oficiais da Nanotrasen. Engajar-se em quaisquer atividades antagônicas hostis, ou abuso do equipamento fornecido enquanto trabalha nessas funções, é estritamente proibido.
-
-[color=#a4885c]9.[/color] Funções do comando do setor, como HoP e HoS, são vitais para a operação do setor e são realizadas com um grau muito maior de roleplay e papelamento.
-        - O Comando Setorial é esperado e [color=#ff0000] necessário[/color] para manter o pagamento de seus respectivos funcionários como parte de seu trabalho. A folha de pagamento deve ser um mínimo de 15.000 para a tripulação da estação e 20.000 para a segurança por hora. Desfalque de fundos de estação é estritamente proibido.
-        - Ambas as funções têm maior acesso aos recursos da estação do que deveria ser permitido para a maioria dos membros da tripulação. Como tal, se você deve terminar seu turno cedo, sempre traga sua identificação com você e sempre volte a chorar para que seu acesso não possa ser roubado e os fundos da estação desviados. Se por qualquer motivo você não puder (desconectar, falhar, falta de energia, etc.) Por favor, ping os administradores do jogo em Discord e nós vamos lidar com o seu personagem no jogo em conformidade.
-        - O Comando do Setor é permitido e espera-se que emita executeça e aplique quaisquer multas de acoplamento relacionadas à vadia no terminal para transporte que ficaram ociosos por mais de 10 minutos nas docas da estação sem uma razão válida, até e incluindo despejo forçado de ônibus.  As multas cobradas desta forma podem ser usadas como folha de pagamento ou aquisição de suprimentos da estação. O tempo gasto ancorado e a espera na estação deve ser mantido no mínimo.
-        - Você não pode tributar, arrendar, alugar ou de outra forma reservar o uso livre e justo dos recursos da estação em detrimento do público. Isso inclui, mas não se limita a, cobrar taxas de acoplamento, serviços básicos de clonagem, acesso de venda automática e recursos de estação de mudança atrás de portas trancadas de acesso para restringir o acesso, etc.
-
-[color=#a4885c]10.[/color] Siga as Diretrizes de Escalação
-        - Papéis fantasmagóricos antagônicos, e papéis de fantasmas de pragas como ratos são sempre justos para o ataque. Não lustre papéis fantasmas alinhados com nanotrassen, como familiares, drones ou animais de estimação, sem provocação.
-        - Não ataque outro jogador sem uma razão de roleplay legítima e explicável que possa ser aplicada em um cenário semelhante da vida real. Uma briga não se transforma de repente em um tiroteio.
-        - Se uma luta resultar em alguém gravemente ferido ou morto, procure ajuda médica para eles.
-        - Se a qualquer momento o combate estiver desvinculado e ambas as partes deixarem a área, você não pode pular a escalada e mergulhar de volta em uma luta. O que está feito está feito.
-        - Espera-se que as Forças de Segurança resolvam situações com força não letal e descalpasse o confronto do IC, exceto nos casos em que haja uma chance razoável de dano/morte.
-        - Não Fim do Grie da Rodada (EORG), atacar/matar/arregindo outros jogadores não é permitido após o término do turno.
-
-[color=#a4885c]11.[/color] Siga as Diretrizes PVP & Pirataria
-        - Piratas/antagonistas devem usar ahelp antes de iniciar uma tripulação e receber permissão para iniciar uma atividade antag. Quando permitido, os administradores anunciarão a todos os navios via fax que algum navio se tornou desonesto. Spam de ahelp pedindo para ser um pirata ou pirataria sem permissão provavelmente levará a ser banido.
-        - Os imediatos 200 metros ao redor da Fronteira e da própria Fronteira é considerado uma zona segura e absolutamente nenhuma atividade antag ou grief é permitido dentro dessa zona. Isso inclui, mas não se limita à destruição, modificação, remoção ou restrição de uso de qualquer máquina ou dispositivo projetado para uso público, e a estrutura da própria estação. Para quaisquer modificações não antagônicas ou de roleplay da estação, a aprovação do HoP é sempre necessária.
-        - As ações piratas podem não começar na Fronteira. Isso inclui aparatar-se enquanto estiver na Fronteira com a intenção de roubar o navio, roubar o navio ou sua carga da doca, vender o navio de outra pessoa que você não havia pirateado fora da zona segura, ou juntando-se à tripulação sob falsos pretextos com a intenção de se mover e levar o navio.
-        - Os tripulantes piratas nunca podem exceder uma força total de quatro membros, incluindo o Capitão.
-        - Navios não hostis que se rendem: não podem ser mortos, deixados encalhados, completamente falidos ou de outra forma. A segurança dos navios mercantes não hostis deve ser garantida por todas as partes. Todos os navios que estão sendo abordados devem primeiro tentar negociar antes que quaisquer ações hostis possam ocorrer.
-        - As forças hostis que são conhecidas, declaradas e confirmadas podem ser consideradas "belligerantes", embarcadas de forma não convencional, e ter seus sistemas desativados na tentativa de levá-los à justiça. Todos os suspeitos tomados vivos devem ser adequadamente cuidados e ileso, de acordo com a Lei Espacial.
-
+﻿[color=#ff0000]Você deve ter 16 anos ou mais velho para jogar. Usuários com menos de 16 anos serão banidos imediatamente.[/color]﻿
+﻿
+﻿[color=#ff0000]Frontier Station é um servidor de Medium Roleplay. Tente mergulhar em seu caráter. Isso inclui fazer seu trabalho como membro da estação ou da tripulação da nave e delegar tarefas que estão fora dessa descrição, ou atacar o espaço como capitão de sua nave. Isso não significa que você é forçado a jogar toda a rodada; Frontier Station é projetado com a jogabilidade pop-in-and-out em mente, onde alguns jogadores vão e vêm, mas sua conta bancária permanece persistente entre as reinicializações do servidor.[/color]﻿
+﻿
+﻿[color=#a4885c]0.[/color] Os administradores podem ignorar todas e quaisquer regras se o considerarem no melhor interesse da rodada, servidor e/ou comunidade em geral.﻿
+﻿        - Eles serão responsabilizados plenamente por suas ações se exercerem esse privilégio.﻿
+﻿
+﻿[color=#a4885c]0.1.[/color] Todas estas regras se aplicam como se pretendem.﻿
+﻿        - Todo exemplo de uma infração de regras não pode ser definido como escrito, portanto, a aplicação das regras está sujeita à interpretação do pessoal da intenção da regra.﻿
+﻿
+﻿[color=#a4885c]1.[/color] Representação erótica (ERP), conteúdo erótico, ou mais de 18 conteúdos sexuais é [color=#ff0000] não permitido em qualquer circunstância [/color].﻿
+﻿
+﻿[color=#a4885c]2.[/color] Siga as expectativas da comunidade. Isso inclui tanto no jogo quanto em outros lugares da nossa comunidade.﻿
+﻿        - Não sejas um idiota nem assediar outros jogadores.﻿
+﻿        - Não evada bans.﻿
+﻿        - Não seja racista nem intolerante.﻿
+﻿        - Não tente causar lag no servidor.﻿
+﻿        - Não faça grief como um não-antagonista; isso inclui contra AFK e SSD / Jogadores Catatônicos.﻿
+﻿        - Não deixe o servidor para evitar a punição da equipe do administrador.﻿
+﻿        - Não use respawn para evitar a punição das forças de segurança, ou reaparecer como o mesmo caráter se for dada uma sentença de confinamento permanente.﻿
+﻿        - Exploits, abuso de bugs, trapaça, power games e outros comportamentos extremamente sem graça são proibidos.﻿
+﻿
+﻿[color=#a4885c]3.[/color] Não use informações obtidas fora dos meios em personagem, e não diga coisas em personagem, In Character (IC) no canal de bate-papo Local Out Of Character (LOOC).﻿
+﻿        - Ou seja, metagaming. Isso se refere especialmente à comunicação entre jogadores fora do jogo através de coisas como Discord, conhecido como meta-comms. Os personagens podem saber tudo sobre mecânicas ou antagonistas no jogo, bem como manter amizades persistentes e relacionamentos com outros personagens quando não com o propósito de obter vantagem injusta, unindo-se por pouca razão do CI.﻿
+﻿        - Não diga coisas LOOC no IC também, como dizer que você “precisa ir afk porque seu cão quer sair”, no bate-papo do CI.﻿
+﻿
+﻿[color=#a4885c]4.[/color] Depois de clonar, renascer ou assumir um papel de fantasma, você deve seguir a nova regra de vida.﻿
+﻿        - Se clonado, ressuscitado ou respawned, você não tem amnésia, mas você só pode se lembrar de detalhes vagos de quem ou o que o matou.﻿
+﻿        - Se assumir um papel de fantasma, você não tem lembranças de vidas passadas para a duração de jogar como um papel fantasma.﻿
+﻿        - Um período de não-agressão de 15 minutos é necessário após a renascimento, então você não pode entrar imediatamente em um navio e tentar matar quem o matou.﻿
+﻿        - Não ajas em nada que viste enquanto fantasma.﻿
+﻿
+﻿[color=#a4885c]5.[/color] Siga as Diretrizes de Chat﻿
+﻿        - Não faça spam.﻿
+﻿        - Não faça publicidade.﻿
+﻿        - Não use Netspeak (i.e. LOL, ROFL, XD, FR).﻿
+﻿        - Discurso de ódio, insultos e fanatismo são [color=#ff0000] não permitido[/color]. Palavras que estão intimamente ligadas ou destinadas a substituir/imitar, os insultos da vida real não são [color=#ff0000] não permitidos[/color].﻿
+﻿[color=#a4885c]6.[/color] Siga as Diretrizes de Representação﻿
+﻿        - O teu nome do IC deve ser realista. Evite nomes de piadas e nomes de pessoas fictícias ou reais, ou nomes que jogam fora deles (por exemplo, Saul Badman (em inglês). Além disso, evite usar os nomes de personagens de outros jogadores conhecidos, você pode não se passar por outros jogadores dessa maneira. (por exemplo, Bilhetes para Bill Carson.) Se a sua espécie tem uma convenção de nomenclatura, certifique-se de segui-la geralmente.﻿
+﻿        - Tratar o seu personagem como uma entidade separada de você, o jogador. As ações, sentimentos e conhecimentos do seu personagem no jogo devem ser baseados apenas nas experiências do personagem e não nas suas como jogador. Ações de roleplay baixas que não têm consideração pelo seu personagem ou pela configuração (Memes, copiar bobo de spam IC) não são aceitáveis.﻿
+﻿        - Experiências anteriores com outros personagens podem levar a meta-amigão, mas você pode não meta-resfriar outro personagem.﻿
+﻿
+﻿[color=#a4885c]7.[/color] Siga as Diretrizes Antagonistas﻿
+﻿        - Todos os papéis fantasmas têm uma descrição definida de como o papel deve ser desempenhado, você deve seguir a descrição do papel do fantasma, a menos que seja dito o contrário por um administrador. Spamming ahelp pedir uma exceção provavelmente levará a ser banido.﻿
+﻿        - Os antagonistas não são necessariamente seus amigos. Traidores, reis de ratos e às vezes bruxos são agentes livres, mas ninguém deve trabalhar em conjunto com xenomorfos, agentes nucleares, dragões espaciais ou zumbis.﻿
+﻿        - Não-piratas podem não ajudar ou trabalhar com tripulações piratas, exemplos são como assistir scanners de massa e derrubá-los de quem atacar, fingir ser reféns, ou conscientemente financiar os piratas para equipamentos / navios.﻿
+﻿
+﻿[color=#a4885c]8.[/color] Os papéis das Forças de Segurança e do Estado-Maior da Estação são mantidos em um padrão mais elevado de roleplay e são estritamente não-antagonistas.﻿
+﻿        - A interpretação das Forças de Segurança como “policiais ruins” e intencionalmente violar a lei espacial é proibida. A Lei Espacial não é opcional para essas funções, e um conhecimento forte é necessário antes de assumir uma posição de segurança.﻿
+﻿        - Os bens apreendidos dos criminosos só podem ser usados para tornar as vítimas inteiras e para pagar por quaisquer multas previstas na lei. Quaisquer excessos financeiros recebidos da venda de bens criminosos devem ser devolvidos aos seus proprietários originais e não devem ser saqueados ou extorquidos pelas forças de segurança. Esta é uma política rigorosa de tolerância zero.﻿
+﻿        - Todos os jogadores que são contratados como tripulação para a estação como equipe de segurança ou serviço, ou através de outros trabalhos diretos que trabalham para contracheques da estação, são considerados não-anilhas e funcionários oficiais da Nanotrasen. Engajar-se em quaisquer atividades antagônicas hostis, ou abuso do equipamento fornecido enquanto trabalha nessas funções, é estritamente proibido.﻿
+﻿
+﻿[color=#a4885c]9.[/color] Funções do comando do setor, como HoP e HoS, são vitais para a operação do setor e são realizadas com um grau muito maior de roleplay e papelamento.﻿
+﻿        - O Comando Setorial é esperado e [color=#ff0000] necessário[/color] para manter o pagamento de seus respectivos funcionários como parte de seu trabalho. A folha de pagamento deve ser um mínimo de 15.000 para a tripulação da estação e 20.000 para a segurança por hora. Desfalque de fundos de estação é estritamente proibido.﻿
+﻿        - Ambas as funções têm maior acesso aos recursos da estação do que deveria ser permitido para a maioria dos membros da tripulação. Como tal, se você deve terminar seu turno cedo, sempre traga sua identificação com você e sempre volte a chorar para que seu acesso não possa ser roubado e os fundos da estação desviados. Se por qualquer motivo você não puder (desconectar, falhar, falta de energia, etc.) Por favor, ping os administradores do jogo em Discord e nós vamos lidar com o seu personagem no jogo em conformidade.﻿
+﻿        - O Comando do Setor é permitido e espera-se que emita executeça e aplique quaisquer multas de acoplamento relacionadas à vadia no terminal para transporte que ficaram ociosos por mais de 10 minutos nas docas da estação sem uma razão válida, até e incluindo despejo forçado de ônibus.  As multas cobradas desta forma podem ser usadas como folha de pagamento ou aquisição de suprimentos da estação. O tempo gasto ancorado e a espera na estação deve ser mantido no mínimo.﻿
+﻿        - Você não pode tributar, arrendar, alugar ou de outra forma reservar o uso livre e justo dos recursos da estação em detrimento do público. Isso inclui, mas não se limita a, cobrar taxas de acoplamento, serviços básicos de clonagem, acesso de venda automática e recursos de estação de mudança atrás de portas trancadas de acesso para restringir o acesso, etc.﻿
+﻿
+﻿[color=#a4885c]10.[/color] Siga as Diretrizes de Escalação﻿
+﻿        - Papéis fantasmagóricos antagônicos, e papéis de fantasmas de pragas como ratos são sempre justos para o ataque. Não lustre papéis fantasmas alinhados com nanotrassen, como familiares, drones ou animais de estimação, sem provocação.﻿
+﻿        - Não ataque outro jogador sem uma razão de roleplay legítima e explicável que possa ser aplicada em um cenário semelhante da vida real. Uma briga não se transforma de repente em um tiroteio.﻿
+﻿        - Se uma luta resultar em alguém gravemente ferido ou morto, procure ajuda médica para eles.﻿
+﻿        - Se a qualquer momento o combate estiver desvinculado e ambas as partes deixarem a área, você não pode pular a escalada e mergulhar de volta em uma luta. O que está feito está feito.﻿
+﻿        - Espera-se que as Forças de Segurança resolvam situações com força não letal e descalpasse o confronto do IC, exceto nos casos em que haja uma chance razoável de dano/morte.﻿
+﻿        - Não Fim do Grie da Rodada (EORG), atacar/matar/arregindo outros jogadores não é permitido após o término do turno.﻿
+﻿
+﻿[color=#a4885c]11.[/color] Siga as Diretrizes PVP & Pirataria﻿
+﻿        - Piratas/antagonistas devem usar ahelp antes de iniciar uma tripulação e receber permissão para iniciar uma atividade antag. Quando permitido, os administradores anunciarão a todos os navios via fax que algum navio se tornou desonesto. Spam de ahelp pedindo para ser um pirata ou pirataria sem permissão provavelmente levará a ser banido.﻿
+﻿        - Os imediatos 200 metros ao redor da Fronteira e da própria Fronteira é considerado uma zona segura e absolutamente nenhuma atividade antag ou grief é permitido dentro dessa zona. Isso inclui, mas não se limita à destruição, modificação, remoção ou restrição de uso de qualquer máquina ou dispositivo projetado para uso público, e a estrutura da própria estação. Para quaisquer modificações não antagônicas ou de roleplay da estação, a aprovação do HoP é sempre necessária.﻿
+﻿        - As ações piratas podem não começar na Fronteira. Isso inclui aparatar-se enquanto estiver na Fronteira com a intenção de roubar o navio, roubar o navio ou sua carga da doca, vender o navio de outra pessoa que você não havia pirateado fora da zona segura, ou juntando-se à tripulação sob falsos pretextos com a intenção de se mover e levar o navio.﻿
+﻿        - Os tripulantes piratas nunca podem exceder uma força total de quatro membros, incluindo o Capitão.﻿
+﻿        - Navios não hostis que se rendem: não podem ser mortos, deixados encalhados, completamente falidos ou de outra forma. A segurança dos navios mercantes não hostis deve ser garantida por todas as partes. Todos os navios que estão sendo abordados devem primeiro tentar negociar antes que quaisquer ações hostis possam ocorrer.﻿
+﻿        - As forças hostis que são conhecidas, declaradas e confirmadas podem ser consideradas "belligerantes", embarcadas de forma não convencional, e ter seus sistemas desativados na tentativa de levá-los à justiça. Todos os suspeitos tomados vivos devem ser adequadamente cuidados e ileso, de acordo com a Lei Espacial.﻿
+﻿
