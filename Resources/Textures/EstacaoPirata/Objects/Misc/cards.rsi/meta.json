@@ -1,0 +1,569 @@
+{
+  "version": 1,
+  "copyright": "Sprites from Paradise Station (https://github.com/ParadiseSS13/Paradise)",
+  "license": "CC-BY-SA-3.0",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "black_hand1"
+    },
+    {
+      "name": "black_hand2"
+    },
+    {
+      "name": "black_hand3"
+    },
+    {
+      "name": "black_hand4"
+    },
+    {
+      "name": "black_hand5"
+    },
+    {
+      "name": "deck_black_empty"
+    },
+    {
+      "name": "deck_black_full"
+    },
+    {
+      "name": "deck_black_half"
+    },
+    {
+      "name": "deck_black_low"
+    },
+    {
+      "name": "deck_nanotrasen_empty"
+    },
+    {
+      "name": "deck_nanotrasen_full"
+    },
+    {
+      "name": "deck_nanotrasen_half"
+    },
+    {
+      "name": "deck_nanotrasen_low"
+    },
+    {
+      "name": "deck_syndicate_empty"
+    },
+    {
+      "name": "deck_syndicate_full"
+    },
+    {
+      "name": "deck_syndicate_half"
+    },
+    {
+      "name": "deck_syndicate_low"
+    },
+    {
+      "name": "nanotrasen_hand1"
+    },
+    {
+      "name": "nanotrasen_hand2"
+    },
+    {
+      "name": "nanotrasen_hand3"
+    },
+    {
+      "name": "nanotrasen_hand4"
+    },
+    {
+      "name": "nanotrasen_hand5"
+    },
+    {
+      "name": "sc_10 of Clubs_black"
+    },
+    {
+      "name": "sc_10 of Clubs_nanotrasen"
+    },
+    {
+      "name": "sc_10 of Clubs_syndicate"
+    },
+    {
+      "name": "sc_10 of Diamonds_black"
+    },
+    {
+      "name": "sc_10 of Diamonds_nanotrasen"
+    },
+    {
+      "name": "sc_10 of Diamonds_syndicate"
+    },
+    {
+      "name": "sc_10 of Hearts_black"
+    },
+    {
+      "name": "sc_10 of Hearts_nanotrasen"
+    },
+    {
+      "name": "sc_10 of Hearts_syndicate"
+    },
+    {
+      "name": "sc_10 of Spades_black"
+    },
+    {
+      "name": "sc_10 of Spades_nanotrasen"
+    },
+    {
+      "name": "sc_10 of Spades_syndicate"
+    },
+    {
+      "name": "sc_2 of Clubs_black"
+    },
+    {
+      "name": "sc_2 of Clubs_nanotrasen"
+    },
+    {
+      "name": "sc_2 of Clubs_syndicate"
+    },
+    {
+      "name": "sc_2 of Diamonds_black"
+    },
+    {
+      "name": "sc_2 of Diamonds_nanotrasen"
+    },
+    {
+      "name": "sc_2 of Diamonds_syndicate"
+    },
+    {
+      "name": "sc_2 of Hearts_black"
+    },
+    {
+      "name": "sc_2 of Hearts_nanotrasen"
+    },
+    {
+      "name": "sc_2 of Hearts_syndicate"
+    },
+    {
+      "name": "sc_2 of Spades_black"
+    },
+    {
+      "name": "sc_2 of Spades_nanotrasen"
+    },
+    {
+      "name": "sc_2 of Spades_syndicate"
+    },
+    {
+      "name": "sc_3 of Clubs_black"
+    },
+    {
+      "name": "sc_3 of Clubs_nanotrasen"
+    },
+    {
+      "name": "sc_3 of Clubs_syndicate"
+    },
+    {
+      "name": "sc_3 of Diamonds_black"
+    },
+    {
+      "name": "sc_3 of Diamonds_nanotrasen"
+    },
+    {
+      "name": "sc_3 of Diamonds_syndicate"
+    },
+    {
+      "name": "sc_3 of Hearts_black"
+    },
+    {
+      "name": "sc_3 of Hearts_nanotrasen"
+    },
+    {
+      "name": "sc_3 of Hearts_syndicate"
+    },
+    {
+      "name": "sc_3 of Spades_black"
+    },
+    {
+      "name": "sc_3 of Spades_nanotrasen"
+    },
+    {
+      "name": "sc_3 of Spades_syndicate"
+    },
+    {
+      "name": "sc_4 of Clubs_black"
+    },
+    {
+      "name": "sc_4 of Clubs_nanotrasen"
+    },
+    {
+      "name": "sc_4 of Clubs_syndicate"
+    },
+    {
+      "name": "sc_4 of Diamonds_black"
+    },
+    {
+      "name": "sc_4 of Diamonds_nanotrasen"
+    },
+    {
+      "name": "sc_4 of Diamonds_syndicate"
+    },
+    {
+      "name": "sc_4 of Hearts_black"
+    },
+    {
+      "name": "sc_4 of Hearts_nanotrasen"
+    },
+    {
+      "name": "sc_4 of Hearts_syndicate"
+    },
+    {
+      "name": "sc_4 of Spades_black"
+    },
+    {
+      "name": "sc_4 of Spades_nanotrasen"
+    },
+    {
+      "name": "sc_4 of Spades_syndicate"
+    },
+    {
+      "name": "sc_5 of Clubs_black"
+    },
+    {
+      "name": "sc_5 of Clubs_nanotrasen"
+    },
+    {
+      "name": "sc_5 of Clubs_syndicate"
+    },
+    {
+      "name": "sc_5 of Diamonds_black"
+    },
+    {
+      "name": "sc_5 of Diamonds_nanotrasen"
+    },
+    {
+      "name": "sc_5 of Diamonds_syndicate"
+    },
+    {
+      "name": "sc_5 of Hearts_black"
+    },
+    {
+      "name": "sc_5 of Hearts_nanotrasen"
+    },
+    {
+      "name": "sc_5 of Hearts_syndicate"
+    },
+    {
+      "name": "sc_5 of Spades_black"
+    },
+    {
+      "name": "sc_5 of Spades_nanotrasen"
+    },
+    {
+      "name": "sc_5 of Spades_syndicate"
+    },
+    {
+      "name": "sc_6 of Clubs_black"
+    },
+    {
+      "name": "sc_6 of Clubs_nanotrasen"
+    },
+    {
+      "name": "sc_6 of Clubs_syndicate"
+    },
+    {
+      "name": "sc_6 of Diamonds_black"
+    },
+    {
+      "name": "sc_6 of Diamonds_nanotrasen"
+    },
+    {
+      "name": "sc_6 of Diamonds_syndicate"
+    },
+    {
+      "name": "sc_6 of Hearts_black"
+    },
+    {
+      "name": "sc_6 of Hearts_nanotrasen"
+    },
+    {
+      "name": "sc_6 of Hearts_syndicate"
+    },
+    {
+      "name": "sc_6 of Spades_black"
+    },
+    {
+      "name": "sc_6 of Spades_nanotrasen"
+    },
+    {
+      "name": "sc_6 of Spades_syndicate"
+    },
+    {
+      "name": "sc_7 of Clubs_black"
+    },
+    {
+      "name": "sc_7 of Clubs_nanotrasen"
+    },
+    {
+      "name": "sc_7 of Clubs_syndicate"
+    },
+    {
+      "name": "sc_7 of Diamonds_black"
+    },
+    {
+      "name": "sc_7 of Diamonds_nanotrasen"
+    },
+    {
+      "name": "sc_7 of Diamonds_syndicate"
+    },
+    {
+      "name": "sc_7 of Hearts_black"
+    },
+    {
+      "name": "sc_7 of Hearts_nanotrasen"
+    },
+    {
+      "name": "sc_7 of Hearts_syndicate"
+    },
+    {
+      "name": "sc_7 of Spades_black"
+    },
+    {
+      "name": "sc_7 of Spades_nanotrasen"
+    },
+    {
+      "name": "sc_7 of Spades_syndicate"
+    },
+    {
+      "name": "sc_8 of Clubs_black"
+    },
+    {
+      "name": "sc_8 of Clubs_nanotrasen"
+    },
+    {
+      "name": "sc_8 of Clubs_syndicate"
+    },
+    {
+      "name": "sc_8 of Diamonds_black"
+    },
+    {
+      "name": "sc_8 of Diamonds_nanotrasen"
+    },
+    {
+      "name": "sc_8 of Diamonds_syndicate"
+    },
+    {
+      "name": "sc_8 of Hearts_black"
+    },
+    {
+      "name": "sc_8 of Hearts_nanotrasen"
+    },
+    {
+      "name": "sc_8 of Hearts_syndicate"
+    },
+    {
+      "name": "sc_8 of Spades_black"
+    },
+    {
+      "name": "sc_8 of Spades_nanotrasen"
+    },
+    {
+      "name": "sc_8 of Spades_syndicate"
+    },
+    {
+      "name": "sc_9 of Clubs_black"
+    },
+    {
+      "name": "sc_9 of Clubs_nanotrasen"
+    },
+    {
+      "name": "sc_9 of Clubs_syndicate"
+    },
+    {
+      "name": "sc_9 of Diamonds_black"
+    },
+    {
+      "name": "sc_9 of Diamonds_nanotrasen"
+    },
+    {
+      "name": "sc_9 of Diamonds_syndicate"
+    },
+    {
+      "name": "sc_9 of Hearts_black"
+    },
+    {
+      "name": "sc_9 of Hearts_nanotrasen"
+    },
+    {
+      "name": "sc_9 of Hearts_syndicate"
+    },
+    {
+      "name": "sc_9 of Spades_black"
+    },
+    {
+      "name": "sc_9 of Spades_nanotrasen"
+    },
+    {
+      "name": "sc_9 of Spades_syndicate"
+    },
+    {
+      "name": "sc_Ace of Clubs_black"
+    },
+    {
+      "name": "sc_Ace of Clubs_nanotrasen"
+    },
+    {
+      "name": "sc_Ace of Clubs_syndicate"
+    },
+    {
+      "name": "sc_Ace of Diamonds_black"
+    },
+    {
+      "name": "sc_Ace of Diamonds_nanotrasen"
+    },
+    {
+      "name": "sc_Ace of Diamonds_syndicate"
+    },
+    {
+      "name": "sc_Ace of Hearts_black"
+    },
+    {
+      "name": "sc_Ace of Hearts_nanotrasen"
+    },
+    {
+      "name": "sc_Ace of Hearts_syndicate"
+    },
+    {
+      "name": "sc_Ace of Spades_black"
+    },
+    {
+      "name": "sc_Ace of Spades_nanotrasen"
+    },
+    {
+      "name": "sc_Ace of Spades_syndicate"
+    },
+    {
+      "name": "sc_Jack of Clubs_black"
+    },
+    {
+      "name": "sc_Jack of Clubs_nanotrasen"
+    },
+    {
+      "name": "sc_Jack of Clubs_syndicate"
+    },
+    {
+      "name": "sc_Jack of Diamonds_black"
+    },
+    {
+      "name": "sc_Jack of Diamonds_nanotrasen"
+    },
+    {
+      "name": "sc_Jack of Diamonds_syndicate"
+    },
+    {
+      "name": "sc_Jack of Hearts_black"
+    },
+    {
+      "name": "sc_Jack of Hearts_nanotrasen"
+    },
+    {
+      "name": "sc_Jack of Hearts_syndicate"
+    },
+    {
+      "name": "sc_Jack of Spades_black"
+    },
+    {
+      "name": "sc_Jack of Spades_nanotrasen"
+    },
+    {
+      "name": "sc_Jack of Spades_syndicate"
+    },
+    {
+      "name": "sc_King of Clubs_black"
+    },
+    {
+      "name": "sc_King of Clubs_nanotrasen"
+    },
+    {
+      "name": "sc_King of Clubs_syndicate"
+    },
+    {
+      "name": "sc_King of Diamonds_black"
+    },
+    {
+      "name": "sc_King of Diamonds_nanotrasen"
+    },
+    {
+      "name": "sc_King of Diamonds_syndicate"
+    },
+    {
+      "name": "sc_King of Hearts_black"
+    },
+    {
+      "name": "sc_King of Hearts_nanotrasen"
+    },
+    {
+      "name": "sc_King of Hearts_syndicate"
+    },
+    {
+      "name": "sc_King of Spades_black"
+    },
+    {
+      "name": "sc_King of Spades_nanotrasen"
+    },
+    {
+      "name": "sc_King of Spades_syndicate"
+    },
+    {
+      "name": "sc_Queen of Clubs_black"
+    },
+    {
+      "name": "sc_Queen of Clubs_nanotrasen"
+    },
+    {
+      "name": "sc_Queen of Clubs_syndicate"
+    },
+    {
+      "name": "sc_Queen of Diamonds_black"
+    },
+    {
+      "name": "sc_Queen of Diamonds_nanotrasen"
+    },
+    {
+      "name": "sc_Queen of Diamonds_syndicate"
+    },
+    {
+      "name": "sc_Queen of Hearts_black"
+    },
+    {
+      "name": "sc_Queen of Hearts_nanotrasen"
+    },
+    {
+      "name": "sc_Queen of Hearts_syndicate"
+    },
+    {
+      "name": "sc_Queen of Spades_black"
+    },
+    {
+      "name": "sc_Queen of Spades_nanotrasen"
+    },
+    {
+      "name": "sc_Queen of Spades_syndicate"
+    },
+    {
+      "name": "singlecard_down_black"
+    },
+    {
+      "name": "singlecard_down_nanotrasen"
+    },
+    {
+      "name": "singlecard_down_syndicate"
+    },
+    {
+      "name": "syndicate_hand1"
+    },
+    {
+      "name": "syndicate_hand2"
+    },
+    {
+      "name": "syndicate_hand3"
+    },
+    {
+      "name": "syndicate_hand4"
+    },
+    {
+      "name": "syndicate_hand5"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+- type: entity
+  parent: BaseItem
+  id: CardDeck
+  name: card-deck
+  components:
+  - type: Sprite
+    sprite: EstacaoPirata/Objects/Misc/cards.rsi
+    state: deck_nanotrasen_full
+  - type: Item
+    size: Small
+    sprite: EstacaoPirata/Objects/Misc/cards.rsi
+    state: deck_nanotrasen_full
+  - type: UseDelay
