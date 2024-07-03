@@ -9,7 +9,8 @@
   - type: Item
     size: Small
   - type: UseDelay
-  - type: Deck
+  - type: CardDeck
+  - type: CardStack
     content:
     # Clubs
     - CardScAceOfClubsBlack
@@ -81,36 +82,7 @@
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: singlecard_down_black
   - type: UseDelay
-
-
-- type: entity
-  parent: CardBase
-  id: CardDeckBlackFull
-  name: card-deck_black_full
-  components:
-  - type: Sprite
-    sprite: EstacaoPirata/Objects/Misc/cards.rsi
-    state: deck_black_full
-
-- type: entity
-  parent: CardBase
-  id: CardDeckBlackHalf
-  name: card-deck_black_half
-  components:
-  - type: Sprite
-    sprite: EstacaoPirata/Objects/Misc/cards.rsi
-    state: deck_black_half
-
-- type: entity
-  parent: CardBase
-  id: CardDeckBlackLow
-  name: card-deck_black_low
-  components:
-  - type: Sprite
-    sprite: EstacaoPirata/Objects/Misc/cards.rsi
-    state: deck_black_low
-
-
+  - type: Card
 
 - type: entity
   parent: CardBase
