@@ -1,7 +1,7 @@
 - type: guideEntry
   id: FrontierRuleset
   name: guide-entry-frontier-rules
-  text: "/ServerInfo/_NF/Guidebook/Rules/FrontierRuleset.xml"
+  text: "/ServerInfo/_EP/Guidebook/Rules/FrontierRuleset.xml"
   priority: -2
   ruleEntry: true
   children:
