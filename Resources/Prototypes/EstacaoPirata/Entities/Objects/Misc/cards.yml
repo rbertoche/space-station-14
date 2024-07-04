@@ -1,7 +1,20 @@
 - type: entity
   parent: BaseItem
+  id: CardHand
+  components:
+  - type: Card
+    name: card-hand
+  - type: Item
+    size: Small
+  - type: CardHand
+  - type: Sprite
+    sprite: EstacaoPirata/Objects/Misc/cards.rsi
+    state: singlecard_down_black
+
+- type: entity
+  parent: BaseItem
   id: CardDeck
-  name: card-deck
+  name: Deck of cards
   components:
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
@@ -72,7 +85,7 @@
 - type: entity
   parent: BaseItem
   id: CardBase
-  name: card-base
+  name: Card
   components:
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
@@ -89,8 +102,9 @@
 - type: entity
   parent: CardBase
   id: CardSc2OfClubsBlack
-  name: card-sc_2 of Clubs_black
   components:
+  - type: Card
+    name: card-sc-2-clubs-black
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: sc_2 of Clubs_black
@@ -98,8 +112,9 @@
 - type: entity
   parent: CardBase
   id: CardSc3OfClubsBlack
-  name: card-sc_3 of Clubs_black
   components:
+  - type: Card
+    name: card-sc-3-clubs-black
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: sc_3 of Clubs_black
@@ -107,8 +122,9 @@
 - type: entity
   parent: CardBase
   id: CardSc4OfClubsBlack
-  name: card-sc_4 of Clubs_black
   components:
+  - type: Card
+    name: card-sc-4-clubs-black
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: sc_4 of Clubs_black
@@ -116,8 +132,9 @@
 - type: entity
   parent: CardBase
   id: CardSc5OfClubsBlack
-  name: card-sc_5 of Clubs_black
   components:
+  - type: Card
+    name: card-sc-5-clubs-black
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: sc_5 of Clubs_black
@@ -125,8 +142,9 @@
 - type: entity
   parent: CardBase
   id: CardSc6OfClubsBlack
-  name: card-sc_6 of Clubs_black
   components:
+  - type: Card
+    name: card-sc-6-clubs-black
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: sc_6 of Clubs_black
@@ -134,8 +152,9 @@
 - type: entity
   parent: CardBase
   id: CardSc7OfClubsBlack
-  name: card-sc_7 of Clubs_black
   components:
+  - type: Card
+    name: card-sc-7-clubs-black
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: sc_7 of Clubs_black
@@ -143,8 +162,9 @@
 - type: entity
   parent: CardBase
   id: CardSc8OfClubsBlack
-  name: card-sc_8 of Clubs_black
   components:
+  - type: Card
+    name: card-sc-8-clubs-black
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: sc_8 of Clubs_black
@@ -152,8 +172,9 @@
 - type: entity
   parent: CardBase
   id: CardSc9OfClubsBlack
-  name: card-sc_9 of Clubs_black
   components:
+  - type: Card
+    name: card-sc-9-clubs-black
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: sc_9 of Clubs_black
@@ -161,8 +182,9 @@
 - type: entity
   parent: CardBase
   id: CardSc10OfClubsBlack
-  name: card-sc_10 of Clubs_black
   components:
+  - type: Card
+    name: card-sc-10-clubs-black
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: sc_10 of Clubs_black
@@ -170,8 +192,9 @@
 - type: entity
   parent: CardBase
   id: CardScAceOfClubsBlack
-  name: card-sc_Ace of Clubs_black
   components:
+  - type: Card
+    name: card-sc-ace-clubs-black
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: sc_Ace of Clubs_black
@@ -180,8 +203,9 @@
 - type: entity
   parent: CardBase
   id: CardScJackOfClubsBlack
-  name: card-sc_Jack of Clubs_black
   components:
+  - type: Card
+    name: card-sc-jack-clubs-black
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: sc_Jack of Clubs_black
@@ -189,8 +213,9 @@
 - type: entity
   parent: CardBase
   id: CardScKingOfClubsBlack
-  name: card-sc_King of Clubs_black
   components:
+  - type: Card
+    name: card-sc-king-clubs-black
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: sc_King of Clubs_black
@@ -198,8 +223,9 @@
 - type: entity
   parent: CardBase
   id: CardScQueenOfClubsBlack
-  name: card-sc_Queen of Clubs_black
   components:
+  - type: Card
+    name: card-sc-queen-clubs-black
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: sc_Queen of Clubs_black
@@ -208,8 +234,9 @@
 - type: entity
   parent: CardBase
   id: CardScJackOfDiamondsBlack
-  name: card-sc_Jack of Diamonds_black
   components:
+  - type: Card
+    name: card-sc-jack-diamonds-black
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: sc_Jack of Diamonds_black
@@ -217,8 +244,9 @@
 - type: entity
   parent: CardBase
   id: CardScQueenOfDiamondsBlack
-  name: card-sc_Queen of Diamonds_black
   components:
+  - type: Card
+    name: card-sc-queen-diamonds-black
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: sc_Queen of Diamonds_black
@@ -226,8 +254,9 @@
 - type: entity
   parent: CardBase
   id: CardScKingOfDiamondsBlack
-  name: card-sc_King of Diamonds_black
   components:
+  - type: Card
+    name: card-sc-king-diamonds-black
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: sc_King of Diamonds_black
@@ -235,8 +264,9 @@
 - type: entity
   parent: CardBase
   id: CardScAceOfDiamondsBlack
-  name: card-sc_Ace of Diamonds_black
   components:
+  - type: Card
+    name: card-sc-ace-diamonds-black
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: sc_Ace of Diamonds_black
@@ -244,8 +274,9 @@
 - type: entity
   parent: CardBase
   id: CardSc2OfDiamondsBlack
-  name: card-sc_2 of Diamonds_black
   components:
+  - type: Card
+    name: card-sc-2-diamonds-black
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: sc_2 of Diamonds_black
@@ -253,8 +284,9 @@
 - type: entity
   parent: CardBase
   id: CardSc3OfDiamondsBlack
-  name: card-sc_3 of Diamonds_black
   components:
+  - type: Card
+    name: card-sc-3-diamonds-black
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: sc_3 of Diamonds_black
@@ -262,8 +294,9 @@
 - type: entity
   parent: CardBase
   id: CardSc4OfDiamondsBlack
-  name: card-sc_4 of Diamonds_black
   components:
+  - type: Card
+    name: card-sc-4-diamonds-black
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: sc_4 of Diamonds_black
@@ -271,8 +304,9 @@
 - type: entity
   parent: CardBase
   id: CardSc5OfDiamondsBlack
-  name: card-sc_5 of Diamonds_black
   components:
+  - type: Card
+    name: card-sc-5-diamonds-black
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: sc_5 of Diamonds_black
@@ -280,8 +314,9 @@
 - type: entity
   parent: CardBase
   id: CardSc6OfDiamondsBlack
-  name: card-sc_6 of Diamonds_black
   components:
+  - type: Card
+    name: card-sc-6-diamonds-black
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: sc_6 of Diamonds_black
@@ -289,8 +324,9 @@
 - type: entity
   parent: CardBase
   id: CardSc7OfDiamondsBlack
-  name: card-sc_7 of Diamonds_black
   components:
+  - type: Card
+    name: card-sc-7-diamonds-black
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: sc_7 of Diamonds_black
@@ -298,8 +334,9 @@
 - type: entity
   parent: CardBase
   id: CardSc8OfDiamondsBlack
-  name: card-sc_8 of Diamonds_black
   components:
+  - type: Card
+    name: card-sc-8-diamonds-black
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: sc_8 of Diamonds_black
@@ -307,8 +344,9 @@
 - type: entity
   parent: CardBase
   id: CardSc9OfDiamondsBlack
-  name: card-sc_9 of Diamonds_black
   components:
+  - type: Card
+    name: card-sc-9-diamonds-black
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: sc_9 of Diamonds_black
@@ -316,8 +354,9 @@
 - type: entity
   parent: CardBase
   id: CardSc10OfDiamondsBlack
-  name: card-sc_10 of Diamonds_black
   components:
+  - type: Card
+    name: card-sc-10-diamonds-black
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: sc_10 of Diamonds_black
@@ -326,8 +365,9 @@
 - type: entity
   parent: CardBase
   id: CardSc2OfHeartsBlack
-  name: card-sc_2 of Hearts_black
   components:
+  - type: Card
+    name: card-sc-2-hearts-black
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: sc_2 of Hearts_black
@@ -335,8 +375,9 @@
 - type: entity
   parent: CardBase
   id: CardSc3OfHeartsBlack
-  name: card-sc_3 of Hearts_black
   components:
+  - type: Card
+    name: card-sc-3-hearts-black
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: sc_3 of Hearts_black
@@ -344,8 +385,9 @@
 - type: entity
   parent: CardBase
   id: CardSc4OfHeartsBlack
-  name: card-sc_4 of Hearts_black
   components:
+  - type: Card
+    name: card-sc-4-hearts-black
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: sc_4 of Hearts_black
@@ -353,8 +395,9 @@
 - type: entity
   parent: CardBase
   id: CardSc5OfHeartsBlack
-  name: card-sc_5 of Hearts_black
   components:
+  - type: Card
+    name: card-sc-5-hearts-black
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: sc_5 of Hearts_black
@@ -362,8 +405,9 @@
 - type: entity
   parent: CardBase
   id: CardSc6OfHeartsBlack
-  name: card-sc_6 of Hearts_black
   components:
+  - type: Card
+    name: card-sc-6-hearts-black
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: sc_6 of Hearts_black
@@ -371,8 +415,9 @@
 - type: entity
   parent: CardBase
   id: CardSc7OfHeartsBlack
-  name: card-sc_7 of Hearts_black
   components:
+  - type: Card
+    name: card-sc-7-hearts-black
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: sc_7 of Hearts_black
@@ -380,8 +425,9 @@
 - type: entity
   parent: CardBase
   id: CardSc8OfHeartsBlack
-  name: card-sc_8 of Hearts_black
   components:
+  - type: Card
+    name: card-sc-8-hearts-black
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: sc_8 of Hearts_black
@@ -389,8 +435,9 @@
 - type: entity
   parent: CardBase
   id: CardSc9OfHeartsBlack
-  name: card-sc_9 of Hearts_black
   components:
+  - type: Card
+    name: card-sc-9-hearts-black
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: sc_9 of Hearts_black
@@ -398,8 +445,9 @@
 - type: entity
   parent: CardBase
   id: CardSc10OfHeartsBlack
-  name: card-sc_10 of Hearts_black
   components:
+  - type: Card
+    name: card-sc-10-hearts-black
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: sc_10 of Hearts_black
@@ -407,8 +455,9 @@
 - type: entity
   parent: CardBase
   id: CardScKingOfHeartsBlack
-  name: card-sc_King of Hearts_black
   components:
+  - type: Card
+    name: card-sc-king-hearts-black
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: sc_King of Hearts_black
@@ -416,8 +465,9 @@
 - type: entity
   parent: CardBase
   id: CardScQueenOfHeartsBlack
-  name: card-sc_Queen of Hearts_black
   components:
+  - type: Card
+    name: card-sc-queen-hearts-black
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: sc_Queen of Hearts_black
@@ -425,8 +475,9 @@
 - type: entity
   parent: CardBase
   id: CardScJackOfHeartsBlack
-  name: card-sc_Jack of Hearts_black
   components:
+  - type: Card
+    name: card-sc-jack-hearts-black
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: sc_Jack of Hearts_black
@@ -434,8 +485,9 @@
 - type: entity
   parent: CardBase
   id: CardScAceOfHeartsBlack
-  name: card-sc_Ace of Hearts_black
   components:
+  - type: Card
+    name: card-sc-ace-hearts-black
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: sc_Ace of Hearts_black
@@ -444,8 +496,9 @@
 - type: entity
   parent: CardBase
   id: CardSc2OfSpadesBlack
-  name: card-sc_2 of Spades_black
   components:
+  - type: Card
+    name: card-sc-2-spades-black
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: sc_2 of Spades_black
@@ -453,8 +506,9 @@
 - type: entity
   parent: CardBase
   id: CardSc3OfSpadesBlack
-  name: card-sc_3 of Spades_black
   components:
+  - type: Card
+    name: card-sc-3-spades-black
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: sc_3 of Spades_black
@@ -462,8 +516,9 @@
 - type: entity
   parent: CardBase
   id: CardSc4OfSpadesBlack
-  name: card-sc_4 of Spades_black
   components:
+  - type: Card
+    name: card-sc-4-spades-black
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: sc_4 of Spades_black
@@ -471,8 +526,9 @@
 - type: entity
   parent: CardBase
   id: CardSc5OfSpadesBlack
-  name: card-sc_5 of Spades_black
   components:
+  - type: Card
+    name: card-sc-5-spades-black
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: sc_5 of Spades_black
@@ -480,8 +536,9 @@
 - type: entity
   parent: CardBase
   id: CardSc6OfSpadesBlack
-  name: card-sc_6 of Spades_black
   components:
+  - type: Card
+    name: card-sc-6-spades-black
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: sc_6 of Spades_black
@@ -489,8 +546,9 @@
 - type: entity
   parent: CardBase
   id: CardSc7OfSpadesBlack
-  name: card-sc_7 of Spades_black
   components:
+  - type: Card
+    name: card-sc-7-spades-black
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: sc_7 of Spades_black
@@ -498,8 +556,9 @@
 - type: entity
   parent: CardBase
   id: CardSc8OfSpadesBlack
-  name: card-sc_8 of Spades_black
   components:
+  - type: Card
+    name: card-sc-8-spades-black
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: sc_8 of Spades_black
@@ -507,8 +566,9 @@
 - type: entity
   parent: CardBase
   id: CardSc9OfSpadesBlack
-  name: card-sc_9 of Spades_black
   components:
+  - type: Card
+    name: card-sc-9-spades-black
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: sc_9 of Spades_black
@@ -517,8 +577,9 @@
 - type: entity
   parent: CardBase
   id: CardSc10OfSpadesBlack
-  name: card-sc_10 of Spades_black
   components:
+  - type: Card
+    name: card-sc-10-spades-black
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: sc_10 of Spades_black
@@ -526,8 +587,9 @@
 - type: entity
   parent: CardBase
   id: CardScKingOfSpadesBlack
-  name: card-sc_King of Spades_black
   components:
+  - type: Card
+    name: card-sc-king-spades-black
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: sc_King of Spades_black
@@ -535,8 +597,9 @@
 - type: entity
   parent: CardBase
   id: CardScQueenOfSpadesBlack
-  name: card-sc_Queen of Spades_black
   components:
+  - type: Card
+    name: card-sc-queen-spades-black
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: sc_Queen of Spades_black
@@ -544,8 +607,9 @@
 - type: entity
   parent: CardBase
   id: CardScJackOfSpadesBlack
-  name: card-sc_Jack of Spades_black
   components:
+  - type: Card
+    name: card-sc-jack-spades-black
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: sc_Jack of Spades_black
@@ -553,8 +617,9 @@
 - type: entity
   parent: CardBase
   id: CardScAceOfSpadesBlack
-  name: card-sc_Ace of Spades_black
   components:
+  - type: Card
+    name: card-sc-ace-spades-black
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: sc_Ace of Spades_black

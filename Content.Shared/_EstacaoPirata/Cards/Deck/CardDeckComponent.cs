@@ -11,4 +11,5 @@ public sealed partial class CardDeckComponent : Component
     [DataField("shuffleSound")]
     public SoundSpecifier ShuffleSound = new SoundPathSpecifier("/Audio/Items/Paper/paper_scribble1.ogg"); //REMEMBER TO CHANGE IT LATER!!!!!
 
+    public int CardLimit = 5;
 }

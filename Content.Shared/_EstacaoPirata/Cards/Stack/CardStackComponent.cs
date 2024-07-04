@@ -1,6 +1,7 @@
 using Robust.Shared.Containers;
 using Robust.Shared.GameStates;
 using Robust.Shared.Prototypes;
+using Robust.Shared.Serialization;
 
 namespace Content.Shared._EstacaoPirata.Stack.Cards;
 
@@ -8,6 +9,7 @@ namespace Content.Shared._EstacaoPirata.Stack.Cards;
 /// This is used for holding the prototype ids of the cards in the stack or hand.
 /// </summary>
 [RegisterComponent, NetworkedComponent, AutoGenerateComponentState]
+
 public sealed partial class CardStackComponent : Component
 {
     [DataField("content")]
@@ -24,4 +26,13 @@ public sealed partial class CardStackComponent : Component
     /// </summary>
     [DataField, AutoNetworkedField]
     public List<EntityUid> Cards = [];
+
+    [Serializable, NetSerializable]
+    public sealed class CardStackInitiatedEvent(NetEntity cardStack, CardStackComponent? component) : EntityEventArgs
+    {
+        public NetEntity CardStack = cardStack;
+    }
+    public sealed class CardStackUpdatedEvent : EntityEventArgs
+    {
+    }
 }

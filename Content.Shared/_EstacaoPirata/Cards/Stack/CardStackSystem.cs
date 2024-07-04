@@ -10,6 +10,7 @@ namespace Content.Shared._EstacaoPirata.Stack.Cards;
 /// <summary>
 /// This handles...
 /// </summary>
+///
 public sealed class CardStackSystem : EntitySystem
 {
     public const string ContainerId = "cardstack-container";
@@ -52,6 +53,7 @@ public sealed class CardStackSystem : EntitySystem
             }
             comp.Cards.Add(ent);
         }
+        RaiseNetworkEvent(new CardStackComponent.CardStackInitiatedEvent(GetNetEntity(uid), comp));
     }
 
 
@@ -73,7 +75,7 @@ public sealed class CardStackSystem : EntitySystem
         {
             _entityManager.DeleteEntity(uid);
         }
-        RaiseLocalEvent(uid, new CardStackUpdatedEvent());
+        RaiseLocalEvent(uid, new CardStackComponent.CardStackUpdatedEvent());
         return true;
     }
 
@@ -89,7 +91,7 @@ public sealed class CardStackSystem : EntitySystem
         comp.Cards.Add(card);
 
         Dirty(uid, comp);
-        RaiseLocalEvent(uid, new CardStackUpdatedEvent());
+        RaiseLocalEvent(uid, new CardStackComponent.CardStackUpdatedEvent());
         return true;
     }
 
@@ -101,7 +103,7 @@ public sealed class CardStackSystem : EntitySystem
         _random.Shuffle(comp.Cards);
 
         Dirty(uid, comp);
-        RaiseLocalEvent(uid, new CardStackUpdatedEvent());
+        RaiseLocalEvent(uid, new CardStackComponent.CardStackUpdatedEvent());
         return true;
     }
 
@@ -145,11 +147,11 @@ public sealed class CardStackSystem : EntitySystem
 
         _entityManager.DeleteEntity(args.Used);
 
-        RaiseLocalEvent(uid, new CardStackUpdatedEvent());
+        RaiseLocalEvent(uid, new CardStackComponent.CardStackUpdatedEvent());
         args.Handled = true;
     }
 
-    public sealed class CardStackUpdatedEvent : EntityEventArgs
-    {
-    }
+
+
+
 }
