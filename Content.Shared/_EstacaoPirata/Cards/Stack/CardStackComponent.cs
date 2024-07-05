@@ -35,4 +35,10 @@ public sealed partial class CardStackComponent : Component
     public sealed class CardStackUpdatedEvent : EntityEventArgs
     {
     }
+
+    // For when a card is added to the stack
+    public sealed class CardStackCardAddedEvent : EntityEventArgs
+    {
+        public EntityUid Card;
+    }
 }

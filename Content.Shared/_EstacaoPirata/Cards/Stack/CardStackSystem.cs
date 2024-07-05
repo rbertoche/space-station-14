@@ -121,13 +121,16 @@ public sealed class CardStackSystem : EntitySystem
         if (args.Handled)
             return;
 
+        // This checks if the user is adding a card to a stack
         if (TryComp(args.Used, out CardComponent? _))
         {
             TryInsertCard(uid, (EntityUid)args.Used);
+            RaiseLocalEvent(uid, new CardStackComponent.CardStackCardAddedEvent{Card = args.Used});
             args.Handled = true;
             return;
         }
 
+        // This checks if the user is joining two stacks
         if (_net.IsClient)
             return;
 

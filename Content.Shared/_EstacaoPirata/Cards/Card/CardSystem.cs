@@ -14,7 +14,6 @@ public sealed class CardSystem : EntitySystem
     /// <inheritdoc/>
     public override void Initialize()
     {
-        SubscribeLocalEvent<CardComponent, InteractUsingEvent>(OnInteractUsing);
         SubscribeLocalEvent<CardComponent, GetVerbsEvent<AlternativeVerb>>(AddTurnOnVerb);
         SubscribeLocalEvent<CardComponent, ExaminedEvent>(OnExamined);
         SubscribeLocalEvent<CardComponent, UseInHandEvent>(OnUse);
@@ -27,19 +26,6 @@ public sealed class CardSystem : EntitySystem
         {
             args.PushMarkup(Loc.GetString("card-examined", ("target",  Loc.GetString(component.Name))));
         }
-    }
-
-    private void OnInteractUsing(EntityUid uid, CardComponent cardComponent, InteractUsingEvent args)
-    {
-        if (args.Handled)
-            return;
-
-        if (!TryComp(args.Used, out CardComponent? _))
-        {
-            return;
-        }
-
-        args.Handled = true;
     }
 
     private void AddTurnOnVerb(EntityUid uid, CardComponent component, GetVerbsEvent<AlternativeVerb> args)

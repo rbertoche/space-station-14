@@ -30,6 +30,7 @@ public sealed class CardDeckSystem : EntitySystem
     public override void Initialize()
     {
         SubscribeLocalEvent<CardDeckComponent, InteractHandEvent>(OnInteractHand);
+        SubscribeLocalEvent<CardDeckComponent, CardStackComponent.CardStackCardAddedEvent>(OnCardAdded);
         SubscribeLocalEvent<CardDeckComponent, GetVerbsEvent<AlternativeVerb>>(AddTurnOnVerb);
     }
 
@@ -80,7 +81,17 @@ public sealed class CardDeckSystem : EntitySystem
             return;
 
         _hands.TryPickupAnyHand(args.User, (EntityUid)card);
+
+        if (_net.IsServer)
+            _audio.PlayPvs(component.PickUpSound, uid, AudioHelpers.WithVariation(0.05f, _random));
+
+
         args.Handled = true;
+    }
+    private void OnCardAdded(EntityUid uid, CardDeckComponent component, CardStackComponent.CardStackCardAddedEvent args)
+    {
+        if (_net.IsServer)
+            _audio.PlayPvs(component.PlaceDownSound, uid, AudioHelpers.WithVariation(0.05f, _random));
     }
 
 

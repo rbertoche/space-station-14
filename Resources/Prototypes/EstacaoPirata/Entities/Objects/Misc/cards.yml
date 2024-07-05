@@ -1,9 +1,8 @@
 - type: entity
   parent: BaseItem
-  id: CardHand
+  id: CardHandBase
+  name: Card hand
   components:
-  - type: Card
-    name: card-hand
   - type: Item
     size: Small
   - type: CardHand
@@ -13,16 +12,25 @@
 
 - type: entity
   parent: BaseItem
-  id: CardDeck
-  name: Deck of cards
+  id: CardDeckBase
+  name: CardDeckBase
   components:
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: deck_black_full
   - type: Item
     size: Small
-  - type: UseDelay
   - type: CardDeck
+  - type: CardStack
+
+- type: entity
+  parent: CardDeckBase
+  id: CardDeckBlack
+  name: Deck of cards
+  components:
+  - type: Sprite
+    sprite: EstacaoPirata/Objects/Misc/cards.rsi
+    state: deck_black_full
   - type: CardStack
     content:
     # Clubs
@@ -86,7 +94,11 @@
   parent: BaseItem
   id: CardBase
   name: Card
+  noSpawn: true
   components:
+  - type: EmitSoundOnLand
+    sound:
+      collection: cardShove
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: singlecard_down_black
@@ -95,6 +107,7 @@
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: singlecard_down_black
   - type: UseDelay
+    delay: 0.5
   - type: Card
     backState: singlecard_down_black
     flipped: true
