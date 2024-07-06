@@ -11,14 +11,14 @@ namespace Content.Client._EstacaoPirata.Cards.Deck;
 /// </summary>
 public sealed class CardDeckSystem : EntitySystem
 {
-    private List<Entity<CardDeckComponent>> NotInitialized = [];
+    private readonly List<Entity<CardDeckComponent>> _notInitialized = [];
 
 
     /// <inheritdoc/>
     public override void Initialize()
     {
         UpdatesOutsidePrediction = false;
-        SubscribeLocalEvent<CardDeckComponent, ComponentStartup>(OnComponentStartupEvent);
+        //SubscribeLocalEvent<CardDeckComponent, ComponentStartup>(OnComponentStartupEvent);
         SubscribeLocalEvent<CardDeckComponent, CardStackComponent.CardStackUpdatedEvent>(OnStackUpdate);
         SubscribeNetworkEvent<CardStackComponent.CardStackInitiatedEvent>(OnStackStart);
         SubscribeLocalEvent<CardDeckComponent, AppearanceChangeEvent>(OnAppearanceChanged);
@@ -29,7 +29,7 @@ public sealed class CardDeckSystem : EntitySystem
         base.Update(frameTime);
 
         // Lazy way to make sure the sprite starts correctly
-        foreach (var ent in NotInitialized.ToList())
+        foreach (var ent in _notInitialized.ToList())
         {
             if (!TryComp(ent.Owner, out CardStackComponent? stack))
                 continue;
@@ -40,13 +40,13 @@ public sealed class CardDeckSystem : EntitySystem
 
             // If cards were correctly initialized, we update the sprite
             UpdateSprite(ent.Owner, ent.Comp);
-            NotInitialized.Remove(ent);
+            _notInitialized.Remove(ent);
         }
 
     }
 
     // This is executed only if there are no available layers to work with
-    private void SetupSpriteLayers(EntityUid uid, CardDeckComponent comp, SpriteComponent sprite, int layersQuantity)
+    private static void SetupSpriteLayers(EntityUid _, CardDeckComponent comp, SpriteComponent sprite, int layersQuantity)
     {
         if (!sprite.TryGetLayer(0, out var firstLayer))
             return;
@@ -97,7 +97,7 @@ public sealed class CardDeckSystem : EntitySystem
             if (!TryGetCardLayer(card, out var layer) || layer == null)
             {
                 // This means that the card was not initialized yet, so we add it to the following List:
-                NotInitialized.Add((uid, comp));
+                _notInitialized.Add((uid, comp));
                 return;
             }
 
@@ -111,20 +111,16 @@ public sealed class CardDeckSystem : EntitySystem
 
         var cardsQuantity = cardStack.Cards.Count;
         var layersQuantity = sprite.AllLayers.ToList().Count;
-        if (cardsQuantity < layersQuantity - 1)
+
+        if (cardsQuantity >= layersQuantity - 1)
+            return;
+        
+        for (var k = 0; k < (layersQuantity - cardsQuantity); k++)
         {
-            for (int k = 0; k < (layersQuantity - cardsQuantity); k++)
-            {
-                sprite.LayerSetVisible(layersQuantity - k - 1, false);
-            }
+            sprite.LayerSetVisible(layersQuantity - k - 1, false);
         }
     }
 
-    private void OnComponentStartupEvent(EntityUid uid, CardDeckComponent comp, ComponentStartup args)
-    {
-
-        UpdateSprite(uid, comp);
-    }
     private void OnStackUpdate(EntityUid uid, CardDeckComponent comp, CardStackComponent.CardStackUpdatedEvent args)
     {
         UpdateSprite(uid, comp);

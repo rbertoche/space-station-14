@@ -107,6 +107,35 @@ public sealed class CardStackSystem : EntitySystem
         return true;
     }
 
+    /// <summary>
+    ///
+    /// </summary>
+    /// <param name="uid"></param>
+    /// <param name="comp"></param>
+    /// <param name="direction">If null, all cards will just invert direction, if it contains a value, then all cards will receive that value</param>
+    /// <returns></returns>
+    public bool FlipAllCards(EntityUid uid, CardStackComponent? comp = null, bool? direction = null)
+    {
+        if (!Resolve(uid, ref comp))
+            return false;
+
+        foreach (var card in comp.Cards)
+        {
+            if (!TryComp(card, out CardComponent? cardComponent))
+                continue;
+
+
+            cardComponent.Flipped = direction?? !cardComponent.Flipped;
+
+            Dirty(card, cardComponent);
+            RaiseLocalEvent(card, new CardComponent.CardFlipUpdatedEvent());
+
+        }
+
+        RaiseLocalEvent(uid, new CardStackComponent.CardStackUpdatedEvent());
+        return true;
+    }
+
     // It seems the cards don't get removed if this event is not subscribed... strange right? thanks again bin system
     private void OnEntRemoved(EntityUid uid, CardStackComponent component, EntRemovedFromContainerMessage args)
     {
