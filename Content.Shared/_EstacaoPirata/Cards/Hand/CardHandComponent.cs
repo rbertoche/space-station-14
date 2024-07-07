@@ -8,6 +8,17 @@ namespace Content.Shared._EstacaoPirata.Cards.Hand;
 [RegisterComponent]
 public sealed partial class CardHandComponent : Component
 {
+    [DataField("angle")]
+    public float Angle = 120f;
+
+    [DataField("xOffset")]
+    public float XOffset = 0.5f;
+
+    [DataField("scale")]
+    public float Scale = 1;
+
+    [DataField("limit")]
+    public int CardLimit = 10;
 
 }
 

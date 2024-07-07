@@ -58,11 +58,6 @@ public sealed class CardDeckSystem : EntitySystem
 
     }
 
-    private void OnComponentStartupEvent(EntityUid uid, CardDeckComponent comp, ComponentStartup args)
-    {
-
-        UpdateSprite(uid, comp);
-    }
 
     // This is executed only if there are no available layers to work with
     private static void SetupSpriteLayers(EntityUid _, CardDeckComponent comp, SpriteComponent sprite, int layersQuantity)
@@ -169,6 +164,12 @@ public sealed class CardDeckSystem : EntitySystem
     {
         UpdateSprite(uid, comp);
     }
+    private void OnComponentStartupEvent(EntityUid uid, CardDeckComponent comp, ComponentStartup args)
+    {
+
+        UpdateSprite(uid, comp);
+    }
+
 
     private void OnStackStart(CardStackInitiatedEvent args)
     {
@@ -178,4 +179,5 @@ public sealed class CardDeckSystem : EntitySystem
 
         UpdateSprite(entity, comp);
     }
+
 }
