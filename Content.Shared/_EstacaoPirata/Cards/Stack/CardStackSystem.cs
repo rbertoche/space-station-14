@@ -29,32 +29,9 @@ public sealed class CardStackSystem : EntitySystem
         SubscribeLocalEvent<CardStackComponent, MapInitEvent>(OnMapInit);
         SubscribeLocalEvent<CardStackComponent, EntRemovedFromContainerMessage>(OnEntRemoved);
 
-        SubscribeLocalEvent<CardStackComponent, InteractUsingEvent>(OnInteractUsing);
+        SubscribeLocalEvent<InteractUsingEvent>(OnInteractUsing);
     }
 
-    private void OnStartup(EntityUid uid, CardStackComponent component, ComponentStartup args)
-    {
-        component.ItemContainer = _container.EnsureContainer<Container>(uid, ContainerId);
-    }
-
-    private void OnMapInit(EntityUid uid, CardStackComponent comp, MapInitEvent args)
-    {
-        if (_net.IsClient)
-            return;
-
-        var coordinates = Transform(uid).Coordinates;
-        foreach (var id in comp.InitialContent)
-        {
-            var ent = Spawn(id, coordinates);
-            if (!TryInsertCard(uid, ent, comp))
-            {
-                Log.Error($"Entity {ToPrettyString(ent)} was unable to be initialized into stack {ToPrettyString(uid)}");
-                return;
-            }
-            comp.Cards.Add(ent);
-        }
-        RaiseNetworkEvent(new CardStackInitiatedEvent(GetNetEntity(uid), comp));
-    }
 
 
     public bool TryRemoveCard(EntityUid uid, EntityUid card, CardStackComponent? comp = null)
@@ -136,6 +113,54 @@ public sealed class CardStackSystem : EntitySystem
         return true;
     }
 
+
+    public bool TryJoinStacks(EntityUid firstStack, EntityUid secondStack, CardStackComponent? firstComp = null, CardStackComponent? secondComp = null)
+    {
+        if (!Resolve(firstStack, ref firstComp) || !Resolve(secondStack, ref secondComp))
+            return false;
+
+        foreach (var card in secondComp.Cards.ToList())
+        {
+            _container.Remove(card, secondComp.ItemContainer);
+            secondComp.Cards.Remove(card);
+            firstComp.Cards.Add(card);
+            _container.Insert(card, firstComp.ItemContainer);
+        }
+        Dirty(firstStack, firstComp);
+
+        _entityManager.DeleteEntity(secondStack);
+
+        RaiseLocalEvent(firstStack, new CardStackQuantityChangeEvent{Card = firstStack, Type = StackQuantityChangeType.Added});
+        return true;
+    }
+
+    #region EventHandling
+
+    private void OnStartup(EntityUid uid, CardStackComponent component, ComponentStartup args)
+    {
+        component.ItemContainer = _container.EnsureContainer<Container>(uid, ContainerId);
+    }
+
+    private void OnMapInit(EntityUid uid, CardStackComponent comp, MapInitEvent args)
+    {
+        if (_net.IsClient)
+            return;
+
+        var coordinates = Transform(uid).Coordinates;
+        foreach (var id in comp.InitialContent)
+        {
+            var ent = Spawn(id, coordinates);
+            if (!TryInsertCard(uid, ent, comp))
+            {
+                Log.Error($"Entity {ToPrettyString(ent)} was unable to be initialized into stack {ToPrettyString(uid)}");
+                return;
+            }
+            comp.Cards.Add(ent);
+        }
+        RaiseNetworkEvent(new CardStackInitiatedEvent(GetNetEntity(uid), comp));
+    }
+
+
     // It seems the cards don't get removed if this event is not subscribed... strange right? thanks again bin system
     private void OnEntRemoved(EntityUid uid, CardStackComponent component, EntRemovedFromContainerMessage args)
     {
@@ -143,46 +168,50 @@ public sealed class CardStackSystem : EntitySystem
     }
 
 
-
-    // Adds Cards to stack or Joins two stack
-    private void OnInteractUsing(EntityUid uid, CardStackComponent firstStack, InteractUsingEvent args)
+    private void OnInteractUsing(InteractUsingEvent args)
     {
         if (args.Handled)
             return;
 
-        // This checks if the user is adding a card to a stack
-        if (TryComp(args.Used, out CardComponent? _))
-        {
-            TryInsertCard(uid, (EntityUid)args.Used);
-            args.Handled = true;
-            return;
-        }
-
-        // This checks if the user is joining two stacks
         if (_net.IsClient)
             return;
 
-        if (!TryComp(args.Used, out CardStackComponent? secondStack))
-            return;
-
-        foreach (var card in secondStack.Cards.ToList())
+        // This checks if the user is using an item with Stack component
+        if (TryComp(args.Used, out CardStackComponent? usedStack))
         {
-            _container.Remove(card, secondStack.ItemContainer);
-            _container.Insert(card, firstStack.ItemContainer);
+            // If the target is a card, then it will insert the card into the stack
+            if (TryComp(args.Target, out CardComponent? card))
+            {
+                TryInsertCard(args.Used, args.Target);
+                args.Handled = true;
+                return;
+            }
+
+            // If instead, the target is a stack, then it will join the two stacks
+            if (!TryComp(args.Target, out CardStackComponent? firstStack))
+                return;
+            TryJoinStacks(args.Target, args.Used, firstStack, usedStack);
+
         }
 
-        firstStack.Cards.AddRange(secondStack.Cards);
-        secondStack.Cards.Clear();
-        Dirty(args.Target, firstStack);
-        Dirty(args.Used, secondStack);
+        // This handles the reverse case, where the user is using a card and inserting it to a stack
+        else if (TryComp(args.Target, out CardStackComponent? targetStack))
+        {
+            if (TryComp(args.Used, out CardComponent? card))
+            {
+                TryInsertCard(args.Target, args.Used);
+                args.Handled = true;
+                return;
+            }
+        }
 
-        _entityManager.DeleteEntity(args.Used);
 
-        RaiseLocalEvent(uid, new CardStackQuantityChangeEvent{Card = args.Target, Type = StackQuantityChangeType.Added});
         args.Handled = true;
     }
 
 
+
+    #endregion
 
 
 }

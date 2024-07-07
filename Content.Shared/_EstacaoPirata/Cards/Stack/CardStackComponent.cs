@@ -37,6 +37,7 @@ public sealed class CardStackInitiatedEvent(NetEntity cardStack, CardStackCompon
 /// <summary>
 /// This gets Updated when new cards are added or removed from the stack
 /// </summary>
+
 public sealed class CardStackQuantityChangeEvent : EntityEventArgs
 {
     public StackQuantityChangeType Type;
