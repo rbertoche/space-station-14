@@ -53,7 +53,7 @@ public sealed class CardStackSystem : EntitySystem
             }
             comp.Cards.Add(ent);
         }
-        RaiseNetworkEvent(new CardStackComponent.CardStackInitiatedEvent(GetNetEntity(uid), comp));
+        RaiseNetworkEvent(new CardStackInitiatedEvent(GetNetEntity(uid), comp));
     }
 
 
@@ -75,7 +75,7 @@ public sealed class CardStackSystem : EntitySystem
         {
             _entityManager.DeleteEntity(uid);
         }
-        RaiseLocalEvent(uid, new CardStackComponent.CardStackUpdatedEvent());
+        RaiseLocalEvent(uid, new CardStackQuantityChangeEvent{Card = card, Type = StackQuantityChangeType.Removed});
         return true;
     }
 
@@ -91,7 +91,7 @@ public sealed class CardStackSystem : EntitySystem
         comp.Cards.Add(card);
 
         Dirty(uid, comp);
-        RaiseLocalEvent(uid, new CardStackComponent.CardStackUpdatedEvent());
+        RaiseLocalEvent(uid, new CardStackQuantityChangeEvent{Card = card, Type = StackQuantityChangeType.Added});
         return true;
     }
 
@@ -103,36 +103,36 @@ public sealed class CardStackSystem : EntitySystem
         _random.Shuffle(comp.Cards);
 
         Dirty(uid, comp);
-        RaiseLocalEvent(uid, new CardStackComponent.CardStackUpdatedEvent());
+        RaiseLocalEvent(uid, new CardStackReorderedEvent());
         return true;
     }
 
     /// <summary>
-    ///
+    /// Server-Side only method to flip all cards within a stack. This starts CardFlipUpdatedEvent and CardStackFlippedEvent event
     /// </summary>
     /// <param name="uid"></param>
     /// <param name="comp"></param>
-    /// <param name="direction">If null, all cards will just invert direction, if it contains a value, then all cards will receive that value</param>
+    /// <param name="isFlipped">If null, all cards will just invert direction, if it contains a value, then all cards will receive that value</param>
     /// <returns></returns>
-    public bool FlipAllCards(EntityUid uid, CardStackComponent? comp = null, bool? direction = null)
+    public bool FlipAllCards(EntityUid uid, CardStackComponent? comp = null, bool? isFlipped = null)
     {
+        if (_net.IsClient)
+            return false;
         if (!Resolve(uid, ref comp))
             return false;
-
         foreach (var card in comp.Cards)
         {
             if (!TryComp(card, out CardComponent? cardComponent))
                 continue;
 
 
-            cardComponent.Flipped = direction?? !cardComponent.Flipped;
+            cardComponent.Flipped = isFlipped?? !cardComponent.Flipped;
 
             Dirty(card, cardComponent);
-            RaiseLocalEvent(card, new CardComponent.CardFlipUpdatedEvent());
-
+            RaiseNetworkEvent(new CardFlipUpdatedEvent(GetNetEntity(card)));
         }
 
-        RaiseLocalEvent(uid, new CardStackComponent.CardStackUpdatedEvent());
+        RaiseNetworkEvent(new CardStackFlippedEvent(GetNetEntity(uid)));
         return true;
     }
 
@@ -154,7 +154,6 @@ public sealed class CardStackSystem : EntitySystem
         if (TryComp(args.Used, out CardComponent? _))
         {
             TryInsertCard(uid, (EntityUid)args.Used);
-            RaiseLocalEvent(uid, new CardStackComponent.CardStackCardAddedEvent{Card = args.Used});
             args.Handled = true;
             return;
         }
@@ -179,7 +178,7 @@ public sealed class CardStackSystem : EntitySystem
 
         _entityManager.DeleteEntity(args.Used);
 
-        RaiseLocalEvent(uid, new CardStackComponent.CardStackUpdatedEvent());
+        RaiseLocalEvent(uid, new CardStackQuantityChangeEvent{Card = args.Target, Type = StackQuantityChangeType.Added});
         args.Handled = true;
     }
 

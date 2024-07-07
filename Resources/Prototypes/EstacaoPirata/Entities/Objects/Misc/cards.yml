@@ -6,9 +6,16 @@
   - type: Item
     size: Small
   - type: CardHand
+  - type: CardStack
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: singlecard_down_black
+  - type: UserInterface
+    interfaces:
+      enum.CardUiKey.Key:
+        type: CardHandMenuBoundUserInterface
+  - type: ActivatableUI
+    key: enum.CardUiKey.Key
 
 - type: entity
   parent: BaseItem
@@ -103,6 +110,7 @@
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: singlecard_down_black
+  - type: Rotatable
   - type: Item
     size: Small
     sprite: EstacaoPirata/Objects/Misc/cards.rsi

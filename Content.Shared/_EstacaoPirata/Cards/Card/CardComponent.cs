@@ -34,7 +34,10 @@ public sealed partial class CardComponent : Component
     [DataField("name", readOnly: true), AutoNetworkedField]
     public string Name = "";
 
-    public sealed class CardFlipUpdatedEvent : EntityEventArgs
-    {
-    }
+}
+
+[Serializable, NetSerializable]
+public sealed class CardFlipUpdatedEvent(NetEntity card) : EntityEventArgs
+{
+    public NetEntity Card = card;
 }

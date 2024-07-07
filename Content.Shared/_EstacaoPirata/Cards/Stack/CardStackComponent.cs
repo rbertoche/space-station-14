@@ -26,19 +26,41 @@ public sealed partial class CardStackComponent : Component
     /// </summary>
     [DataField, AutoNetworkedField]
     public List<EntityUid> Cards = [];
-
-    [Serializable, NetSerializable]
-    public sealed class CardStackInitiatedEvent(NetEntity cardStack, CardStackComponent? component) : EntityEventArgs
-    {
-        public NetEntity CardStack = cardStack;
-    }
-    public sealed class CardStackUpdatedEvent : EntityEventArgs
-    {
-    }
-
-    // For when a card is added to the stack
-    public sealed class CardStackCardAddedEvent : EntityEventArgs
-    {
-        public EntityUid Card;
-    }
 }
+
+[Serializable, NetSerializable]
+public sealed class CardStackInitiatedEvent(NetEntity cardStack, CardStackComponent? component) : EntityEventArgs
+{
+    public NetEntity CardStack = cardStack;
+}
+
+/// <summary>
+/// This gets Updated when new cards are added or removed from the stack
+/// </summary>
+public sealed class CardStackQuantityChangeEvent : EntityEventArgs
+{
+    public StackQuantityChangeType Type;
+    public EntityUid Card;
+}
+
+public enum StackQuantityChangeType
+{
+    Added,
+    Removed
+}
+
+
+
+
+public sealed class CardStackReorderedEvent : EntityEventArgs
+{
+}
+
+[Serializable, NetSerializable]
+public sealed class CardStackFlippedEvent(NetEntity cardStack) : EntityEventArgs
+{
+    public NetEntity CardStack = cardStack;
+}
+
+
+

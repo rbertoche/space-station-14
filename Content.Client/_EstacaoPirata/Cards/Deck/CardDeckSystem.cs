@@ -18,9 +18,11 @@ public sealed class CardDeckSystem : EntitySystem
     public override void Initialize()
     {
         UpdatesOutsidePrediction = false;
+        SubscribeNetworkEvent<CardStackInitiatedEvent>(OnStackStart);
         //SubscribeLocalEvent<CardDeckComponent, ComponentStartup>(OnComponentStartupEvent);
-        SubscribeLocalEvent<CardDeckComponent, CardStackComponent.CardStackUpdatedEvent>(OnStackUpdate);
-        SubscribeNetworkEvent<CardStackComponent.CardStackInitiatedEvent>(OnStackStart);
+        SubscribeLocalEvent<CardDeckComponent, CardStackQuantityChangeEvent>(OnStackUpdate);
+        SubscribeLocalEvent<CardDeckComponent, CardStackFlippedEvent>(OnStackFlip);
+        SubscribeLocalEvent<CardDeckComponent, CardStackReorderedEvent>(OnReorder);
         SubscribeLocalEvent<CardDeckComponent, AppearanceChangeEvent>(OnAppearanceChanged);
     }
 
@@ -114,14 +116,24 @@ public sealed class CardDeckSystem : EntitySystem
 
         if (cardsQuantity >= layersQuantity - 1)
             return;
-        
+
         for (var k = 0; k < (layersQuantity - cardsQuantity); k++)
         {
             sprite.LayerSetVisible(layersQuantity - k - 1, false);
         }
     }
 
-    private void OnStackUpdate(EntityUid uid, CardDeckComponent comp, CardStackComponent.CardStackUpdatedEvent args)
+    private void OnStackUpdate(EntityUid uid, CardDeckComponent comp, CardStackQuantityChangeEvent args)
+    {
+        UpdateSprite(uid, comp);
+    }
+
+    private void OnStackFlip(EntityUid uid, CardDeckComponent comp, CardStackFlippedEvent args)
+    {
+        UpdateSprite(uid, comp);
+    }
+
+    private void OnReorder(EntityUid uid, CardDeckComponent comp, CardStackReorderedEvent args)
     {
         UpdateSprite(uid, comp);
     }
@@ -131,7 +143,7 @@ public sealed class CardDeckSystem : EntitySystem
         UpdateSprite(uid, comp);
     }
 
-    private void OnStackStart(CardStackComponent.CardStackInitiatedEvent args)
+    private void OnStackStart(CardStackInitiatedEvent args)
     {
         var entity = GetEntity(args.CardStack);
         if (!TryComp(entity, out CardDeckComponent? comp))

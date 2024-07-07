@@ -12,7 +12,7 @@ public sealed class CardSystem : EntitySystem
     public override void Initialize()
     {
         SubscribeLocalEvent<CardComponent, ComponentStartup>(OnComponentStartupEvent);
-        SubscribeLocalEvent<CardComponent, CardComponent.CardFlipUpdatedEvent>(onFlip);
+        SubscribeNetworkEvent<CardFlipUpdatedEvent>(OnFlip);
     }
 
     private void OnComponentStartupEvent(EntityUid uid, CardComponent comp, ComponentStartup args)
@@ -28,9 +28,11 @@ public sealed class CardSystem : EntitySystem
         UpdateSprite(uid, comp);
     }
 
-    private void onFlip(EntityUid uid, CardComponent comp, CardComponent.CardFlipUpdatedEvent args)
+    private void OnFlip(CardFlipUpdatedEvent args)
     {
-        UpdateSprite(uid, comp);
+        if (!TryComp(GetEntity(args.Card), out CardComponent? comp))
+            return;
+        UpdateSprite(GetEntity(args.Card), comp);
     }
 
     private void UpdateSprite(EntityUid uid, CardComponent comp)

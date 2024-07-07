@@ -2,6 +2,7 @@ using Content.Shared.Examine;
 using Content.Shared.Interaction;
 using Content.Shared.Interaction.Events;
 using Content.Shared.Verbs;
+using Robust.Shared.Network;
 using Robust.Shared.Utility;
 
 namespace Content.Shared._EstacaoPirata.Cards.Card;
@@ -11,6 +12,8 @@ namespace Content.Shared._EstacaoPirata.Cards.Card;
 /// </summary>
 public sealed class CardSystem : EntitySystem
 {
+    [Dependency] private readonly INetManager _net = default!;
+
     /// <inheritdoc/>
     public override void Initialize()
     {
@@ -51,10 +54,18 @@ public sealed class CardSystem : EntitySystem
         args.Handled = true;
     }
 
+
+    /// <summary>
+    /// Server-Side only method to flip card. This starts CardFlipUpdatedEvent event
+    /// </summary>
+    /// <param name="uid"></param>
+    /// <param name="component"></param>
     private void FlipCard(EntityUid uid, CardComponent component)
     {
+        if (_net.IsClient)
+            return;
         component.Flipped = !component.Flipped;
         Dirty(uid, component);
-        RaiseLocalEvent(uid, new CardComponent.CardFlipUpdatedEvent());
+        RaiseNetworkEvent(new CardFlipUpdatedEvent(GetNetEntity(uid)));
     }
 }

@@ -28,7 +28,6 @@ public sealed class CardDeckSystem : EntitySystem
     public override void Initialize()
     {
         SubscribeLocalEvent<CardDeckComponent, InteractHandEvent>(OnInteractHand);
-        SubscribeLocalEvent<CardDeckComponent, CardStackComponent.CardStackCardAddedEvent>(OnCardAdded);
         SubscribeLocalEvent<CardDeckComponent, GetVerbsEvent<AlternativeVerb>>(AddTurnOnVerb);
     }
 
@@ -77,9 +76,9 @@ public sealed class CardDeckSystem : EntitySystem
 
     private void TryOrganize(EntityUid deck, CardDeckComponent comp, CardStackComponent? stack, bool isFlipped)
     {
-        _cardStackSystem.FlipAllCards(deck, stack, direction: isFlipped);
         if (_net.IsClient)
             return;
+        _cardStackSystem.FlipAllCards(deck, stack, isFlipped: isFlipped);
 
         _audio.PlayPvs(comp.ShuffleSound, deck, AudioHelpers.WithVariation(0.05f, _random));
         _popup.PopupEntity(Loc.GetString("card-verb-organize-success", ("target", MetaData(deck).EntityName)), deck);
@@ -110,11 +109,6 @@ public sealed class CardDeckSystem : EntitySystem
 
 
         args.Handled = true;
-    }
-    private void OnCardAdded(EntityUid uid, CardDeckComponent component, CardStackComponent.CardStackCardAddedEvent args)
-    {
-        if (_net.IsServer)
-            _audio.PlayPvs(component.PlaceDownSound, uid, AudioHelpers.WithVariation(0.05f, _random));
     }
 
 
