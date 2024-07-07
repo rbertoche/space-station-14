@@ -5,12 +5,13 @@ using Robust.Shared.Containers;
 using Robust.Shared.Network;
 using Robust.Shared.Random;
 
-namespace Content.Shared._EstacaoPirata.Stack.Cards;
+namespace Content.Shared._EstacaoPirata.Cards.Stack;
 
 /// <summary>
-/// This handles...
+/// This handles stack of cards.
+/// It is used to shuffle, flip, insert, remove, and join stacks of cards.
+/// It also handles the events related to the stack of cards.
 /// </summary>
-///
 public sealed class CardStackSystem : EntitySystem
 {
     public const string ContainerId = "cardstack-container";
@@ -39,7 +40,7 @@ public sealed class CardStackSystem : EntitySystem
         if (!Resolve(uid, ref comp))
             return false;
 
-        if (!TryComp(card, out CardComponent? cardComponent))
+        if (!TryComp(card, out CardComponent? _))
             return false;
 
         _container.Remove(card, comp.ItemContainer);
@@ -52,7 +53,8 @@ public sealed class CardStackSystem : EntitySystem
         {
             _entityManager.DeleteEntity(uid);
         }
-        RaiseLocalEvent(uid, new CardStackQuantityChangeEvent{Card = card, Type = StackQuantityChangeType.Removed});
+        RaiseLocalEvent(uid, new CardStackQuantityChangeEvent(GetNetEntity(uid), GetNetEntity(card), StackQuantityChangeType.Removed));
+        RaiseNetworkEvent(new CardStackQuantityChangeEvent(GetNetEntity(uid), GetNetEntity(card), StackQuantityChangeType.Removed));
         return true;
     }
 
@@ -61,14 +63,15 @@ public sealed class CardStackSystem : EntitySystem
         if (!Resolve(uid, ref comp))
             return false;
 
-        if (!TryComp(card, out CardComponent? cardComponent))
+        if (!TryComp(card, out CardComponent? _))
             return false;
 
         _container.Insert(card, comp.ItemContainer);
         comp.Cards.Add(card);
 
         Dirty(uid, comp);
-        RaiseLocalEvent(uid, new CardStackQuantityChangeEvent{Card = card, Type = StackQuantityChangeType.Added});
+        RaiseLocalEvent(uid, new CardStackQuantityChangeEvent(GetNetEntity(uid), GetNetEntity(card), StackQuantityChangeType.Added));
+        RaiseNetworkEvent(new CardStackQuantityChangeEvent(GetNetEntity(uid), GetNetEntity(card), StackQuantityChangeType.Added));
         return true;
     }
 
@@ -80,7 +83,8 @@ public sealed class CardStackSystem : EntitySystem
         _random.Shuffle(comp.Cards);
 
         Dirty(uid, comp);
-        RaiseLocalEvent(uid, new CardStackReorderedEvent());
+        RaiseLocalEvent(uid, new CardStackReorderedEvent(GetNetEntity(uid)));
+        RaiseNetworkEvent(new CardStackReorderedEvent(GetNetEntity(uid)));
         return true;
     }
 
@@ -130,7 +134,8 @@ public sealed class CardStackSystem : EntitySystem
 
         _entityManager.DeleteEntity(secondStack);
 
-        RaiseLocalEvent(firstStack, new CardStackQuantityChangeEvent{Card = firstStack, Type = StackQuantityChangeType.Added});
+        RaiseLocalEvent(firstStack, new CardStackQuantityChangeEvent(GetNetEntity(firstStack), null, StackQuantityChangeType.Joined) );
+        RaiseNetworkEvent(new CardStackQuantityChangeEvent(GetNetEntity(firstStack), null, StackQuantityChangeType.Joined));
         return true;
     }
 
@@ -180,7 +185,7 @@ public sealed class CardStackSystem : EntitySystem
         if (TryComp(args.Used, out CardStackComponent? usedStack))
         {
             // If the target is a card, then it will insert the card into the stack
-            if (TryComp(args.Target, out CardComponent? card))
+            if (TryComp(args.Target, out CardComponent? _))
             {
                 TryInsertCard(args.Used, args.Target);
                 args.Handled = true;
@@ -195,9 +200,9 @@ public sealed class CardStackSystem : EntitySystem
         }
 
         // This handles the reverse case, where the user is using a card and inserting it to a stack
-        else if (TryComp(args.Target, out CardStackComponent? targetStack))
+        else if (TryComp(args.Target, out CardStackComponent? _))
         {
-            if (TryComp(args.Used, out CardComponent? card))
+            if (TryComp(args.Used, out CardComponent? _))
             {
                 TryInsertCard(args.Target, args.Used);
                 args.Handled = true;

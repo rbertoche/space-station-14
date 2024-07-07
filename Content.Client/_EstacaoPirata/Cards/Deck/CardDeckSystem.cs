@@ -1,7 +1,7 @@
 using System.Linq;
 using System.Numerics;
 using Content.Shared._EstacaoPirata.Cards.Deck;
-using Content.Shared._EstacaoPirata.Stack.Cards;
+using Content.Shared._EstacaoPirata.Cards.Stack;
 using Robust.Client.GameObjects;
 
 namespace Content.Client._EstacaoPirata.Cards.Deck;
@@ -11,18 +11,18 @@ namespace Content.Client._EstacaoPirata.Cards.Deck;
 /// </summary>
 public sealed class CardDeckSystem : EntitySystem
 {
-    private readonly List<Entity<CardDeckComponent>> _notInitialized = [];
+    private readonly Dictionary<Entity<CardDeckComponent>, int> _notInitialized = [];
 
 
     /// <inheritdoc/>
     public override void Initialize()
     {
         UpdatesOutsidePrediction = false;
+        SubscribeLocalEvent<CardDeckComponent, ComponentStartup>(OnComponentStartupEvent);
         SubscribeNetworkEvent<CardStackInitiatedEvent>(OnStackStart);
-        //SubscribeLocalEvent<CardDeckComponent, ComponentStartup>(OnComponentStartupEvent);
-        SubscribeLocalEvent<CardDeckComponent, CardStackQuantityChangeEvent>(OnStackUpdate);
-        SubscribeLocalEvent<CardDeckComponent, CardStackFlippedEvent>(OnStackFlip);
-        SubscribeLocalEvent<CardDeckComponent, CardStackReorderedEvent>(OnReorder);
+        SubscribeNetworkEvent<CardStackQuantityChangeEvent>(OnStackUpdate);
+        SubscribeNetworkEvent<CardStackReorderedEvent>(OnReorder);
+        SubscribeNetworkEvent<CardStackFlippedEvent>(OnStackFlip);
         SubscribeLocalEvent<CardDeckComponent, AppearanceChangeEvent>(OnAppearanceChanged);
     }
 
@@ -31,10 +31,21 @@ public sealed class CardDeckSystem : EntitySystem
         base.Update(frameTime);
 
         // Lazy way to make sure the sprite starts correctly
-        foreach (var ent in _notInitialized.ToList())
+        foreach (var kv in _notInitialized)
         {
-            if (!TryComp(ent.Owner, out CardStackComponent? stack))
+            var ent = kv.Key;
+
+            if (kv.Value >= 5)
+            {
+                _notInitialized.Remove(ent);
                 continue;
+            }
+
+            _notInitialized[ent] = kv.Value + 1;
+
+            if (!TryComp(ent.Owner, out CardStackComponent? stack) || stack.Cards.Count <= 0)
+                continue;
+
 
             // If the card was STILL not initialized, we skip it
             if (!TryGetCardLayer(stack.Cards.Last(), out var _))
@@ -45,6 +56,12 @@ public sealed class CardDeckSystem : EntitySystem
             _notInitialized.Remove(ent);
         }
 
+    }
+
+    private void OnComponentStartupEvent(EntityUid uid, CardDeckComponent comp, ComponentStartup args)
+    {
+
+        UpdateSprite(uid, comp);
     }
 
     // This is executed only if there are no available layers to work with
@@ -80,6 +97,15 @@ public sealed class CardDeckSystem : EntitySystem
         if (!TryComp(uid, out CardStackComponent? cardStack))
             return;
 
+
+        // Prevents error appearing at spawnMenu
+        if (cardStack.Cards.Count <= 0 || !TryGetCardLayer(cardStack.Cards.Last(), out var cardlayer) ||
+            cardlayer == null)
+        {
+            _notInitialized[(uid, comp)] = 0;
+            return;
+        }
+
         // This sets up the layers if they are not initialized
         if (sprite.AllLayers.Count() < comp.CardLimit)
         {
@@ -97,12 +123,7 @@ public sealed class CardDeckSystem : EntitySystem
         foreach (var card in cardStack.Cards.TakeLast(comp.CardLimit))
         {
             if (!TryGetCardLayer(card, out var layer) || layer == null)
-            {
-                // This means that the card was not initialized yet, so we add it to the following List:
-                _notInitialized.Add((uid, comp));
                 return;
-            }
-
             sprite.LayerSetTexture(j, layer.Texture);
             sprite.LayerSetState(j, layer.State);
             sprite.LayerSetRotation(j, Angle.FromDegrees(90));
@@ -123,19 +144,25 @@ public sealed class CardDeckSystem : EntitySystem
         }
     }
 
-    private void OnStackUpdate(EntityUid uid, CardDeckComponent comp, CardStackQuantityChangeEvent args)
+    private void OnStackUpdate(CardStackQuantityChangeEvent args)
     {
-        UpdateSprite(uid, comp);
+        if (!TryComp(GetEntity(args.Stack), out CardDeckComponent? comp))
+            return;
+        UpdateSprite(GetEntity(args.Stack), comp);
     }
 
-    private void OnStackFlip(EntityUid uid, CardDeckComponent comp, CardStackFlippedEvent args)
+    private void OnStackFlip(CardStackFlippedEvent args)
     {
-        UpdateSprite(uid, comp);
+        if (!TryComp(GetEntity(args.CardStack), out CardDeckComponent? comp))
+            return;
+        UpdateSprite(GetEntity(args.CardStack), comp);
     }
 
-    private void OnReorder(EntityUid uid, CardDeckComponent comp, CardStackReorderedEvent args)
+    private void OnReorder(CardStackReorderedEvent args)
     {
-        UpdateSprite(uid, comp);
+        if (!TryComp(GetEntity(args.Stack), out CardDeckComponent? comp))
+            return;
+        UpdateSprite(GetEntity(args.Stack), comp);
     }
 
     private void OnAppearanceChanged(EntityUid uid, CardDeckComponent comp, AppearanceChangeEvent args)

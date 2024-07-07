@@ -1,4 +1,4 @@
-using Content.Shared._EstacaoPirata.Stack.Cards;
+using Content.Shared._EstacaoPirata.Cards.Stack;
 using Content.Shared.Audio;
 using Content.Shared.Hands.EntitySystems;
 using Content.Shared.Interaction;
@@ -12,7 +12,8 @@ using Robust.Shared.Utility;
 namespace Content.Shared._EstacaoPirata.Cards.Deck;
 
 /// <summary>
-/// This handles...
+/// This handles card decks
+///
 /// </summary>
 public sealed class CardDeckSystem : EntitySystem
 {

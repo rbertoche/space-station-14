@@ -3,7 +3,7 @@ using Robust.Shared.GameStates;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization;
 
-namespace Content.Shared._EstacaoPirata.Stack.Cards;
+namespace Content.Shared._EstacaoPirata.Cards.Stack;
 
 /// <summary>
 /// This is used for holding the prototype ids of the cards in the stack or hand.
@@ -14,6 +14,7 @@ public sealed partial class CardStackComponent : Component
 {
     [DataField("content")]
     public List<EntProtoId> InitialContent = [];
+
 
     /// <summary>
     /// The containers that contain the items held in the stack
@@ -37,24 +38,28 @@ public sealed class CardStackInitiatedEvent(NetEntity cardStack, CardStackCompon
 /// <summary>
 /// This gets Updated when new cards are added or removed from the stack
 /// </summary>
-
-public sealed class CardStackQuantityChangeEvent : EntityEventArgs
+[Serializable, NetSerializable]
+public sealed class CardStackQuantityChangeEvent(NetEntity stack, NetEntity? card, StackQuantityChangeType type) : EntityEventArgs
 {
-    public StackQuantityChangeType Type;
-    public EntityUid Card;
+    public NetEntity Stack = stack;
+    public NetEntity? Card = card;
+    public StackQuantityChangeType Type = type;
 }
 
-public enum StackQuantityChangeType
+[Serializable, NetSerializable]
+public enum StackQuantityChangeType: sbyte
 {
     Added,
-    Removed
+    Removed,
+    Joined
 }
 
 
 
-
-public sealed class CardStackReorderedEvent : EntityEventArgs
+[Serializable, NetSerializable]
+public sealed class CardStackReorderedEvent(NetEntity stack) : EntityEventArgs
 {
+    public NetEntity Stack = stack;
 }
 
 [Serializable, NetSerializable]

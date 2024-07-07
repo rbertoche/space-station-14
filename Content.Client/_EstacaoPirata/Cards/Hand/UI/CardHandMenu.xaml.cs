@@ -7,7 +7,7 @@ using Robust.Client.UserInterface.Controls;
 using Robust.Client.UserInterface.XAML;
 using System.Numerics;
 using Content.Shared._EstacaoPirata.Cards.Card;
-using Content.Shared._EstacaoPirata.Stack.Cards;
+using Content.Shared._EstacaoPirata.Cards.Stack;
 
 namespace Content.Client._EstacaoPirata.Cards.Hand.UI;
 
