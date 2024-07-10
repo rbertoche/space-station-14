@@ -1,5 +1,6 @@
 using Content.Shared._EstacaoPirata.Cards.Card;
 using Robust.Client.GameObjects;
+using Robust.Shared.GameObjects;
 
 namespace Content.Client._EstacaoPirata.Cards.Card;
 

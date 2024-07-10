@@ -1,8 +1,11 @@
+using System.Collections.Generic;
 using System.Linq;
 using System.Numerics;
 using Content.Shared._EstacaoPirata.Cards.Deck;
 using Content.Shared._EstacaoPirata.Cards.Stack;
 using Robust.Client.GameObjects;
+using Robust.Shared.GameObjects;
+using Robust.Shared.Maths;
 
 namespace Content.Client._EstacaoPirata.Cards.Deck;
 

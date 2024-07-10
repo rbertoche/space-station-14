@@ -1,3 +1,4 @@
+using Robust.Shared.Audio;
 using Robust.Shared.Containers;
 using Robust.Shared.GameStates;
 using Robust.Shared.Prototypes;
@@ -14,6 +15,15 @@ public sealed partial class CardStackComponent : Component
 {
     [DataField("content")]
     public List<EntProtoId> InitialContent = [];
+
+    [DataField("shuffleSound")]
+    public SoundSpecifier ShuffleSound = new SoundCollectionSpecifier("cardFan");
+
+    [DataField("pickUpSound")]
+    public SoundSpecifier PickUpSound =  new SoundCollectionSpecifier("cardSlide");
+
+    [DataField("placeDownSound")]
+    public SoundSpecifier PlaceDownSound =   new SoundCollectionSpecifier("cardShove");
 
 
     /// <summary>

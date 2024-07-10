@@ -105,9 +105,7 @@ public sealed class CardDeckSystem : EntitySystem
 
         _hands.TryPickupAnyHand(args.User, card);
 
-        if (_net.IsServer)
-            _audio.PlayPvs(component.PickUpSound, uid, AudioHelpers.WithVariation(0.05f, _random));
-
+        _audio.PlayPredicted(component.PickUpSound, Transform(uid).Coordinates, args.User);
 
         args.Handled = true;
     }
