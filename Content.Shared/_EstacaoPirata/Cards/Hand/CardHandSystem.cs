@@ -1,6 +1,7 @@
 using System.Linq;
 using Content.Shared._EstacaoPirata.Cards.Card;
 using Content.Shared._EstacaoPirata.Cards.Stack;
+using Content.Shared.Hands.Components;
 using Content.Shared.Hands.EntitySystems;
 using Content.Shared.Interaction;
 using Robust.Shared.Network;
@@ -17,7 +18,6 @@ public sealed class CardHandSystem : EntitySystem
     [Dependency] private readonly CardStackSystem _cardStack = default!;
     [Dependency] private readonly SharedHandsSystem _hands = default!;
     [Dependency] private readonly INetManager _net = default!;
-    [Dependency] private readonly CardStackSystem _cardStackSystem = default!;
 
 
     /// <inheritdoc/>
@@ -35,14 +35,14 @@ public sealed class CardHandSystem : EntitySystem
             return;
         if (!TryComp(uid, out CardStackComponent? stack))
             return;
-        _cardStackSystem.FlipAllCards(uid, stack, false);
+        _cardStack.FlipAllCards(uid, stack, false);
     }
 
     private void OnCardDraw(EntityUid uid, CardHandComponent comp, CardHandDrawMessage args)
     {
         if (!TryComp(uid, out CardStackComponent? stack))
             return;
-        if (!_cardStackSystem.TryRemoveCard(uid, GetEntity(args.Card), stack))
+        if (!_cardStack.TryRemoveCard(uid, GetEntity(args.Card), stack))
             return;
 
         _hands.TryPickupAnyHand(args.Actor, GetEntity(args.Card));
@@ -51,11 +51,12 @@ public sealed class CardHandSystem : EntitySystem
         if (stack.Cards.Count != 1)
             return;
         var lastCard = stack.Cards.Last();
-        if (!_cardStackSystem.TryRemoveCard(uid, lastCard, stack))
+        if (!_cardStack.TryRemoveCard(uid, lastCard, stack))
             return;
         _hands.TryPickupAnyHand(args.Actor, lastCard);
 
     }
+
 
     private void OnInteractUsing(EntityUid uid, CardComponent comp, InteractUsingEvent args)
     {
@@ -76,7 +77,7 @@ public sealed class CardHandSystem : EntitySystem
             return;
         if (!_hands.TryPickupAnyHand(user, cardHand))
             return;
-        _cardStackSystem.FlipAllCards(cardHand, stack, false);
+        _cardStack.FlipAllCards(cardHand, stack, false);
 
     }
 }

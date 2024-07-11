@@ -1,7 +1,13 @@
 card-examined = Essa é uma {$target}.
 cards-verb-shuffle = Embaralhar
 card-verb-shuffle-success = Cartas embaralhadas
-cards-verb-flip = Virar
+cards-verb-flip = Virar cartas
+card-verb-join = Juntar cartas
+card-verb-organize-success = Cartas embaralhadas
+card-verb-organize = Organizar cartas
+cards-verb-organize-up = Organizar Cartas viradas para cima
+cards-verb-organize-down = Organizar Cartas viradas para baixo
+
 ent-CardBase = Carta
 ent-CardDeck = Pilha de cartas
 

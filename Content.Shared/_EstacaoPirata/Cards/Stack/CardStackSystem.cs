@@ -267,6 +267,8 @@ public sealed class CardStackSystem : EntitySystem
                 return;
 
             TransferOneCardFromStacks(args.User, args.Target, targetStack, args.Used, usedStack);
+            args.Handled = true;
+
         }
 
         // This handles the reverse case, where the user is using a card and inserting it to a stack
@@ -275,11 +277,11 @@ public sealed class CardStackSystem : EntitySystem
             if (TryComp(args.Used, out CardComponent? _))
             {
                 InsertCardOnStack(args.User, args.Target, stack, args.Used);
+                args.Handled = true;
             }
         }
 
 
-        args.Handled = true;
     }
 
 

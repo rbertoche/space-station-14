@@ -1,7 +1,14 @@
 card-examined = This is a {$target}.
 cards-verb-shuffle = Shuffle
 card-verb-shuffle-success = Cards shuffled
-cards-verb-flip = Flip
+cards-verb-flip = Flip Cards
+card-verb-join = Join Cards
+card-verb-organize-success = Cards shuffled
+card-verb-organize = Organize Cards
+cards-verb-organize-up = Organize Cards facing up
+cards-verb-organize-down = Organize Cards facing down
+
+
 card-base-name = Card
 card-deck-name = Deck of cards
 
