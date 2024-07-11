@@ -7,7 +7,7 @@ card-verb-organize-success = Cards shuffled
 card-verb-organize = Organize Cards
 cards-verb-organize-up = Organize Cards facing up
 cards-verb-organize-down = Organize Cards facing down
-
+cards-verb-pickcard = Pick a card
 
 card-base-name = Card
 card-deck-name = Deck of cards

@@ -7,6 +7,7 @@ card-verb-organize-success = Cartas embaralhadas
 card-verb-organize = Organizar cartas
 cards-verb-organize-up = Organizar Cartas viradas para cima
 cards-verb-organize-down = Organizar Cartas viradas para baixo
+cards-verb-pickcard = Pegar carta
 
 ent-CardBase = Carta
 ent-CardDeck = Pilha de cartas

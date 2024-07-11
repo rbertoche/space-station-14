@@ -128,6 +128,8 @@ public sealed class CardStackSystem : EntitySystem
 
     public bool TryJoinStacks(EntityUid firstStack, EntityUid secondStack, CardStackComponent? firstComp = null, CardStackComponent? secondComp = null)
     {
+        if (firstStack == secondStack)
+            return false;
         if (!Resolve(firstStack, ref firstComp) || !Resolve(secondStack, ref secondComp))
             return false;
 
@@ -187,6 +189,9 @@ public sealed class CardStackSystem : EntitySystem
             !TryComp(args.Target, out CardStackComponent? targetStack))
             return;
 
+        if (args.Using == args.Target)
+            return;
+
         args.Verbs.Add(new AlternativeVerb()
         {
             Text = "card-verb-join",
@@ -194,6 +199,7 @@ public sealed class CardStackSystem : EntitySystem
             Priority = 8,
             Act = () => JoinStacks(args.User, args.Target, targetStack, (EntityUid)args.Using, usingStack)
         });
+
      }
 
     private void JoinStacks(EntityUid user, EntityUid first, CardStackComponent firstComp, EntityUid second, CardStackComponent secondComp)

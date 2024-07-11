@@ -1,11 +1,15 @@
 using System;
 using System.Linq;
 using System.Numerics;
+using Content.Client._EstacaoPirata.Cards.Hand.UI;
 using Content.Shared._EstacaoPirata.Cards.Hand;
 using Content.Shared._EstacaoPirata.Cards.Stack;
+using Content.Shared.Verbs;
 using Robust.Client.GameObjects;
 using Robust.Shared.GameObjects;
 using Robust.Shared.Maths;
+using Robust.Shared.Player;
+using Robust.Shared.Utility;
 
 namespace Content.Client._EstacaoPirata.Cards.Hand;
 
@@ -14,12 +18,15 @@ namespace Content.Client._EstacaoPirata.Cards.Hand;
 /// </summary>
 public sealed class CardHandSystem : EntitySystem
 {
+
+
     /// <inheritdoc/>
     public override void Initialize()
     {
         SubscribeLocalEvent<CardHandComponent, ComponentStartup>(OnComponentStartupEvent);
         SubscribeNetworkEvent<CardStackInitiatedEvent>(OnStackStart);
         SubscribeNetworkEvent<CardStackQuantityChangeEvent>(OnStackUpdate);
+
     }
 
     private void UpdateSprite(EntityUid uid, CardHandComponent comp)
@@ -85,7 +92,6 @@ public sealed class CardHandSystem : EntitySystem
         layer = l;
         return true;
     }
-
 
     private void OnStackUpdate(CardStackQuantityChangeEvent args)
     {
