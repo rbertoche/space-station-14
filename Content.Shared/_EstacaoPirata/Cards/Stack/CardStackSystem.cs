@@ -1,5 +1,6 @@
 using System.Linq;
 using Content.Shared._EstacaoPirata.Cards.Card;
+using Content.Shared.Examine;
 using Content.Shared.Interaction;
 using Content.Shared.Storage.EntitySystems;
 using Content.Shared.Verbs;
@@ -35,8 +36,8 @@ public sealed class CardStackSystem : EntitySystem
         SubscribeLocalEvent<CardStackComponent, ComponentStartup>(OnStartup);
         SubscribeLocalEvent<CardStackComponent, MapInitEvent>(OnMapInit);
         SubscribeLocalEvent<CardStackComponent, EntRemovedFromContainerMessage>(OnEntRemoved);
-
         SubscribeLocalEvent<CardStackComponent, GetVerbsEvent<AlternativeVerb>>(OnAlternativeVerb);
+        SubscribeLocalEvent<CardStackComponent, ExaminedEvent>(OnExamine);
         SubscribeLocalEvent<InteractUsingEvent>(OnInteractUsing);
     }
 
@@ -165,12 +166,10 @@ public sealed class CardStackSystem : EntitySystem
         foreach (var id in comp.InitialContent)
         {
             var ent = Spawn(id, coordinates);
-            if (!TryInsertCard(uid, ent, comp))
-            {
-                Log.Error($"Entity {ToPrettyString(ent)} was unable to be initialized into stack {ToPrettyString(uid)}");
-                return;
-            }
-            comp.Cards.Add(ent);
+            if (TryInsertCard(uid, ent, comp))
+                continue;
+            Log.Error($"Entity {ToPrettyString(ent)} was unable to be initialized into stack {ToPrettyString(uid)}");
+            return;
         }
         RaiseNetworkEvent(new CardStackInitiatedEvent(GetNetEntity(uid), comp));
     }
@@ -180,6 +179,11 @@ public sealed class CardStackSystem : EntitySystem
     private void OnEntRemoved(EntityUid uid, CardStackComponent component, EntRemovedFromContainerMessage args)
     {
         component.Cards.Remove(args.Entity);
+    }
+
+    private void OnExamine(EntityUid uid, CardStackComponent component, ExaminedEvent args)
+    {
+        args.PushText(Loc.GetString("card-stack-examine", ("count", component.Cards.Count)));
     }
 
 

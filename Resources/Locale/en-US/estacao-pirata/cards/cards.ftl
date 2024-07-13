@@ -8,6 +8,9 @@ card-verb-organize = Organize Cards
 cards-verb-organize-up = Organize Cards facing up
 cards-verb-organize-down = Organize Cards facing down
 cards-verb-pickcard = Pick a card
+card-stack-examine = There are {$count} cards in this stack.
+cards-stackquantitychange-added = Card was added (Total of cards: {$quantity})
+cards-stackquantitychange-removed = Card was removed (Total of cards: {$quantity})
 
 card-base-name = Card
 card-deck-name = Deck of cards

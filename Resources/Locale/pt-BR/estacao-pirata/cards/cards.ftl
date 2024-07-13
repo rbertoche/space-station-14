@@ -8,6 +8,9 @@ card-verb-organize = Organizar cartas
 cards-verb-organize-up = Organizar Cartas viradas para cima
 cards-verb-organize-down = Organizar Cartas viradas para baixo
 cards-verb-pickcard = Pegar carta
+card-stack-examine = Este conjunto tem {$count} cartas.
+cards-stackquantitychange-added = Carta foi adicionada (Total de cartas: {$quantity})
+cards-stackquantitychange-removed = Carta foi removida (Total de cartas: {$quantity})
 
 ent-CardBase = Carta
 ent-CardDeck = Pilha de cartas
@@ -67,3 +70,5 @@ card-sc-ace-spades-black = carta de Ás de Espadas Preta
 card-sc-jack-spades-black = carta de Valete de Espadas Preta
 card-sc-king-spades-black = carta de Rei de Espadas Preta
 card-sc-queen-spades-black = carta de Rainha de Espadas Preta
+
+card-sc-joker-black = carta de Coringa Preta

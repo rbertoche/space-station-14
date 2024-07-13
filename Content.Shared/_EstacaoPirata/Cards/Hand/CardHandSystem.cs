@@ -3,6 +3,7 @@ using Content.Shared._EstacaoPirata.Cards.Card;
 using Content.Shared._EstacaoPirata.Cards.Stack;
 using Content.Shared.Hands.EntitySystems;
 using Content.Shared.Interaction;
+using Content.Shared.Popups;
 using Content.Shared.Verbs;
 using Robust.Shared.Network;
 using Robust.Shared.Player;
@@ -21,6 +22,8 @@ public sealed class CardHandSystem : EntitySystem
     [Dependency] private readonly SharedHandsSystem _hands = default!;
     [Dependency] private readonly INetManager _net = default!;
     [Dependency] private readonly SharedUserInterfaceSystem _ui = default!;
+    [Dependency] private readonly SharedPopupSystem _popupSystem = default!;
+
 
 
 
@@ -37,8 +40,19 @@ public sealed class CardHandSystem : EntitySystem
     {
         if (_net.IsClient)
             return;
+
         if (!TryComp(uid, out CardStackComponent? stack))
             return;
+
+        var text = args.Type switch
+        {
+            StackQuantityChangeType.Added => "cards-stackquantitychange-added",
+            StackQuantityChangeType.Removed => "cards-stackquantitychange-removed",
+            _ => "cards-stackquantitychange-unknown"
+        };
+
+        _popupSystem.PopupEntity(Loc.GetString(text, ("quantity", stack.Cards.Count)), uid);
+
         _cardStack.FlipAllCards(uid, stack, false);
     }
 
@@ -101,6 +115,10 @@ public sealed class CardHandSystem : EntitySystem
         if (!_hands.TryPickupAnyHand(user, cardHand))
             return;
         _cardStack.FlipAllCards(cardHand, stack, false);
-
     }
+
+
+
+
+
 }
