@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "copyright": "Sprites from Paradise Station (https://github.com/ParadiseSS13/Paradise)",
+  "copyright": "Cards, Decks and Hands Sprites were originally from Paradise Station (https://github.com/ParadiseSS13/Paradise) and modified by VictorJob. Boxes are from VictorJob.",
   "license": "CC-BY-SA-3.0",
   "size": {
     "x": 32,
@@ -564,6 +564,51 @@
     },
     {
       "name": "syndicate_hand5"
+    },
+    {
+      "name": "syndicate_joker",
+      "delays": [
+        [
+          0.5,
+          0.5
+        ]
+      ]
+    },
+    {
+      "name": "nanotrasen_joker",
+      "delays": [
+        [
+          0.5,
+          0.5
+        ]
+      ]
+    },
+    {
+          "name": "black_joker",
+          "delays": [
+              [
+                  0.5,
+                  0.5
+              ]
+          ]
+    },
+    {
+      "name": "syndicate_box"
+    },
+    {
+        "name": "syndicate_box_open"
+    },
+    {
+        "name": "black_box"
+    },
+    {
+        "name": "black_box_open"
+    },
+    {
+        "name": "nanotrasen_box"
+    },
+        {
+        "name": "nanotrasen_box_open"
     }
   ]
 }

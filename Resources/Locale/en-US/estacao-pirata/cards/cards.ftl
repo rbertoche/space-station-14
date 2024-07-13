@@ -67,3 +67,5 @@ card-sc-ace-spades-black = Ace of Spades Black card
 card-sc-jack-spades-black = Jack of Spades Black card
 card-sc-king-spades-black = King of Spades Black card
 card-sc-queen-spades-black = Queen of Spades Black card
+
+card-sc-joker-black = Joker Black card

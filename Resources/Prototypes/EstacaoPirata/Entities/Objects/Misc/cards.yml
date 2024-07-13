@@ -97,6 +97,8 @@
     - CardScKingOfSpadesBlack
     - CardScQueenOfSpadesBlack
     - CardScJackOfSpadesBlack
+    # Joker
+    - CardScJokerBlack
 
 - type: entity
   parent: BaseItem
@@ -697,3 +699,14 @@
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: sc_Ace of Spades_black
+
+- type: entity
+  parent: CardBase
+  noSpawn: true
+  id: CardScJokerBlack
+  components:
+  - type: Card
+    name: card-sc-joker-black
+  - type: Sprite
+    sprite: EstacaoPirata/Objects/Misc/cards.rsi
+    state: black_joker
