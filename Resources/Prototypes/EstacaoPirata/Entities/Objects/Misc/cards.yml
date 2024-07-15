@@ -1,6 +1,37 @@
 - type: entity
+  parent: [ BoxCardboard, BaseBagOpenClose ]
+  id: CardBoxBase
+  name: Card Box
+  noSpawn: true
+  components:
+  - type: Item
+    size: Small
+  - type: Sprite
+    sprite: EstacaoPirata/Objects/Misc/cards.rsi
+    state: box
+    layers:
+    - state: black_box
+    - state: black_box_open
+      map: [ "openLayer" ]
+      visible: false
+  - type: Storage
+    maxItemSize: Normal
+    grid:
+    - 0,0,1,1
+    whitelist:
+      components:
+      - CardDeck
+  - type: OpenTriggeredStorageFill
+    contents:
+    - id: CardDeckBase
+      amount: 1
+  - type: Appearance
+
+
+- type: entity
   parent: BaseItem
   id: CardHandBase
+  noSpawn: true
   name: Card hand
   components:
   - type: Item
@@ -27,9 +58,30 @@
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
     state: deck_black_full
   - type: Item
-    size: Small
+    size: Normal
   - type: CardDeck
   - type: CardStack
+
+
+- type: entity
+  parent: CardBoxBase
+  id: CardBoxBlack
+  name: black deck case
+  components:
+  - type: Item
+    size: Small
+  - type: Sprite
+    sprite: EstacaoPirata/Objects/Misc/cards.rsi
+    state: box
+    layers:
+    - state: black_box
+    - state: black_box_open
+      map: [ "openLayer" ]
+      visible: false
+  - type: OpenTriggeredStorageFill
+    contents:
+    - id: CardDeckBlack
+      amount: 1
 
 - type: entity
   parent: CardDeckBase
