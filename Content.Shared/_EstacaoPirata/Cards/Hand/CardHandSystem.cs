@@ -98,7 +98,7 @@ public sealed class CardHandSystem : EntitySystem
         {
             Act = () => ConvertToDeck(args.User, uid),
             Text = Loc.GetString("cards-verb-convert-to-deck"),
-            Icon = new SpriteSpecifier.Texture(new("/Textures/Interface/VerbIcons/die.svg.192dpi.png")),
+            Icon = new SpriteSpecifier.Texture(new("/Textures/Interface/VerbIcons/rotate_cw.svg.192dpi.png")),
             Priority = 2
         });
     }
