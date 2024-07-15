@@ -17,6 +17,7 @@ namespace Content.Shared._EstacaoPirata.Cards.Hand;
 public sealed class CardHandSystem : EntitySystem
 {
     const string CardHandBaseName = "CardHandBase";
+    const string CardDeckBaseName = "CardDeckBase";
 
     [Dependency] private readonly CardStackSystem _cardStack = default!;
     [Dependency] private readonly SharedHandsSystem _hands = default!;
@@ -93,6 +94,13 @@ public sealed class CardHandSystem : EntitySystem
             Icon = new SpriteSpecifier.Texture(new("/Textures/Interface/VerbIcons/die.svg.192dpi.png")),
             Priority = 3
         });
+        args.Verbs.Add(new AlternativeVerb()
+        {
+            Act = () => ConvertToDeck(args.User, uid),
+            Text = Loc.GetString("cards-verb-convert-to-deck"),
+            Icon = new SpriteSpecifier.Texture(new("/Textures/Interface/VerbIcons/die.svg.192dpi.png")),
+            Priority = 2
+        });
     }
 
     private void OnInteractUsing(EntityUid uid, CardComponent comp, InteractUsingEvent args)
@@ -103,6 +111,23 @@ public sealed class CardHandSystem : EntitySystem
         }
     }
 
+    private void ConvertToDeck(EntityUid user, EntityUid hand)
+    {
+        if (_net.IsClient)
+            return;
+
+        var cardDeck = Spawn(CardDeckBaseName, Transform(hand).Coordinates);
+
+        bool isHoldingCards = _hands.IsHolding(user, hand);
+
+        EnsureComp<CardStackComponent>(cardDeck, out var deckStack);
+        if (!TryComp(hand, out CardStackComponent? handStack))
+            return;
+        _cardStack.TryJoinStacks(cardDeck, hand, deckStack, handStack);
+
+        if (isHoldingCards)
+            _hands.TryPickupAnyHand(user, cardDeck);
+    }
     private void TrySetupHandOfCards(EntityUid user, EntityUid card, CardComponent comp, EntityUid target, CardComponent targetComp)
     {
         if (_net.IsClient)

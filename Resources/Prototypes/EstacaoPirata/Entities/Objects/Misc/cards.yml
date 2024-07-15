@@ -21,7 +21,7 @@
   parent: BaseItem
   id: CardDeckBase
   noSpawn: true
-  name: CardDeckBase
+  name: Deck of cards
   components:
   - type: Sprite
     sprite: EstacaoPirata/Objects/Misc/cards.rsi
