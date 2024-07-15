@@ -97,7 +97,7 @@ public sealed class CardHandSystem : EntitySystem
         args.Verbs.Add(new AlternativeVerb()
         {
             Act = () => ConvertToDeck(args.User, uid),
-            Text = Loc.GetString("cards-verb-convert-to-deck"),
+            Text = Loc.GetString("rotate_cw"),
             Icon = new SpriteSpecifier.Texture(new("/Textures/Interface/VerbIcons/die.svg.192dpi.png")),
             Priority = 2
         });
