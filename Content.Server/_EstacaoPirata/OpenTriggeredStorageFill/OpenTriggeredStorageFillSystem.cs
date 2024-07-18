@@ -46,6 +46,8 @@ public sealed class OpenTriggeredStorageFillSystem : EntitySystem
             if (!_storage.Insert(uid, ent, out _, out var _, playSound: false))
                 Log.Error($"Failed attemp while trying to fill {ToPrettyString(uid)}");
         }
+
+        RemComp(uid, comp);
     }
 
 }
