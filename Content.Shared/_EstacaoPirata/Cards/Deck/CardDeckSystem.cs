@@ -23,6 +23,8 @@ public sealed class CardDeckSystem : EntitySystem
     [Dependency] private readonly CardStackSystem _cardStackSystem = default!;
     [Dependency] private readonly IRobustRandom _random = default!;
     [Dependency] private readonly INetManager _net = default!;
+    const string CardDeckBaseName = "CardDeckBase";
+
 
 
     /// <inheritdoc/>
@@ -41,6 +43,13 @@ public sealed class CardDeckSystem : EntitySystem
         if (!TryComp(uid, out CardStackComponent? comp))
             return;
 
+        args.Verbs.Add(new AlternativeVerb()
+        {
+            Act = () => TrySplit(args.Target, component, comp, args.User),
+            Text = Loc.GetString("cards-verb-split"),
+            Icon = new SpriteSpecifier.Texture(new("/Textures/Interface/VerbIcons/dot.svg.192dpi.png")),
+            Priority = 4
+        });
         args.Verbs.Add(new AlternativeVerb()
         {
             Act = () => TryShuffle(uid, component, comp),
@@ -64,6 +73,23 @@ public sealed class CardDeckSystem : EntitySystem
         });
 
     }
+
+    private void TrySplit(EntityUid uid, CardDeckComponent deck, CardStackComponent stack, EntityUid user)
+    {
+        _audio.PlayPredicted(deck.PickUpSound, Transform(uid).Coordinates, user);
+
+        if (!_net.IsServer || stack.Cards.Count <= 1)
+            return;
+
+        var cardDeck = Spawn(CardDeckBaseName, Transform(uid).Coordinates);
+
+        EnsureComp<CardStackComponent>(cardDeck, out var deckStack);
+
+        _cardStackSystem.TransferNLastCardFromStacks(user, stack.Cards.Count, uid, stack, cardDeck, deckStack);
+
+        _hands.TryPickupAnyHand(user, cardDeck);
+    }
+
 
     private void TryShuffle(EntityUid deck, CardDeckComponent comp, CardStackComponent? stack)
     {

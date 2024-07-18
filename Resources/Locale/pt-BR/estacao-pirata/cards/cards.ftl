@@ -12,6 +12,7 @@ card-stack-examine = Este conjunto tem {$count} cartas.
 cards-stackquantitychange-added = Carta foi adicionada (Total de cartas: {$quantity})
 cards-stackquantitychange-removed = Carta foi removida (Total de cartas: {$quantity})
 cards-verb-convert-to-deck = Converter em Pilha de Cartas
+cards-verb-split = Dividir
 
 ent-CardBase = Carta
 ent-CardDeck = Pilha de cartas

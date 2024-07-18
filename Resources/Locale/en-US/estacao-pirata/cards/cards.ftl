@@ -12,6 +12,7 @@ card-stack-examine = There are {$count} cards in this stack.
 cards-stackquantitychange-added = Card was added (Total of cards: {$quantity})
 cards-stackquantitychange-removed = Card was removed (Total of cards: {$quantity})
 cards-verb-convert-to-deck = Convert to Card Deck
+cards-verb-split = Split in half
 
 card-base-name = Card
 card-deck-name = Deck of cards

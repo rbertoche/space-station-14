@@ -232,24 +232,36 @@ public sealed class CardStackSystem : EntitySystem
     /// <summary>
     /// This takes the last card from the first stack and inserts it into the second stack
     /// </summary>
-    private void TransferOneCardFromStacks(EntityUid user, EntityUid first, CardStackComponent firstComp, EntityUid second, CardStackComponent secondComp)
+    public void TransferNLastCardFromStacks(EntityUid user, int n, EntityUid first, CardStackComponent firstComp, EntityUid second, CardStackComponent secondComp)
     {
         if (firstComp.Cards.Count <= 0)
             return;
 
 
-        var card = firstComp.Cards.Last();
+        var cards = firstComp.Cards.TakeLast(n);
 
-        if (!TryRemoveCard(first, card))
-            return;
+        foreach (var card in cards)
+        {
+            if (!TryRemoveCard(first, card))
+                return;
 
-        if (!TryInsertCard(second, card))
-            return;
+            if (!TryInsertCard(second, card))
+                return;
+        }
+
 
         _audio.PlayPredicted(firstComp.PlaceDownSound, Transform(second).Coordinates, user);
         if (_net.IsClient)
             return;
-        _storage.PlayPickupAnimation(card, Transform(user).Coordinates, Transform(second).Coordinates, 0);
+
+        if (cards.Count() == 1)
+        {
+            _storage.PlayPickupAnimation(cards.First(), Transform(user).Coordinates, Transform(second).Coordinates, 0);
+        }
+        else
+        {
+            _storage.PlayPickupAnimation(first, Transform(first).Coordinates, Transform(second).Coordinates, 0);
+        }
     }
 
 
@@ -276,7 +288,7 @@ public sealed class CardStackSystem : EntitySystem
             if (!TryComp(args.Target, out CardStackComponent? targetStack))
                 return;
 
-            TransferOneCardFromStacks(args.User, args.Target, targetStack, args.Used, usedStack);
+            TransferNLastCardFromStacks(args.User, 1, args.Target, targetStack, args.Used, usedStack);
             args.Handled = true;
 
         }
@@ -297,6 +309,4 @@ public sealed class CardStackSystem : EntitySystem
 
 
     #endregion
-
-
 }
