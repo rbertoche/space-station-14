@@ -7,8 +7,8 @@
 - type: soundCollection
   id: cardOpenPackage
   files:
-  - /Audio/EstacaoPirata/Effects/Cards/cardCardOpenPackage1.ogg
-  - /Audio/EstacaoPirata/Effects/Cards/cardCardOpenPackage2.ogg
+  - /Audio/EstacaoPirata/Effects/Cards/cardOpenPackage1.ogg
+  - /Audio/EstacaoPirata/Effects/Cards/cardOpenPackage2.ogg
 
 - type: soundCollection
   id: cardPlace
@@ -29,7 +29,7 @@
 - type: soundCollection
   id: cardShuffle
   files:
-  - /Audio/EstacaoPirata/Effects/Cards/cardShuffle1.ogg
+  - /Audio/EstacaoPirata/Effects/Cards/cardShuffle.ogg
 
 - type: soundCollection
   id: cardSlide
