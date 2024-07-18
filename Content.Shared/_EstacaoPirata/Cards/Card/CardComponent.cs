@@ -1,5 +1,6 @@
 using Robust.Shared.GameStates;
 using Robust.Shared.Serialization;
+using Robust.Shared.Utility;
 
 namespace Content.Shared._EstacaoPirata.Cards.Card;
 
@@ -12,14 +13,14 @@ public sealed partial class CardComponent : Component
     /// <summary>
     /// The back of the card
     /// </summary>
-    [DataField("backState", readOnly: true)]
-    public string? BackState;
+    [DataField("backSpriteLayers", readOnly: true)]
+    public List<SpriteSpecifier>? BackSprite = [];
 
     /// <summary>
     /// The front of the card
     /// </summary>
-    [DataField("frontState", readOnly: true)]
-    public string? FrontState;
+    [DataField("frontSpriteLayers", readOnly: true)]
+    public List<SpriteSpecifier> FrontSprite = [];
 
     /// <summary>
     /// If it is currently flipped. This is used to update sprite and name.

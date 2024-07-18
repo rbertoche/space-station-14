@@ -1,11 +1,8 @@
-using System.Collections.Generic;
 using System.Linq;
 using System.Numerics;
 using Content.Shared._EstacaoPirata.Cards.Deck;
 using Content.Shared._EstacaoPirata.Cards.Stack;
 using Robust.Client.GameObjects;
-using Robust.Shared.GameObjects;
-using Robust.Shared.Maths;
 
 namespace Content.Client._EstacaoPirata.Cards.Deck;
 
@@ -15,6 +12,7 @@ namespace Content.Client._EstacaoPirata.Cards.Deck;
 public sealed class CardDeckSystem : EntitySystem
 {
     private readonly Dictionary<Entity<CardDeckComponent>, int> _notInitialized = [];
+    [Dependency] private readonly CardSpriteSystem _cardSpriteSystem = default!;
 
 
     /// <inheritdoc/>
@@ -62,18 +60,6 @@ public sealed class CardDeckSystem : EntitySystem
     }
 
 
-    // This is executed only if there are no available layers to work with
-    private static void SetupSpriteLayers(EntityUid _, CardDeckComponent comp, SpriteComponent sprite, int layersQuantity)
-    {
-        if (!sprite.TryGetLayer(0, out var firstLayer))
-            return;
-
-        for (var i = layersQuantity; i < comp.CardLimit; i++)
-        {
-            sprite.AddLayer(firstLayer.State, i);
-        }
-    }
-
     private bool TryGetCardLayer(EntityUid card, out SpriteComponent.Layer? layer)
     {
         layer = null;
@@ -104,42 +90,19 @@ public sealed class CardDeckSystem : EntitySystem
             return;
         }
 
-        // This sets up the layers if they are not initialized
-        if (sprite.AllLayers.Count() < comp.CardLimit)
-        {
-            SetupSpriteLayers(uid, comp, sprite, sprite.AllLayers.Count());
-        }
+        _cardSpriteSystem.TryAdjustLayerQuantity((uid, sprite, cardStack), comp.CardLimit);
 
-
-        for (var i = 0; i < sprite.AllLayers.Count(); i++)
-        {
-            sprite.LayerSetVisible(i, true);
-        }
-
-        var j = 0;
-        // Shows the last 5 cards
-        foreach (var card in cardStack.Cards.TakeLast(comp.CardLimit))
-        {
-            if (!TryGetCardLayer(card, out var layer) || layer == null)
-                return;
-            sprite.LayerSetTexture(j, layer.Texture);
-            sprite.LayerSetState(j, layer.State);
-            sprite.LayerSetRotation(j, Angle.FromDegrees(90));
-            sprite.LayerSetOffset(j, new Vector2(0, (comp.YOffset * j)));
-            sprite.LayerSetScale(j, new Vector2(comp.Scale, comp.Scale));
-            j++;
-        }
-
-        var cardsQuantity = cardStack.Cards.Count;
-        var layersQuantity = sprite.AllLayers.ToList().Count;
-
-        if (cardsQuantity >= layersQuantity - 1)
-            return;
-
-        for (var k = 0; k < (layersQuantity - cardsQuantity); k++)
-        {
-            sprite.LayerSetVisible(layersQuantity - k - 1, false);
-        }
+        _cardSpriteSystem.TryHandleLayerConfiguration(
+            (uid, sprite, cardStack),
+            comp.CardLimit,
+            (_, cardIndex, layerIndex) =>
+            {
+                sprite.LayerSetRotation(layerIndex, Angle.FromDegrees(90));
+                sprite.LayerSetOffset(layerIndex, new Vector2(0, (comp.YOffset * cardIndex)));
+                sprite.LayerSetScale(layerIndex, new Vector2(comp.Scale, comp.Scale));
+                return true;
+            }
+        );
     }
 
     private void OnStackUpdate(CardStackQuantityChangeEvent args)

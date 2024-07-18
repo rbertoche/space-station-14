@@ -1,6 +1,7 @@
+using System.Linq;
 using Content.Shared._EstacaoPirata.Cards.Card;
 using Robust.Client.GameObjects;
-using Robust.Shared.GameObjects;
+using Robust.Shared.Utility;
 
 namespace Content.Client._EstacaoPirata.Cards.Card;
 
@@ -9,6 +10,7 @@ namespace Content.Client._EstacaoPirata.Cards.Card;
 /// </summary>
 public sealed class CardSystem : EntitySystem
 {
+    [Dependency] private readonly SpriteSystem _spriteSystem = default!;
     /// <inheritdoc/>
     public override void Initialize()
     {
@@ -21,10 +23,21 @@ public sealed class CardSystem : EntitySystem
         if (!TryComp(uid, out SpriteComponent? spriteComponent))
             return;
 
-        var state = spriteComponent.LayerGetState(0);
+        for (var i = 0; i < spriteComponent.AllLayers.Count(); i++)
+        {
+            Log.Debug($"Layer {i}");
+            if (!spriteComponent.TryGetLayer(i, out var layer) || layer.State.Name == null)
+                continue;
 
-        comp.FrontState = state.Name;
-        comp.BackState ??= state.Name;
+            var rsi = layer.RSI ?? spriteComponent.BaseRSI;
+            if (rsi == null)
+                continue;
+
+            Log.Debug("FOI");
+            comp.FrontSprite.Add(new SpriteSpecifier.Rsi(rsi.Path, layer.State.Name));
+        }
+
+        comp.BackSprite ??= comp.FrontSprite;
         Dirty(uid, comp);
         UpdateSprite(uid, comp);
     }
@@ -38,10 +51,36 @@ public sealed class CardSystem : EntitySystem
 
     private void UpdateSprite(EntityUid uid, CardComponent comp)
     {
-        var newState = comp.Flipped ? comp.BackState : comp.FrontState;
-        if (TryComp(uid, out SpriteComponent? spriteComponent))
+        var newSprite = comp.Flipped ? comp.BackSprite : comp.FrontSprite;
+        if (newSprite == null)
+            return;
+
+        if (!TryComp(uid, out SpriteComponent? spriteComponent))
+            return;
+
+        var layerCount = newSprite.Count();
+
+        //inserts Missing Layers
+        if (spriteComponent.AllLayers.Count() < layerCount)
         {
-            spriteComponent.LayerSetState(0, newState ?? "");
+            for (var i = spriteComponent.AllLayers.Count(); i < layerCount; i++)
+            {
+                spriteComponent.AddBlankLayer(i);
+            }
+        }
+        //Removes extra layers
+        else if (spriteComponent.AllLayers.Count() > layerCount)
+        {
+            for (var i = spriteComponent.AllLayers.Count() - 1; i >= layerCount; i--)
+            {
+                spriteComponent.RemoveLayer(i);
+            }
+        }
+
+        for (var i = 0; i < newSprite.Count(); i++)
+        {
+            var layer = newSprite[i];
+            spriteComponent.LayerSetSprite(i, layer);
         }
     }
 }

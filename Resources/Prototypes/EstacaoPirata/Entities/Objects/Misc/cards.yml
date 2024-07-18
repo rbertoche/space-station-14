@@ -167,12 +167,12 @@
   - type: Rotatable
   - type: Item
     size: Small
-    sprite: EstacaoPirata/Objects/Misc/cards.rsi
-    state: singlecard_down_black
   - type: UseDelay
     delay: 0.5
   - type: Card
-    backState: singlecard_down_black
+    backSpriteLayers:
+    - sprite: EstacaoPirata/Objects/Misc/cards.rsi
+      state: singlecard_down_black
     flipped: true
 
 - type: entity
