@@ -1,6 +1,6 @@
 - type: gameMap
   id: Lambda
-  mapName: 'LambdaStation'
+  mapName: 'Lambda'
   mapPath: /Maps/lambda.yml
   minPlayers: 20
   maxPlayers: 60
