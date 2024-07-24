@@ -76,7 +76,7 @@
     - damage:
         types:
           Piercing: 20
-      armorPiercing: 15
+      armorPiercing: 40
       name: rmc-toggleable-ammo-armor-shredding
       icon:
         sprite: _RMC14/Actions/marine_smart_gun_actions.rsi
