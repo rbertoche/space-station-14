@@ -375,7 +375,7 @@
   - type: AntagSelection
     definitions:
     - prefRoles: [ InitialInfected ]
-      max: 50
+      max: 5
       playerRatio: 10
       blacklist:
         components:
