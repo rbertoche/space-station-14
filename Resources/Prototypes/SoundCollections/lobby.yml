@@ -1,10 +1,8 @@
 - type: soundCollection
   id: LobbyMusic
   files:
+    - /Audio/EstacaoPirata/Lobby/Arquivo Corrompido.ogg
     - /Audio/EstacaoPirata/Lobby/tintin.ogg
-    - /Audio/EstacaoPirata/Lobby/tintin.ogg
-    - /Audio/EstacaoPirata/Lobby/tintin.ogg
-    - /Audio/EstacaoPirata/Lobby/hurry.ogg
     - /Audio/EstacaoPirata/Lobby/hurry.ogg
     - /Audio/EstacaoPirata/Lobby/TheSpectre.ogg
     - /Audio/EstacaoPirata/Lobby/MechaCop.ogg
