@@ -65,18 +65,6 @@
     path: /Audio/EstacaoPirata/Jukebox/da_funk.ogg
 
 - type: jukebox
-  id: DigitalCircus
-  name: Gooseworx - Your New Home (Digital Circus)
-  path:
-    path: /Audio/EstacaoPirata/Jukebox/DigitalCircus.ogg
-
-- type: jukebox
-  id: DiscoB
-  name: Masayoshi Takanaka - Disco B
-  path:
-    path: /Audio/EstacaoPirata/Jukebox/disco_b.ogg
-
-- type: jukebox
   id: DoFundoDaGrota
   name: Baitaca - Do Fundo da Grota
   path:
@@ -87,12 +75,6 @@
   name: Miracle Musical - Dream Sweet In Sea Major
   path:
     path: /Audio/EstacaoPirata/Jukebox/dream_sweet_in_sea_major.ogg
-
-- type: jukebox
-  id: DuelOfTheFates
-  name: John Williams - Duel of the Fates
-  path:
-    path: /Audio/EstacaoPirata/Jukebox/duel_of_the_fates.ogg
 
 - type: jukebox
   id: EntryOfTheGladiators
@@ -161,24 +143,6 @@
     path: /Audio/EstacaoPirata/Jukebox/hip_shop.ogg
 
 - type: jukebox
-  id: IRememberClifford
-  name: Masayoshi Takanaka - I Remember Clifford
-  path:
-    path: /Audio/EstacaoPirata/Jukebox/i_remember_clifford.ogg
-
-- type: jukebox
-  id: ImperialMarch
-  name: John Williams - Imperial March
-  path:
-    path: /Audio/EstacaoPirata/Jukebox/imperial_march.ogg
-
-- type: jukebox
-  id: InTheHallOfTheMountainKing
-  name: Edvard Grieg - In the Hall of the Mountain King
-  path:
-    path: /Audio/EstacaoPirata/Jukebox/in-the-hall-of-the-mountain-king.ogg
-
-- type: jukebox
   id: JarabeTapatio
   name: Jesús González Rubio - Jarabe Tapatio
   path:
@@ -208,13 +172,6 @@
   name: Katamari - Lonely Rolling Star
   path:
     path: /Audio/EstacaoPirata/Jukebox/lonely_rolling_star.ogg
-
-- type: jukebox
-  id: Malibu
-  name: Masayoshi Takanaka - Malibu
-  path:
-    path: /Audio/EstacaoPirata/Jukebox/malibu.ogg
-
 
 - type: jukebox
   id: MamboNo5
@@ -423,20 +380,14 @@
     path: /Audio/EstacaoPirata/Jukebox/mr_blue_sky.ogg
 
 - type: jukebox
-  id: ParisRooftops
-  name: Peter McConnell - Paris Rooftops
-  path:
-    path: /Audio/EstacaoPirata/Jukebox/paris_rooftops.ogg
-
-- type: jukebox
   id: PigAndWhistle
-  name: David Arkenstone - Pig and Whistle
+  name: David Arkenstone - Pig and Whistle (Warcraft)
   path:
     path: /Audio/EstacaoPirata/Jukebox/pig_and_whistle.ogg
 
 - type: jukebox
   id: Pigstep
-  name: Lena Raine - Pigstep
+  name: Lena Raine - Pigstep (Minecraft)
   path:
     path: /Audio/EstacaoPirata/Jukebox/pigstep.ogg
 
@@ -454,13 +405,13 @@
 
 - type: jukebox
   id: Cat&Dog
-  name: C418 - Cat & Dog
+  name: C418 - Cat & Dog (Minecraft)
   path:
     path: /Audio/EstacaoPirata/Jukebox/cat_&_dog.ogg
 
 - type: jukebox
   id: ToTheGrandLine
-  name: Shirō Hamaguchi - To the Grand Line
+  name: Shirō Hamaguchi - To the Grand Line (One Piece)
   path:
     path: /Audio/EstacaoPirata/Jukebox/grand_line.ogg
 
@@ -481,3 +432,165 @@
   name: TropicalOwl - Tintin on the Moon
   path:
     path: /Audio/EstacaoPirata/Jukebox/tintin.ogg
+
+- type: jukebox
+  id: TajMahal
+  name: Jorge Ben Jor - Taj Mahal
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/taj_mahal.ogg
+
+- type: jukebox
+  id: UmDiaDeDomingo
+  name: Tim Maia & Gal Costa - Um Dia de Domingo
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/um_dia_de_domingo.ogg
+
+- type: jukebox
+  id: PresenteDeUmBeijaFlor
+  name: Natiruts - Presente de um Beija-flor
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/presente_de_um_beija-flor.ogg
+
+- type: jukebox
+  id: Marvin
+  name: Titãs - Marvin
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/marvin.ogg
+
+- type: jukebox
+  id: XoteDaAlegria
+  name: Falamansa - Xote da Alegria
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/xote_da_alegria.ogg
+
+- type: jukebox
+  id: CheiaDeManias
+  name: Raça Negra - Cheia de Manias
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/cheia_de_manias.ogg
+
+- type: jukebox
+  id: QuemSabeIssoQuerDizerAmor
+  name: Milton Nascimento - Quem Sabe Isso Quer Dizer Amor
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/quem_sabe_isso_quer_dizer_amor.ogg
+
+- type: jukebox
+  id: Specialist
+  name: Shoji Meguro - Specialist (Persona 4)
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/specialist.ogg
+
+- type: jukebox
+  id: FinalFeliz
+  name: Jorge Vercillo - Final Feliz
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/final_feliz.ogg
+
+- type: jukebox
+  id: NaSuaEstante
+  name: Pitty - Na Sua Estante
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/na_sua_estante.ogg
+
+- type: jukebox
+  id: AndarComFe
+  name: Gilberto Gil - Andar com Fé
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/andar_com_fe.ogg
+
+- type: jukebox
+  id: CedoOuTarde
+  name: NX Zero - Cedo ou Tarde
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/cedo_ou_tarde.ogg
+
+- type: jukebox
+  id: Colecao
+  name: Cassiano - Coleção
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/colecao.ogg
+
+- type: jukebox
+  id: MariaMaria
+  name: Milton Nascimento - Maria Maria
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/maria_maria.ogg
+
+- type: jukebox
+  id: VieramTresPraBaterNoNego
+  name: Tonho Matéria - Vieram Tres Pra Bater No Negro
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/vieram_tres_pra_bater_no_nego.ogg
+
+- type: jukebox
+  id: AGrandeFamilia
+  name: Dudu Nobre - A Grande Familia
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/a_grande_familia.ogg
+
+- type: jukebox
+  id: BanhoDeLua
+  name: Celly Campello - Banho de Lua
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/banho_de_lua.ogg
+
+- type: jukebox
+  id: SandraRosaMadalenaACigana
+  name: Sidney Magal - Sandra Rosa Madalena "A Cigana"
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/sandra_rosa_madalena_a_cigana.ogg
+
+- type: jukebox
+  id: HomemComH
+  name: Ney Matogrosso - Homem Com H
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/homem_com_h.ogg
+
+- type: jukebox
+  id: NaoQueroDinheiro
+  name: Tim Maia - Não Quero Dinheiro
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/nao_quero_dinheiro.ogg
+
+- type: jukebox
+  id: StayWithMe
+  name: Miki Matsubara - Stay With Me
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/stay_with_me.ogg
+
+- type: jukebox
+  id: Burguesinha
+  name: Seu Jorge - Burguesinha
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/burguesinha.ogg
+
+- type: jukebox
+  id: ALuaEEu
+  name: Cassiano - A Lua E Eu
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/a_lua_e_eu.ogg
+
+- type: jukebox
+  id: Pagu
+  name: Rita Lee - Pagu
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/pagu.ogg
+
+- type: jukebox
+  id: September
+  name: Earth, Wind & Fire - September
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/september.ogg
+
+- type: jukebox
+  id: ForeverYoung
+  name: Alphaville - Forever Young
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/forever_young.ogg
+
+- type: jukebox
+  id: BigIron
+  name: Marty Robbins - Big Iron
+  path:
+    path: /Audio/EstacaoPirata/Jukebox/big_iron.ogg
