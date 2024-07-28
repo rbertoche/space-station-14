@@ -103,6 +103,8 @@ public sealed partial class JukeboxMenu : FancyWindow
         {
             MusicList.AddItem(entry.Name, metadata: entry.ID);
         }
+
+        MusicList.SortItemsByText();
     }
 
     public void SetPlayPauseButton(bool playing, bool force = false)
