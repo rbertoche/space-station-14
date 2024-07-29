@@ -260,12 +260,6 @@
     path: /Audio/EstacaoPirata/Jukebox/sans.ogg
 
 - type: jukebox
-  id: SpaceAsshole
-  name: Chris Remo - Space Asshole
-  path:
-    path: /Audio/EstacaoPirata/Jukebox/space_asshole.ogg
-
-- type: jukebox
   id: StreetParty
   name: Tim Haywood - Street Party
   path:
@@ -354,12 +348,6 @@
   name: Smile.dk - Butterfly
   path:
     path: /Audio/EstacaoPirata/Jukebox/butterfly.ogg
-
-- type: jukebox
-  id: Fnaf1
-  name: The Living Tombstone - Five Nights at Freddy's 1 Song
-  path:
-    path: /Audio/EstacaoPirata/Jukebox/fnaf1.ogg
 
 - type: jukebox
   id: Funkytown
