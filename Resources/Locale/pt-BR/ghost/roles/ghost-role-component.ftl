@@ -8,7 +8,7 @@ ghost-role-information-mouse-name = Rato
 ghost-role-information-mouse-description = Um rato faminto e travesso.
 
 ghost-role-information-mothroach-name = Baraposa
-ghost-role-information-mothroach-description = Uma fofa mas maliciosa baraposa.
+ghost-role-information-mothroach-description = Uma criatura fofa, porém maliciosa.
 
 ghost-role-information-giant-spider-name = Aranha gigante
 ghost-role-information-giant-spider-description = Os habitantes desta estação parecem muito saborosos, e sua teia pegajosa é perfeita para pegá-los!
@@ -16,13 +16,13 @@ ghost-role-information-giant-spider-description = Os habitantes desta estação 
 ghost-role-information-cognizine-description = Feito consciente com a mágica de cognizine.
 
 ghost-role-information-hamster-name = Hamster
-ghost-role-information-hamster-description = Uma rabugenta pequena bola de pêlo.
+ghost-role-information-hamster-description = Uma bolinha de pelo rabugenta.
 
 ghost-role-information-hamlet-name = Hamlet o hamster.
-ghost-role-information-hamlet-description = Vive na ponte de comando da estação, é um tanto temperamentál e está sempre com fome.
+ghost-role-information-hamlet-description = Vive na ponte de comando da estação, é um tanto temperamental e está sempre com fome.
 
 ghost-role-information-slimes-name = Slime
-ghost-role-information-slimes-description = Um simples Slime sem necessidades ou interesses especiais. Você é amigável com os outros.
+ghost-role-information-slimes-description = Um mero Slime sem necessidades ou interesses especiais. Você é amigável com os outros.
 
 ghost-role-information-angry-slimes-name = Slime
 ghost-role-information-angry-slimes-description = Tudo ao seu redor irrita seus instintos, destrua-os!
@@ -68,7 +68,7 @@ ghost-role-information-salvage-shark-name = Sharkminnow espacial em naufrágio d
 ghost-role-information-salvage-shark-description = Ajude as carpas mais jovens a proteger suas presas. Cheire o sangue!
 
 ghost-role-information-willow-name = Willow o canguru
-ghost-role-information-willow-description = Você é um canguru chamado Willow! Willow gosta de box.
+ghost-role-information-willow-description = Você é um canguru chamado Willow! Willow gosta de boxe.
 
 ghost-role-information-space-tick-name = Carrapato espacial
 ghost-role-information-space-tick-description = Cause estragos na estação!
