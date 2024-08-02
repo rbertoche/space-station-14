@@ -10,6 +10,9 @@ ent-Gauze = rolo de gaze
 ent-Gauze1 = rolo de gaze
     .desc = Um rolo estéril de gaze, capaz de cobrir feridas.
 
+ent-Gauze10Lingering = rolo de gaze
+    .desc = Um rolo estéril de gaze, capaz de cobrir feridas.
+
 ent-AloeCream = creme de aloe vera
     .desc = Um creme tópico para queimaduras.
 
@@ -55,3 +58,74 @@ ent-SyringeIpecac = seringa de ipecac
 ent-SyringeCorpium = seringa de corpium
     .desc = Um creme tópico para queimaduras.
 
+ent-SyringeBicaridine = seringa de bicaridine
+    .desc = Uma seinga contendo um analgésico que é altamente eficaz no tratamento de danos brutos.
+
+ent-SyringeDermaline = seringa de dermaline
+    .desc = Uma seinga contendo um produto químico eficaz no tratamento de queimaduras.
+
+ent-SyringeHyronalin = seringa de hyronalin
+    .desc = Uma seinga contendo um produto químico pouco eficaz no tratamento de radiação. Pode causar vômito.
+
+ent-SyringeAmbuzol = seringa de ambuzol
+    .desc = Uma seinga contendo uma produto químico capaz de interromper a progressão de uma infecção zumbi.
+
+ent-SyringeSigynate = seringa de siginato
+    .desc = Uma seinga contendo um xarope rosa grosso útil para neutralizar ácidos e cicatrizar regiões corroídas por ácidos.
+
+ent-SyringeEthylredoxrazine = seringa de etiloxiefedrina
+    .desc = Uma seinga contendo um medicamento levemente instável usado para combater narcolepsia.
+
+ent-SyringePhalanximine = seringa de phalanximine
+    .desc = Uma seinga contendo um fármaco usado no tratamento do câncer. Causa envenenamento moderado de radiação.
+
+ent-SyringeSaline = seringa de saline
+    .desc = Uma seinga contendo um cosposto salino usado para tratamento ocular via ingestão.
+
+ent-SyringeRomerol = seringa de romerol
+    .desc = Uma seinga contendo uma mistura capaz de trazer os mortos de volta à vida.
+
+ent-SyringeStimulants = seringa de estimulantes
+    .desc = Uma seinga contendo um coquetel químico estimulante desenvolvido pela Donk Co.
+
+ent-Bloodpack = bolsa de sangue
+    .desc = Contém um substituto de sangue universal inovador criado pela ciência médica avançada da Nanotrasen.
+
+ent-Bloodpack10Lingering = bolsa de sangue
+    .desc = Contém um substituto de sangue universal inovador criado pela ciência médica avançada da Nanotrasen.
+
+ent-Tourniquet = torniquete
+    .desc = Provavelmente estanca o sangramento.
+
+ent-PillCanisterDexalin = pote de pílulas (dexalin 10u)
+    .desc = Comporta até 9 comprimidos.
+
+ent-PillCanisterDylovene = pote de pílulas (dylovene 10u)
+    .desc = Comporta até 9 comprimidos.
+
+ent-PillCanisterHyronalin = pote de pílulas (hyronalin 10u)
+    .desc = Comporta até 9 comprimidos.
+
+ent-PillCanisterIron = pote de pílulas (ferro 10u)
+    .desc = Comporta até 9 comprimidos.
+
+ent-PillCanisterCopper = pote de pílulas (cobre 10u)
+    .desc = Comporta até 9 comprimidos.
+
+ent-PillCanisterKelotane = pote de pílulas (kelotane 10u)
+    .desc = Comporta até 9 comprimidos.
+
+ent-PillCanisterDermaline = pote de pílulas (dermaline 10u)
+    .desc = Comporta até 9 comprimidos.
+
+ent-PillCanisterTricordrazine = pote de pílulas (tricordrazine 10u)
+    .desc = Comporta até 9 comprimidos.
+
+ent-PillCanisterBicaridine = pote de pílulas (bicaridine 10u)
+    .desc = Comporta até 9 comprimidos.
+
+ent-PillCanisterCharcoal = pote de pílulas (carvão vegetal 10u)
+    .desc = Comporta até 9 comprimidos.
+
+PillCanisterRandom = pote de pílulas
+    .desc = Comporta até 9 comprimidos.

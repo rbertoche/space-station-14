@@ -5,7 +5,7 @@ ent-LargeBeaker = béquer grande
      .desc = Usado para conter uma grande quantidade de produtos químicos ou soluções.
 
 ent-CryostasisBeaker = béquer de criostase
-     .desc = Usado para conter produtos químicos ou soluções sem reações.
+     .desc = Usado para conter produtos químicos ou soluções impedindo reações químicas.
 
 ent-BluespaceBeaker = béquer de bluespace
      .desc = Desenvolvido pela tecnologia experimental bluespace.
@@ -22,6 +22,17 @@ ent-Syringe = seringa
 ent-Pill = pílula
      .desc = Não é um supositório.
 
-ent-PillCanister = pill canister
+ent-PillCanister = pote de pílulas
      .desc = Comporta até 9 comprimidos.
 
+ent-CryoxadoneBeakerSmall = béquer com cryoxadona
+    .desc = Preenchido com um reagente usado em tubos criogênicos.
+
+ent-BorgDropper = conta-gotas de borg
+    .desc = Usado para transferir pequenas quantidades de solução química entre recipientes. Estendido para uso por borgs médicos.
+
+ent-SyringeBluespace = seringa de bluespace
+    .desc = Injeção com a tecnologia avançada de bluespace.
+
+ent-SyringeCryostasis = seringa de criostase
+    .desc = Uma seringa usada para conter produtos químicos ou soluções impedindo reações químicas.
