@@ -257,142 +257,142 @@ ent-AirlockSyndicateNukeopGlassLocked = porta hermética
     .desc = Ela abre, ela fecha, e tu consegue ver por ela!
 
 ent-AirlockMaintLocked = porta hermética
-.desc = Ela abre, ela fecha, talvez ela te esmague.
+    .desc = Ela abre, ela fecha, talvez ela te esmague.
 
 ent-AirlockMaintGlassLocked = porta hermética
-.desc = Ela abre, ela fecha, e tu consegue ver por ela!
+    .desc = Ela abre, ela fecha, e tu consegue ver por ela!
 
 ent-AirlockMaintSalvageLocked = porta hermética
-.desc = Ela abre, ela fecha, talvez ela te esmague.
+    .desc = Ela abre, ela fecha, talvez ela te esmague.
 
 ent-AirlockMaintCargoLocked = porta hermética
-.desc = Ela abre, ela fecha, talvez ela te esmague.
+    .desc = Ela abre, ela fecha, talvez ela te esmague.
 
 ent-AirlockMaintCommandLocked = porta hermética
-.desc = Ela abre, ela fecha, talvez ela te esmague.
+    .desc = Ela abre, ela fecha, talvez ela te esmague.
 
 ent-AirlockMaintCommonLocked = porta hermética
-.desc = Ela abre, ela fecha, talvez ela te esmague.
+    .desc = Ela abre, ela fecha, talvez ela te esmague.
 
 ent-AirlockMaintEngiLocked = porta hermética
-.desc = Ela abre, ela fecha, talvez ela te esmague.
+    .desc = Ela abre, ela fecha, talvez ela te esmague.
 
 ent-AirlockMaintAtmoLocked = porta hermética
-.desc = Ela abre, ela fecha, talvez ela te esmague.
+    .desc = Ela abre, ela fecha, talvez ela te esmague.
 
 ent-AirlockMaintBarLocked = porta hermética
-.desc = Ela abre, ela fecha, talvez ela te esmague.
+    .desc = Ela abre, ela fecha, talvez ela te esmague.
 
 ent-AirlockMaintChapelLocked = porta hermética
-.desc = Ela abre, ela fecha, talvez ela te esmague.
+    .desc = Ela abre, ela fecha, talvez ela te esmague.
 
 ent-AirlockMaintHydroLocked = porta hermética
-.desc = Ela abre, ela fecha, talvez ela te esmague.
+    .desc = Ela abre, ela fecha, talvez ela te esmague.
 
 ent-AirlockMaintJanitorLocked = porta hermética
-.desc = Ela abre, ela fecha, talvez ela te esmague.
+    .desc = Ela abre, ela fecha, talvez ela te esmague.
 
 ent-AirlockMaintLawyerLocked = porta hermética
-.desc = Ela abre, ela fecha, talvez ela te esmague.
+    .desc = Ela abre, ela fecha, talvez ela te esmague.
 
 ent-AirlockMaintServiceLocked = porta hermética
-.desc = Ela abre, ela fecha, talvez ela te esmague.
+    .desc = Ela abre, ela fecha, talvez ela te esmague.
 
 ent-AirlockMaintTheatreLocked = porta hermética
-.desc = Ela abre, ela fecha, talvez ela te esmague.
+    .desc = Ela abre, ela fecha, talvez ela te esmague.
 
 ent-AirlockMaintKitchenLocked = porta hermética
-.desc = Ela abre, ela fecha, talvez ela te esmague.
+    .desc = Ela abre, ela fecha, talvez ela te esmague.
 
 ent-AirlockMaintIntLocked = porta hermética
-.desc = Ela abre, ela fecha, talvez ela te esmague.
+    .desc = Ela abre, ela fecha, talvez ela te esmague.
 
 ent-AirlockMaintMedLocked = porta hermética
-.desc = Ela abre, ela fecha, talvez ela te esmague.
+    .desc = Ela abre, ela fecha, talvez ela te esmague.
 
 ent-AirlockMaintChemLocked = porta hermética
-.desc = Ela abre, ela fecha, talvez ela te esmague.
+    .desc = Ela abre, ela fecha, talvez ela te esmague.
 
 ent-AirlockMaintRnDLocked = porta hermética
-.desc = Ela abre, ela fecha, talvez ela te esmague.
+    .desc = Ela abre, ela fecha, talvez ela te esmague.
 
 ent-AirlockMaintRnDMedLocked = porta hermética
-.desc = Ela abre, ela fecha, talvez ela te esmague.
+    .desc = Ela abre, ela fecha, talvez ela te esmague.
 
 ent-AirlockMaintSecLocked = porta hermética
-.desc = Ela abre, ela fecha, talvez ela te esmague.
+    .desc = Ela abre, ela fecha, talvez ela te esmague.
 
 ent-AirlockMaintDetectiveLocked = porta hermética
-.desc = Ela abre, ela fecha, talvez ela te esmague.
+    .desc = Ela abre, ela fecha, talvez ela te esmague.
 
 ent-AirlockMaintHOPLocked = porta hermética
-.desc = Ela abre, ela fecha, talvez ela te esmague.
+    .desc = Ela abre, ela fecha, talvez ela te esmague.
 
 ent-AirlockMaintCaptainLocked = porta hermética
-.desc = Ela abre, ela fecha, talvez ela te esmague.
+    .desc = Ela abre, ela fecha, talvez ela te esmague.
 
 ent-AirlockMaintChiefEngineerLocked = porta hermética
-.desc = Ela abre, ela fecha, talvez ela te esmague.
+    .desc = Ela abre, ela fecha, talvez ela te esmague.
 
 ent-AirlockMaintChiefMedicalOfficerLocked = porta hermética
-.desc = Ela abre, ela fecha, talvez ela te esmague.
+    .desc = Ela abre, ela fecha, talvez ela te esmague.
 
 ent-AirlockMaintHeadOfSecurityLocked = porta hermética
-.desc = Ela abre, ela fecha, talvez ela te esmague.
+    .desc = Ela abre, ela fecha, talvez ela te esmague.
 
 ent-AirlockMaintResearchDirectorLocked = porta hermética
-.desc = Ela abre, ela fecha, talvez ela te esmague.
+    .desc = Ela abre, ela fecha, talvez ela te esmague.
 
 ent-AirlockMaintQuartermasterLocked = porta hermética
-.desc = Ela abre, ela fecha, talvez ela te esmague.
+    .desc = Ela abre, ela fecha, talvez ela te esmague.
 
 ent-AirlockMaintArmoryLocked = porta hermética
-.desc = Ela abre, ela fecha, talvez ela te esmague.
+    .desc = Ela abre, ela fecha, talvez ela te esmague.
 
 ent-AirlockSyndicateLocked = porta hermética
-.desc = Ela abre, ela fecha, talvez ela te esmague.
+    .desc = Ela abre, ela fecha, talvez ela te esmague.
 
 ent-AirlockSyndicateNukeopLocked = porta hermética
-.desc = Ela abre, ela fecha, talvez ela te esmague.
+    .desc = Ela abre, ela fecha, talvez ela te esmague.
 
-ent-AirlockExternalShuttleLocked = porta hermética
-.desc = Ela abre, ela fecha, talvez ela te esmague.
+ent-AirlockExternalShuttleLocked = portão de doca
+    .desc = Ela abre, ela fecha, talvez ela te esmague.
 
-ent-AirlockExternalShuttleSyndicateLocked = porta hermética externa
-.desc = Ela abre, ela fecha, talvez ela te esmague.
+ent-AirlockExternalShuttleSyndicateLocked = portão de doca
+    .desc = Ela abre, ela fecha, talvez ela te esmague.
 
-ent-AirlockExternalShuttleNukeopLocked = porta hermética externa
-.desc = Ela abre, ela fecha, talvez ela te esmague.
+ent-AirlockExternalShuttleNukeopLocked = portão de doca
+    .desc = Ela abre, ela fecha, talvez ela te esmague.
 
-ent-AirlockExternalGlassShuttleLocked = porta hermética externa
-.desc = Ela abre, ela fecha, e tu consegue ver por ela!
+ent-AirlockExternalGlassShuttleLocked = portão de doca com janela
+    .desc = Ela abre, ela fecha, e tu consegue ver por ela!
 
-ent-AirlockExternalGlassShuttleSyndicateLocked = porta hermética externa
-.desc = Ela abre, ela fecha, e tu consegue ver por ela!
+ent-AirlockExternalGlassShuttleSyndicateLocked = portão de doca com janela
+    .desc = Ela abre, ela fecha, e tu consegue ver por ela!
 
-ent-AirlockExternalGlassShuttleNukeopLocked = porta hermética externa
-.desc = Ela abre, ela fecha, e tu consegue ver por ela!
+ent-AirlockExternalGlassShuttleNukeopLocked = portão de doca com janela
+    .desc = Ela abre, ela fecha, e tu consegue ver por ela!
 
-ent-AirlockExternalGlassShuttleEmergencyLocked = porta hermética externa
-.desc = Ela abre, ela fecha, e tu consegue ver por ela!
+ent-AirlockExternalGlassShuttleEmergencyLocked = portão de doca com janela
+    .desc = Ela abre, ela fecha, e tu consegue ver por ela!
 
-ent-AirlockExternalGlassShuttleArrivals = porta hermética externa
-.desc = Ela abre, ela fecha, e tu consegue ver por ela!
+ent-AirlockExternalGlassShuttleArrivals = portão de doca com janela
+    .desc = Ela abre, ela fecha, e tu consegue ver por ela!
 
-ent-AirlockExternalGlassShuttleEscape = porta hermética externa
-.desc = Ela abre, ela fecha, e tu consegue ver por ela!
+ent-AirlockExternalGlassShuttleEscape = portão de doca com janela
+    .desc = Ela abre, ela fecha, e tu consegue ver por ela!
 
 ent-HighSecCentralCommandLocked = porta hermética
-.desc = Ela abre, ela fecha, talvez ela te esmague.
+    .desc = Ela abre, ela fecha, talvez ela te esmague.
 
 ent-HighSecCommandLocked = porta hermética
-.desc = Ela abre, ela fecha, talvez ela te esmague.
+    .desc = Ela abre, ela fecha, talvez ela te esmague.
 
 ent-HighSecCaptainLocked = porta hermética
-.desc = Ela abre, ela fecha, talvez ela te esmague.
+    .desc = Ela abre, ela fecha, talvez ela te esmague.
 
 ent-HighSecArmoryLocked = porta hermética
-.desc = Ela abre, ela fecha, talvez ela te esmague.
+    .desc = Ela abre, ela fecha, talvez ela te esmague.
 
 ent-AirlockHatchSyndicate = porta hermética
-.desc = Ela abre, ela fecha, talvez ela te esmague.
+    .desc = Ela abre, ela fecha, talvez ela te esmague.
