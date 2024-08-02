@@ -12,114 +12,6 @@ ent-AirlockAtmosphericsGlass = porta hermética com janela
     .desc = { "Ela abre, ela fecha, e tu consegue ver por ela!" }
     .suffix = Atmospherics
 
-ent-AirlockAtmosphericsGlass = porta hermética com janela
-    .desc = { "Ela abre, ela fecha, e tu consegue ver por ela!" }
-    .suffix = Atmospherics
-
-ent-AirlockAtmosphericsGlass = porta hermética com janela
-    .desc = { "Ela abre, ela fecha, e tu consegue ver por ela!" }
-    .suffix = Atmospherics
-
-ent-AirlockAtmosphericsGlass = porta hermética com janela
-    .desc = { "Ela abre, ela fecha, e tu consegue ver por ela!" }
-    .suffix = Atmospherics
-
-ent-AirlockAtmosphericsGlass = porta hermética com janela
-    .desc = { "Ela abre, ela fecha, e tu consegue ver por ela!" }
-    .suffix = Atmospherics
-
-ent-AirlockAtmosphericsGlass = porta hermética com janela
-    .desc = { "Ela abre, ela fecha, e tu consegue ver por ela!" }
-    .suffix = Atmospherics
-
-ent-AirlockAtmosphericsGlass = porta hermética com janela
-    .desc = { "Ela abre, ela fecha, e tu consegue ver por ela!" }
-    .suffix = Atmospherics
-
-ent-AirlockAtmosphericsGlass = porta hermética com janela
-    .desc = { "Ela abre, ela fecha, e tu consegue ver por ela!" }
-    .suffix = Atmospherics
-
-ent-AirlockAtmosphericsGlass = porta hermética com janela
-    .desc = { "Ela abre, ela fecha, e tu consegue ver por ela!" }
-    .suffix = Atmospherics
-
-ent-AirlockAtmosphericsGlass = porta hermética com janela
-    .desc = { "Ela abre, ela fecha, e tu consegue ver por ela!" }
-    .suffix = Atmospherics
-
-ent-AirlockAtmosphericsGlass = porta hermética com janela
-    .desc = { "Ela abre, ela fecha, e tu consegue ver por ela!" }
-    .suffix = Atmospherics
-
-ent-AirlockAtmosphericsGlass = porta hermética com janela
-    .desc = { "Ela abre, ela fecha, e tu consegue ver por ela!" }
-    .suffix = Atmospherics
-
-ent-AirlockAtmosphericsGlass = porta hermética com janela
-    .desc = { "Ela abre, ela fecha, e tu consegue ver por ela!" }
-    .suffix = Atmospherics
-
-ent-AirlockAtmosphericsGlass = porta hermética com janela
-    .desc = { "Ela abre, ela fecha, e tu consegue ver por ela!" }
-    .suffix = Atmospherics
-
-ent-AirlockAtmosphericsGlass = porta hermética com janela
-    .desc = { "Ela abre, ela fecha, e tu consegue ver por ela!" }
-    .suffix = Atmospherics
-
-ent-AirlockAtmosphericsGlass = porta hermética com janela
-    .desc = { "Ela abre, ela fecha, e tu consegue ver por ela!" }
-    .suffix = Atmospherics
-
-ent-AirlockAtmosphericsGlass = porta hermética com janela
-    .desc = { "Ela abre, ela fecha, e tu consegue ver por ela!" }
-    .suffix = Atmospherics
-
-ent-AirlockAtmosphericsGlass = porta hermética com janela
-    .desc = { "Ela abre, ela fecha, e tu consegue ver por ela!" }
-    .suffix = Atmospherics
-
-ent-AirlockAtmosphericsGlass = porta hermética com janela
-    .desc = { "Ela abre, ela fecha, e tu consegue ver por ela!" }
-    .suffix = Atmospherics
-
-ent-AirlockAtmosphericsGlass = porta hermética com janela
-    .desc = { "Ela abre, ela fecha, e tu consegue ver por ela!" }
-    .suffix = Atmospherics
-
-ent-AirlockAtmosphericsGlass = porta hermética com janela
-    .desc = { "Ela abre, ela fecha, e tu consegue ver por ela!" }
-    .suffix = Atmospherics
-
-ent-AirlockAtmosphericsGlass = porta hermética com janela
-    .desc = { "Ela abre, ela fecha, e tu consegue ver por ela!" }
-    .suffix = Atmospherics
-
-ent-AirlockAtmosphericsGlass = porta hermética com janela
-    .desc = { "Ela abre, ela fecha, e tu consegue ver por ela!" }
-    .suffix = Atmospherics
-
-ent-AirlockAtmosphericsGlass = porta hermética com janela
-    .desc = { "Ela abre, ela fecha, e tu consegue ver por ela!" }
-    .suffix = Atmospherics
-
-ent-AirlockAtmosphericsGlass = porta hermética com janela
-    .desc = { "Ela abre, ela fecha, e tu consegue ver por ela!" }
-    .suffix = Atmospherics
-
-ent-AirlockAtmosphericsGlass = porta hermética com janela
-    .desc = { "Ela abre, ela fecha, e tu consegue ver por ela!" }
-    .suffix = Atmospherics
-
-ent-AirlockAtmosphericsGlass = porta hermética com janela
-    .desc = { "Ela abre, ela fecha, e tu consegue ver por ela!" }
-    .suffix = Atmospherics
-
-ent-AirlockAtmosphericsGlass = porta hermética com janela
-    .desc = { "Ela abre, ela fecha, e tu consegue ver por ela!" }
-    .suffix = Atmospherics
-
 ent-AirlockMaintGlass = porta hermética com janela
     .desc = { "Ela abre, ela fecha, e tu consegue ver por ela!" }
     .suffix = Maintenance
@@ -131,10 +23,6 @@ ent-AirlockAtmosphericsGlass = porta hermética com janela
 ent-AirlockMaintGlass = porta hermética com janela
     .desc = { "Ela abre, ela fecha, e tu consegue ver por ela!" }
     .suffix = Maintenance
-
-ent-AirlockAtmosphericsGlass = porta hermética com janela
-    .desc = { "Ela abre, ela fecha, e tu consegue ver por ela!" }
-    .suffix = Atmospherics
 
 ent-AirlockCargoGlass = porta hermética com janela
     .desc = { "Ela abre, ela fecha, e tu consegue ver por ela!" }
@@ -160,6 +48,18 @@ ent-AirlockSecurityGlass = porta hermética com janela
     .desc = { "Ela abre, ela fecha, e tu consegue ver por ela!" }
     .suffix = Security
 
+ent-AirlockChemistryGlass = porta hermética com janela
+    .desc = Ela abre, ela fecha, e tu consegue ver por ela!
+
+ent-AirlockCentralCommandGlass = porta hermética com janela
+    .desc = Ela abre, ela fecha, e tu consegue ver por ela!
+
+ent-AirlockMiningGlass = porta hermética com janela
+    .desc = Ela abre, ela fecha, e tu consegue ver por ela!
+
+ent-AirlockSyndicateGlass = porta hermética com janela
+    .desc = Ela abre, ela fecha, e tu consegue ver por ela!
+
 ent-AirlockFreezer = porta hermética
     .desc = Ela abre, ela fecha, talvez ela te esmague.
 
@@ -169,8 +69,14 @@ ent-AirlockEngineering = porta hermética
 ent-AirlockAtmospherics = porta hermética
     .desc = Ela abre, ela fecha, talvez ela te esmague.
 
+ent-AirlockAtmosphericsGlass = porta hermética com janela
+    .desc = Ela abre, ela fecha, e tu consegue ver por ela!
+
 ent-AirlockCargo = porta hermética
     .desc = Ela abre, ela fecha, talvez ela te esmague.
+
+ent-AirlockCargoGlass = porta hermética com janela
+    .desc = Ela abre, ela fecha, e tu consegue ver por ela!
 
 ent-AirlockMedical = porta hermética
     .desc = Ela abre, ela fecha, talvez ela te esmague.
