@@ -45,20 +45,20 @@ ent-PowerCellAntiqueProto = protótipo de célula de energia antiga
      .desc = Uma pequena célula que se recarrega automaticamente. Usado em pesquisas antigas sobre armas a laser.
      .suffix = Completo
 
-ent-PowerCageSmall = cilindro de energia de baixa capacidade
+ent-PowerCageSmall = tanque de energia de baixa capacidade
     .desc = Uma bateria cilindrica de energia recarregável para dispositivos grandes. Esse é o tipo mais barato que você pode encontrar.
 
-ent-PowerCageSmallEmpty = cilindro de energia de baixa capacidade
+ent-PowerCageSmallEmpty = tanque de energia de baixa capacidade
     .desc = Uma bateria cilindrica de energia recarregável para dispositivos grandes. Esse é o tipo mais barato que você pode encontrar.
 
-ent-PowerCageMedium = cilindro de energia de média capacidade
+ent-PowerCageMedium = tanque de energia de média capacidade
     .desc = Uma bateria cilindrica de energia recarregável para dispositivos grandes. O padrão de excelência em termos de capacidade e custo.
 
-ent-PowerCageMediumEmpty = cilindro de energia de média capacidade
+ent-PowerCageMediumEmpty = tanque de energia de média capacidade
     .desc = Uma bateria cilindrica de energia recarregável para dispositivos grandes. O padrão de excelência em termos de capacidade e custo.
 
-ent-PowerCageHigh = cilindro de energia de alta capacidade
+ent-PowerCageHigh = tanque de energia de alta capacidade
     .desc = Uma bateria cilindrica de energia recarregável para dispositivos grandes. Maior capacidade para maiores níveis de potência.
 
-ent-PowerCageHighEmpty = cilindro de energia de alta capacidade
+ent-PowerCageHighEmpty = tanque de energia de alta capacidade
     .desc = Uma bateria cilindrica de energia recarregável para dispositivos grandes. Maior capacidade para maiores níveis de potência.
