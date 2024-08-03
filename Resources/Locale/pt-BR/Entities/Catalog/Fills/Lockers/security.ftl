@@ -1,13 +1,13 @@
-ent-LockerWardenFilledHardsuit = armário do carcereiro
+ent-LockerWardenFilledHardsuit = armário de carcereiro
     .desc = Uma unidade de armazenamento padrão da Nanotrasen.
 
-ent-LockerWardenFilled = armário do carcereiro
+ent-LockerWardenFilled = armário de carcereiro
     .desc = Uma unidade de armazenamento padrão da Nanotrasen.
 
-ent-LockerSecurityFilled = armário do oficial de segurança
+ent-LockerSecurityFilled = armário de oficial de segurança
     .desc = Uma unidade de armazenamento padrão da Nanotrasen.
 
-ent-LockerBrigmedicFilled = armário do médico do brig
+ent-LockerBrigmedicFilled = armário de médico do brig
     .desc = Uma unidade de armazenamento padrão da Nanotrasen.
 
 ent-LockerDetectiveFilled = gabinete do detetive
