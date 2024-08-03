@@ -1,72 +1,104 @@
-ent-LockerBooze = booze storage
-    .desc = This is where the bartender keeps the booze.
+ent-LockerBooze = armário de bebidas
+    .desc = É onde o barman guarda as bebidas.
 
-ent-LockerQuarterMaster = quartermaster's locker
-    .desc = This is where the bartender keeps the booze.
+ent-LockerQuarterMaster = armário do intendente
+    .desc = Uma unidade de armazenamento padrão da Nanotrasen.
 
-ent-LockerSalvageSpecialist = salvage specialist's equipment
-    .desc = Nevermind the pickaxe.
+ent-LockerSalvageSpecialist = equipamento do especialista em salvatagem
+    .desc = Não se preocupe com a picareta.
 
-ent-LockerCaptain = captain's locker
-    .desc = Nevermind the pickaxe.
+ent-LockerCaptain = armário do capitão
+    .desc = Uma unidade de armazenamento padrão da Nanotrasen.
 
-ent-LockerHeadOfPersonnel = head of personnel's locker
-    .desc = Nevermind the pickaxe.
+ent-LockerHeadOfPersonnel = armário do chefe dos funcionários
+    .desc = Uma unidade de armazenamento padrão da Nanotrasen.
 
-ent-LockerChiefEngineer = chief engineer's locker
-    .desc = Nevermind the pickaxe.
+ent-LockerChiefEngineer = armário do engenheiro-chefe
+    .desc = Uma unidade de armazenamento padrão da Nanotrasen.
 
-ent-LockerElectricalSupplies = electrical supplies locker
-    .desc = Nevermind the pickaxe.
+ent-LockerElectricalSupplies = armário de suprimentos elétricos
+    .desc = Uma unidade de armazenamento padrão da Nanotrasen.
 
-ent-LockerWeldingSupplies = welding supplies locker
-    .desc = Nevermind the pickaxe.
+ent-LockerWeldingSupplies = armário de suprimentos de soldagem
+    .desc = Uma unidade de armazenamento padrão da Nanotrasen.
 
-ent-LockerAtmospherics = atmospheric technician's locker
-    .desc = Nevermind the pickaxe.
+ent-LockerAtmospherics = armário do técnico atmosférico
+    .desc = Uma unidade de armazenamento padrão da Nanotrasen.
 
-ent-LockerEngineer = engineer's locker
-    .desc = Nevermind the pickaxe.
+ent-LockerEngineer = armário do engenheiro
+    .desc = Uma unidade de armazenamento padrão da Nanotrasen.
 
 ent-LockerFreezer = freezer
-    .desc = Nevermind the pickaxe.
+    .desc = Uma unidade de armazenamento padrão da Nanotrasen.
 
-ent-LockerBotanist = botanist's locker
-    .desc = Nevermind the pickaxe.
+ent-LockerBotanist = armário do botânico
+    .desc = Uma unidade de armazenamento padrão da Nanotrasen.
 
-ent-LockerMedicine = medicine locker
-    .desc = Filled to the brim with medical junk.
+ent-LockerMedicine = armário de medicamentos
+    .desc = Cheio até a boca com tranqueira médica.
 
-ent-LockerMedical = medical doctor's locker
-    .desc = Filled to the brim with medical junk.
+ent-LockerMedical = armário do médico
+    .desc = Uma unidade de armazenamento padrão da Nanotrasen.
 
-ent-LockerChemistry = chemical locker
-    .desc = Filled to the brim with medical junk.
+ent-LockerChemistry = armário de produtos químicos
+    .desc = Uma unidade de armazenamento padrão da Nanotrasen.
 
-ent-LockerChiefMedicalOfficer = chief medical officer's locker
-    .desc = Filled to the brim with medical junk.
+ent-LockerChiefMedicalOfficer = armário do médico-chefe
+    .desc = Uma unidade de armazenamento padrão da Nanotrasen.
 
-ent-LockerResearchDirector = research director's locker
-    .desc = Filled to the brim with medical junk.
+ent-LockerResearchDirector = armário do diretor de pesquisa
+    .desc = Uma unidade de armazenamento padrão da Nanotrasen.
 
-ent-LockerScientist = scientist's locker
-    .desc = Filled to the brim with medical junk.
+ent-LockerScientist = armário do cientista
+    .desc = Uma unidade de armazenamento padrão da Nanotrasen.
 
-ent-LockerHeadOfSecurity = head of security's locker
-    .desc = Filled to the brim with medical junk.
+ent-LockerHeadOfSecurity = armário do chefe de segurança
+    .desc = Uma unidade de armazenamento padrão da Nanotrasen.
 
-ent-LockerWarden = warden's locker
-    .desc = Filled to the brim with medical junk.
+ent-LockerWarden = armário do carcereiro
+    .desc = Uma unidade de armazenamento padrão da Nanotrasen.
 
-ent-LockerSecurity = security officer's locker
-    .desc = Filled to the brim with medical junk.
+ent-LockerSecurity = armário do oficial de segurança
+    .desc = Uma unidade de armazenamento padrão da Nanotrasen.
 
-ent-LockerDetective = detective's cabinet
-    .desc = Usually cold and empty... like your heart.
+ent-LockerDetective = gabinete do detetive
+    .desc = Geralmente frio e vazio... como seu coração.
 
-ent-LockerEvidence = evidence locker
-    .desc = To store bags of bullet casings and detainee belongings.
+ent-LockerEvidence = armário de evidências
+    .desc = Para armazenar sacos de cápsulas de balas e pertences de detidos.
 
-ent-LockerSyndicatePersonal = armory closet
-    .desc = It's a personal storage unit for operative gear.
+ent-LockerSyndicatePersonal = armário do arsenal
+    .desc = É uma unidade de armazenamento pessoal para equipamentos de operadores especiais.
 
+ent-GunSafe = cofre de armas
+    .desc = Uma unidade de armazenamento padrão da Nanotrasen.
+
+ent-LockerBrigmedic = armário do médico do brig
+    .desc = Uma unidade de armazenamento padrão da Nanotrasen.
+
+ent-LockerParamedic = armário do paramédico
+    .desc = Uma unidade de armazenamento padrão da Nanotrasen.
+
+ent-LockerSteel = armário seguro
+    .desc = Uma unidade de armazenamento padrão da Nanotrasen.
+
+ent-LockerBluespaceStation = armário bluespace
+    .desc = Tecnologia avançada de armários.
+
+ent-LockerClown = armário do palhaço
+    .desc = Uma unidade de armazenamento padrão da Nanotrasen.
+
+ent-LockerMime = armário do mímico
+    .desc = Uma unidade de armazenamento padrão da Nanotrasen.
+
+ent-LockerRepresentative = armário do representante
+    .desc = Uma unidade de armazenamento padrão da Nanotrasen.
+
+ent-LockerSyndicate = armário do arsenal
+    .desc = É uma unidade de armazenamento.
+
+ent-ClosetBluespace = armário suspeito
+    .desc = É uma unidade de armazenamento... não é?
+
+ent-ClosetBluespaceUnstable = armário suspeito
+    .desc = É uma unidade de armazenamento... não é?
