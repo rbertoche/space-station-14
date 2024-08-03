@@ -4,7 +4,7 @@ ent-LockerBooze = armário de bebidas
 ent-LockerQuarterMaster = armário do intendente
     .desc = Uma unidade de armazenamento padrão da Nanotrasen.
 
-ent-LockerSalvageSpecialist = equipamento do especialista em salvatagem
+ent-LockerSalvageSpecialist = equipamento de especialista em salvatagem
     .desc = Não se preocupe com a picareta.
 
 ent-LockerCaptain = armário do capitão
@@ -22,22 +22,22 @@ ent-LockerElectricalSupplies = armário de suprimentos elétricos
 ent-LockerWeldingSupplies = armário de suprimentos de soldagem
     .desc = Uma unidade de armazenamento padrão da Nanotrasen.
 
-ent-LockerAtmospherics = armário do técnico atmosférico
+ent-LockerAtmospherics = armário de técnico atmosférico
     .desc = Uma unidade de armazenamento padrão da Nanotrasen.
 
-ent-LockerEngineer = armário do engenheiro
+ent-LockerEngineer = armário de engenheiro
     .desc = Uma unidade de armazenamento padrão da Nanotrasen.
 
 ent-LockerFreezer = freezer
     .desc = Uma unidade de armazenamento padrão da Nanotrasen.
 
-ent-LockerBotanist = armário do botânico
+ent-LockerBotanist = armário de botânico
     .desc = Uma unidade de armazenamento padrão da Nanotrasen.
 
 ent-LockerMedicine = armário de medicamentos
     .desc = Cheio até a boca com tranqueira médica.
 
-ent-LockerMedical = armário do médico
+ent-LockerMedical = armário de médico
     .desc = Uma unidade de armazenamento padrão da Nanotrasen.
 
 ent-LockerChemistry = armário de produtos químicos
@@ -49,16 +49,16 @@ ent-LockerChiefMedicalOfficer = armário do médico-chefe
 ent-LockerResearchDirector = armário do diretor de pesquisa
     .desc = Uma unidade de armazenamento padrão da Nanotrasen.
 
-ent-LockerScientist = armário do cientista
+ent-LockerScientist = armário de cientista
     .desc = Uma unidade de armazenamento padrão da Nanotrasen.
 
 ent-LockerHeadOfSecurity = armário do chefe de segurança
     .desc = Uma unidade de armazenamento padrão da Nanotrasen.
 
-ent-LockerWarden = armário do carcereiro
+ent-LockerWarden = armário de carcereiro
     .desc = Uma unidade de armazenamento padrão da Nanotrasen.
 
-ent-LockerSecurity = armário do oficial de segurança
+ent-LockerSecurity = armário de oficial de segurança
     .desc = Uma unidade de armazenamento padrão da Nanotrasen.
 
 ent-LockerDetective = gabinete do detetive
@@ -73,10 +73,10 @@ ent-LockerSyndicatePersonal = armário do arsenal
 ent-GunSafe = cofre de armas
     .desc = Uma unidade de armazenamento padrão da Nanotrasen.
 
-ent-LockerBrigmedic = armário do médico do brig
+ent-LockerBrigmedic = armário de médico do brig
     .desc = Uma unidade de armazenamento padrão da Nanotrasen.
 
-ent-LockerParamedic = armário do paramédico
+ent-LockerParamedic = armário de paramédico
     .desc = Uma unidade de armazenamento padrão da Nanotrasen.
 
 ent-LockerSteel = armário seguro
@@ -85,10 +85,10 @@ ent-LockerSteel = armário seguro
 ent-LockerBluespaceStation = armário bluespace
     .desc = Tecnologia avançada de armários.
 
-ent-LockerClown = armário do palhaço
+ent-LockerClown = armário de palhaço
     .desc = Uma unidade de armazenamento padrão da Nanotrasen.
 
-ent-LockerMime = armário do mímico
+ent-LockerMime = armário de mímico
     .desc = Uma unidade de armazenamento padrão da Nanotrasen.
 
 ent-LockerRepresentative = armário do representante
