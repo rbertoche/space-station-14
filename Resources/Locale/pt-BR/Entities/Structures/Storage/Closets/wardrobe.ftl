@@ -31,7 +31,7 @@ ent-WardrobeSecurity = guarda-roupa de segurança
 ent-WardrobeAtmospherics = guarda-roupa atmosférico
     .desc = { "" }
 
-ent-ClosetJanitor = armário de custódia
+ent-ClosetJanitor = armário do zelador
     .desc = É um depósito para roupas e equipamentos de limpeza.
 
 ent-WardrobeFormal = armário formal
