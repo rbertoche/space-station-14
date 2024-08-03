@@ -10,4 +10,4 @@ ent-TurboItemRecharger = recarregador turbo
 ent-BorgCharger = estação de recarga de ciborgues
     .desc = Um carregador fixo para várias entidades robóticas e ciborgues. Surpreendentemente espaçoso.
 
-ent-PowerCageRecharger = recarregador de cilindro
+ent-PowerCageRecharger = recarregador de tanque

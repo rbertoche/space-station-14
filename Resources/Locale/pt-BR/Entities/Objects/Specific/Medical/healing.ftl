@@ -97,35 +97,35 @@ ent-Bloodpack10Lingering = bolsa de sangue
 ent-Tourniquet = torniquete
     .desc = Provavelmente estanca o sangramento.
 
-ent-PillCanisterDexalin = pote de pílulas (dexalin 10u)
+ent-PillCanisterDexalin = porta-comprimidos (dexalin 10u)
     .desc = Comporta até 9 comprimidos.
 
-ent-PillCanisterDylovene = pote de pílulas (dylovene 10u)
+ent-PillCanisterDylovene = porta-comprimidos (dylovene 10u)
     .desc = Comporta até 9 comprimidos.
 
-ent-PillCanisterHyronalin = pote de pílulas (hyronalin 10u)
+ent-PillCanisterHyronalin = porta-comprimidos (hyronalin 10u)
     .desc = Comporta até 9 comprimidos.
 
-ent-PillCanisterIron = pote de pílulas (ferro 10u)
+ent-PillCanisterIron = porta-comprimidos (ferro 10u)
     .desc = Comporta até 9 comprimidos.
 
-ent-PillCanisterCopper = pote de pílulas (cobre 10u)
+ent-PillCanisterCopper = porta-comprimidos (cobre 10u)
     .desc = Comporta até 9 comprimidos.
 
-ent-PillCanisterKelotane = pote de pílulas (kelotane 10u)
+ent-PillCanisterKelotane = porta-comprimidos (kelotane 10u)
     .desc = Comporta até 9 comprimidos.
 
-ent-PillCanisterDermaline = pote de pílulas (dermaline 10u)
+ent-PillCanisterDermaline = porta-comprimidos (dermaline 10u)
     .desc = Comporta até 9 comprimidos.
 
-ent-PillCanisterTricordrazine = pote de pílulas (tricordrazine 10u)
+ent-PillCanisterTricordrazine = porta-comprimidos (tricordrazine 10u)
     .desc = Comporta até 9 comprimidos.
 
-ent-PillCanisterBicaridine = pote de pílulas (bicaridine 10u)
+ent-PillCanisterBicaridine = porta-comprimidos (bicaridine 10u)
     .desc = Comporta até 9 comprimidos.
 
-ent-PillCanisterCharcoal = pote de pílulas (carvão vegetal 10u)
+ent-PillCanisterCharcoal = porta-comprimidos (carvão vegetal 10u)
     .desc = Comporta até 9 comprimidos.
 
-PillCanisterRandom = pote de pílulas
+PillCanisterRandom = porta-comprimidos
     .desc = Comporta até 9 comprimidos.

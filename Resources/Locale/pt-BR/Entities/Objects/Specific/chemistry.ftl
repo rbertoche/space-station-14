@@ -22,7 +22,7 @@ ent-Syringe = seringa
 ent-Pill = pílula
      .desc = Não é um supositório.
 
-ent-PillCanister = pote de pílulas
+ent-PillCanister = porta-comprimidos
      .desc = Comporta até 9 comprimidos.
 
 ent-CryoxadoneBeakerSmall = béquer com cryoxadona
