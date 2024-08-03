@@ -7,7 +7,7 @@ ent-LockerElectricalSuppliesFilled = armário de suprimentos elétricos
 ent-LockerWeldingSuppliesFilled = armário de ferramentas
     .desc = É uma unidade de armazenamento de ferramentas.
 
-ent-LockerAtmosphericsFilledHardsuit = armário de suprimentos de soldagem
+ent-LockerAtmosphericsFilledHardsuit = armário do técnico atmosférico
     .desc = Uma unidade de armazenamento padrão da Nanotrasen.
 
 ent-LockerAtmosphericsFilled = armário do técnico atmosférico
