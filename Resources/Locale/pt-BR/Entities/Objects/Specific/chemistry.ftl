@@ -5,7 +5,7 @@ ent-LargeBeaker = béquer grande
      .desc = Usado para conter uma grande quantidade de produtos químicos ou soluções.
 
 ent-CryostasisBeaker = béquer de criostase
-     .desc = Usado para conter produtos químicos ou soluções impedindo reações químicas.
+     .desc = Usado para conter produtos químicos ou soluções. Impede reações químicas.
 
 ent-BluespaceBeaker = béquer de bluespace
      .desc = Desenvolvido pela tecnologia experimental bluespace.
