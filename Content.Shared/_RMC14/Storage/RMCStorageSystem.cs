@@ -1,5 +1,7 @@
 ﻿using Content.Shared._RMC14.Marines.Skills;
 using Content.Shared.DoAfter;
+using Content.Shared.Hands.EntitySystems;
+using Content.Shared.Inventory.Events;
 using Content.Shared.Item;
 using Content.Shared.Popups;
 using Content.Shared.Storage;
@@ -11,7 +13,7 @@ using static Content.Shared.Storage.StorageComponent;
 
 namespace Content.Shared._RMC14.Storage;
 
-public sealed class CMStorageSystem : EntitySystem
+public sealed class RMCStorageSystem : EntitySystem
 {
     [Dependency] private readonly SharedDoAfterSystem _doAfter = default!;
     [Dependency] private readonly SharedItemSystem _item = default!;
@@ -22,17 +24,24 @@ public sealed class CMStorageSystem : EntitySystem
     [Dependency] private readonly SharedTransformSystem _transform = default!;
     [Dependency] private readonly SharedUserInterfaceSystem _ui = default!;
     [Dependency] private readonly EntityWhitelistSystem _whitelist = default!;
+    [Dependency] private readonly SharedHandsSystem _hands = default!;
 
     private readonly List<EntityUid> _toRemove = new();
 
+    private EntityQuery<StorageComponent> _storageQuery;
+
     public override void Initialize()
     {
+        _storageQuery = GetEntityQuery<StorageComponent>();
+
         SubscribeLocalEvent<StorageFillComponent, CMStorageItemFillEvent>(OnStorageFillItem);
 
         SubscribeLocalEvent<StorageOpenDoAfterComponent, OpenStorageDoAfterEvent>(OnStorageOpenDoAfter);
 
         SubscribeLocalEvent<StorageSkillRequiredComponent, StorageInteractAttemptEvent>(OnStorageSkillOpenAttempt);
         SubscribeLocalEvent<StorageSkillRequiredComponent, DumpableDoAfterEvent>(OnDumpableDoAfter, before: [typeof(DumpableSystem)]);
+
+        SubscribeLocalEvent<StorageCloseOnMoveComponent, GotEquippedEvent>(OnStorageEquip);
 
         Subs.BuiEvents<StorageCloseOnMoveComponent>(StorageUiKey.Key, sub =>
         {
@@ -108,6 +117,9 @@ public sealed class CMStorageSystem : EntitySystem
             return false;
         }
 
+        if (comp.SkipInHand && _hands.IsHolding(entity, uid))
+            return false;
+
         var ev = new OpenStorageDoAfterEvent(GetNetEntity(uid), GetNetEntity(entity), silent);
         var doAfter = new DoAfterArgs(EntityManager, entity, comp.Duration, ev, uid)
         {
@@ -150,11 +162,19 @@ public sealed class CMStorageSystem : EntitySystem
         if (_timing.ApplyingState)
             return;
 
+        if (ent.Comp.SkipInHand && _hands.IsHolding(args.Actor, ent))
+            return;
+
         var user = args.Actor;
         var coordinates = GetNetCoordinates(_transform.GetMoverCoordinates(user));
         EnsureComp<StorageOpenComponent>(ent).OpenedAt[user] = coordinates;
     }
-
+    private void OnStorageEquip(Entity<StorageCloseOnMoveComponent> ent, ref GotEquippedEvent args)
+    {
+        _ui.CloseUi(ent.Owner, StorageUiKey.Key, args.Equipee);
+        if (TryComp<StorageOpenComponent>(ent, out var comp))
+            comp.OpenedAt.Remove(args.Equipee);
+    }
     private void OnCloseOnMoveUIClosed(Entity<StorageOpenComponent> ent, ref BoundUIClosedEvent args)
     {
         ent.Comp.OpenedAt.Remove(args.Actor);
@@ -169,6 +189,41 @@ public sealed class CMStorageSystem : EntitySystem
         }
 
         return false;
+    }
+
+    public bool CanInsertStorageLimit(Entity<LimitedStorageComponent?, StorageComponent?> limited, EntityUid toInsert, out LocId popup)
+    {
+        popup = default;
+        if (!Resolve(limited, ref limited.Comp1, false) ||
+            !_storageQuery.Resolve(limited, ref limited.Comp2, false))
+        {
+            return true;
+        }
+
+        foreach (var limit in limited.Comp1.Limits)
+        {
+            if (!_whitelist.IsWhitelistPass(limit.Whitelist, toInsert))
+                continue;
+
+            var storedCount = 0;
+            foreach (var stored in limited.Comp2.StoredItems.Keys)
+            {
+                if (!_whitelist.IsWhitelistPass(limit.Whitelist, stored))
+                    continue;
+
+                storedCount++;
+                if (storedCount >= limit.Count)
+                    break;
+            }
+
+            if (storedCount < limit.Count)
+                continue;
+
+            popup = limit.Popup == default ? "rmc-storage-limit-cant-fit" : limit.Popup;
+            return false;
+        }
+
+        return true;
     }
 
     public override void Update(float frameTime)
