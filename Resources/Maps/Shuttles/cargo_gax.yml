@@ -12,7 +12,7 @@ entities:
   - uid: 2
     components:
     - type: MetaData
-      name: grid
+      name: NT Cargo Shuttle
     - type: Transform
       pos: -0.426304,-0.74198127
       parent: invalid
