@@ -1157,7 +1157,8 @@ entities:
           7,0:
             0: 36606
           7,1:
-            0: 47931
+            2: 1
+            0: 47930
           7,2:
             0: 10224
             2: 2048
@@ -1320,7 +1321,8 @@ entities:
           -2,-4:
             0: 61695
           -2,-3:
-            0: 65295
+            2: 1
+            0: 65294
           -2,-2:
             0: 4095
           -2,-5:
@@ -1367,7 +1369,8 @@ entities:
           7,-7:
             0: 4080
           7,-6:
-            0: 62583
+            0: 62579
+            2: 4
           7,-9:
             0: 4369
           8,-8:
@@ -3570,6 +3573,53 @@ entities:
     - type: Transform
       pos: 55.5,-26.5
       parent: 2
+- proto: AtmosFixBlockerMarker
+  entities:
+  - uid: 7184
+    components:
+    - type: Transform
+      pos: 66.5,-18.5
+      parent: 2
+  - uid: 7187
+    components:
+    - type: Transform
+      pos: 66.5,-16.5
+      parent: 2
+  - uid: 7743
+    components:
+    - type: Transform
+      pos: 65.5,-16.5
+      parent: 2
+  - uid: 7744
+    components:
+    - type: Transform
+      pos: 64.5,-16.5
+      parent: 2
+  - uid: 7745
+    components:
+    - type: Transform
+      pos: 64.5,-18.5
+      parent: 2
+  - uid: 7746
+    components:
+    - type: Transform
+      pos: 65.5,-18.5
+      parent: 2
+  - uid: 7748
+    components:
+    - type: Transform
+      pos: 64.5,-22.5
+      parent: 2
+  - uid: 7749
+    components:
+    - type: Transform
+      pos: 65.5,-22.5
+      parent: 2
+  - uid: 7750
+    components:
+    - type: Transform
+      pos: 66.5,-22.5
+      parent: 2
 - proto: AtmosFixFreezerMarker
   entities:
   - uid: 7680
@@ -3617,13 +3667,42 @@ entities:
     - type: Transform
       pos: -10.5,29.5
       parent: 2
-- proto: AtmosFixPlasmaMarker
+- proto: AtmosFixNitrogenMarker
   entities:
-  - uid: 7094
+  - uid: 7738
     components:
     - type: Transform
-      pos: 66.5,-20.5
+      pos: 64.5,-14.5
       parent: 2
+  - uid: 7740
+    components:
+    - type: Transform
+      pos: 66.5,-14.5
+      parent: 2
+  - uid: 7742
+    components:
+    - type: Transform
+      pos: 65.5,-14.5
+      parent: 2
+- proto: AtmosFixOxygenMarker
+  entities:
+  - uid: 2080
+    components:
+    - type: Transform
+      pos: 66.5,-12.5
+      parent: 2
+  - uid: 7741
+    components:
+    - type: Transform
+      pos: 64.5,-12.5
+      parent: 2
+  - uid: 7751
+    components:
+    - type: Transform
+      pos: 65.5,-12.5
+      parent: 2
+- proto: AtmosFixPlasmaMarker
+  entities:
   - uid: 7106
     components:
     - type: Transform
@@ -3633,6 +3712,11 @@ entities:
     components:
     - type: Transform
       pos: 64.5,-20.5
+      parent: 2
+  - uid: 7747
+    components:
+    - type: Transform
+      pos: 66.5,-20.5
       parent: 2
 - proto: Autolathe
   entities:
@@ -3943,6 +4027,24 @@ entities:
     - type: Transform
       pos: 30.5,0.5
       parent: 2
+- proto: BedsheetCMO
+  entities:
+  - uid: 3235
+    components:
+    - type: Transform
+      parent: 2936
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
+- proto: BedsheetHOP
+  entities:
+  - uid: 7094
+    components:
+    - type: Transform
+      parent: 2742
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
 - proto: BedsheetHOS
   entities:
   - uid: 3125
@@ -3994,6 +4096,15 @@ entities:
     - type: Transform
       pos: 28.5,-32.5
       parent: 2
+- proto: BedsheetRD
+  entities:
+  - uid: 7732
+    components:
+    - type: Transform
+      parent: 3046
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
 - proto: BedsheetSyndie
   entities:
   - uid: 37
@@ -15342,11 +15453,6 @@ entities:
     - type: Transform
       pos: 50.5,-18.5
       parent: 2
-  - uid: 7187
-    components:
-    - type: Transform
-      pos: 66.5,-18.5
-      parent: 2
 - proto: Carpet
   entities:
   - uid: 873
@@ -22191,6 +22297,13 @@ entities:
     components:
     - type: Transform
       pos: -5.7495575,31.829096
+      parent: 2
+- proto: GasMinerCarbonDioxide
+  entities:
+  - uid: 7739
+    components:
+    - type: Transform
+      pos: 65.5,-18.5
       parent: 2
 - proto: GasMinerNitrogenStationLarge
   entities:
@@ -30326,6 +30439,35 @@ entities:
     - type: Transform
       pos: -7.5,-11.5
       parent: 2
+    - type: EntityStorage
+      air:
+        volume: 200
+        immutable: False
+        temperature: 293.14673
+        moles:
+        - 1.7459903
+        - 6.568249
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+    - type: ContainerContainer
+      containers:
+        entity_storage: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 3235
+        paper_label: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: null
 - proto: LockerClown
   entities:
   - uid: 3904
@@ -30420,6 +30562,35 @@ entities:
     - type: Transform
       pos: 28.5,4.5
       parent: 2
+    - type: EntityStorage
+      air:
+        volume: 200
+        immutable: False
+        temperature: 293.14673
+        moles:
+        - 1.7459903
+        - 6.568249
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+    - type: ContainerContainer
+      containers:
+        entity_storage: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 7094
+        paper_label: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: null
 - proto: LockerHeadOfSecurityFilledHardsuit
   entities:
   - uid: 3163
@@ -30478,6 +30649,35 @@ entities:
     - type: Transform
       pos: 30.5,-23.5
       parent: 2
+    - type: EntityStorage
+      air:
+        volume: 200
+        immutable: False
+        temperature: 293.14673
+        moles:
+        - 1.7459903
+        - 6.568249
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+    - type: ContainerContainer
+      containers:
+        entity_storage: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 7732
+        paper_label: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: null
 - proto: LockerSalvageSpecialistFilledHardsuit
   entities:
   - uid: 3343
@@ -46098,13 +46298,6 @@ entities:
     components:
     - type: Transform
       pos: -14.5,17.5
-      parent: 2
-- proto: WaterVaporCanister
-  entities:
-  - uid: 7184
-    components:
-    - type: Transform
-      pos: 66.5,-16.5
       parent: 2
 - proto: WeaponCapacitorRecharger
   entities:
