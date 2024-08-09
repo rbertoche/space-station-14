@@ -3,7 +3,7 @@
   mapName: 'Glacier'
   mapPath: /Maps/glacier.yml
   minPlayers: 10
-  maxPlayers: 60
+  maxPlayers: 50
   stations:
     Glacier:
       stationProto: StandardNanotrasenStation

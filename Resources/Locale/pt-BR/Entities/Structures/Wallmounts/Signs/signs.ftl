@@ -44,7 +44,7 @@ ent-SignDirectionalHydro = placa de hidroponia
     .desc = Uma placa direcional, apontando o caminho para a hidroponia.
 
 ent-SignDirectionalJanitor = placa de zelador
-    .desc = Uma placa direcional, apontando o caminho para o armário do zelador.
+    .desc = Uma placa direcional, apontando o caminho para a sala do zelador.
 
 ent-SignDirectionalLibrary = placa de biblioteca
     .desc = Uma placa direcional, apontando o caminho para a biblioteca.
