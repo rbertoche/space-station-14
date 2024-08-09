@@ -16,6 +16,8 @@
             prefixCreator: 'TG'
         - type: StationCargoShuttle
           path: /Maps/Shuttles/cargo_gax.yml
+        - type: StationEmergencyShuttle
+          emergencyShuttlePath: /Maps/Shuttles/emergency_jupter.yml
         - type: StationJobs
           overflowJobs:
           - Passenger
