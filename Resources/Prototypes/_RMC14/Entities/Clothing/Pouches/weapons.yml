@@ -97,7 +97,6 @@
           tags:
           - Machete
   - type: Appearance
-  - type: UsableWhileDevoured
   - type: Tag
     tags:
     - Pouch

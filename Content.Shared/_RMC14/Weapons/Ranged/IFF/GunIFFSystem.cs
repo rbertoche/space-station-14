@@ -71,16 +71,13 @@ public sealed class GunIFFSystem : EntitySystem
 
     private void OnProjectileIFFPreventCollide(Entity<ProjectileIFFComponent> ent, ref PreventCollideEvent args)
     {
-        if (args.Cancelled ||
+        if (args.Cancelled || !ent.Comp.Enabled ||
             ent.Comp.Faction is not { } faction)
         {
             return;
         }
 
-        if (ent.Comp.Enabled && IsInFaction(args.OtherEntity, faction))
-            args.Cancelled = true;
-
-        if (HasComp<EntityIFFComponent>(args.OtherEntity) && IsInFaction(args.OtherEntity, faction))
+        if (IsInFaction(args.OtherEntity, faction))
             args.Cancelled = true;
     }
 

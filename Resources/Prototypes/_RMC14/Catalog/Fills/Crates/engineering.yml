@@ -10,7 +10,7 @@
 - type: entity
   id: CMCrateSandbagsConstructionKit
   parent: CMCrateConstruction
-  name: sandbags construction kit
+  name: sandbags construction lit
   components:
   - type: StorageFill
     contents:

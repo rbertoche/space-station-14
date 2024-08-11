@@ -98,15 +98,7 @@
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Crates/densecrate.rsi
     noRot: true
-    layers:
-    - state: base
-      map: ["enum.StorageVisualLayers.Base"]
-    - state: closed
-      map: ["enum.StorageVisualLayers.Door"]
-    - state: invoice
-      sprite: _RMC14/Structures/Storage/Crates/labels.rsi
-      visible: false
-      map: ["enum.PaperLabelVisuals.Layer"]
+    state: base
   - type: Icon
     sprite: _RMC14/Structures/Storage/Crates/densecrate.rsi
     state: base
@@ -140,9 +132,6 @@
       - !type:DoActsBehavior
         acts: ["Destruction"]
   - type: Appearance
-  - type: EntityStorageVisuals
-    stateDoorOpen: base
-    stateDoorClosed: closed
   - type: PaperLabel
     labelSlot:
       insertVerbText: Attach Label

@@ -11,7 +11,6 @@
     bundle:
     - ArmorHelmetM10
     - CMVendorHeadsetSquad
-    - JumpsuitMarine
     - CMHandsBlackMarine
     - CMBootsBlackFilled
 
@@ -24,7 +23,6 @@
     bundle:
     - ArmorHelmetM10 # TODO RMC14 M4
     - CMVendorHeadsetSquadFTL
-    - JumpsuitMarine
     - CMHandsBlackMarine
     - CMBootsBlackFilled
 
@@ -37,7 +35,6 @@
     bundle:
     - CMArmorHelmetM10Medic # TODO RMC14 M4
     - CMVendorHeadsetSquadCorpsman
-    - CMJumpsuitMarineMedic
     - CMHandsBlackMarine
     - CMBootsBlackFilled
 
@@ -72,7 +69,6 @@
     bundle:
     - CMArmorHelmetM10Tech # TODO RMC14 M4
     - CMVendorHeadsetSquadComTech
-    - CMJumpsuitMarineEngineer
     - CMHandsInsulated
     - CMBootsBlackFilled
 
@@ -104,7 +100,6 @@
     bundle:
     - CMArmorHelmetM11 # TODO RMC14 M4
     - CMVendorHeadsetSquadLeader
-    - JumpsuitMarine
     - CMHandsBlackMarine
     - CMBootsBlackFilled
 
@@ -116,7 +111,6 @@
   - type: CMVendorBundle
     bundle:
     - CMVendorHeadsetSquad
-    - JumpsuitMarine
     - CMHandsBlackMarine
     - CMBootsBlackFilled
 
@@ -150,5 +144,4 @@
     - CMSurgicalLine
     - CMSynthGraft
     - CMSurgicalCaseFilled
-    - RMCFlashlightPen
 #   - Syringe case # TODO RMC14 syringe cases

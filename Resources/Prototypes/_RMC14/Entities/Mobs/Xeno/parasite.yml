@@ -49,7 +49,6 @@
   - type: XenoLeap
     knockdownTime: 1
   - type: XenoParasite
-  - type: InfectOnPullAttempt
   - type: Item
     size: Invalid
   - type: WhitelistPickupBy

@@ -7,15 +7,20 @@
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/riot.rsi
+    layers:
+    - state: icon
   - type: Clothing
+    sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/riot.rsi
     equipDelay: 2
     unequipDelay: 2
-  - type: ClothingSpeedModifier
-    walkModifier: 0.8
-    sprintModifier: 0.8
   - type: CMArmor
     armor: 30
     explosionArmor: 10
+  - type: Item
+    size: Huge
+  - type: ClothingSpeedModifier
+    walkModifier: 0.8
+    sprintModifier: 0.8
   - type: CMHardArmor
   - type: RMCNameItemOnVend
     item: Armor
@@ -27,3 +32,9 @@
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/old_riot.rsi
+    layers:
+    - state: icon
+  - type: Clothing
+    sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/old_riot.rsi
+    equipDelay: 2
+    unequipDelay: 2

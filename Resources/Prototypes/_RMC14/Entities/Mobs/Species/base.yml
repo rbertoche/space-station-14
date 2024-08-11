@@ -197,4 +197,3 @@
             state: human_acid_enhanced
             visible: true
   - type: ActiveInputMover
-  - type: DropItemsOnRest

@@ -11,7 +11,6 @@ using Content.Shared.Interaction.Events;
 using Content.Shared.Popups;
 using Content.Shared.Prototypes;
 using Content.Shared.Throwing;
-using Content.Shared.UserInterface;
 using Content.Shared.Weapons.Melee.Events;
 using Robust.Shared.Network;
 using Robust.Shared.Prototypes;
@@ -40,16 +39,11 @@ public sealed class SkillsSystem : EntitySystem
         SubscribeLocalEvent<PrototypesReloadedEventArgs>(OnPrototypesReloaded);
 
         SubscribeLocalEvent<MedicallyUnskilledDoAfterComponent, AttemptHyposprayUseEvent>(OnAttemptHyposprayUse);
-
         SubscribeLocalEvent<RequiresSkillComponent, BeforeRangedInteractEvent>(OnRequiresSkillBeforeRangedInteract);
-        SubscribeLocalEvent<RequiresSkillComponent, ActivatableUIOpenAttemptEvent>(OnRequiresSkillActivatableUIOpenAttempt);
-
         SubscribeLocalEvent<MeleeRequiresSkillComponent, AttemptMeleeEvent>(OnRequiresSkillAttemptMelee);
         SubscribeLocalEvent<MeleeRequiresSkillComponent, ThrowItemAttemptEvent>(OnRequiresSkillThrowAttempt);
         SubscribeLocalEvent<MeleeRequiresSkillComponent, UseInHandEvent>(OnRequiresSkillUseInHand, before: [typeof(SharedFlashSystem)]);
-
         SubscribeLocalEvent<ReagentExaminationRequiresSkillComponent, ExaminedEvent>(OnExamineReagentContainer);
-
         SubscribeLocalEvent<ExamineRequiresSkillComponent, ExaminedEvent>(OnExamineRequiresSkill);
 
         ReloadPrototypes();
@@ -79,19 +73,6 @@ public sealed class SkillsSystem : EntitySystem
             var msg = Loc.GetString("rmc-skills-cant-use", ("item", args.Used));
             _popup.PopupClient(msg, args.User, PopupType.SmallCaution);
             args.Handled = true;
-        }
-    }
-
-    private void OnRequiresSkillActivatableUIOpenAttempt(Entity<RequiresSkillComponent> ent, ref ActivatableUIOpenAttemptEvent args)
-    {
-        if (args.Cancelled)
-            return;
-
-        if (!HasAllSkills(args.User, ent.Comp.Skills))
-        {
-            var msg = Loc.GetString("rmc-skills-no-training", ("target", ent));
-            _popup.PopupClient(msg, args.User, PopupType.SmallCaution);
-            args.Cancel();
         }
     }
 

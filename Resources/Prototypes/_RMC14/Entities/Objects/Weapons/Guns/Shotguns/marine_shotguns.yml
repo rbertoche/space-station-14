@@ -46,7 +46,7 @@
     capacity: 9
     proto: null
     soundInsert:
-      collection: CMShotgunLoad
+      path: /Audio/_RMC14/Weapons/Guns/Reload/m42a2.ogg
   - type: ContainerContainer
     containers:
       ballistic-ammo: !type:Container

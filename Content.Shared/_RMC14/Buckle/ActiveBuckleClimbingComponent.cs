@@ -3,7 +3,7 @@
 namespace Content.Shared._RMC14.Buckle;
 
 [RegisterComponent, NetworkedComponent, AutoGenerateComponentState]
-[Access(typeof(RMCBuckleSystem))]
+[Access(typeof(CMBuckleSystem))]
 public sealed partial class ActiveBuckleClimbingComponent : Component
 {
     [DataField, AutoNetworkedField]

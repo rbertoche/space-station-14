@@ -270,10 +270,7 @@ public abstract class SharedDropshipSystem : EntitySystem
         return true;
     }
 
-    public bool TryDesignatePrimaryLZ(
-        EntityUid actor,
-        EntityUid lz
-        )
+    public bool TryDesignatePrimaryLZ(EntityUid actor, EntityUid lz, SoundSpecifier sound)
     {
         if (!HasComp<DropshipDestinationComponent>(lz))
         {
@@ -304,9 +301,7 @@ public abstract class SharedDropshipSystem : EntitySystem
 
         EnsureComp<PrimaryLandingZoneComponent>(lz);
         RefreshUI();
-
-        var message = Loc.GetString("rmc-announcement-ares-lz-designated", ("name", Name(lz)));
-        _marineAnnounce.AnnounceARES(actor, message);
+        _marineAnnounce.AnnounceARES(actor, $"Command Order Issued:\n\n{Name(lz)} has been designated as the primary landing zone.", sound);
 
         return true;
     }

@@ -69,7 +69,6 @@
     whitelist:
       components:
       - Marine
-  - type: UncloakOnHit
 
 - type: entity
   parent: XenoAcidSprayWeak

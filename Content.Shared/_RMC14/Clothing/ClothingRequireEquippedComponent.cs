@@ -9,7 +9,4 @@ public sealed partial class ClothingRequireEquippedComponent : Component
 {
     [DataField(required: true), AutoNetworkedField]
     public EntityWhitelist Whitelist = new();
-
-    [DataField, AutoNetworkedField]
-    public string DenyReason = "rmc-wear-smart-gun-required";
 }

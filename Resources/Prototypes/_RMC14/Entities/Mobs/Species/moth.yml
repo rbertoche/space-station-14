@@ -24,8 +24,6 @@
       Brute:
         sprite: Mobs/Effects/brute_damage.rsi
         color: "#808A51"
-      Burn:
-        sprite: Mobs/Effects/burn_damage.rsi
   - type: Sprite
     noRot: true
     drawdepth: Mobs
