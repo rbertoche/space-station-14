@@ -207,7 +207,7 @@
 - type: entity
   id: PlasmaTankFilled
   parent: PlasmaTank
-  name: Tanque de plasma
+  name: tanque de plasma
   suffix: Filled
   components:
   - type: GasTank
