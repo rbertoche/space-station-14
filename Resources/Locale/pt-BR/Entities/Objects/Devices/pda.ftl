@@ -145,7 +145,7 @@ ent-PiratePDA = PDA de pirata
 ent-SeniorOfficerPDA = PDA de oficial sênior
     .desc = Espancado, maltratado e quebrado, mas ainda utilizavél.
 
-ent-SeniorPhysicianPDA = PDA de médico sênio
+ent-SeniorPhysicianPDA = PDA de médico sênior
     .desc = Cheira levemente a ferro e produtos químicos. Possui um analisador de saúde integrado.
 
 ent-SeniorResearcherPDA = PDA de ciêntista sênior
