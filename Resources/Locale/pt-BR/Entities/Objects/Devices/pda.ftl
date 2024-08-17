@@ -103,8 +103,23 @@ ent-ClearPDA = PDA de substituto
 ent-SyndiPDA = PDA de sindicato
     .desc = Ok, hora de ser um membro produtivo de- ah, legal, sou um cara mau, hora de matar pessoas!
 
-ent-ERTLeaderPDA = PDA de ERT
+ent-ERTLeaderPDA = PDA de Líder ERT
     .desc = Vermelho para poder de fogo.
+
+ent-ERTChaplainPDA = PDA de Padre ERT
+    .desc = Vermelho para poder de fogo, é abençoado.
+
+ent-ERTEngineerPDA = PDA de Engenheiro ERT
+    .desc = Vermelho para poder de fogo, é bem útil.
+
+ent-ERTJanitorPDA = PDA de Zelador ERT
+    .desc = Vermelho para poder de fogo, é completamente limpo.
+
+ent-ERTMedicPDA = PDA de Médico ERT
+    .desc = Vermelho para poder de fogo, é brilhante e estéril. Possui um analisador rápido de saúde integrado.
+
+ent-ERTSecurityPDA = PDA de Segurança ERT
+    .desc = Vermelho para poder de fogo, tem marcas de contagem gravadas na lateral.
 
 ent-CBURNPDA = PDA de CBURN
     .desc = Cheira a carne podre.
@@ -120,3 +135,24 @@ ent-BoxerPDA = PDA de boxer
 
 ent-DetectivePDA = PDA de detetive
     .desc = Cheira a chuva... caindo nos telhados...
+
+ent-SyndiAgentPDA = PDA de Agente do Sindicato
+    .desc = Para aqueles dias em que curar sindicatos normais não é suficiente, tente curar agentes nucleares!
+
+ent-PiratePDA = PDA de pirata
+    .desc = Yargh!
+
+ent-SeniorOfficerPDA = PDA de oficial sênior
+    .desc = Espancado, maltratado e quebrado, mas ainda utilizavél.
+
+ent-SeniorPhysicianPDA = PDA de médico sênio
+    .desc = Cheira levemente a ferro e produtos químicos. Possui um analisador de saúde integrado.
+
+ent-SeniorResearcherPDA = PDA de ciêntista sênior
+    .desc = Parece que passou por anos de queimaduras químicas e explosões.
+
+ent-SeniorEngineerPDA = PDA de engenheiro sênior
+    .desc = Parece ter sido desmontado e remontado diversas vezes.
+
+ent-CluwnePDA = PDA de Clowne
+    .desc = PDA de Clowne amaldiçoado. 
