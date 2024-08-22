@@ -14,7 +14,7 @@
 - type: entity
   parent: BasePDA
   id: BlueshieldPDA
-  name: PDA de Blushield
+  name: PDA de Blueshield
   description: A guerra nunca muda!.
   components:
   - type: Pda

@@ -2,13 +2,13 @@ nuke-component-cant-anchor-floor = Os parafusos de ancoragem não conseguem trav
 nuke-component-announcement-sender = Explosivo de fissão nuclear
 nuke-component-announcement-armed = Atenção! O mecanismo de auto-destruição da estação foi ativado. {$time} segundos até a detonação.
 nuke-component-announcement-unarmed = A auto-destruição da estação foi desativada! Tenham um bom dia!
-nuke-component-announcement-send-codes = Atenção! Os códigos de auto-destruição foram enviados aos consoles de comunicação.
-nuke-component-doafter-warning = Você começa a mexer nos fios para desativar a nuke.. Isto pode demorar um pouco.
+nuke-component-announcement-send-codes = Atenção! Os códigos de auto-destruição foram enviados ao Fax do capitão.
+nuke-component-doafter-warning = Você começa a mexer nos fios para desativar a bomba.. Isto pode demorar um pouco.
 
 # Nuke UI
 nuke-user-interface-title = Explosivo de fissão nuclear
 nuke-user-interface-arm-button = LIGAR
-nuke-user-interface-disarm-button = DISARMAR
+nuke-user-interface-disarm-button = DESARMAR
 nuke-user-interface-anchor-button = ANCORAR
 nuke-user-interface-eject-button = EJETAR
 
@@ -18,7 +18,7 @@ nuke-user-interface-first-status-input-code = INSIRA CÓDIGO
 nuke-user-interface-first-status-input-time = INSIRA TEMPO
 nuke-user-interface-first-status-device-ready = DISPOSITIVO PRONTO
 nuke-user-interface-first-status-device-armed = DISPOSTIIVO ATIVO
-nuke-user-interface-first-status-device-cooldown = DEACTIVATED
+nuke-user-interface-first-status-device-cooldown = DESATIVADO
 nuke-user-interface-status-error = ERRO
 
 ## Lower status
@@ -37,10 +37,10 @@ nuke-label-syndicate = SYN-{$serial}
 # Codes
 nuke-codes-message = [color=red]TOP SECRET![/color]
 nuke-codes-list = {$name} code: {$code}
-nuke-codes-fax-paper-name = nuclear authentication codes
+nuke-codes-fax-paper-name = códigos de autenticação nuclear
 
 # Nuke disk slot
-nuke-slot-component-slot-name-disk = Disk
+nuke-slot-component-slot-name-disk = Dico
 
 ## Examine
 nuke-examine-armed = Aí, porquê aquela [color=red]luz vermelha[/color] tá piscando?

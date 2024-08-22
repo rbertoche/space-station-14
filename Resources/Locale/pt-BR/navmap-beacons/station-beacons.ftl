@@ -8,7 +8,7 @@ station-beacon-hop = HOP
 
 station-beacon-security = Segurança
 station-beacon-brig = Brig
-station-beacon-warden = Diretor
+station-beacon-warden = Carcereiro
 station-beacon-hos = HOS
 station-beacon-arsenal = Arsenal
 station-beacon-perma-brig = Perma
@@ -53,7 +53,7 @@ station-beacon-tech-vault = Cofre Técnico
 
 station-beacon-service = Serviço
 station-beacon-kitchen = Cozinha
-station-beacon-bar = Barra
+station-beacon-bar = Bar
 station-beacon-botany = Botânica
 station-beacon-janitor = Zelador
 
@@ -70,4 +70,4 @@ station-beacon-dorms = Dormitórios
 station-beacon-theater = Teatro
 station-beacon-tools = Ferramentas
 station-beacon-disposals = Lixo
-station-beacon-cryosleep = Cryosleep
+station-beacon-cryosleep = CryoSono
