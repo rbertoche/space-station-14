@@ -12,7 +12,7 @@
     sprite: EstacaoPirata/Objects/Specific/Engineering/handheldpowermonitor.rsi # arrumar a bomba do sprite -- arrumei, fiz um sprite proprio por que eu sou legal
     state: scanner
   - type: PowerCellDraw
-    drawRate: 0
+    drawRate: 0.60
     useRate: 20
   - type: ActivatableUIRequiresPowerCell
   - type: ActivatableUI
