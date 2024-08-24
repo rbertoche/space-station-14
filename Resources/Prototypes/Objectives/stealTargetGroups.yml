@@ -15,6 +15,13 @@
     state: scanner
 
 - type: stealTargetGroup
+  id: HandheldPowerMonitor
+  name: handheld power monitor
+  sprite:
+    sprite: EstacaoPirata/Objects/Specific/Engineering/handheldpowermonitor.rsi
+    state: scanner
+
+- type: stealTargetGroup
   id: ClothingOuterHardsuitRd
   name: experimental research hardsuit
   sprite:
