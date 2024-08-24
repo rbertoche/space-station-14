@@ -95,10 +95,10 @@ namespace Content.Client.Stylesheets
 
         public static readonly Color ButtonColorDefault = Color.FromHex("#464966");
         public static readonly Color ButtonColorDefaultRed = Color.FromHex("#D43B3B");
-        public static readonly Color ButtonColorDefaultYellow = Color.FromHex("#d4b03b");
+        public static readonly Color ButtonColorDefaultYellow = Color.FromHex("#9c812c");
         public static readonly Color ButtonColorHovered = Color.FromHex("#575b7f");
         public static readonly Color ButtonColorHoveredRed = Color.FromHex("#DF6B6B");
-        public static readonly Color ButtonColorHoveredYellow = Color.FromHex("#deb86a");
+        public static readonly Color ButtonColorHoveredYellow = Color.FromHex("#a88b4f");
         public static readonly Color ButtonColorPressed = Color.FromHex("#3e6c45");
         public static readonly Color ButtonColorDisabled = Color.FromHex("#30313c");
 
@@ -1180,6 +1180,13 @@ namespace Content.Client.Stylesheets
                     }),
 
                 new StyleRule(
+                    new SelectorElement(typeof(MenuButton), new[] {MenuButton.StyleClassYellowTopButton}, null, new[] {Button.StylePseudoClassNormal}),
+                    new[]
+                    {
+                        new StyleProperty(Button.StylePropertyModulateSelf, ButtonColorDefaultYellow),
+                    }),
+
+                new StyleRule(
                     new SelectorElement(typeof(MenuButton), null, null, new[] {Button.StylePseudoClassNormal}),
                     new[]
                     {
@@ -1205,6 +1212,13 @@ namespace Content.Client.Stylesheets
                     new[]
                     {
                         new StyleProperty(Button.StylePropertyModulateSelf, ButtonColorHoveredRed),
+                    }),
+
+                new StyleRule(
+                    new SelectorElement(typeof(MenuButton), new[] {MenuButton.StyleClassYellowTopButton}, null, new[] {Button.StylePseudoClassHover}),
+                    new[]
+                    {
+                        new StyleProperty(Button.StylePropertyModulateSelf, ButtonColorHoveredYellow),
                     }),
 
                 new StyleRule(
