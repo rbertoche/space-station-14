@@ -22,7 +22,7 @@
       enum.PowerMonitoringConsoleUiKey.Key:
         type: PowerMonitoringConsoleBoundUserInterface
   - type: PowerMonitoringConsole
-  - type: PowerMonitoringConsoleCableNetworks
+  - type: PowerMonitoringCableNetworks
   # aqui em baixo tinha o codigo de netorking, nao botei por que nao acho roubado o suficiente pra quebrar o jogo funcionando sem energia
   # até por que o objetivo desse COISO é mostrar aonde nao tem energia né....................
   - type: StaticPrice
