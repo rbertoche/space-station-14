@@ -95,8 +95,10 @@ namespace Content.Client.Stylesheets
 
         public static readonly Color ButtonColorDefault = Color.FromHex("#464966");
         public static readonly Color ButtonColorDefaultRed = Color.FromHex("#D43B3B");
+        public static readonly Color ButtonColorDefaultYellow = Color.FromHex("#d4b03b");
         public static readonly Color ButtonColorHovered = Color.FromHex("#575b7f");
         public static readonly Color ButtonColorHoveredRed = Color.FromHex("#DF6B6B");
+        public static readonly Color ButtonColorHoveredYellow = Color.FromHex("#deb86a");
         public static readonly Color ButtonColorPressed = Color.FromHex("#3e6c45");
         public static readonly Color ButtonColorDisabled = Color.FromHex("#30313c");
 
@@ -145,6 +147,7 @@ namespace Content.Client.Stylesheets
         //Buttons
         public const string StyleClassCrossButtonRed = "CrossButtonRed";
         public const string StyleClassButtonColorRed = "ButtonColorRed";
+        public const string StyleClassButtonColorYellow = "ButtonColorYellow";
         public const string StyleClassButtonColorGreen = "ButtonColorGreen";
 
         public static readonly Color ChatBackgroundColor = Color.FromHex("#25252ADD");
@@ -1461,6 +1464,17 @@ namespace Content.Client.Stylesheets
 
                 Element<Button>().Class("ButtonColorRed").Pseudo(ContainerButton.StylePseudoClassHover)
                     .Prop(Control.StylePropertyModulateSelf, ButtonColorHoveredRed),
+                // ---
+
+                // Yellow Button ---
+                Element<Button>().Class("ButtonColorYellow")
+                    .Prop(Control.StylePropertyModulateSelf, ButtonColorDefaultYellow),
+
+                Element<Button>().Class("ButtonColorYellow").Pseudo(ContainerButton.StylePseudoClassNormal)
+                    .Prop(Control.StylePropertyModulateSelf, ButtonColorDefaultYellow),
+
+                Element<Button>().Class("ButtonColorYellow").Pseudo(ContainerButton.StylePseudoClassHover)
+                    .Prop(Control.StylePropertyModulateSelf, ButtonColorHoveredYellow),
                 // ---
 
                 // Green Button ---
