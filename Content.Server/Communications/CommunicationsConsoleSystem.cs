@@ -329,6 +329,7 @@ namespace Content.Server.Communications
         {
             if (!EntityManager.TryGetComponent(message.Actor, out ActorComponent? actor))
                 return;
+
             var mob = message.Actor;
             if (!CanUse(mob, uid))
             {
