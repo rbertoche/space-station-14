@@ -28,6 +28,8 @@ using Content.Shared.Doors.Components; //importa as portas iradas
 using Content.Server.Doors.Systems; //importa o sistema das airlock pra botar o modo de emergencia
 using System.Collections; //parao array de prototypes
 using Robust.Shared.Audio;
+using Content.Server.Administration;
+using Robust.Shared.Player;
 
 namespace Content.Server.Communications
 {
@@ -47,6 +49,8 @@ namespace Content.Server.Communications
         [Dependency] private readonly IConfigurationManager _cfg = default!;
         [Dependency] private readonly IAdminLogManager _adminLogger = default!;
         [Dependency] private readonly AirlockSystem _airlock = default!;
+        [Dependency] private readonly QuickDialogSystem _quickDialog = default!; //cria dependencia no pray igual eu tenho na morena
+
 
         private const float UIUpdateInterval = 5.0f;
 
@@ -365,6 +369,9 @@ namespace Content.Server.Communications
         }
         private void OnCallShuttleMessage(EntityUid uid, CommunicationsConsoleComponent comp, CommunicationsConsoleCallEmergencyShuttleMessage message)
         {
+            if (!EntityManager.TryGetComponent(message.Actor, out ActorComponent? actor))
+                return;
+
             if (!CanCallOrRecall(comp))
                 return;
 
@@ -384,8 +391,17 @@ namespace Content.Server.Communications
                 return;
             }
 
-            _roundEndSystem.RequestRoundEnd(uid);
-            _adminLogger.Add(LogType.Action, LogImpact.Extreme, $"{ToPrettyString(mob):player} has called the shuttle.");
+            _quickDialog.OpenDialog(actor.PlayerSession, "Chamar Nave de Emergencia", "Motivo:", (string reason) =>
+            {
+                if (!reason.Equals(""))
+                {
+                    _roundEndSystem.RequestRoundEnd(uid, text: "round-end-system-shuttle-called-announcement-with-reason", hasReason: true, reason: reason);
+                    _adminLogger.Add(LogType.Action, LogImpact.Extreme, $"{ToPrettyString(mob):player} has called the shuttle with reason {reason}.");
+                    return;
+                }
+                _roundEndSystem.RequestRoundEnd(uid);
+                _adminLogger.Add(LogType.Action, LogImpact.Extreme, $"{ToPrettyString(mob):player} has called the shuttle.");
+            });
         }
 
         private void OnRecallShuttleMessage(EntityUid uid, CommunicationsConsoleComponent comp, CommunicationsConsoleRecallEmergencyShuttleMessage message)
