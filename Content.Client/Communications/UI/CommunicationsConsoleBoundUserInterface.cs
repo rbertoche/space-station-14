@@ -78,11 +78,13 @@ namespace Content.Client.Communications.UI
             SendMessage(new CommunicationsConsoleBroadcastMessage(message));
         }
 
-        public void MaintEmergencyButtonPressed(){
+        public void MaintEmergencyButtonPressed()
+        {
             SendMessage(new CommunicationsConsoleToggleEmergencyMaintMessage());
         }
 
-        public void CentCommButtonPressed(){
+        public void CentCommButtonPressed()
+        {
             SendMessage(new CommunicationsConsoleCentCommButtonMessage());
         }
 
