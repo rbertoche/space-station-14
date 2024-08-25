@@ -49,11 +49,9 @@ namespace Content.Server.Communications
         [DataField]
         public int InitialDelay = 30;
 
-        [ViewVariables]
         [DataField]
-        public double ToggleAcessTimer = 0;
+        public double ToggleAcessTimer;
 
-        [ViewVariables]
         [DataField]
         public double ToggleAcessDelay = 5;
 
