@@ -370,14 +370,13 @@ namespace Content.Server.Communications
             var query = EntityQueryEnumerator<DoorComponent>();
             while (query.MoveNext(out var doorUid, out var component))
             {
-                if (TryGetNetEntity(doorUid, out var netEntity) && TryGetEntityData(netEntity.Value, out var entityUid, out var entityData)
-                && _maintDoorPrototypeList.Contains(entityData.EntityPrototype!.ID)) //pega as airlocks do array por que nao da pra pegar todas as 50 variações (minha vida é uma tristeza)
-                {
-                    if (!TryComp<AirlockComponent>(doorUid, out var airlock))
-                        continue;
+                if (!TryGetNetEntity(doorUid, out var netEntity) 
+                    || !TryGetEntityData(netEntity.Value, out var entityUid, out var entityData)
+                    || !_maintDoorPrototypeList.Contains(entityData.EntityPrototype!.ID))
+                    || !TryComp<AirlockComponent>(doorUid, out var airlock)
+                    continue;
 
-                    _airlock.ToggleEmergencyAccess(doorUid, airlock);
-                }
+                _airlock.ToggleEmergencyAccess(doorUid, airlock);
             }
             comp.ToggleAcessTimer = _timing.CurTime.TotalSeconds;
         }
