@@ -78,6 +78,10 @@ namespace Content.Client.Communications.UI
             SendMessage(new CommunicationsConsoleBroadcastMessage(message));
         }
 
+        public void MaintEmergencyButtonPressed(){
+            SendMessage(new CommunicationsConsoleToggleEmergencyMaintMessage());
+        }
+
         public void CallShuttle()
         {
             SendMessage(new CommunicationsConsoleCallEmergencyShuttleMessage());

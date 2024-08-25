@@ -24,6 +24,8 @@ using Content.Shared.Emag.Components;
 using Content.Shared.Popups;
 using Robust.Server.GameObjects;
 using Robust.Shared.Configuration;
+using Content.Shared.Doors.Components; //importa as portas iradas
+using Content.Server.Doors.Systems; //importa o sistema das airlock pra botar o modo de emergencia
 
 namespace Content.Server.Communications
 {
@@ -42,6 +44,7 @@ namespace Content.Server.Communications
         [Dependency] private readonly UserInterfaceSystem _uiSystem = default!;
         [Dependency] private readonly IConfigurationManager _cfg = default!;
         [Dependency] private readonly IAdminLogManager _adminLogger = default!;
+        [Dependency] private readonly AirlockSystem _airlock = default!;
 
         private const float UIUpdateInterval = 5.0f;
 
@@ -59,6 +62,7 @@ namespace Content.Server.Communications
             SubscribeLocalEvent<CommunicationsConsoleComponent, CommunicationsConsoleBroadcastMessage>(OnBroadcastMessage);
             SubscribeLocalEvent<CommunicationsConsoleComponent, CommunicationsConsoleCallEmergencyShuttleMessage>(OnCallShuttleMessage);
             SubscribeLocalEvent<CommunicationsConsoleComponent, CommunicationsConsoleRecallEmergencyShuttleMessage>(OnRecallShuttleMessage);
+            SubscribeLocalEvent<CommunicationsConsoleComponent, CommunicationsConsoleToggleEmergencyMaintMessage>(OnToggleEmergencyMaintMessage);
 
             // On console init, set cooldown
             SubscribeLocalEvent<CommunicationsConsoleComponent, MapInitEvent>(OnCommunicationsConsoleMapInit);
@@ -297,6 +301,57 @@ namespace Content.Server.Communications
             _adminLogger.Add(LogType.DeviceNetwork, LogImpact.Low, $"{ToPrettyString(message.Actor):player} has sent the following broadcast: {message.Message:msg}");
         }
 
+        //função de alterar acesso de emergencia
+        private void OnToggleEmergencyMaintMessage(EntityUid uid, CommunicationsConsoleComponent comp, CommunicationsConsoleToggleEmergencyMaintMessage message)
+        {
+            var mob = message.Actor;
+            if (!CanUse(mob, uid))
+            {
+                _popupSystem.PopupEntity(Loc.GetString("comms-console-permission-denied"), uid, message.Actor);
+                return;
+            }
+            _adminLogger.Add(LogType.Action, LogImpact.Extreme, $"{ToPrettyString(mob):player} has toggle the station maintance access."); //bota log de admin em ingles por que sou muito estadunidense slk
+            
+            /* se por algum motivo voce quiser que o console emagado abra TODAS as portas da estação
+            if (HasComp<EmaggedComponent>(console))
+            {
+                //itera as portas do PROTOTYPE de maint da estação
+                var query = EntityQueryEnumerator<DoorComponent>();
+                while (query.MoveNext(out var doorUid, out var component))
+                {
+                    if (TryGetNetEntity(doorUid, out var netEntity) && TryGetEntityData(netEntity.Value, out var entityUid, out var entityData)
+                    && entityData.EntityPrototype!.ID.StartsWith("AirlockMaint")) //pega todas as airlocks (tem umas 50 variações) começam com AirLockMaint, precisei pegar cada entidade que começa com esse nome (minha vida é uma tristeza)
+                    {
+                        if (uid.ToCoordinates().GetGridUid().Value != doorUid.ToCoordinates().GetGridUid().Value)
+                            continue;
+                        // Ai cê faz o que tu quiser aqui Panela
+                        //_popupSystem.PopupEntity("muda as porta", uid, message.Actor);
+                        //_doorSystem.SetBoltsDown((args.Target.Value, boltsComp), !boltsComp.BoltsDown, args.Used);
+                        if (!TryComp<AirlockComponent>(doorUid, out var airlock))
+                            continue;
+
+                        _airlock.ToggleEmergencyAccess(doorUid, airlock);
+                    }
+                }
+            }*/
+            // itera as portas DO PROTOTYPE de maint da estação
+            var query = EntityQueryEnumerator<DoorComponent>();
+            while (query.MoveNext(out var doorUid, out var component))
+            {
+                if (TryGetNetEntity(doorUid, out var netEntity) && TryGetEntityData(netEntity.Value, out var entityUid, out var entityData)
+                && entityData.EntityPrototype!.ID.StartsWith("AirlockMaint")) //pega todas as airlocks (tem umas 50 variações) começam com AirLockMaint, precisei pegar cada entidade que começa com esse nome (minha vida é uma tristeza)
+                {
+                    if (uid.ToCoordinates().GetGridUid(EntityManager)!.Value != doorUid.ToCoordinates().GetGridUid(EntityManager)!.Value) //ve se a grid é a da estação
+                        continue;
+                    
+                    if (!TryComp<AirlockComponent>(doorUid, out var airlock))
+                        continue;
+
+                    _airlock.ToggleEmergencyAccess(doorUid, airlock);
+                }
+            }
+            
+        }
         private void OnCallShuttleMessage(EntityUid uid, CommunicationsConsoleComponent comp, CommunicationsConsoleCallEmergencyShuttleMessage message)
         {
             if (!CanCallOrRecall(comp))
@@ -337,6 +392,8 @@ namespace Content.Server.Communications
             _adminLogger.Add(LogType.Action, LogImpact.Extreme, $"{ToPrettyString(message.Actor):player} has recalled the shuttle.");
         }
     }
+
+
 
     /// <summary>
     /// Raised on announcement

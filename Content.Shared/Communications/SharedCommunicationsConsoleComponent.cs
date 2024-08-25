@@ -63,6 +63,12 @@ namespace Content.Shared.Communications
         }
     }
 
+       
+    [Serializable, NetSerializable]
+    public sealed class CommunicationsConsoleToggleEmergencyMaintMessage: BoundUserInterfaceMessage
+    {
+    }
+
     [Serializable, NetSerializable]
     public sealed class CommunicationsConsoleCallEmergencyShuttleMessage : BoundUserInterfaceMessage
     {
