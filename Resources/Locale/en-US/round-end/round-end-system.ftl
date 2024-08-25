@@ -11,3 +11,5 @@ eta-units-minutes = minutes
 eta-units-seconds = seconds
 
 round-end-system-shuttle-reminder = The emergency shuttle will be sent soon.
+
+round-end-system-station-name = station

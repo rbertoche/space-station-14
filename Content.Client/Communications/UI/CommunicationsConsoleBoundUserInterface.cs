@@ -82,6 +82,10 @@ namespace Content.Client.Communications.UI
             SendMessage(new CommunicationsConsoleToggleEmergencyMaintMessage());
         }
 
+        public void CentCommButtonPressed(){
+            SendMessage(new CommunicationsConsoleCentCommButtonMessage());
+        }
+
         public void CallShuttle()
         {
             SendMessage(new CommunicationsConsoleCallEmergencyShuttleMessage());

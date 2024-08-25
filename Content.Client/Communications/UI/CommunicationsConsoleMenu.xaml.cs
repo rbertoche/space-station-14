@@ -61,7 +61,7 @@ namespace Content.Client.Communications.UI
 
             MaintEmergencyButton.OnPressed += (_) => Owner.MaintEmergencyButtonPressed();
 
-            //CentComnButton.OnPressed += (_) => _consolePopUp.OpenCentered();
+            CentCommButton.OnPressed += (_) => Owner.CentCommButtonPressed();
 
             EmergencyShuttleButton.OnPressed += (_) => Owner.EmergencyShuttleButtonPressed();
             EmergencyShuttleButton.Disabled = !owner.CanCall;

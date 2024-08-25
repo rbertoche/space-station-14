@@ -14,7 +14,7 @@
         <Control MinSize="10 10" />
 
         <Label Text="{Loc 'comms-console-menu-label-others'}" VerticalExpand="True"/>
-        <Button Name="CentComnButton" Text="{Loc 'comms-console-menu-message-centcomn'}" StyleClasses="ButtonColorGreen" Access="Public" />
+        <Button Name="CentCommButton" Text="{Loc 'comms-console-menu-message-centcomm'}" StyleClasses="ButtonColorGreen" Access="Public" />
         <Button Name="MaintEmergencyButton" Text="{Loc 'comms-console-menu-emergency-maint'}" StyleClasses="ButtonColorYellow"  Access="Public" />
         <!-- <Button Name="NuclearCodeButton" Text="{Loc 'comms-console-menu-nuclear-code'}" StyleClasses="ButtonColorRed" Access="Public" /> Se quiserem adicionar isso, ta ai-->
         <Button Name="EmergencyShuttleButton" Text="Placeholder Text" StyleClasses="ButtonColorRed" Access="Public" />

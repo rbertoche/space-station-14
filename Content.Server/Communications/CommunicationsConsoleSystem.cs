@@ -30,6 +30,8 @@ using System.Collections; //parao array de prototypes
 using Robust.Shared.Audio;
 using Content.Server.Administration;
 using Robust.Shared.Player;
+using Content.Server.Chat.Managers; //pra falar com centcom
+using Robust.Shared.Timing; // para cooldown
 
 namespace Content.Server.Communications
 {
@@ -49,7 +51,11 @@ namespace Content.Server.Communications
         [Dependency] private readonly IConfigurationManager _cfg = default!;
         [Dependency] private readonly IAdminLogManager _adminLogger = default!;
         [Dependency] private readonly AirlockSystem _airlock = default!;
-        [Dependency] private readonly QuickDialogSystem _quickDialog = default!; //cria dependencia no pray igual eu tenho na morena
+        [Dependency] private readonly QuickDialogSystem _quickDialog = default!; //cria dependencia na mensagem de popup igual eu tenho com a -----------
+        [Dependency] private readonly IChatManager _chatManager = default!; // avbiso admin
+        [Dependency] private readonly IGameTiming _timing = default!; // cooldown
+
+
 
 
         private const float UIUpdateInterval = 5.0f;
@@ -75,6 +81,7 @@ namespace Content.Server.Communications
             SubscribeLocalEvent<CommunicationsConsoleComponent, CommunicationsConsoleCallEmergencyShuttleMessage>(OnCallShuttleMessage);
             SubscribeLocalEvent<CommunicationsConsoleComponent, CommunicationsConsoleRecallEmergencyShuttleMessage>(OnRecallShuttleMessage);
             SubscribeLocalEvent<CommunicationsConsoleComponent, CommunicationsConsoleToggleEmergencyMaintMessage>(OnToggleEmergencyMaintMessage);
+            SubscribeLocalEvent<CommunicationsConsoleComponent, CommunicationsConsoleCentCommButtonMessage>(OnCentCommMessage);
 
             // On console init, set cooldown
             SubscribeLocalEvent<CommunicationsConsoleComponent, MapInitEvent>(OnCommunicationsConsoleMapInit);
@@ -318,9 +325,35 @@ namespace Content.Server.Communications
             _adminLogger.Add(LogType.DeviceNetwork, LogImpact.Low, $"{ToPrettyString(message.Actor):player} has sent the following broadcast: {message.Message:msg}");
         }
 
+        private void OnCentCommMessage(EntityUid uid, CommunicationsConsoleComponent comp, CommunicationsConsoleCentCommButtonMessage message)
+        {
+            if (!EntityManager.TryGetComponent(message.Actor, out ActorComponent? actor))
+                return;
+            var mob = message.Actor;
+            if (!CanUse(mob, uid))
+            {
+                _popupSystem.PopupEntity(Loc.GetString("comms-console-permission-denied"), uid, message.Actor);
+                return;
+            }
+            //dialogo
+            _quickDialog.OpenDialog(actor.PlayerSession, Loc.GetString("comms-console-menu-dialog-centcom-tittle"), Loc.GetString("comms-console-menu-dialog-centcom-message"), (string centMessage) =>
+            {
+                if (!centMessage.Equals("")) //se nao tiver vazio
+                {
+                    _chatManager.SendAdminAnnouncement($"{ToPrettyString(mob):player}: Enviou mensagem para CENTCOM '{centMessage}'"); // mensagem de admin (muito uim usar pray)
+                    _adminLogger.Add(LogType.Action, LogImpact.Extreme, $"{ToPrettyString(mob):player} has sent a message to centcom, message: '{centMessage}'."); //log
+                    _popupSystem.PopupEntity(Loc.GetString("comns-console-centcom-send"), uid, message.Actor);
+                    return;
+                } //pop up avisando q ta vazio
+                _popupSystem.PopupEntity(Loc.GetString("comns-console-empty-input"), uid, message.Actor);
+            });
+        }
+
         //função de alterar acesso de emergencia
         private void OnToggleEmergencyMaintMessage(EntityUid uid, CommunicationsConsoleComponent comp, CommunicationsConsoleToggleEmergencyMaintMessage message)
         {
+            if ((_timing.CurTime.TotalSeconds - comp.ToggleAcessTimer) < comp.ToggleAcessDelay) //coldown
+                return;
             var mob = message.Actor;
             if (!CanUse(mob, uid))
             {
@@ -366,6 +399,7 @@ namespace Content.Server.Communications
                     _airlock.ToggleEmergencyAccess(doorUid, airlock);
                 }
             }
+            comp.ToggleAcessTimer = _timing.CurTime.TotalSeconds;
         }
         private void OnCallShuttleMessage(EntityUid uid, CommunicationsConsoleComponent comp, CommunicationsConsoleCallEmergencyShuttleMessage message)
         {
@@ -391,15 +425,16 @@ namespace Content.Server.Communications
                 return;
             }
 
-            _quickDialog.OpenDialog(actor.PlayerSession, "Chamar Nave de Emergencia", "Motivo:", (string reason) =>
+            // dialogo
+            _quickDialog.OpenDialog(actor.PlayerSession, Loc.GetString("comms-console-menu-dialog-shuttle-tittle"), Loc.GetString("comms-console-menu-dialog-shuttle-message"), (string reason) =>
             {
                 if (!reason.Equals(""))
                 {
-                    _roundEndSystem.RequestRoundEnd(uid, text: "round-end-system-shuttle-called-announcement-with-reason", hasReason: true, reason: reason);
-                    _adminLogger.Add(LogType.Action, LogImpact.Extreme, $"{ToPrettyString(mob):player} has called the shuttle with reason {reason}.");
+                    _roundEndSystem.RequestRoundEnd(uid, text: "round-end-system-shuttle-called-announcement-with-reason", name: "comms-console-announcement-title-station", hasReason: true, reason: reason);
+                    _adminLogger.Add(LogType.Action, LogImpact.Extreme, $"{ToPrettyString(mob):player} has called the shuttle with reason '{reason}'.");
                     return;
                 }
-                _roundEndSystem.RequestRoundEnd(uid);
+                _roundEndSystem.RequestRoundEnd(uid, name: "comms-console-announcement-title-station");
                 _adminLogger.Add(LogType.Action, LogImpact.Extreme, $"{ToPrettyString(mob):player} has called the shuttle.");
             });
         }
@@ -415,7 +450,7 @@ namespace Content.Server.Communications
                 return;
             }
 
-            _roundEndSystem.CancelRoundEndCountdown(uid);
+            _roundEndSystem.CancelRoundEndCountdown(uid, name: "comms-console-announcement-title-station");
             _adminLogger.Add(LogType.Action, LogImpact.Extreme, $"{ToPrettyString(message.Actor):player} has recalled the shuttle.");
         }
     }
