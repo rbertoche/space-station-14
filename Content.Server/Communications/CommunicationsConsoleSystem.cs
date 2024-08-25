@@ -361,28 +361,6 @@ namespace Content.Server.Communications
                 return;
             }
             _adminLogger.Add(LogType.Action, LogImpact.Extreme, $"{ToPrettyString(mob):player} has toggle the station maintance access."); //bota log de admin em ingles por que sou muito estadunidense slk
-            /* se por algum motivo voce quiser que o console emagado abra TODAS as portas da estação
-            if (HasComp<EmaggedComponent>(console))
-            {
-                //itera as portas do PROTOTYPE de maint da estação
-                var query = EntityQueryEnumerator<DoorComponent>();
-                while (query.MoveNext(out var doorUid, out var component))
-                {
-                    if (TryGetNetEntity(doorUid, out var netEntity) && TryGetEntityData(netEntity.Value, out var entityUid, out var entityData)
-                    && entityData.EntityPrototype!.ID.StartsWith("AirlockMaint")) //pega todas as airlocks (tem umas 50 variações) começam com AirLockMaint, precisei pegar cada entidade que começa com esse nome (minha vida é uma tristeza)
-                    {
-                        if (uid.ToCoordinates().GetGridUid().Value != doorUid.ToCoordinates().GetGridUid().Value)
-                            continue;
-                        // Ai cê faz o que tu quiser aqui Panela
-                        //_popupSystem.PopupEntity("muda as porta", uid, message.Actor);
-                        //_doorSystem.SetBoltsDown((args.Target.Value, boltsComp), !boltsComp.BoltsDown, args.Used);
-                        if (!TryComp<AirlockComponent>(doorUid, out var airlock))
-                            continue;
-
-                        _airlock.ToggleEmergencyAccess(doorUid, airlock);
-                    }
-                }
-            }*/
 
             _chatSystem.DispatchStationAnnouncement(uid, Loc.GetString("comms-console-announcement-content-maint"), Loc.GetString("comms-console-announcement-title-station"), true, AnnouncementChime, colorOverride: comp.Color);
 
