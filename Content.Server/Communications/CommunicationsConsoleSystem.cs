@@ -355,6 +355,7 @@ namespace Content.Server.Communications
         {
             if ((_timing.CurTime.TotalSeconds - comp.ToggleAcessTimer) < comp.ToggleAcessDelay) //coldown
                 return;
+
             var mob = message.Actor;
             if (!CanUse(mob, uid))
             {
