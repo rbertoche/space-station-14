@@ -6,6 +6,11 @@ comms-console-menu-broadcast-button = Broadcast
 comms-console-menu-call-shuttle = Call emergency shuttle
 comms-console-menu-recall-shuttle = Recall emergency shuttle
 comms-console-menu-emergency-maint = Enable emergency access
+comms-console-menu-nuclear-code = Request nuclear authentication codes
+comms-console-menu-message-centcomn = Send message to CentComn
+
+# Announcement
+comns-console-announcement-content-maint = The maintance airlocks access has been toggled.
 
 # Labels
 comms-console-menu-label-announcements = announcements:
@@ -25,3 +30,7 @@ comms-console-announcement-unknown-sender = Unknown
 comms-console-announcement-title-station = Communications Console
 comms-console-announcement-title-centcom = Central Command
 comms-console-announcement-title-nukie = Syndicate Nuclear Operative
+
+# footer
+comms-console-menu-footer-left = root@nanoOs
+comms-console-menu-footer-right = v1.5

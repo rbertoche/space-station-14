@@ -26,6 +26,8 @@ using Robust.Server.GameObjects;
 using Robust.Shared.Configuration;
 using Content.Shared.Doors.Components; //importa as portas iradas
 using Content.Server.Doors.Systems; //importa o sistema das airlock pra botar o modo de emergencia
+using System.Collections; //parao array de prototypes
+using Robust.Shared.Audio;
 
 namespace Content.Server.Communications
 {
@@ -48,6 +50,12 @@ namespace Content.Server.Communications
 
         private const float UIUpdateInterval = 5.0f;
 
+        // array dos prototypes que vao ficar em manutenção
+        private ArrayList _maintDoorPrototypeList = new ArrayList();
+
+        //audios ref
+        private static readonly SoundSpecifier? AnnouncementChime = new SoundPathSpecifier("/Audio/Misc/notice1.ogg");
+
         public override void Initialize()
         {
             // All events that refresh the BUI
@@ -66,6 +74,11 @@ namespace Content.Server.Communications
 
             // On console init, set cooldown
             SubscribeLocalEvent<CommunicationsConsoleComponent, MapInitEvent>(OnCommunicationsConsoleMapInit);
+
+            // adicione os prototypes das portas que vao entrar em modo de emergencia aqui:
+            _maintDoorPrototypeList.Add("AirlockMaintGlassLocked");
+            _maintDoorPrototypeList.Add("AirlockMaintLocked");
+            _maintDoorPrototypeList.Add("AirlockMaintCommonLocked");
         }
 
         public override void Update(float frameTime)
@@ -311,7 +324,6 @@ namespace Content.Server.Communications
                 return;
             }
             _adminLogger.Add(LogType.Action, LogImpact.Extreme, $"{ToPrettyString(mob):player} has toggle the station maintance access."); //bota log de admin em ingles por que sou muito estadunidense slk
-            
             /* se por algum motivo voce quiser que o console emagado abra TODAS as portas da estação
             if (HasComp<EmaggedComponent>(console))
             {
@@ -334,23 +346,22 @@ namespace Content.Server.Communications
                     }
                 }
             }*/
+
+            _chatSystem.DispatchStationAnnouncement(uid, Loc.GetString("comms-console-announcement-content-maint"), Loc.GetString("comms-console-announcement-title-station"), true, AnnouncementChime, colorOverride: comp.Color);
+
             // itera as portas DO PROTOTYPE de maint da estação
             var query = EntityQueryEnumerator<DoorComponent>();
             while (query.MoveNext(out var doorUid, out var component))
             {
                 if (TryGetNetEntity(doorUid, out var netEntity) && TryGetEntityData(netEntity.Value, out var entityUid, out var entityData)
-                && entityData.EntityPrototype!.ID.StartsWith("AirlockMaint")) //pega todas as airlocks (tem umas 50 variações) começam com AirLockMaint, precisei pegar cada entidade que começa com esse nome (minha vida é uma tristeza)
+                && _maintDoorPrototypeList.Contains(entityData.EntityPrototype!.ID)) //pega as airlocks do array por que nao da pra pegar todas as 50 variações (minha vida é uma tristeza)
                 {
-                    if (uid.ToCoordinates().GetGridUid(EntityManager)!.Value != doorUid.ToCoordinates().GetGridUid(EntityManager)!.Value) //ve se a grid é a da estação
-                        continue;
-                    
                     if (!TryComp<AirlockComponent>(doorUid, out var airlock))
                         continue;
 
                     _airlock.ToggleEmergencyAccess(doorUid, airlock);
                 }
             }
-            
         }
         private void OnCallShuttleMessage(EntityUid uid, CommunicationsConsoleComponent comp, CommunicationsConsoleCallEmergencyShuttleMessage message)
         {
