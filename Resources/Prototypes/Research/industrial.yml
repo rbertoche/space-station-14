@@ -105,18 +105,18 @@
   - RipleyPeripheralsElectronics
   - MechEquipmentGrabber
 
-#- type: technology
-#  id: Grappling
-#  name: research-technology-grappling
-#  icon:
-#    sprite: Objects/Weapons/Guns/Launchers/grappling_gun.rsi
-#    state: base
-#  discipline: Industrial
-#  tier: 1
-#  cost: 5000
-#  recipeUnlocks:
-#  - WeaponGrapplingGun
-#  - BorgModuleGrapplingGun
+- type: technology
+  id: Grappling
+  name: research-technology-grappling
+  icon:
+    sprite: Objects/Weapons/Guns/Launchers/grappling_gun.rsi
+    state: base
+  discipline: Industrial
+  tier: 1
+  cost: 5000
+  recipeUnlocks:
+  - WeaponGrapplingGun
+  - BorgModuleGrapplingGun
 
 # Tier 2
 
@@ -178,6 +178,19 @@
     - JawsOfLife
     - BorgModuleAdvancedTool
     - BorgModuleRCD
+
+- type: technology
+  id: MechanizedSalvaging
+  name: research-technology-mechanized-salvaging
+  icon:
+    sprite: Mobs/Silicon/chassis.rsi
+    state: miner
+  discipline: Industrial
+  tier: 2
+  cost: 10000
+  recipeUnlocks:
+  - BorgModulePka
+  - BorgModuleJetpack
 
 # Tier 3
 

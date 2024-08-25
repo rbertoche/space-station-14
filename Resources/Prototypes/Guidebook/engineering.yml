@@ -13,9 +13,9 @@
   id: Construction
   name: guide-entry-construction
   text: "/ServerInfo/Guidebook/Engineering/Construction.xml"
-  children: 
+  children:
   - AirlockSecurity
-  
+
 - type: guideEntry
   id: AirlockSecurity
   name: guide-entry-airlock-security
@@ -66,6 +66,7 @@
   - Singularity
   - TEG
   - RTG
+  - Supermatter
 
 - type: guideEntry
   id: AME
@@ -91,3 +92,8 @@
   id: PortableGenerator
   name: guide-entry-portable-generator
   text: "/ServerInfo/Guidebook/Engineering/PortableGenerator.xml"
+
+- type: guideEntry
+  id: Supermatter
+  name: guide-entry-sm
+  text: "/ServerInfo/Guidebook/Engineering/Supermatter.xml"

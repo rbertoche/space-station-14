@@ -294,7 +294,7 @@
 - type: entity
   parent: DefaultStationBeacon
   id: DefaultStationBeaconScience
-  suffix: Epistemics #Delta V - Renamed
+  suffix: Science
   components:
   - type: NavMapBeacon
     defaultText: station-beacon-epistemics #Delta V - Renamed
@@ -319,7 +319,7 @@
 - type: entity
   parent: DefaultStationBeaconScience
   id: DefaultStationBeaconRDRoom
-  suffix: MG's Room
+  suffix: RD's Room
   components:
   - type: NavMapBeacon
     defaultText: station-beacon-mystagogue  #Delta V - Renamed

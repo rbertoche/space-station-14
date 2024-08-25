@@ -3,7 +3,7 @@
   name: job-name-intern
   description: job-description-intern
   playTimeTracker: JobMedicalIntern
-  requirements:
+  # requirements:
     # - !type:DepartmentTimeRequirement # DeltaV - Removes time limit
     #   department: Medical
     #   time: 54000 # 15 hrs
@@ -15,6 +15,10 @@
   access:
   - Medical
   - Maintenance
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: CPRTraining
 
 - type: startingGear
   id: MedicalInternGear

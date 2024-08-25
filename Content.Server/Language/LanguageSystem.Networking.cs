@@ -13,7 +13,6 @@ public sealed partial class LanguageSystem
 {
     [Dependency] private readonly MindSystem _mind = default!;
 
-
     public void InitializeNet()
     {
         SubscribeNetworkEvent<LanguagesSetMessage>(OnClientSetLanguage);

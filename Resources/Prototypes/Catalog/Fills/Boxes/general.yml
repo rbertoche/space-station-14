@@ -329,7 +329,7 @@
         amount: 4
 
 - type: entity
-  name: epistemics encryption key box # DeltaV - Epistemics Department replacing Science
+  name: science encryption key box
   parent: BoxEncryptionKeyPassenger
   id: BoxEncryptionKeyScience
   components:

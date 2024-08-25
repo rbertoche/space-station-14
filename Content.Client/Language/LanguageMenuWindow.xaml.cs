@@ -12,7 +12,6 @@ public sealed partial class LanguageMenuWindow : DefaultWindow
     private readonly LanguageSystem _clientLanguageSystem;
     private readonly List<EntryState> _entries = new();
 
-
     public LanguageMenuWindow()
     {
         RobustXamlLoader.Load(this);
@@ -121,7 +120,6 @@ public sealed partial class LanguageMenuWindow : DefaultWindow
         _clientLanguageSystem.RequestSetLanguage(proto);
         UpdateState(id, _clientLanguageSystem.SpokenLanguages);
     }
-
 
     private struct EntryState
     {

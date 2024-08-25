@@ -13,22 +13,11 @@
   id: SurvivalHellshift
   alias:
     - hellshift
-  showInVote: true
+  showInVote: false
   name: hellshift-title
   description: hellshift-description
   rules:
     - HellshiftStationEventScheduler
-    - BasicRoundstartVariation
-
-- type: gamePreset
-  id: SurvivalLonger
-  alias:
-    - longsurvival
-  showInVote: true
-  name: longsurvival-title
-  description: longsurvival-description
-  rules:
-    - LongSurvivalStationEventScheduler
     - BasicRoundstartVariation
 
 - type: gamePreset

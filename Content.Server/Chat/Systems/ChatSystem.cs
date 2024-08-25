@@ -8,7 +8,7 @@ using Content.Server.GameTicking;
 using Content.Server.Language;
 using Content.Server.Speech.Components;
 using Content.Server.Speech.EntitySystems;
-using Content.Server.Nyanotrasen.Chat;
+using Content.Server.Psionics.Telepathy;
 using Content.Server.Station.Components;
 using Content.Server.Station.Systems;
 using Content.Shared.ActionBlocker;

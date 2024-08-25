@@ -1,10 +1,9 @@
-using Robust.Server.GameObjects;
 using Robust.Shared.Random;
-using Content.Server.Abilities.Psionics;
+using Content.Server.Psionics.Abilities;
 using Content.Server.GameTicking.Rules.Components;
 using Content.Server.Psionics;
 using Content.Server.StationEvents.Components;
-using Content.Shared.Abilities.Psionics;
+using Content.Shared.Psionics.Abilities;
 using Content.Shared.Mobs.Components;
 using Content.Shared.Mobs.Systems;
 using Robust.Shared.Player;
@@ -67,11 +66,11 @@ internal sealed class MassMindSwapRule : StationEventSystem<MassMindSwapRuleComp
 
                 // Do the swap.
                 _mindSwap.Swap(actor, other);
-                if (!component.IsTemporary)
-                {
-                    _mindSwap.GetTrapped(actor);
-                    _mindSwap.GetTrapped(other);
-                }
+                //if (!component.IsTemporary)
+                //{
+                //    _mindSwap.GetTrapped(actor);
+                //    _mindSwap.GetTrapped(other);
+                //}
             } while (true);
         }
     }

@@ -3,13 +3,13 @@
   name: job-name-brigmedic
   description: job-description-brigmedic
   playTimeTracker: JobBrigmedic
-  requirements:
-    - !type:DepartmentTimeRequirement
-      department: Medical
-      min: 21600 # 6 hrs
-    - !type:DepartmentTimeRequirement
-      department: Security
-      min: 18000 # 4 hrs
+  # requirements:
+    # - !type:DepartmentTimeRequirement
+      # department: Medical
+      # time: 21600 # 6 hrs
+    # - !type:DepartmentTimeRequirement
+      # department: Security
+      # time: 18000 # 4 hrs
   startingGear: CorpsmanGear
   icon: "JobIconBrigmedic"
   supervisors: job-supervisors-hos
@@ -26,6 +26,9 @@
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
+  - !type:AddComponentSpecial
+    components:
+    - type: CPRTraining
 
 - type: startingGear
   id: CorpsmanGear # see Prototypes/Roles/Jobs/Fun/misc_startinggear.yml for "BrigmedicGear"

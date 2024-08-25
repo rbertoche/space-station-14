@@ -111,6 +111,12 @@
   - deathgasp
 
 - type: emote
+  id: SiliconDeathgasp
+  chatMessages: ["silicon-emote-deathgasp"]
+  chatTriggers:
+  - sdeathgasp
+
+- type: emote
   id: Buzz
   category: Vocal
   chatMessages: [ buzzes ]
@@ -128,6 +134,38 @@
   chatMessages: [ chirps ]
   chatTriggers:
     - chirps
+
+# IPC emotes
+- type: emote
+  id: IPCWhirr
+  category: Vocal
+  chatMessages: [whirrs]
+  chatTriggers:
+    - whirr
+    - whirrs
+    - whirrs.
+    - whirrs!
+
+# HarpyBeep
+# - type: emote
+  # id: IPCBeep
+  # category: Vocal
+  # chatMessages: [beeps]
+  # chatTriggers:
+    # - beep
+    # - beeps
+    # - beeps.
+    # - beeps!
+
+- type: emote
+  id: IPCBoop
+  category: Vocal
+  chatMessages: [boops]
+  chatTriggers:
+    - boop
+    - boops
+    - boops.
+    - boops!
 
 # Machine Emotes
 - type: emote

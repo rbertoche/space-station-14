@@ -162,7 +162,7 @@ public sealed class EventManagerSystem : EntitySystem
 
     private bool CanRun(EntityPrototype prototype, StationEventComponent stationEvent, int playerCount, TimeSpan currentTime)
     {
-        if (GameTicker.IsGameRuleActive(prototype.ID))
+        if (GameTicker.IsGameRuleAdded(prototype.ID))
             return false;
 
         if (stationEvent.MaxOccurrences.HasValue && GetOccurrences(prototype) >= stationEvent.MaxOccurrences.Value)
@@ -191,8 +191,8 @@ public sealed class EventManagerSystem : EntitySystem
         // This could not be cleanly done anywhere else.
         if (_configurationManager.GetCVar(CCVars.GlimmerEnabled) &&
             prototype.TryGetComponent<GlimmerEventComponent>(out var glimmerEvent) &&
-            (_glimmerSystem.Glimmer < glimmerEvent.MinimumGlimmer ||
-            _glimmerSystem.Glimmer > glimmerEvent.MaximumGlimmer))
+            (_glimmerSystem.GlimmerOutput < glimmerEvent.MinimumGlimmer ||
+            _glimmerSystem.GlimmerOutput > glimmerEvent.MaximumGlimmer))
         {
             return false;
         }

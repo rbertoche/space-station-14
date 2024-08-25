@@ -1,6 +1,8 @@
+using System.Globalization;
 using System.Linq;
 using System.Numerics;
 using Content.Client.Guidebook;
+using System.Text.RegularExpressions;
 using Content.Client.Humanoid;
 using Content.Client.Lobby;
 using Content.Client.Message;
@@ -1183,7 +1185,6 @@ namespace Content.Client.Preferences.UI
             _heightSlider.MinValue = species.MinHeight;
             _heightSlider.Value = Profile.Height;
             _heightSlider.MaxValue = species.MaxHeight;
-
             var height = MathF.Round(species.AverageHeight * _heightSlider.Value);
             CHeightLabel.Text = Loc.GetString("humanoid-profile-editor-height-label", ("height", (int) height));
         }
@@ -1198,7 +1199,6 @@ namespace Content.Client.Preferences.UI
             _widthSlider.MinValue = species.MinWidth;
             _widthSlider.Value = Profile.Width;
             _widthSlider.MaxValue = species.MaxWidth;
-
             var width = MathF.Round(species.AverageWidth * _widthSlider.Value);
             CWidthLabel.Text = Loc.GetString("humanoid-profile-editor-width-label", ("width", (int) width));
         }
@@ -1219,7 +1219,6 @@ namespace Content.Client.Preferences.UI
                 var weight = MathF.Round(MathF.PI * MathF.Pow(radius * avg, 2) * density);
                 CWeightLabel.Text = Loc.GetString("humanoid-profile-editor-weight-label", ("weight", (int) weight));
             }
-
             _previewSpriteView.InvalidateMeasure();
         }
 

@@ -1,9 +1,11 @@
 - type: gameMapPool
   id: DefaultMapPool
   maps:
-# DeltaV
   - Arena
-  - Asterisk
+  # - Saltern #Uncomment these 4 when they've had required features added.
+  # - Packed
+  # - PackedSM #This one requires special attention as its SM Engine isn't mapped correctly.
+  # - Pillar
   - Edge
   - Hammurabi
   - Lighthouse
@@ -11,4 +13,4 @@
   - Shoukou
   - Tortuga
   - TheHive
-  - Submarine
+  #- Submarine

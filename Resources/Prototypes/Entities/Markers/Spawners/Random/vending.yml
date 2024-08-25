@@ -31,6 +31,10 @@
       - VendingMachineSoda
       - VendingMachineStarkist
       - VendingMachineSpaceUp
+      - VendingMachineFitness
+      - VendingMachineHotfood
+      - VendingMachineSolsnack
+      - VendingMachineWeeb
       - VendingMachineBrazuca
       - VendingMachineFutebol
       - VendingMachineFutebol

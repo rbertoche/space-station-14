@@ -169,6 +169,7 @@
        - ShellTranquilizer
        - CartridgeLightRifle
        - CartridgeRifle
+       - CombatKnife
        - MagazineBoxPistol
        - MagazineBoxMagnum
        - MagazineBoxRifle
@@ -318,11 +319,11 @@
       - HolofanProjector
       - BluespaceBeaker
       - SyringeBluespace
-      #- WeaponForceGun
+      - WeaponForceGun
       - WeaponLaserSvalinn
       - WeaponProtoKineticAccelerator
-      #- WeaponTetherGun
-      #- WeaponGrapplingGun
+      - WeaponTetherGun
+      - WeaponGrapplingGun
       - ClothingBackpackHolding
       - ClothingBackpackSatchelHolding
       - ClothingBackpackDuffelHolding
@@ -591,10 +592,12 @@
     - BorgModuleLightReplacer
     - BorgModuleAdvancedCleaning
     - BorgModuleMining
-    #- BorgModuleGrapplingGun
+    - BorgModuleGrapplingGun
     - BorgModuleAdvancedTool
     - BorgModuleGPS
     - BorgModuleRCD
+    - BorgModuleJetpack
+    - BorgModulePka
     - BorgModuleArtifact
     - BorgModuleAnomaly
     - BorgModuleGardening
@@ -708,6 +711,7 @@
     runningState: icon
     staticRecipes:
       - ClothingEyesHudSecurity
+      - CombatKnife
       - Flash
       - Handcuffs
       - Zipties

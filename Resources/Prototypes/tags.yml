@@ -11,10 +11,16 @@
   id: AirSensor
 
 - type: Tag
+  id: AllowLamiaHardsuit
+
+- type: Tag
   id: Ambrosia
 
 - type: Tag
   id: AppraisalTool
+
+- type: Tag
+  id: ArachneWeb
 
 - type: Tag
   id: ArtifactFragment
@@ -606,6 +612,9 @@
   id: Fruit
 
 - type: Tag
+  id: FullBodyOuter
+
+- type: Tag
   id: Galaxythistle
 
 - type: Tag
@@ -700,6 +709,9 @@
 
 - type: Tag
   id: HidesNose # for non-standard noses.
+
+- type: Tag
+  id: HidesBeard # for full coverage helmet / masks where beard shouldn't show
 
 - type: Tag
   id: HighRiskItem
@@ -926,6 +938,9 @@
   id: Ointment
 
 - type: Tag
+  id: Oneirophage
+
+- type: Tag
   id: Ore
 
 - type: Tag
@@ -1125,10 +1140,10 @@
   id: SmallMech
 
 - type: Tag
-  id: SnapPop
+  id: Smokable
 
 - type: Tag
-  id: Smokable
+  id: SnapPop
 
 - type: Tag
   id: SnowyLabs

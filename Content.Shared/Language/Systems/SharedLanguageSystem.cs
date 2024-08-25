@@ -11,7 +11,6 @@ public abstract class SharedLanguageSystem : EntitySystem
     /// </summary>
     [ValidatePrototypeId<LanguagePrototype>]
     public static readonly string FallbackLanguagePrototype = "GalacticCommon";
-
     /// <summary>
     ///     The language whose speakers are assumed to understand and speak every language. Should never be added directly.
     /// </summary>

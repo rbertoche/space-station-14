@@ -3,10 +3,10 @@
   name: job-name-detective
   description: job-description-detective
   playTimeTracker: JobDetective
-  requirements:
-  - !type:CharacterDepartmentTimeRequirement
-    department: Security
-    min: 36000 # DeltaV - 10 hours
+  # requirements:
+  # - !type:DepartmentTimeRequirement
+    # department: Security
+    # time: 36000 # DeltaV - 10 hours
   startingGear: DetectiveGear
   icon: "JobIconDetective"
   supervisors: job-supervisors-hos
@@ -17,6 +17,8 @@
   - Maintenance
   - Service
   - Detective
+  - External
+  - Cryogenics
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
