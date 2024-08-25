@@ -322,3 +322,13 @@ Entries:
   changes:
   - type: Add
     message: Faz com que animais não tomem dano de frio na estação Glacier
+- author: AgentePanela
+  time: '2024-08-25T03:42:31-03:00'
+  changes:
+  - type: Add
+    message: Repensa o console de comunicações adicionando novas coisas legais
+- author: AgentePanela
+  time: '2024-08-25T03:42:31-02:00'
+  changes:
+  - type: Add
+    message: Tira acesso de manutenção dos passageiros

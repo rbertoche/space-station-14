@@ -22,13 +22,13 @@ comms-console-menu-dialog-shuttle-tittle = Chamar Nave de Emergencia
 comms-console-menu-dialog-shuttle-message = Razão:
 comms-console-menu-dialog-centcom-tittle = Falar com a Centcom
 comms-console-menu-dialog-centcom-message = Mensagem:
-comns-console-centcom-send = Sent message to the Central Command
 
 # Popup
 comms-console-permission-denied = Permissão recusada
 comms-console-shuttle-unavailable = A nave não está disponível no momento
 comms-console-message-too-long = Mensagem muito longa
 comns-console-empty-input = Mensagem vazia
+comns-console-centcom-send = Mensagem enviada para a Central de Comando
 
 # Placeholder values
 comms-console-announcement-sent-by = Enviado por
