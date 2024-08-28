@@ -39,8 +39,8 @@
   noSpawn: true
   parent: [BaseTraitorObjective, BaseLivingObjective]
   id: EscapeShuttleObjective
-  name: Escape to centcom alive and unrestrained.
-  description: One of our undercover agents will debrief you when you arrive. Don't show up in cuffs.
+  name: Fuja para a Centcom vivo e desalgemado.
+  description: Um de nossos agentes secretos irá informá-lo quando você chegar. Não apareça algemado.
   components:
   - type: Objective
     difficulty: 1.3
@@ -53,8 +53,8 @@
   noSpawn: true
   parent: BaseTraitorObjective
   id: DieObjective
-  name: Die a glorious death
-  description: Die.
+  name: Morra uma morte gloriosa
+  description: Morra.
   components:
   - type: Objective
     difficulty: 0.5
@@ -88,7 +88,7 @@
   noSpawn: true
   parent: [BaseTraitorObjective, BaseKillObjective]
   id: KillRandomPersonObjective
-  description: Do it however you like, just make sure they don't make it to centcom.
+  description: Faça como quiser, apenas certifique-se de que eles não cheguem a Centcom.
   components:
   - type: Objective
     difficulty: 1.75
@@ -101,7 +101,7 @@
   noSpawn: true
   parent: [BaseTraitorObjective, BaseKillObjective]
   id: KillRandomHeadObjective
-  description: We need this head gone and you probably know why. Good luck, agent.
+  description: Precisamos que esse membro de comando seja removido e você provavelmente sabe por quê. Boa sorte, agente.
   components:
   - type: Objective
     # technically its still possible for KillRandomPersonObjective to roll a head but this is guaranteed, so higher difficulty
@@ -122,7 +122,7 @@
   noSpawn: true
   parent: [BaseTraitorSocialObjective, BaseKeepAliveObjective]
   id: RandomTraitorAliveObjective
-  description: Identify yourself at your own risk. We just need them alive.
+  description: Identifique-se por sua própria conta e risco. Só precisamos deles vivos.
   components:
   - type: Objective
     difficulty: 1.75
@@ -134,7 +134,7 @@
   noSpawn: true
   parent: [BaseTraitorSocialObjective, BaseHelpProgressObjective]
   id: RandomTraitorProgressObjective
-  description: Identify yourself at your own risk. We just need them to succeed.
+  description: Identifique-se por sua própria conta e risco. Só precisamos que eles tenham sucesso.
   components:
   - type: Objective
     difficulty: 2.5
@@ -230,6 +230,15 @@
     job: ChiefEngineer
   - type: StealCondition
     stealGroup: ClothingShoesBootsMagAdv
+    owner: job-name-ce
+
+- type: entity
+  noSpawn: true
+  parent: BaseTraitorStealObjective
+  id: HandheldPowerMonitorObjective
+  components:
+  - type: StealCondition
+    stealGroup: HandheldPowerMonitor
     owner: job-name-ce
 
 ## qm

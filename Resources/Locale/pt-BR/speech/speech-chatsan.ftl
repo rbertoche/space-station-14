@@ -343,3 +343,9 @@ chatsan-replacement-1121 = Central de Comando
 
 chatsan-word-1122 = crit
 chatsan-replacement-1122 = estado crítico
+
+chatsan-word-1123 = ss
+chatsan-replacement-1123 = sim
+
+chatsan-word-1124 = nn
+chatsan-replacement-1124 = não

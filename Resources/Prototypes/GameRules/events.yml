@@ -150,6 +150,9 @@
   noSpawn: true
   components:
   - type: StationEvent
+    startAnnouncement: station-event-kudzu-growth-start-announcement
+    startAudio:
+      path: /Audio/Announcements/attention.ogg
     earliestStart: 15
     minimumPlayers: 15
     weight: 7
@@ -182,7 +185,7 @@
   noSpawn: true
   components:
   - type: StationEvent
-    startAnnouncement: station-event-vent-creatures-start-announcement
+    startAnnouncement: station-event-mouse-migration-announcement
     startAudio:
       path: /Audio/Announcements/attention.ogg
     startDelay: 10

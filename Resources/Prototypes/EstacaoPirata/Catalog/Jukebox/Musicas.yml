@@ -17,6 +17,12 @@
     path: /Audio/EstacaoPirata/Jukebox/baka_mitai.ogg
 
 - type: jukebox
+  id: BlackHoleSun
+  name: Black Hole Sun - Soundgarden
+  path:
+    path: /Audio/EstacaoPirata/Lobby/black_hole_sun.ogg
+
+- type: jukebox
   id: BreakTheRules
   name: Simon Viklund - Break The Rules (Payday)
   path:

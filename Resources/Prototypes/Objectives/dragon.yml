@@ -33,8 +33,8 @@
   noSpawn: true
   parent: [BaseDragonObjective, BaseSurviveObjective]
   id: DragonSurviveObjective
-  name: Survive
-  description: You have to stay alive to maintain control.
+  name: Sobreviva
+  description: Você precisa se manter vivo para manter o controle.
   components:
   - type: Objective
     icon:

@@ -25,7 +25,7 @@ trait-unrevivable-name = Não revivível
 trait-unrevivable-desc = Não pode ser revivido por defibriladores
 
 trait-pirate-accent-name = Sotaque Pirata (em inglês)
-trait-pirate-accent-desc = Não podes parar de falar como um pirata!
+trait-pirate-accent-desc = Não pode parar de falar como um pirata!
 
 trait-accentless-name = Sem sotaque
 trait-accentless-desc = Você não tem o sotaque que sua espécie normalmente teria

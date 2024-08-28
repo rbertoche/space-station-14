@@ -32,7 +32,7 @@
   noSpawn: true
   parent: BaseNinjaObjective
   id: StealResearchObjective
-  description: Your gloves can be used to hack a research server and steal its precious data. If science has been slacking you'll have to get to work.
+  description: Suas luvas podem ser usadas para hackear um servidor de pesquisa e roubar seus dados preciosos. Se a ciência está tendo dificuldades, você terá que trabalhar.
   components:
   - type: Objective
     icon:
@@ -48,7 +48,8 @@
   noSpawn: true
   parent: [BaseNinjaObjective, BaseCodeObjective]
   id: SpiderChargeObjective
-  description: This bomb can be detonated in a specific location. Note that the bomb will not work anywhere else!
+  name: Detone uma bomba
+  description: Esta bomba pode ser detonada em um local específico. Observe que a bomba não funcionará em nenhum outro lugar!
   components:
   - type: Objective
     icon:
@@ -59,8 +60,8 @@
   noSpawn: true
   parent: [BaseNinjaObjective, BaseSurviveObjective]
   id: NinjaSurviveObjective
-  name: Survive
-  description: You wouldn't be a very good ninja if you died, now would you?
+  name: Sobreviva.
+  description: Você não seria um ninja muito bom se morresse, seria?
   components:
   - type: Objective
     icon:
@@ -71,8 +72,8 @@
   noSpawn: true
   parent: [BaseNinjaObjective, BaseCodeObjective]
   id: TerrorObjective
-  name: Call in a threat
-  description: Use your gloves on a communication console in order to bring another threat to the station.
+  name: Chame uma ameaça
+  description: Use suas luvas em um console de comunicação para trazer outra ameaça à estação.
   components:
   - type: Objective
     icon:
@@ -83,8 +84,8 @@
   noSpawn: true
   parent: [BaseNinjaObjective, BaseCodeObjective]
   id: MassArrestObjective
-  name: Set everyone to wanted
-  description: Use your gloves to hack a criminal records console, setting the entire station to be wanted!
+  name: Defina todos como procurado
+  description: Use suas luvas para hackear um console de registros criminais, tornando toda a tripulação procurada!
   components:
   - type: Objective
     icon:

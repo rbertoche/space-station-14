@@ -60,8 +60,8 @@ alerts-internals-desc = Ativa ou desativa os componentes internos do tanque de g
 alerts-internals-name = Alternar internos
 alerts-internals-desc = Ativa ou desativa os componentes internos do tanque de gasolina.
 
-alerts-piloting-name = Ônibus Piloto
-alerts-piloting-desc = Você está pilotando um ônibus espacial. Clique no alerta para parar.
+alerts-piloting-name = Pilotando nave
+alerts-piloting-desc = Você está pilotando uma nave espacial. Clique no alerta para parar.
 
 alerts-hunger-name = [color=yellow]Com fome[/color]
 alerts-hunger-desc = Alguma comida seria boa agora.
@@ -100,7 +100,7 @@ alerts-pacified-name = [color=green]Pacificou[/color]
 alerts-pacified-desc = Você está pacificado; você não será capaz de atacar ninguém diretamente.
 
 alerts-suit-power-name = Energia do traje
-alerts-suit-power-desc = Quanto energia seu traje ninja espacial tem.
+alerts-suit-power-desc = Quanto energia seu traje de ninja espacial tem.
 
 alertas-magboots-name = Botas magnéticas
 alerts-magboots-desc= Você é imune ao fluxo de ar, mas um pouco mais lento.

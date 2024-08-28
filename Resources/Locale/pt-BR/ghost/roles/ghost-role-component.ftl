@@ -19,7 +19,7 @@ ghost-role-information-hamster-name = Hamster
 ghost-role-information-hamster-description = Uma bolinha de pelo rabugenta.
 
 ghost-role-information-hamlet-name = Hamlet o hamster.
-ghost-role-information-hamlet-description = Vive na ponte de comando da estação, é um tanto temperamental e está sempre com fome.
+ghost-role-information-hamlet-description = Viva na ponte de comando da estação, é um tanto temperamental e está sempre com fome.
 
 ghost-role-information-slimes-name = Slime
 ghost-role-information-slimes-description = Um mero Slime sem necessidades ou interesses especiais. Você é amigável com os outros.
@@ -28,7 +28,7 @@ ghost-role-information-angry-slimes-name = Slime
 ghost-role-information-angry-slimes-description = Tudo ao seu redor irrita seus instintos, destrua-os!
 
 ghost-role-information-smile-name = Smile a Slime
-ghost-role-information-smile-description = A criatura mais doce do mundo Smile a Slime.
+ghost-role-information-smile-description = A criatura mais doce do mundo, Smile a Slime.
 
 ghost-role-information-punpun-name = Pun Pun
 ghost-role-information-punpun-description = Um membro honrado da sociedade dos macacos encarregado do bar e ajudando os bartenders de todas as maneiras que pode.
@@ -38,8 +38,8 @@ ghost-role-information-xeno-description = Você é um xeno, coopere com sua colm
 ghost-role-information-xeno-rules = Você é um antagonista, espanque, corte e quebre!
 
 ghost-role-information-revenant-name = Revenant
-ghost-role-information-revenant-description = Você é um Revenant. Use seus poderes para colher almas e desencadear o caos na tripulação. Desbloqueie novas habilidades com a essência que você colhe.
-ghost-role-information-revenant-rules = Você é um antagonista, colhe, contamina e leva a tripulação à loucura.
+ghost-role-information-revenant-description = Você é um Revenant. Use seus poderes para colher almas e desencadear o caos na estação. Desbloqueie novas habilidades com a essência que você colhe.
+ghost-role-information-revenant-rules = Você é um antagonista, colha, contamine e leve a tripulação à loucura.
 
 ghost-role-information-kangaroo-name = Canguru
 ghost-role-information-kangaroo-description = Você é um canguru! Faça tudo o que os cangurus fazem.
@@ -86,7 +86,7 @@ ghost-role-information-mimebot-name = Mimebot
 ghost-role-information-mimebot-description = Um Mimebot, age como um mímico, mas não como um greytider.
 
 ghost-role-information-taxibot-name = TaxiBot
-ghost-role-information-taxibot-description = Dirija a tripulação da estação até o seu destino.
+ghost-role-information-taxibot-description = Leve a tripulação da estação até o seu destino.
 
 ghost-role-information-supplybot-name = SupplyBot
 ghost-role-information-supplybot-description = Entregue mercadorias pela estação.
@@ -104,10 +104,10 @@ ghost-role-information-salvage-kangaroo-name = Canguru espacial em naufrágio de
 ghost-role-information-salvage-kangaroo-description = Defenda o saque dentro do naufrágio de salvamento!
 
 ghost-role-information-space-spider-name = Aranha Espacial
-ghost-role-information-space-spider-description = As aranhas espaciais são tão agressivas quanto as aranhas comuns, consuma.
+ghost-role-information-space-spider-description = As aranhas espaciais são tão agressivas quanto as aranhas comuns, mate.
 
 ghost-role-information-salvage-spider-name = Aranha espacial em naufrágio de salvamento
-ghost-role-information-salvage-spider-description = As aranhas espaciais são tão agressivas quanto as aranhas comuns, consuma.
+ghost-role-information-salvage-spider-description = As aranhas espaciais são tão agressivas quanto as aranhas comuns, mate.
 
 ghost-role-information-space-cobra-name = Cobra Espacial
 ghost-role-information-space-cobra-description = As cobras espaciais realmente não gostam de visitantes e sempre petiscarão um intruso.
@@ -119,7 +119,7 @@ ghost-role-information-salvage-flesh-name = Carne Anormal em Naufrágio de Salva
 ghost-role-information-salvage-flesh-description = Defenda o saque dentro do naufrágio de salvamento!
 
 ghost-role-information-tropico-name = Tropico
-ghost-role-information-tropico-description = O nobre companheiro da Atmosia e seu mais defensor mais robusto. Viva!
+ghost-role-information-tropico-description = O nobre companheiro da Atmosia e seu defensor mais robusto. Viva!
 
 ghost-role-information-guardian-name = Guardião
 ghost-role-information-guardian-description = Ouça seu dono. Não danifique o tanque. socar as pessoas com força.
@@ -155,32 +155,32 @@ ghost-role-information-onestar-mecha-rules = Use suas armas para causar estragos
 
 ghost-role-information-remilia-name = Remilia, familiar do padre
 ghost-role-information-remilia-description = Obedeça seu mestre. Coma fruta.
-ghost-role-information-remilia-rules = Você é um morcego frugívoro inteligente. Siga o padre ao redor. Não cause nenhum problema, a menos que o padre lhe diga.
+ghost-role-information-remilia-rules = Você é um morcego frugívoro inteligente. Siga o padre ao redor. Não cause nenhum problema.
 
 ghost-role-information-cerberus-name = Cerberus, familiar do Mal
 ghost-role-information-cerberus-description = Obedeça seu mestre. Espalhe o caos.
-ghost-role-information-cerberus-rules = Você é um cachorro inteligente e demoníaco. Tente ajudar o padre e qualquer um de seu rebanho. Como antagonista, você não tem restrições.
+ghost-role-information-cerberus-rules = Você é um cachorro inteligente e demoníaco. Tente ajudar o padre e qualquer um de seu grupo. Como antagonista, você não tem restrições.
 
-ghost-role-information-ert-leader-name = ERT Leader
+ghost-role-information-ert-leader-name = Líder TRE
 ghost-role-information-ert-leader-description = Liderar uma equipe de especialistas para resolver os problemas das estações.
 
-ghost-role-information-ert-janitor-name = ERT Janitor
-ghost-role-information-ert-janitor-description = Auxiliar nos esforços de custódia para resolver os problemas da estação.
+ghost-role-information-ert-janitor-name = Zelador TRE
+ghost-role-information-ert-janitor-description = Auxiliar nos esforços de limpeza para resolver os problemas da estação.
 
-ghost-role-information-ert-engineer-name = ERT Engineer
+ghost-role-information-ert-engineer-name = Engenheiro TRE
 ghost-role-information-ert-engineer-description = Auxiliar nos esforços de engenharia para resolver os problemas das estações.
 
-ghost-role-information-ert-security-name = ERT Security
+ghost-role-information-ert-security-name = Segurança TRE
 ghost-role-information-ert-security-description = Auxiliar nos esforços de segurança para resolver os problemas das estações.
 
-ghost-role-information-ert-medical-name = ERT Medical
+ghost-role-information-ert-medical-name = Médico TRE
 ghost-role-information-ert-medical-description = Auxiliar nos esforços médicos para resolver os problemas das estações.
 
 ghost-role-information-cburn-agent-name = Agente de CBURN
 ghost-role-information-cburn-agent-description = Um agente CentCom altamente treinado, capaz de lidar com várias ameaças.
 
 ghost-role-information-centcom-official-name = oficial do CentCom
-ghost-role-information-centcom-official-description = Desempenhar funções relacionadas ao CentComm, como inspecionar a estação, anotar avaliações de desempenho para chefes de equipe e gerenciar o aparelho de fax.
+ghost-role-information-centcom-official-description = Desempenhar funções relacionadas a CentComm, como inspecionar a estação, anotar avaliações de desempenho para chefes de equipe e gerenciar o aparelho de fax.
 
 ghost-role-information-nukeop-rules = Você é um operador de sindicato encarregado da destruição da estação. Como antagonista, faça o que for necessário para concluir esta tarefa.
 
@@ -189,13 +189,13 @@ ghost-role-information-loneop-description = Você é um agente nuclear solitári
 ghost-role-information-loneop-rules = Você é um agente do sindicato encarregado de destruir a estação. Como antagonista, faça o que for necessário para completar esta tarefa.
 
 ghost-role-information-behonker-name = Behonker
-ghost-role-information-behonker-description = Você é um antagonista, traga a morte e buzinas para aqueles que não seguem a honkmother.
+ghost-role-information-behonker-description = Você é um antagonista, traga a morte e buzinas para aqueles que não seguem a HonkMother.
 
 ghost-role-information-hellspawn-name = Hellspawn
-ghost-role-information-hellspawn-description = Você é um antagonista, trazendo a morte àqueles que não seguem o grande deus Nar'Sie.
+ghost-role-information-hellspawn-description = Você é um antagonista, trazendo a morte àqueles que não seguem o grande Deus Nar'Sie.
 
 ghost-role-information-Death-Squad-name = Esquadrão da Morte
-ghost-role-information-Death-Squad-description = Um dos principais agentes de assuntos internos da Nanotrasen. Aguarde ordens do CentComm ou de um oficial.
+ghost-role-information-Death-Squad-description = Um dos principais agentes de assuntos internos da Nanotrasen. Aguarde ordens da CentComm ou de um oficial.
 
 ghost-role-information-SyndiCat-name = SindiGato
 ghost-role-information-SyndiCat-description = Você é o fiel animal treinado dos operativos nucleares com uma microbomba. Sirva seu mestre até a morte!
@@ -224,3 +224,32 @@ ghost-role-information-syndicate-reinforcement-rules = As regras normais para an
 ghost-role-information-syndicate-monkey-reinforcement-name = Agente Macaco do Sindicato
 ghost-role-information-syndicate-monkey-reinforcement-description = Alguém precisa de reforços. Você, um macaco treinado, irá ajudá-los.
 ghost-role-information-syndicate-monkey-reinforcement-rules = As regras normais para antagonistas do sindicato se aplicam. Trabalhe com quem o chamou e não o prejudique.
+
+ghost-role-information-lost-cargo-technical-name = Técnico de Carga Perdido
+ghost-role-information-lost-cargo-technical-description = Algo deu errado e seu transporte de carga com as mercadorias foi transportado para o setor de outra estação.
+ghost-role-information-lost-cargo-technical-rules = Você é um técnico de carga comum de outra estação. Faça o que a Cargo normal faz.
+
+ghost-role-information-clown-troupe-name = Palhaço Espacial
+ghost-role-information-clown-troupe-description = Você e sua trupe vieram animar esta estação com suas melhores piadas. Honk!
+ghost-role-information-clown-troupe-rules = Todas as regras padrões de tripulação se aplicam a você.
+
+ghost-role-information-traveling-chef-name = Chef Viajante
+ghost-role-information-traveling-chef-description = Você é um chef em uma nave espacial de culinária exótica. Delicie a estação com comida deliciosa!
+ghost-role-information-traveling-chef-rules = Todas as regras padrões de tripulação se aplicam a você.
+
+ghost-role-information-disaster-victim-name = Vitima de Desastre
+ghost-role-information-disaster-victim-description = Você escapou em uma cápsula de fuga de outra estação que sofreu um destino terrível. Talvez você seja encontrado e resgatado.
+ghost-role-information-disaster-victim-rules = Todas as regras padrões de tripulação se aplicam a você.
+
+ghost-role-information-syndie-disaster-victim-name = Vítima de Desastre Do Sindicato
+ghost-role-information-syndie-disaster-victim-description = Você é um passageiro regular de uma estação do sindicato. Infelizmente, uma cápsula de evacuação jogou você em um setor inimigo.....
+ghost-role-information-syndie-disaster-victim-rules = Regras padrões de tripulação se aplicam em você. VOCÊ NÃO É UM ANTAGONISTA E NÃO DEVE AGIR COMO TAL.
+
+ghost-role-information-syndicate-kobold-reinforcement-name = Agente Kobold do Sindicato
+ghost-role-information-syndicate-kobold-reinforcement-description = Alguém precisa de reforços. Você, um kobold treinado, irá ajudá-los.
+ghost-role-information-syndicate-kobold-reinforcement-rules = Regras normais de antagonistas se aplicam a você. Trabalhe com quem lhe chamou e não os prejudique.
+
+ghost-role-information-artifact-name = Artefato Senciente
+ghost-role-information-artifact-description =
+      Realize seus caprichos sobrenaturais.
+      Ative seus nodes à força para o bem ou para o mal.

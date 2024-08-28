@@ -1,6 +1,7 @@
 - type: gameMapPool
   id: DefaultMapPool
   maps:
+  - Aspid
   - Atlas
   - Bagel
   - Barratry
@@ -24,4 +25,5 @@
   - Gaxstation
   - Glacier
   - Esperanza
+  - Lambda
   #- EstacaoPirata

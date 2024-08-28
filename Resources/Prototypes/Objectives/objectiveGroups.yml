@@ -16,6 +16,7 @@
     RDHardsuitStealObjective: 1
     NukeDiskStealObjective: 1
     MagbootsStealObjective: 1
+    HandheldPowerMonitor: 1 # monitor do CE
     CorgiMeatStealObjective: 1
     ClipboardStealObjective: 1
     CaptainGunStealObjective: 0.5
