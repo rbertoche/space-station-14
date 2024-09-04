@@ -489,7 +489,7 @@
 - type: entity
   id: SpawnPointBrigmedic
   parent: SpawnPointJobBase
-  name: brigmedic
+  name: brigmed
   components:
   - type:
     job_id: BrigMed
