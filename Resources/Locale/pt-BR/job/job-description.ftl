@@ -2,6 +2,7 @@ job-description-technical-assistant = Aprenda o básico sobre como gerenciar a e
 job-description-atmostech = Otimize a configuração atmosférica da estação e sintetize gases raros para usar ou vender.
 job-description-bartender = Gerencie o bar e mantenha-o animado, distribua bebidas e ouça as histórias da equipe.
 job-description-botanist = Cultive alimentos para o chef, remédios para o medbay e outras plantas para se manter entretido.
+job-description-brigmedic = Lute na retaguarda do serviço de segurança, pela vida dos seus camaradas! Você é a primeira e última esperança do seu time. Hipócrates te abençoe.
 job-description-borg = Meio-humano, meia-máquina. Siga suas leis, sirva a tripulação e aperte a equipe científica para atualizações.
 job-description-boxer = Lute para chegar ao topo! Desafie o chefe de pessoal e seja preso quando vencer. Atualmente disponível no Core e Origin Station.
 job-description-cadet = Aprenda o básico sobre como prender criminosos e gerenciar a prisão. Ouça seus supervisores e sinta-se à vontade para pedir ajuda.

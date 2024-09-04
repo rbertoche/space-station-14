@@ -85,6 +85,7 @@
       - id: ClothingUniformJumpsuitBrigmedic
       - id: ClothingUniformJumpskirtBrigmedic
       - id: ClothingUniformJumpskirtOfLife
+      - id: ClothingBackpackDuffelBrigmedicFilled
         prob: 0.1
       - id: MedkitFilled
       - id: MedkitCombatFilled

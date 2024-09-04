@@ -1,0 +1,42 @@
+- type: job
+  id: BrigMed
+  name: job-name-brigmedic
+  description: job-description-brigmedic
+  playTimeTracker: JobBrigMed
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 108000 # Corvax-RoleTime
+  weight: 10
+  startingGear: BrigmedicGear
+  icon: "JobIconBrigmedic"
+  requireAdminNotify: true
+  supervisors: job-supervisors-hos
+  canBeAntag: false
+  access:
+  - Brig
+  - Security
+  - Maintenance
+  - Service
+  - External
+  - Cryogenics
+  - Medical
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+  - !type:AddComponentSpecial
+
+- type: startingGear
+  id: BrigmedicGear
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitBrigmedic
+    outerClothing: ClothingOuterCoatAMG
+    back: ClothingBackpackBrigmedic
+    shoes: ClothingShoesColorRed
+    gloves: ClothingHandsGlovesNitrile
+    eyes: ClothingEyesHudMedical
+    head: ClothingHeadHatBeretBrigmedic
+    id: BrigmedicPDA
+    ears: ClothingHeadsetBrigmedic
+    mask: ClothingMaskBreathMedicalSecurity
+    belt: ClothingBeltMedicalFilled
