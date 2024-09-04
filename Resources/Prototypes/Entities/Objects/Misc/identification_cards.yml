@@ -603,6 +603,7 @@
     # TODO figure out a better way of doing this.
     # Probably by adding a bool or icon-category data-field to the icon prototype?
     - JobIconDetective
+    - JobIconBrigmedic
     - JobIconQuarterMaster
     - JobIconBotanist
     - JobIconBoxer

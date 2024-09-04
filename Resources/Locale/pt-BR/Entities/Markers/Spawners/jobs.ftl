@@ -134,6 +134,10 @@ ent-SpawnPointDetective = detective
     .desc = { "" }
     .suffix = Job Spawn
 
+ent-SpawnPointBrigmedic = brigmedic
+    .desc = { "" }
+    .suffix = Job Spawn
+
 ent-SpawnPointERTLeader = ERTleader
     .desc = { "" }
     .suffix = Job Spawn
