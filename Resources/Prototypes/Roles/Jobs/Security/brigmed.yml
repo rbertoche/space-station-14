@@ -10,7 +10,6 @@
   weight: 10
   startingGear: BrigmedicGear
   icon: "JobIconBrigmedic"
-  requireAdminNotify: true
   supervisors: job-supervisors-hos
   canBeAntag: false
   access:
