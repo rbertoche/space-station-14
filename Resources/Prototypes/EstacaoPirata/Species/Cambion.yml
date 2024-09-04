@@ -1,6 +1,6 @@
 - type: species
   id: Cambion
-  name: species-name-oni
+  name: species-name-cambion
   roundStart: true
   prototype: MobCambion #Alterar
   dollPrototype: MobCambionDummy #Alterar
@@ -10,7 +10,6 @@
   maleFirstNames: names_oni_male
   femaleFirstNames: names_oni_female
   lastNames: names_oni_location
-  naming: LastNoFirst
 
 - type: markingPoints
   id: MobCambionMarkingLimits

@@ -34,13 +34,6 @@
         Heat : 0.5 #per second, scales with temperature & other constants
   - type: Damageable
     damageModifierSet: Cambion
-  - type: LanguageKnowledge
-    speaks:
-    - GalacticCommon
-    - Nekomimetic
-    understands:
-    - GalacticCommon
-    - Nekomimetic
   - type: MovementSpeedModifier
     baseWalkSpeed : 7
     baseSprintSpeed : 7
