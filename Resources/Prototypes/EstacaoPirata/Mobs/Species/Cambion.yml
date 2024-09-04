@@ -1,0 +1,54 @@
+- type: entity
+  parent: BaseMobHuman
+  name: Urist McTief
+  id: MobCambionBase
+  abstract: true
+  components:
+  - type: HumanoidAppearance
+    species: Cambion
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Weapons/pierce.ogg
+    angle: 30
+    animation: WeaponArcClaw
+    damage:
+      types:
+        Slash: 3.5
+        Heat: 1.5
+  - type: Body
+    prototype: Human
+  - type: TypingIndicator
+    proto: oni
+  - type: Stamina
+    critThreshold: 85
+  - type: Temperature
+    heatDamageThreshold: 500
+    coldDamageThreshold: 270
+    currentTemperature: 310.15
+    specificHeat: 42
+    coldDamage:
+      types:
+        Cold : 1 #per second, scales with temperature & other constants
+    heatDamage:
+      types:
+        Heat : 0.5 #per second, scales with temperature & other constants
+  - type: Damageable
+    damageModifierSet: Cambion
+  - type: LanguageKnowledge
+    speaks:
+    - GalacticCommon
+    - Nekomimetic
+    understands:
+    - GalacticCommon
+    - Nekomimetic
+  - type: MovementSpeedModifier
+    baseWalkSpeed : 7
+    baseSprintSpeed : 7
+
+- type: entity
+  save: false
+  name: Urist McDemon
+  parent: MobHumanDummy
+  id: MobCambionDummy
+  noSpawn: true
+  description: A dummy Cambion meant to be used in character setup.
