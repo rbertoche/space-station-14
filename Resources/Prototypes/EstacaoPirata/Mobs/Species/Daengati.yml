@@ -1,11 +1,11 @@
 - type: entity
   parent: BaseMobHuman
   name: Urist McDemon
-  id: MobCambionBase
+  id: MobDaengatiBase
   abstract: true
   components:
   - type: HumanoidAppearance
-    species: Cambion
+    species: Daengati
   - type: MeleeWeapon
     soundHit:
       path: /Audio/Weapons/pierce.ogg
@@ -14,7 +14,7 @@
     damage:
       types:
         Slash: 3.5
-        Heat: 1.5
+        Heat: 2
   - type: Body
     prototype: Human
   - type: TypingIndicator
@@ -26,12 +26,12 @@
     specificHeat: 42
     coldDamage:
       types:
-        Cold : 0.3 #per second, scales with temperature & other constants
+        Cold : 0.4 #o padrão é 0.1
     heatDamage:
       types:
-        Heat : 0.5 #per second, scales with temperature & other constants
+        Heat : 0.5 #O padrão é 1.5
   - type: Damageable
-    damageModifierSet: Cambion
+    damageModifierSet: Daengati
   - type: LanguageKnowledge
     speaks:
     - GalacticCommon
@@ -44,6 +44,6 @@
   save: false
   name: Urist McDemon
   parent: MobHumanDummy
-  id: MobCambionDummy
+  id: MobDaengatiDummy
   noSpawn: true
-  description: A dummy Cambion meant to be used in character setup.
+  description: A dummy Daengati meant to be used in character setup.

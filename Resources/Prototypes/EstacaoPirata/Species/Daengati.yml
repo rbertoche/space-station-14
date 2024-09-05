@@ -1,10 +1,10 @@
 - type: species
-  id: Cambion
-  name: species-name-cambion
+  id: Daengati
+  name: species-name-daengati
   roundStart: true
-  prototype: MobCambion #Alterar
-  dollPrototype: MobCambionDummy #Alterar
-  markingLimits: MobCambionMarkingLimits
+  prototype: MobDaengati #Alterar
+  dollPrototype: MobDaengatiDummy #Alterar
+  markingLimits: MobDaengatiMarkingLimits
   sprites: MobHumanSprites
   skinColoration: Hues
   maleFirstNames: names_oni_male
@@ -13,7 +13,7 @@
   naming: LastNoFirst
 
 - type: markingPoints
-  id: MobCambionMarkingLimits
+  id: MobDaengatiMarkingLimits
   points:
     Hair:
       points: 1
@@ -44,4 +44,4 @@
     Tail:
       points: 1
       required: true
-      defaultMarkings: [ CambionTail ]
+      defaultMarkings: [ DaengatiTail ]
