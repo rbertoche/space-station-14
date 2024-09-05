@@ -4,9 +4,6 @@
   id: MobCambionBase
   abstract: true
   components:
-  #- type: MovementSpeedModifier
-  #  baseWalkSpeed : 7
-  #  baseSprintSpeed : 7
   - type: HumanoidAppearance
     species: Cambion
   - type: MeleeWeapon
@@ -22,8 +19,6 @@
     prototype: Human
   - type: TypingIndicator
     proto: oni
-  - type: Stamina
-    critThreshold: 85
   - type: Temperature
     heatDamageThreshold: 500
     coldDamageThreshold: 270
