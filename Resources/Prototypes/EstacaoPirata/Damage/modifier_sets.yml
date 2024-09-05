@@ -1,5 +1,6 @@
 - type: damageModifierSet
   id: Cambion
   coefficients:
-    Heat: 0.50
+    Heat: 0.6
     Cold: 1.30
+    Piercing: 1.2

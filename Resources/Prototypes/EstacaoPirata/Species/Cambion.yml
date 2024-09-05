@@ -1,6 +1,6 @@
 - type: species
   id: Cambion
-  name: species-name-oni
+  name: species-name-cambion
   roundStart: true
   prototype: MobCambion #Alterar
   dollPrototype: MobCambionDummy #Alterar
