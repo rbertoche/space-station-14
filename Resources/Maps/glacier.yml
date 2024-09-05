@@ -387,6 +387,13 @@ entities:
       fixtures: {}
     - type: OccluderTree
     - type: SpreaderGrid
+    - type: WeatherCycle
+      IsEnabled: true
+      weatherIds:
+        - SnowfallLight
+        - SnowfallMedium
+        - SnowfallHeavy
+        - Hail
     - type: Shuttle
     - type: GridPathfinding
     - type: Gravity

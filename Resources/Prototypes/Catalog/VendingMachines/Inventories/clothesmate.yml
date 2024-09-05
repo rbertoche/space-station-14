@@ -111,6 +111,7 @@
     ClothingUniformJumpskirtColegialUniformJPNYellow: 2
     ClothingSimpleUnderwear: 4
     ClothingEyesGlassesCheapSunglasses: 3
+    ClothingNeckRaincoat: 2
     # DO NOT ADD MORE, USE UNIFORM DYING
   contrabandInventory:
     ClothingMaskNeckGaiter: 2
