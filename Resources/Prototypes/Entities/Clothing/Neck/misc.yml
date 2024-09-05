@@ -93,3 +93,18 @@
   - type: EmitsSoundOnMove
     soundCollection:
       collection: FootstepJester
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckRaincoat
+  name: Raincoat
+  description: for rainy days!
+  components:
+  - type: Armor
+    modifiers:
+      coefficients:
+        Heat: 0.10
+  - type: Sprite
+    sprite: Clothing/Neck/Misc/raincoat.rsi
+  - type: Clothing
+    sprite: Clothing/Neck/Misc/raincoat.rsi
