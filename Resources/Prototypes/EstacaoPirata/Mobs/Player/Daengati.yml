@@ -1,8 +1,8 @@
 - type: entity
   save: false
   name: Urist McTief
-  parent: MobCambionBase
-  id: MobCambion
+  parent: MobDaengatiBase
+  id: MobDaengati
   components:
   - type: CombatMode
   - type: MindContainer
