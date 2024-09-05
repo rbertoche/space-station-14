@@ -3575,7 +3575,8 @@ entities:
           5,0:
             0: 65520
           5,1:
-            0: 65524
+            0: 65492
+            2: 32
           5,2:
             0: 16383
           5,3:
@@ -4099,32 +4100,32 @@ entities:
             0: 65520
           10,-4:
             1: 8738
-            2: 8
-            3: 2048
+            3: 8
+            4: 2048
           10,-3:
             1: 8738
-            3: 2056
+            4: 2056
           10,-2:
             1: 8738
-            4: 8
-            5: 2048
+            5: 8
+            6: 2048
           10,-5:
             1: 8750
-            3: 2048
+            4: 2048
           11,-4:
-            2: 3
-            3: 768
+            3: 3
+            4: 768
             1: 34952
           11,-3:
-            3: 771
+            4: 771
             1: 34952
           11,-2:
-            4: 3
-            5: 768
+            5: 3
+            6: 768
             1: 34952
           11,-5:
             1: 34959
-            3: 768
+            4: 768
           12,-4:
             1: 12834
           12,-3:
@@ -4159,11 +4160,11 @@ entities:
             1: 7983
           8,-6:
             1: 61713
-            3: 204
+            4: 204
           9,-7:
             1: 20263
           9,-6:
-            3: 17
+            4: 17
             1: 62660
           10,-7:
             1: 4369
@@ -4358,7 +4359,7 @@ entities:
             0: 4352
           -1,16:
             1: 1
-            2: 128
+            3: 128
           -2,17:
             1: 8
           -1,17:
@@ -4386,6 +4387,21 @@ entities:
           moles:
           - 0
           - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        - volume: 2500
+          temperature: 293.14975
+          moles:
+          - 20.078888
+          - 75.53487
           - 0
           - 0
           - 0
@@ -5461,6 +5477,11 @@ entities:
       parent: 1
 - proto: AirlockBrigGlassLocked
   entities:
+  - uid: 734
+    components:
+    - type: Transform
+      pos: 22.5,4.5
+      parent: 1
   - uid: 3321
     components:
     - type: Transform
@@ -6682,11 +6703,6 @@ entities:
     - type: Transform
       pos: -23.5,19.5
       parent: 1
-  - uid: 734
-    components:
-    - type: Transform
-      pos: 22.5,4.5
-      parent: 1
   - uid: 1890
     components:
     - type: Transform
@@ -7755,6 +7771,13 @@ entities:
     components:
     - type: Transform
       pos: -13.5,-30.5
+      parent: 1
+- proto: BedsheetBrigmedic
+  entities:
+  - uid: 10875
+    components:
+    - type: Transform
+      pos: 23.5,6.5
       parent: 1
 - proto: BedsheetCaptain
   entities:
@@ -26636,18 +26659,6 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -22.5,-29.5
       parent: 1
-- proto: chem_master
-  entities:
-  - uid: 5604
-    components:
-    - type: Transform
-      pos: -8.5,14.5
-      parent: 1
-  - uid: 5605
-    components:
-    - type: Transform
-      pos: -11.5,16.5
-      parent: 1
 - proto: ChemDispenser
   entities:
   - uid: 5606
@@ -26673,6 +26684,18 @@ entities:
     components:
     - type: Transform
       pos: -11.5,13.5
+      parent: 1
+- proto: ChemMaster
+  entities:
+  - uid: 5604
+    components:
+    - type: Transform
+      pos: -8.5,14.5
+      parent: 1
+  - uid: 5605
+    components:
+    - type: Transform
+      pos: -11.5,16.5
       parent: 1
 - proto: ChessBoard
   entities:
@@ -27351,6 +27374,31 @@ entities:
     - type: Transform
       pos: 41.5,-1.5
       parent: 1
+- proto: ClothingBackpackBrigmedic
+  entities:
+  - uid: 9661
+    components:
+    - type: Transform
+      parent: 8232
+    - type: Physics
+      canCollide: False
+    - type: GroupExamine
+      group:
+      - hoverMessage: ""
+        contextText: verb-examine-group-other
+        icon: /Textures/Interface/examine-star.png
+        components:
+        - Armor
+        - ClothingSpeedModifier
+        entries:
+        - message: >-
+            Isso concede as seguintes proteções:
+
+            - Dano de [color=orange]explosão[/color] [color=white]aos conteúdos[/color] reduzido em [color=lightblue]10%[/color].
+          priority: 0
+          component: Armor
+        title: null
+    - type: InsideEntityStorage
 - proto: ClothingBackpackClown
   entities:
   - uid: 7791
@@ -27358,6 +27406,24 @@ entities:
     - type: Transform
       pos: -9.479882,-29.613472
       parent: 1
+- proto: ClothingBackpackDuffelBrigmedic
+  entities:
+  - uid: 9624
+    components:
+    - type: Transform
+      parent: 8232
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
+- proto: ClothingBackpackSatchelBrigmedic
+  entities:
+  - uid: 9658
+    components:
+    - type: Transform
+      parent: 8232
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
 - proto: ClothingBeltChampion
   entities:
   - uid: 4133
@@ -27514,6 +27580,15 @@ entities:
     - type: Transform
       pos: -13.503023,28.53958
       parent: 1
+- proto: ClothingHeadHatBeretBrigmedic
+  entities:
+  - uid: 8235
+    components:
+    - type: Transform
+      parent: 8232
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
 - proto: ClothingHeadHatFedoraBrown
   entities:
   - uid: 12535
@@ -27592,6 +27667,15 @@ entities:
     - type: Transform
       pos: -24.502247,-20.155039
       parent: 1
+- proto: ClothingHeadsetBrigmedic
+  entities:
+  - uid: 9659
+    components:
+    - type: Transform
+      parent: 8232
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
 - proto: ClothingMaskClown
   entities:
   - uid: 7790
@@ -27879,6 +27963,15 @@ entities:
     - type: Transform
       pos: -24.486622,-20.530039
       parent: 1
+- proto: ClothingUniformJumpskirtBrigmedic
+  entities:
+  - uid: 10863
+    components:
+    - type: Transform
+      parent: 8232
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
 - proto: ClothingUniformJumpskirtOperative
   entities:
   - uid: 9622
@@ -27886,6 +27979,15 @@ entities:
     - type: Transform
       pos: 15.393528,25.548008
       parent: 1
+- proto: ClothingUniformJumpsuitBrigmedic
+  entities:
+  - uid: 10864
+    components:
+    - type: Transform
+      parent: 8232
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
 - proto: ClothingUniformJumpsuitOperative
   entities:
   - uid: 9623
@@ -55700,6 +55802,48 @@ entities:
     - type: Transform
       pos: -0.5,-1.5
       parent: 1
+- proto: LockerBrigmedicFilled
+  entities:
+  - uid: 8232
+    components:
+    - type: Transform
+      pos: 21.5,5.5
+      parent: 1
+    - type: EntityStorage
+      air:
+        volume: 200
+        immutable: False
+        temperature: 293.14673
+        moles:
+        - 1.7459903
+        - 6.568249
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+    - type: ContainerContainer
+      containers:
+        entity_storage: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 8235
+          - 9624
+          - 9658
+          - 9659
+          - 9661
+          - 10863
+          - 10864
+        paper_label: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: null
 - proto: LockerCaptainFilled
   entities:
   - uid: 4090
@@ -56036,11 +56180,6 @@ entities:
     components:
     - type: Transform
       pos: -23.5,9.5
-      parent: 1
-  - uid: 12608
-    components:
-    - type: Transform
-      pos: 21.5,5.5
       parent: 1
 - proto: LockerMedicineFilled
   entities:
@@ -61594,11 +61733,6 @@ entities:
     - type: Transform
       pos: 21.5,14.5
       parent: 1
-  - uid: 11779
-    components:
-    - type: Transform
-      pos: 21.5,6.5
-      parent: 1
   - uid: 11780
     components:
     - type: Transform
@@ -66405,7 +66539,7 @@ entities:
     - type: Transform
       pos: -43.500492,24.479343
       parent: 1
-- proto: soda_dispenser
+- proto: SodaDispenser
   entities:
   - uid: 5954
     components:
@@ -67005,6 +67139,13 @@ entities:
     components:
     - type: Transform
       pos: 3.5,-3.5
+      parent: 1
+- proto: SpawnPointBrigmedic
+  entities:
+  - uid: 7547
+    components:
+    - type: Transform
+      pos: 21.5,6.5
       parent: 1
 - proto: SpawnPointCaptain
   entities:

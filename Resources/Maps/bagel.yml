@@ -504,8 +504,8 @@ entities:
             3339: -40,44
             3341: -36,30
             3762: -39,-8
-            3814: 8,43
-            3815: 8,51
+            3808: 8,43
+            3809: 8,51
         - node:
             color: '#FFFFFFFF'
             id: Arrows
@@ -527,8 +527,8 @@ entities:
             3351: -26,38
             3759: 47,-23
             3763: -40,-4
-            3810: -8,51
-            3811: -8,43
+            3806: -8,51
+            3807: -8,43
         - node:
             color: '#FFFFFFFF'
             id: ArrowsGreyscale
@@ -675,7 +675,7 @@ entities:
             3493: 39,-13
             3539: 45,-9
             3672: -17,-54
-            3841: 2,27
+            3835: 2,27
         - node:
             angle: 1.5707963267948966 rad
             color: '#FFFFFFFF'
@@ -714,8 +714,8 @@ entities:
             3254: 6,-36
             3349: -19,46
             3745: 50,-11
-            3834: -25,-1
-            3835: -25,0
+            3828: -25,-1
+            3829: -25,0
         - node:
             color: '#FFFFFFFF'
             id: BotLeftGreyscale
@@ -753,15 +753,15 @@ entities:
             color: '#FFFFFFFF'
             id: BotRightGreyscale
           decals:
-            3837: -29,-1
-            3838: -29,0
-            3839: -29,1
-            3852: 7,34
-            3853: 7,35
-            3854: 7,36
-            3855: 8,36
-            3858: 8,34
-            3859: 8,35
+            3831: -29,-1
+            3832: -29,0
+            3833: -29,1
+            3846: 7,34
+            3847: 7,35
+            3848: 7,36
+            3849: 8,36
+            3850: 8,34
+            3851: 8,35
         - node:
             color: '#79150096'
             id: Box
@@ -884,7 +884,7 @@ entities:
             2380: -14,11
             3038: 21,1
             3049: 23,1
-            3851: 6,37
+            3845: 6,37
         - node:
             color: '#FFFFFFFF'
             id: BrickTileDarkInnerSw
@@ -901,9 +901,9 @@ entities:
             2989: -115,13
             3041: 23,0
             3325: 37,18
-            3848: 6,34
-            3849: 6,35
-            3850: 6,36
+            3842: 6,34
+            3843: 6,35
+            3844: 6,36
         - node:
             color: '#FFFFFFFF'
             id: BrickTileDarkLineN
@@ -5520,22 +5520,22 @@ entities:
             color: '#FFFFFFFF'
             id: WarnCornerNE
           decals:
-            3832: -33,21
+            3826: -33,21
         - node:
             color: '#FFFFFFFF'
             id: WarnCornerNW
           decals:
-            3829: -31,21
+            3823: -31,21
         - node:
             color: '#FFFFFFFF'
             id: WarnCornerSE
           decals:
-            3833: -33,19
+            3827: -33,19
         - node:
             color: '#FFFFFFFF'
             id: WarnCornerSW
           decals:
-            3828: -31,19
+            3822: -31,19
         - node:
             color: '#FFFFFFFF'
             id: WarnCornerSmallNE
@@ -5545,7 +5545,7 @@ entities:
             1366: -2,31
             3332: -2,24
             3392: -19,40
-            3827: -8,29
+            3821: -8,29
         - node:
             color: '#FFFFFFFF'
             id: WarnCornerSmallNW
@@ -5555,7 +5555,7 @@ entities:
             2137: 2,24
             3380: -27,38
             3391: -15,40
-            3826: -5,29
+            3820: -5,29
         - node:
             color: '#FFFFFFFF'
             id: WarnCornerSmallSE
@@ -5563,7 +5563,7 @@ entities:
             1053: -2,-78
             1364: -2,36
             3390: -19,42
-            3840: -29,-1
+            3834: -29,-1
         - node:
             color: '#FFFFFFFF'
             id: WarnCornerSmallSW
@@ -5574,7 +5574,7 @@ entities:
             2568: 40,-35
             3379: -27,40
             3389: -15,42
-            3836: -25,-1
+            3830: -25,-1
         - node:
             color: '#52B4E996'
             id: WarnFullGreyscale
@@ -5649,7 +5649,7 @@ entities:
             3201: 56,11
             3388: -19,41
             3440: 1,-13
-            3831: -33,20
+            3825: -33,20
         - node:
             color: '#52B4E996'
             id: WarnLineGreyscaleE
@@ -5944,8 +5944,8 @@ entities:
             3381: -18,42
             3382: -17,42
             3383: -16,42
-            3822: -7,31
-            3823: -6,31
+            3816: -7,31
+            3817: -6,31
         - node:
             color: '#DE3A3A96'
             id: WarnLineS
@@ -5997,7 +5997,7 @@ entities:
             3378: -27,39
             3384: -15,41
             3441: -1,-13
-            3830: -31,20
+            3824: -31,20
         - node:
             color: '#DE3A3A96'
             id: WarnLineW
@@ -6065,14 +6065,14 @@ entities:
             3386: -17,40
             3387: -18,40
             3393: -43,-2
-            3824: -7,29
-            3825: -6,29
-            3842: 4,37
-            3843: 5,37
-            3844: 6,37
-            3845: -4,37
-            3846: -5,37
-            3847: -6,37
+            3818: -7,29
+            3819: -6,29
+            3836: 4,37
+            3837: 5,37
+            3838: 6,37
+            3839: -4,37
+            3840: -5,37
+            3841: -6,37
         - node:
             angle: -3.141592653589793 rad
             color: '#FFFFFFFF'
@@ -6546,7 +6546,8 @@ entities:
             0: 30515
             1: 8
           -5,-1:
-            0: 55483
+            0: 55467
+            2: 16
           -4,0:
             0: 47927
           -3,-4:
@@ -6835,10 +6836,10 @@ entities:
             0: 56797
           5,-8:
             0: 15359
-            2: 32768
+            3: 32768
           5,-7:
             0: 61491
-            2: 136
+            3: 136
           5,-6:
             0: 65535
           5,-5:
@@ -6849,9 +6850,9 @@ entities:
             0: 65311
           6,-8:
             0: 255
-            2: 28672
+            3: 28672
           6,-7:
-            2: 119
+            3: 119
             0: 61952
           6,-6:
             0: 61695
@@ -8010,7 +8011,7 @@ entities:
             0: 112
             1: 28672
           17,-7:
-            3: 1
+            4: 1
             1: 4104
           17,-6:
             1: 4593
@@ -8109,7 +8110,7 @@ entities:
           -13,7:
             1: 39312
           -12,8:
-            4: 12
+            5: 12
             6: 3072
           -11,5:
             0: 63351
@@ -8117,7 +8118,7 @@ entities:
             0: 4607
             1: 49152
           -11,8:
-            4: 1
+            5: 1
             1: 17476
             6: 256
           -11,7:
@@ -8222,10 +8223,10 @@ entities:
             0: 255
             1: 57344
           -8,11:
-            5: 816
+            7: 816
             1: 34952
           -9,11:
-            5: 2176
+            7: 2176
             1: 8738
           -8,12:
             1: 34959
@@ -8245,7 +8246,7 @@ entities:
           -6,11:
             0: 4095
           -6,12:
-            5: 61166
+            7: 61166
           -5,9:
             0: 65535
           -5,10:
@@ -8253,7 +8254,7 @@ entities:
           -5,11:
             0: 36863
           -5,12:
-            5: 30515
+            7: 30515
             0: 12
           -4,9:
             0: 65535
@@ -8263,7 +8264,7 @@ entities:
             0: 4095
           -4,12:
             0: 1
-            5: 65518
+            7: 65518
           -4,13:
             1: 61680
           -5,13:
@@ -8277,7 +8278,7 @@ entities:
           -5,15:
             1: 17487
           -3,12:
-            5: 13107
+            7: 13107
             1: 34944
           -3,13:
             1: 47792
@@ -8343,7 +8344,7 @@ entities:
             1: 61713
           -12,9:
             0: 16
-            5: 3084
+            7: 3084
           -13,9:
             1: 39305
           -13,10:
@@ -8352,19 +8353,19 @@ entities:
             1: 35033
             0: 12544
           -12,10:
-            3: 12
-            5: 3072
+            4: 12
+            7: 3072
           -12,11:
-            5: 12
+            7: 12
           -11,9:
-            5: 257
+            7: 257
             1: 17476
           -11,10:
-            3: 1
-            5: 256
+            4: 1
+            7: 256
             1: 17476
           -11,11:
-            5: 1
+            7: 1
             1: 17476
           -11,12:
             1: 17487
@@ -8419,7 +8420,7 @@ entities:
           -13,12:
             1: 34952
             6: 48
-            4: 12288
+            5: 12288
           -12,13:
             1: 61455
           -13,13:
@@ -8452,11 +8453,11 @@ entities:
             1: 62671
           -7,14:
             1: 244
-            5: 57344
+            7: 57344
             0: 1024
           -7,15:
             1: 61440
-            5: 238
+            7: 238
             0: 1024
           -7,16:
             1: 65524
@@ -8516,7 +8517,7 @@ entities:
             0: 1
             1: 8738
             6: 128
-            4: 32768
+            5: 32768
           -17,12:
             0: 52232
           -16,13:
@@ -8993,6 +8994,21 @@ entities:
           - 0
           - 0
         - volume: 2500
+          temperature: 293.14975
+          moles:
+          - 20.078888
+          - 75.53487
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        - volume: 2500
           temperature: 235
           moles:
           - 21.824879
@@ -9040,7 +9056,7 @@ entities:
         - volume: 2500
           temperature: 293.15
           moles:
-          - 0
+          - 6666.982
           - 0
           - 0
           - 0
@@ -9055,7 +9071,7 @@ entities:
         - volume: 2500
           temperature: 293.15
           moles:
-          - 6666.982
+          - 0
           - 0
           - 0
           - 0
@@ -10698,6 +10714,12 @@ entities:
     - type: Transform
       pos: -26.5,-6.5
       parent: 60
+    - type: Door
+      secondsUntilStateChange: -83.59385
+      state: Opening
+    - type: DeviceLinkSource
+      lastSignals:
+        DoorStatus: True
 - proto: AirlockAtmosphericsGlass
   entities:
   - uid: 23454
@@ -15483,6 +15505,13 @@ entities:
     - type: Transform
       pos: 49.5,-23.5
       parent: 60
+- proto: BedsheetBrigmedic
+  entities:
+  - uid: 1502
+    components:
+    - type: Transform
+      pos: -18.5,-7.5
+      parent: 60
 - proto: BedsheetCaptain
   entities:
   - uid: 18506
@@ -15565,11 +15594,6 @@ entities:
     - type: InsideEntityStorage
 - proto: BedsheetMedical
   entities:
-  - uid: 1502
-    components:
-    - type: Transform
-      pos: -18.5,-7.5
-      parent: 60
   - uid: 4491
     components:
     - type: Transform
@@ -56281,18 +56305,6 @@ entities:
     - type: Transform
       pos: 45.485657,-24.447033
       parent: 60
-- proto: chem_master
-  entities:
-  - uid: 2626
-    components:
-    - type: Transform
-      pos: 41.5,-26.5
-      parent: 60
-  - uid: 2627
-    components:
-    - type: Transform
-      pos: 41.5,-29.5
-      parent: 60
 - proto: ChemDispenser
   entities:
   - uid: 2520
@@ -56311,6 +56323,18 @@ entities:
     components:
     - type: Transform
       pos: 40.5,-28.5
+      parent: 60
+- proto: ChemMaster
+  entities:
+  - uid: 2626
+    components:
+    - type: Transform
+      pos: 41.5,-26.5
+      parent: 60
+  - uid: 2627
+    components:
+    - type: Transform
+      pos: 41.5,-29.5
       parent: 60
 - proto: ChessBoard
   entities:
@@ -57377,11 +57401,6 @@ entities:
         - 0
         - 0
         - 0
-  - uid: 2758
-    components:
-    - type: Transform
-      pos: -19.5,-2.5
-      parent: 60
 - proto: ClosetL3VirologyFilled
   entities:
   - uid: 2962
@@ -58242,6 +58261,15 @@ entities:
     - type: Transform
       pos: 20.48184,-11.502675
       parent: 60
+- proto: ClothingBackpackDuffelBrigmedic
+  entities:
+  - uid: 24454
+    components:
+    - type: Transform
+      parent: 2758
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
 - proto: ClothingBackpackDuffelSurgeryFilled
   entities:
   - uid: 530
@@ -58249,6 +58277,22 @@ entities:
     - type: Transform
       pos: 38.489937,-12.380952
       parent: 60
+- proto: ClothingBackpackSatchelBrigmedic
+  entities:
+  - uid: 24176
+    components:
+    - type: Transform
+      parent: 2758
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
+  - uid: 24268
+    components:
+    - type: Transform
+      parent: 2758
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
 - proto: ClothingBackpackSatchelLeather
   entities:
   - uid: 4702
@@ -58583,6 +58627,15 @@ entities:
     - type: Transform
       pos: -38.320274,19.65635
       parent: 60
+- proto: ClothingHeadHatBeretBrigmedic
+  entities:
+  - uid: 24271
+    components:
+    - type: Transform
+      parent: 2758
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
 - proto: ClothingHeadHatBeretWarden
   entities:
   - uid: 11556
@@ -59574,6 +59627,15 @@ entities:
     - type: Transform
       pos: -40.505074,-36.219357
       parent: 60
+- proto: ClothingUniformJumpskirtBrigmedic
+  entities:
+  - uid: 24453
+    components:
+    - type: Transform
+      parent: 2758
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
 - proto: ClothingUniformJumpskirtDetective
   entities:
   - uid: 7001
@@ -59624,6 +59686,15 @@ entities:
     components:
     - type: Transform
       parent: 9113
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
+- proto: ClothingUniformJumpsuitBrigmedic
+  entities:
+  - uid: 24423
+    components:
+    - type: Transform
+      parent: 2758
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
@@ -106949,6 +107020,47 @@ entities:
     - type: Transform
       pos: 33.5,-35.5
       parent: 60
+- proto: LockerBrigmedicFilled
+  entities:
+  - uid: 2758
+    components:
+    - type: Transform
+      pos: -19.5,-2.5
+      parent: 60
+    - type: EntityStorage
+      air:
+        volume: 200
+        immutable: False
+        temperature: 293.14673
+        moles:
+        - 1.7459903
+        - 6.568249
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+    - type: ContainerContainer
+      containers:
+        entity_storage: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 24176
+          - 24268
+          - 24271
+          - 24423
+          - 24453
+          - 24454
+        paper_label: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: null
 - proto: LockerCaptainFilled
   entities:
   - uid: 8234
@@ -125617,7 +125729,7 @@ entities:
     - type: Transform
       pos: -2.5112958,-11.444662
       parent: 60
-- proto: soda_dispenser
+- proto: SodaDispenser
   entities:
   - uid: 2257
     components:
@@ -127990,6 +128102,13 @@ entities:
     components:
     - type: Transform
       pos: 32.5,-36.5
+      parent: 60
+- proto: SpawnPointBrigmedic
+  entities:
+  - uid: 24455
+    components:
+    - type: Transform
+      pos: -18.5,-4.5
       parent: 60
 - proto: SpawnPointCaptain
   entities:

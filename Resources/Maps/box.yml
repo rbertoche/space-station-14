@@ -6369,7 +6369,8 @@ entities:
           -3,6:
             0: 65535
           -3,7:
-            0: 65535
+            0: 64511
+            3: 1024
           -2,4:
             0: 65535
           -2,5:
@@ -6540,7 +6541,7 @@ entities:
             0: 52462
           8,0:
             0: 65527
-            3: 8
+            4: 8
           8,1:
             0: 65295
           8,2:
@@ -6548,7 +6549,7 @@ entities:
           8,3:
             0: 65535
           9,0:
-            3: 15
+            4: 15
             0: 65520
           9,1:
             0: 65487
@@ -6557,7 +6558,7 @@ entities:
           9,3:
             0: 32767
           10,0:
-            3: 1
+            4: 1
             0: 65534
           10,1:
             0: 65535
@@ -6901,7 +6902,7 @@ entities:
             0: 65535
           8,-1:
             0: 30591
-            3: 34944
+            4: 34944
           9,-4:
             0: 65535
           9,-3:
@@ -6910,7 +6911,7 @@ entities:
             0: 65535
           9,-1:
             0: 15
-            3: 65520
+            4: 65520
           10,-4:
             0: 65535
           10,-3:
@@ -6919,7 +6920,7 @@ entities:
             0: 65535
           10,-1:
             0: 61167
-            3: 4368
+            4: 4368
           11,-4:
             0: 65535
           11,-3:
@@ -7746,7 +7747,7 @@ entities:
             0: 65535
           4,-17:
             0: 34959
-            4: 30576
+            5: 30576
           5,-20:
             0: 62813
           5,-19:
@@ -7953,7 +7954,7 @@ entities:
             0: 65535
           3,-17:
             0: 34959
-            5: 30576
+            6: 30576
           0,-24:
             0: 65416
           0,-23:
@@ -8466,6 +8467,21 @@ entities:
           moles:
           - 0
           - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        - volume: 2500
+          temperature: 293.14975
+          moles:
+          - 20.078888
+          - 75.53487
           - 0
           - 0
           - 0
@@ -11429,63 +11445,63 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -81.5,9.5
       parent: 8364
-    - type: DeviceLinkSink
-      links:
-      - 655
     - type: DeviceLinkSource
       linkedPorts:
         655:
         - DoorStatus: Close
+    - type: DeviceLinkSink
+      links:
+      - 655
   - uid: 1110
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -79.5,-13.5
       parent: 8364
-    - type: DeviceLinkSink
-      links:
-      - 12466
     - type: DeviceLinkSource
       linkedPorts:
         12466:
         - DoorStatus: Close
+    - type: DeviceLinkSink
+      links:
+      - 12466
   - uid: 12469
     components:
     - type: Transform
       pos: -75.5,-17.5
       parent: 8364
-    - type: DeviceLinkSink
-      links:
-      - 12468
     - type: DeviceLinkSource
       linkedPorts:
         12468:
         - DoorStatus: Close
+    - type: DeviceLinkSink
+      links:
+      - 12468
   - uid: 12470
     components:
     - type: Transform
       pos: -68.5,-17.5
       parent: 8364
-    - type: DeviceLinkSink
-      links:
-      - 12467
     - type: DeviceLinkSource
       linkedPorts:
         12467:
         - DoorStatus: Close
+    - type: DeviceLinkSink
+      links:
+      - 12467
   - uid: 12486
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -81.5,-4.5
       parent: 8364
-    - type: DeviceLinkSink
-      links:
-      - 610
     - type: DeviceLinkSource
       linkedPorts:
         610:
         - DoorStatus: Close
+    - type: DeviceLinkSink
+      links:
+      - 610
 - proto: AirlockFreezer
   entities:
   - uid: 25720
@@ -11541,7 +11557,7 @@ entities:
       pos: 24.5,16.5
       parent: 8364
     - type: Door
-      secondsUntilStateChange: -354.4333
+      secondsUntilStateChange: -421.1825
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -11880,21 +11896,24 @@ entities:
       rot: 3.141592653589793 rad
       pos: -66.5,21.5
       parent: 8364
-    - type: Docking
-      dockJointId: docking46345
-      dockedWith: 21828
     - type: Door
       changeAirtight: False
       state: Open
+    - type: Docking
+      dockJointId: docking46345
+      dockedWith: 21828
+    - type: DeviceLinkSource
+      linkedPorts:
+        1495:
+        - DoorStatus: Close
+      lastSignals:
+        DoorStatus: False
+        DockStatus: True
     - type: Physics
       canCollide: False
     - type: DeviceLinkSink
       links:
       - 1495
-    - type: DeviceLinkSource
-      linkedPorts:
-        1495:
-        - DoorStatus: Close
   - uid: 5209
     components:
     - type: Transform
@@ -11912,12 +11931,16 @@ entities:
     - type: Transform
       pos: -0.5,-0.5
       parent: 11906
-    - type: Docking
-      dockJointId: docking46345
-      dockedWith: 562
     - type: Door
       changeAirtight: False
       state: Open
+    - type: Docking
+      dockJointId: docking46345
+      dockedWith: 562
+    - type: DeviceLinkSource
+      lastSignals:
+        DoorStatus: False
+        DockStatus: True
     - type: Physics
       canCollide: False
 - proto: AirlockHeadOfPersonnelGlassLocked
@@ -15777,6 +15800,13 @@ entities:
     - type: Transform
       pos: -20.5,48.5
       parent: 8364
+- proto: BedsheetBrigmedic
+  entities:
+  - uid: 9485
+    components:
+    - type: Transform
+      pos: -6.5,31.5
+      parent: 8364
 - proto: BedsheetCaptain
   entities:
   - uid: 5315
@@ -15841,11 +15871,6 @@ entities:
     components:
     - type: Transform
       pos: 30.5,-27.5
-      parent: 8364
-  - uid: 9485
-    components:
-    - type: Transform
-      pos: -6.5,31.5
       parent: 8364
   - uid: 18601
     components:
@@ -64138,23 +64163,6 @@ entities:
     - type: Transform
       pos: 14.5,10.5
       parent: 8364
-- proto: chem_master
-  entities:
-  - uid: 18770
-    components:
-    - type: Transform
-      pos: 22.5,-20.5
-      parent: 8364
-  - uid: 18771
-    components:
-    - type: Transform
-      pos: 22.5,-16.5
-      parent: 8364
-  - uid: 18775
-    components:
-    - type: Transform
-      pos: 18.5,-16.5
-      parent: 8364
 - proto: ChemDispenser
   entities:
   - uid: 18610
@@ -64178,6 +64186,23 @@ entities:
     components:
     - type: Transform
       pos: 18.5,-17.5
+      parent: 8364
+- proto: ChemMaster
+  entities:
+  - uid: 18770
+    components:
+    - type: Transform
+      pos: 22.5,-20.5
+      parent: 8364
+  - uid: 18771
+    components:
+    - type: Transform
+      pos: 22.5,-16.5
+      parent: 8364
+  - uid: 18775
+    components:
+    - type: Transform
+      pos: 18.5,-16.5
       parent: 8364
 - proto: ChessBoard
   entities:
@@ -67798,6 +67823,59 @@ entities:
     - type: Transform
       pos: 5.5,-65.5
       parent: 8364
+- proto: ClothingBackpackBrigmedic
+  entities:
+  - uid: 20854
+    components:
+    - type: Transform
+      parent: 20698
+    - type: Physics
+      canCollide: False
+    - type: GroupExamine
+      group:
+      - hoverMessage: ""
+        contextText: verb-examine-group-other
+        icon: /Textures/Interface/examine-star.png
+        components:
+        - Armor
+        - ClothingSpeedModifier
+        entries:
+        - message: >-
+            Isso concede as seguintes proteções:
+
+            - Dano de [color=orange]explosão[/color] [color=white]aos conteúdos[/color] reduzido em [color=lightblue]10%[/color].
+          priority: 0
+          component: Armor
+        title: null
+    - type: InsideEntityStorage
+- proto: ClothingBackpackDuffelBrigmedic
+  entities:
+  - uid: 20798
+    components:
+    - type: Transform
+      parent: 20698
+    - type: Physics
+      canCollide: False
+    - type: GroupExamine
+      group:
+      - hoverMessage: ""
+        contextText: verb-examine-group-other
+        icon: /Textures/Interface/examine-star.png
+        components:
+        - Armor
+        - ClothingSpeedModifier
+        entries:
+        - message: >-
+            Isso concede as seguintes proteções:
+
+            - Dano de [color=orange]explosão[/color] [color=white]aos conteúdos[/color] reduzido em [color=lightblue]10%[/color].
+          priority: 0
+          component: Armor
+        - message: Diminui sua velocidade de corrida em [color=yellow]10%[/color].
+          priority: 0
+          component: ClothingSpeedModifier
+        title: null
+    - type: InsideEntityStorage
 - proto: ClothingBackpackDuffelCaptain
   entities:
   - uid: 27222
@@ -67817,6 +67895,15 @@ entities:
     - type: Transform
       pos: 20.4915,-33.699135
       parent: 8364
+- proto: ClothingBackpackSatchelBrigmedic
+  entities:
+  - uid: 20699
+    components:
+    - type: Transform
+      parent: 20698
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
 - proto: ClothingBeltChampion
   entities:
   - uid: 20890
@@ -68133,6 +68220,15 @@ entities:
     - type: Transform
       pos: 41.493343,-57.314545
       parent: 8364
+- proto: ClothingHeadHatBeretBrigmedic
+  entities:
+  - uid: 20799
+    components:
+    - type: Transform
+      parent: 20698
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
 - proto: ClothingHeadHatBeretWarden
   entities:
   - uid: 12641
@@ -68370,6 +68466,15 @@ entities:
     - type: Transform
       pos: 2.689872,39.51471
       parent: 8364
+- proto: ClothingHeadsetBrigmedic
+  entities:
+  - uid: 20825
+    components:
+    - type: Transform
+      parent: 20698
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
 - proto: ClothingHeadsetEngineering
   entities:
   - uid: 22802
@@ -68952,6 +69057,24 @@ entities:
     - type: Transform
       pos: 1.4697213,-22.60485
       parent: 8364
+- proto: ClothingUniformJumpskirtBrigmedic
+  entities:
+  - uid: 20800
+    components:
+    - type: Transform
+      parent: 20698
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
+- proto: ClothingUniformJumpsuitBrigmedic
+  entities:
+  - uid: 20801
+    components:
+    - type: Transform
+      parent: 20698
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
 - proto: ClothingUniformJumpsuitEngineeringHazard
   entities:
   - uid: 1623
@@ -71141,11 +71264,6 @@ entities:
       parent: 8364
 - proto: CrateMedicalSurgery
   entities:
-  - uid: 9539
-    components:
-    - type: Transform
-      pos: -9.5,30.5
-      parent: 8364
   - uid: 19237
     components:
     - type: Transform
@@ -121672,6 +121790,48 @@ entities:
     - type: Transform
       pos: 49.5,-0.5
       parent: 8364
+- proto: LockerBrigmedicFilled
+  entities:
+  - uid: 20698
+    components:
+    - type: Transform
+      pos: -9.5,30.5
+      parent: 8364
+    - type: EntityStorage
+      air:
+        volume: 200
+        immutable: False
+        temperature: 293.14673
+        moles:
+        - 1.7459903
+        - 6.568249
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+    - type: ContainerContainer
+      containers:
+        entity_storage: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 20699
+          - 20798
+          - 20799
+          - 20800
+          - 20801
+          - 20825
+          - 20854
+        paper_label: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: null
 - proto: LockerCaptainFilled
   entities:
   - uid: 10526
@@ -141475,7 +141635,7 @@ entities:
     - type: Transform
       pos: 10.464365,-22.554323
       parent: 8364
-- proto: soda_dispenser
+- proto: SodaDispenser
   entities:
   - uid: 7256
     components:
@@ -143091,6 +143251,13 @@ entities:
     components:
     - type: Transform
       pos: 47.5,-4.5
+      parent: 8364
+- proto: SpawnPointBrigmedic
+  entities:
+  - uid: 9539
+    components:
+    - type: Transform
+      pos: -7.5,31.5
       parent: 8364
 - proto: SpawnPointCaptain
   entities:
