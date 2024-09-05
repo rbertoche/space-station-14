@@ -1,9 +1,12 @@
 - type: entity
   parent: BaseMobHuman
-  name: Urist McTief
+  name: Urist McDemon
   id: MobCambionBase
   abstract: true
   components:
+  #- type: MovementSpeedModifier
+  #  baseWalkSpeed : 7
+  #  baseSprintSpeed : 7
   - type: HumanoidAppearance
     species: Cambion
   - type: MeleeWeapon
@@ -17,8 +20,6 @@
         Heat: 1.5
   - type: Body
     prototype: Human
-  - type: TypingIndicator
-    proto: oni
   - type: Stamina
     critThreshold: 85
   - type: Temperature
@@ -28,15 +29,12 @@
     specificHeat: 42
     coldDamage:
       types:
-        Cold : 1 #per second, scales with temperature & other constants
+        Cold : 0.3 #per second, scales with temperature & other constants
     heatDamage:
       types:
         Heat : 0.5 #per second, scales with temperature & other constants
   - type: Damageable
     damageModifierSet: Cambion
-  - type: MovementSpeedModifier
-    baseWalkSpeed : 7
-    baseSprintSpeed : 7
 
 - type: entity
   save: false
