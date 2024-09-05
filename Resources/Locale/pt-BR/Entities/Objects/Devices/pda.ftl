@@ -155,4 +155,7 @@ ent-SeniorEngineerPDA = PDA de engenheiro sênior
     .desc = Parece ter sido desmontado e remontado diversas vezes.
 
 ent-CluwnePDA = PDA de Clowne
-    .desc = PDA de Clowne amaldiçoado. 
+    .desc = PDA de Clowne amaldiçoado.
+
+ent-BrigmedicPDA = PDA de médico do Brig
+    .desc = Eu me pergunto de quem é o pulso na tela? Espero que ele não pare... O PDA possui um analisador de saúde integrado.
