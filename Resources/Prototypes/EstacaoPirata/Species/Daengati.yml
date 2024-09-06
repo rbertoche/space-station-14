@@ -11,6 +11,7 @@
   femaleFirstNames: names_oni_female
   lastNames: names_oni_location
   naming: LastNoFirst
+  maxHeight: 1.1
 
 - type: markingPoints
   id: MobDaengatiMarkingLimits

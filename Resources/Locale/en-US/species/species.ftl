@@ -11,4 +11,4 @@ species-name-moth = Moth Person
 species-name-skeleton = Skeleton
 species-name-vox = Vox
 species-name-ipc = IPC
-species-name-cambion = Cambion
+species-name-daengati = Daengati
