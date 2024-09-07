@@ -80,6 +80,9 @@
   id: JobLibrarian
 
 - type: playTimeTracker
+  id: JobBrigMed
+
+- type: playTimeTracker
   id: JobMedicalDoctor
 
 - type: playTimeTracker
