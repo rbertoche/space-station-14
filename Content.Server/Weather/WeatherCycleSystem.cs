@@ -43,22 +43,13 @@ namespace Content.Server.Time
 
         private void SetRandomCycleValues(WeatherCycleComponent comp)
         {
-            int previousDuration = comp.WeatherCicleDuration;
             int previousStart = comp.WeatherCicleStart;
 
-            int newDuration = _random.Next(comp.MinDuration, comp.MaxDuration);
+            comp.WeatherCicleDuration = _random.Next(comp.MinDuration, comp.MaxDuration);
             int newStartHour = _random.Next(comp.MinStartHour, comp.MaxStartHour);
 
-            if (Math.Abs(newDuration - previousDuration) < 2)
-            {
-                comp.WeatherCicleDuration = newDuration >= comp.MaxDuration ? newDuration - 1 : newDuration + 1;
-            }
-            else
-            {
-                comp.WeatherCicleDuration = newDuration;
-            }
-
-            if (Math.Abs(newStartHour - previousStart) < 2)
+            // Verifica se a nova hora de começo de um ciclo está em um intervalo de pelo menos 2 de diferença
+            if (Math.Abs(newStartHour - previousStart) < 3)
             {
                 comp.WeatherCicleStart = newStartHour >= comp.MaxStartHour ? newStartHour - 1 : newStartHour + 1;
             }
@@ -78,14 +69,12 @@ namespace Content.Server.Time
                 {
                     if (comp.IsEnabled)
                     {
+                        // Calcula a hora de término do ciclo
                         int endHour = (comp.WeatherCicleStart + comp.WeatherCicleDuration) % 24;
                         bool isWithinCycle;
 
-                        if (comp.WeatherCicleDuration >= 24)
-                        {
-                            isWithinCycle = true;
-                        }
-                        else if (comp.WeatherCicleStart + comp.WeatherCicleDuration < 24)
+                        // Verifica se está em ciclo
+                        if (comp.WeatherCicleStart + comp.WeatherCicleDuration < 24)
                         {
                             isWithinCycle = _currentHour >= comp.WeatherCicleStart && _currentHour < endHour;
                         }
@@ -94,6 +83,7 @@ namespace Content.Server.Time
                             isWithinCycle = _currentHour >= comp.WeatherCicleStart || _currentHour < endHour;
                         }
 
+                        // Verifica se o ciclo está ativo e se está em ciclo (IsCycleActive é para evitar um loop infinito de trocas sem parar)
                         if (!comp.IsCycleActive && isWithinCycle)
                         {
                             SetNewWeather(comp);
