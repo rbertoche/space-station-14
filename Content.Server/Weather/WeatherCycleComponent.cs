@@ -9,7 +9,7 @@ namespace Content.Server.Weather
     {
         [ViewVariables(VVAccess.ReadWrite), DataField("isEnabled")]
         public bool IsEnabled = true;
-        [ViewVariables(VVAccess.ReadWrite), DataField("weatherCicleDuration")]
+        [ViewVariables(VVAccess.ReadOnly), DataField("weatherCicleDuration")]
         public int WeatherCicleDuration = 9;
         [ViewVariables(VVAccess.ReadWrite), DataField("weatherCicleStart")]
         public int WeatherCicleStart = 19;
