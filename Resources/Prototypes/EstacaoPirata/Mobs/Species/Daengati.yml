@@ -20,7 +20,7 @@
   - type: TypingIndicator
     proto: oni
   - type: Temperature
-    heatDamageThreshold: 500
+    heatDamageThreshold: 535
     coldDamageThreshold: 270
     currentTemperature: 310.15
     specificHeat: 42
@@ -35,10 +35,10 @@
   - type: LanguageKnowledge
     speaks:
     - GalacticCommon
-    - Nekomimetic
+    - Nekomimetic #Alterar essa linguagem para uma nova
     understands:
     - GalacticCommon
-    - Nekomimetic
+    - Nekomimetic #Alterar essa linguagem para uma nova
 
 - type: entity
   save: false

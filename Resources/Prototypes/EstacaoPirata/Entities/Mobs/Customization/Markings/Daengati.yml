@@ -35,8 +35,8 @@
   sprites:
     - sprite: Mobs/Customization/daengati_tail.rsi
       state: DragonLong
-    - sprite: Mobs/Customization/daengati_tail.rsi
-      state: DragonLong-tip
+    #- sprite: Mobs/Customization/daengati_tail.rsi
+    #  state: DragonLong-tip
 
 - type: marking
   id: DaengatiRaboCortado

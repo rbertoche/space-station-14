@@ -11,3 +11,4 @@ species-name-arachne = Aracne
 species-name-moth = Pessoa Mariposa
 species-name-skeleton = Esqueleto
 species-name-vox = Vox
+species-name-daengati = Daengati
