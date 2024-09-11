@@ -3,6 +3,7 @@
   name: guide-entry-jobs
   text: "/ServerInfo/Guidebook/Jobs.xml"
   children:
+  - Justicee
   - Bartender
   - Chef
   - Botany
@@ -13,6 +14,11 @@
   - Cargo
   - Salvage
   - Medical
+
+- type: guideEntry
+  id: Justicee
+  name: guide-entry-justice
+  text: "/ServerInfo/Guidebook/DeltaV/Justice.xml"
 
 - type: guideEntry
   id: Survival

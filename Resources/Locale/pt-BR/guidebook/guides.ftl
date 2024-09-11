@@ -20,6 +20,7 @@ guide-entry-jobs = Trabalhos
 guide-entry-cargo = Cargo
 guide-entry-cargo-bounties = Recompensas da Carga
 guide-entry-salvage = Salvamento
+guide-entry-justice = Justiça
 guide-entry-survival = Sobrevivência
 guide-entry-chemicals = Substâncias Químicas
 guide-entry-ss14 = Space Station 14

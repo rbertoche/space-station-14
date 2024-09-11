@@ -1,0 +1,60 @@
+<Document>
+# Justiça
+O objetivo principal do departamento de [color=#a4885c]Justiça[/color] é defender a lei espacial e processar os julgamentos em tempo hábil.
+<Box>
+<GuideEntityEmbed Entity="BoxFolderYellow"/>
+<GuideEntityEmbed Entity="BriefcaseBrown"/>
+<GuideEntityEmbed Entity="PaperOffice"/>
+<GuideEntityEmbed Entity="ClothingHeadHatPwig"/>
+</Box>
+
+## Funções
+- O [color=#a4885c]Juiz Chefe[/color] deve atuar como juiz durante os julgamentos e coordenar com a Segurança para preparar os próximos julgamentos.
+- Os [color=#a4885c]Advogados[/color] devem representar a defesa durante os julgamentos e devem entrar em contato com os prisioneiros que precisam de defesa ou assistência jurídica. Eles também desempenham o papel de defensores públicos da tripulação, também desempenhando a função de [color=#a4885c]processar[/color] em nome da tripulação quando necessário.
+- Os [color=#a4885c]Promotores[/color] devem representar a acusação durante os julgamentos e devem trabalhar com o departamento de Segurança para preparar os julgamentos para o tribunal. No caso de uma prisão, o Promotor deve obter uma declaração do segurança que fez a prisão sobre o assunto e é, no caso de crimes graves, [color=#a4885c]responsável pela sentença[/color]. Se disponível, o promotor deve trabalhar com [color=#a4885c]detetives[/color] para solicitar evidências.
+- [color=#a4885c]Escriturários[/color] devem preparar testemunhas e evidências a serem apresentadas e auxiliar nos procedimentos do julgamento durante um julgamento em andamento, e de outra forma devem auxiliar o Juiz Chefe e toda a equipe de justiça. Eles também são o gerente de fato do [color=#a4885c]cronômetro do tribunal[/color], e devem garantir que os casos pendentes sejam resolvidos em ordem de urgência.
+- Funções de segurança, se presentes durante um julgamento, devem atuar como oficiais de justiça e garantir que o réu esteja presente. A segurança, embora não seja obrigada a estar presente durante todo o julgamento, deve estar presente para promulgar a decisão do juiz assim que for dada. Fora dos julgamentos, o departamento de Segurança deve se comunicar com o Departamento de Justiça para garantir que os prisioneiros atuais sejam tratados conforme necessário.
+
+No caso de um julgamento ser necessário quando [color=#a4885c]uma dessas funções não estiver disponível[/color]:
+- Um juiz substituto deve ser um membro do departamento de Justiça, ou menos preferencialmente um membro do Comando ou Segurança.
+- Um promotor substituto deve ser um advogado ou escrivão.
+- Uma defesa substituta deve ser um promotor ou escrivão, no entanto, o réu tem o direito de se representar se escolher.
+
+## Procedimento de Julgamento
+Um caso criminal e civil não deve levar [color=#a4885c]mais de 15 minutos[/color] em julgamento. O Juiz é responsável por garantir que o julgamento seja concluído em tempo hábil, mas tem [color=#a4885c]a capacidade de estender um julgamento[/color] se necessário.
+<Box>
+<GuideEntityEmbed Entity="Gavel"/>
+<GuideEntityEmbed Entity="TrialTimer"/>
+</Box>
+O Juiz do tribunal também tem o poder de acusar alguém de desacato ao tribunal, [color=#FF0000]um crime grave[/color], se atrapalhar o caso.
+
+<Box>
+[color=#FFFF00]JULGAMENTOS CRIMINAIS[/color]
+</Box>
+
+Os casos criminais devem [color=#a4885c]ter[/color] pessoal de segurança presente ou [color=#a4885c]planejar tê-los[/color] presentes até o final do julgamento.
+
+- O Juiz escolhido inicia o julgamento assim que a defesa e a acusação estiverem prontas.
+- O Escriturário lê as acusações aplicadas ao réu pela segurança.
+- A acusação fornece evidências/testemunhas e os argumentos para essas acusações. Eles têm, no máximo, [color=#a4885c]5 minutos[/color] para apresentar seus argumentos antes de serem obrigados a solicitar ao juiz tempo adicional, se necessário.
+- A defesa responde a essas acusações individualmente, [color=#a4885c]declarando-se culpado ou inocente[/color]. Se declarar-se inocente, a defesa fornece seu contra-argumento, juntamente com evidências e/ou testemunhas para apoiar seu caso. Eles também têm [color=#a4885c]5 minutos[/color] para apresentar seus argumentos antes de serem obrigados a solicitar ao juiz tempo adicional, se necessário.
+- Depois que a defesa e a acusação tiverem apresentado seus casos, eles têm a oportunidade de [color=#a4885c]interrogar[/color] as testemunhas e evidências presentes. Esta etapa não deve levar mais do que [color=#a4885c]5 minutos[/color], e fica a critério do juiz se tempo adicional é necessário.
+- O juiz considera ambos os argumentos e faz sua decisão, que deve então ser autenticada e carimbada pelo Escriturário ou ele mesmo na falta de um.
+- Qualquer pessoal de segurança presente ou prestes a estar presente então promulgará a decisão.
+
+<Box>
+[color=#00FF00]JULGAMENTOS CIVIS[/color]
+</Box>
+
+Os processos civis não exigem advogados ou promotores, mas podem receber assistência de ambos antes e durante o processo. [color=#a4885c]Tanto o réu quanto o autor devem ser convocados para comparecer ao tribunal[/color], se uma parte [color=#a4885c]não comparecer[/color] por recusa ou negligência, ou [color=#a4885c]não cumprir uma ordem judicial[/color] de um julgamento civil, essa parte pode ser acusada de desacato ao tribunal, [color=#FF0000]um crime grave[/color].
+Um processo civil envolve [color=#a4885c]buscar indenização[/color] de um réu, que pode ser monetária, um item ou outro.
+
+- O juiz escolhido inicia o julgamento quando a defesa e o autor estiverem prontos.
+- O próprio autor lê a queixa emitida contra o réu.
+- O autor fornece qualquer evidência/testemunha necessária e o argumento para esta queixa. Eles têm [color=#a4885c]5 minutos[/color], no máximo, para defender seu caso antes de serem obrigados a solicitar tempo adicional do juiz.
+- A defesa responde a essas acusações individualmente, [color=#a4885c]declarando-se culpado ou inocente[/color]. Se se declarar inocente, a defesa fornece seu contra-argumento, juntamente com qualquer evidência/testemunha que escolher apresentar. Eles também têm [color=#a4885c]5 minutos[/color] para defender seu caso antes de serem obrigados a solicitar tempo adicional do juiz.
+- A defesa e o autor têm a oportunidade de [color=#a4885c]interrogar[/color] testemunhas e evidências. Esta etapa não deve levar mais do que [color=#a4885c]5 minutos[/color], e fica a critério do juiz se tempo adicional for necessário.
+- O juiz considera ambos os argumentos e faz sua decisão, que deve então ser autenticada e carimbada.
+- A decisão deve então ser promulgada, se possível, pelo Juiz Chefe, se necessário, a equipe do Departamento de Segurança e Justiça pode garantir que a decisão seja cumprida completamente e em tempo hábil.
+
+</Document>
