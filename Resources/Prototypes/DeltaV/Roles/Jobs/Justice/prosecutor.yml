@@ -8,6 +8,7 @@
       min: 36000 # 10 hrs
   startingGear: ProsecutorGear
   icon: "JobIconProsecutor"
+  canBeAntag: false
   supervisors: job-supervisors-cj
   access:
   - Prosecutor
