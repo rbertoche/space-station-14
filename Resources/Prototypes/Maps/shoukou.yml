@@ -54,6 +54,11 @@
             SecurityCadet: [ 1, 3 ]
             Brigmedic: [ 1, 1 ]
             Prisoner: [ 2, 2 ]
+          #Justice
+            ChiefJustice: [ 1, 1 ]
+            Lawyer: [ 1, 1 ]
+            Clerk: [ 1, 1 ]
+            Prosecutor: [ 1, 1 ]
           #Science
             ResearchDirector: [ 1, 1 ]
             Scientist: [ 2, 4 ]
