@@ -13,8 +13,8 @@
     animation: WeaponArcClaw
     damage:
       types:
-        Slash: 3.5
-        Heat: 2
+        Slash: 3
+        Heat: 3
   - type: Body
     prototype: Human
   - type: TypingIndicator
@@ -26,7 +26,7 @@
     specificHeat: 42
     coldDamage:
       types:
-        Cold : 0.4 #o padrão é 0.1
+        Cold : 0.75 #o padrão é 0.1
     heatDamage:
       types:
         Heat : 0.5 #O padrão é 1.5
