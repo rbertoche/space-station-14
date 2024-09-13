@@ -1,6 +1,6 @@
 - type: gameMap
-  id: RadStation
-  mapName: 'Rad'
+  id: Rad
+  mapName: 'RadStation'
   mapPath: /Maps/EstacaoPirata/radstation.yml
   minPlayers: 35
   stations:
