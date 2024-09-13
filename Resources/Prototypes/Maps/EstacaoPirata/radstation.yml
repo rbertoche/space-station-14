@@ -25,7 +25,6 @@
             Botanist: [ 3, 3 ]
             Chef: [ 2, 2 ]
             Janitor: [ 2, 2 ]
-            Chaplain: [ 1, 1 ]
             Librarian: [ 1, 1 ]
             ServiceWorker: [ 1, 1 ]
             #engineering
@@ -36,6 +35,7 @@
             #medical
             ChiefMedicalOfficer: [ 1, 1 ]
             Chemist: [ 2, 2 ]
+            MedicalBorg: [ 2, 2 ]
             MedicalDoctor: [ 3, 3 ]
             Paramedic: [ 1, 1 ]
             MedicalIntern: [ 2, 2 ]
@@ -44,15 +44,20 @@
             Scientist: [ 5, 5 ]
             ResearchAssistant: [ 2, 2 ]
             Borg: [ 1, 1 ]
+            Chaplain: [ 1, 1 ]
             #security
             HeadOfSecurity: [ 1, 1 ]
+            Brigmedic: [ 1, 1 ]
             Warden: [ 1, 1 ]
             SecurityOfficer: [ 5, 5 ]
+            Prisoner: [ 2, 3 ]
+            PrisonGuard: [ 2, 3 ]
             Detective: [ 1, 1 ]
             SecurityCadet: [ 2, 2 ]
             Lawyer: [ 2, 2 ]
             #supply
             Quartermaster: [ 1, 1 ]
+            MailCarrier: [ 1, 2 ]
             SalvageSpecialist: [ 3, 3 ]
             CargoTechnician: [ 5, 5 ]
             #civilian
