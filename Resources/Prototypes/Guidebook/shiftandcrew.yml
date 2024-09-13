@@ -16,7 +16,7 @@
   - Medical
 
 - type: guideEntry
-  id: Justicee
+  id: Justice
   name: guide-entry-justice
   text: "/ServerInfo/Guidebook/DeltaV/Justice.xml"
 
