@@ -76,7 +76,7 @@ public abstract partial class SharedHandsSystem : EntitySystem
         HandsComponent? handsComp = null,
         ItemComponent? item = null)
     {
-        if (!Resolve(uid, ref handsComp, false))
+        if (!Resolve(uid, ref handsComp, true))
             return false;
 
         if (!TryGetEmptyHand(uid, out var hand, handsComp))

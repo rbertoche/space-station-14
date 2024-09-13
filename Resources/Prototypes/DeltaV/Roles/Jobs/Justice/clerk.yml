@@ -22,6 +22,7 @@
   supervisors: job-supervisors-cj
   canBeAntag: false
   access:
+  - Clerk
   - Justice
   - Security
   - Maintenance

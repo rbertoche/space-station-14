@@ -42,3 +42,11 @@ id-card-access-level-nuclear-operative = Operativo Nuclear
 id-card-access-level-syndicate-agent = Agente Sindicato
 
 id-card-access-level-central-command = Comando Central
+
+id-card-access-level-orders = Pedidos
+id-card-access-level-mantis = Mantis
+id-card-access-level-cj = Juiz Chefe
+id-card-access-level-prosecutor = Promotor
+id-card-access-level-justice = Justiça
+id-card-access-level-corpsman = Corpsman
+id-card-access-level-clerk = Escriturário
