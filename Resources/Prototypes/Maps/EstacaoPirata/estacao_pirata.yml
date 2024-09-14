@@ -1,7 +1,7 @@
 - type: gameMap
   id: EstacaoPirata
   mapName: 'BrasStation'
-  mapPath: /Maps/EstacaoPirata/estacao_pirata.yml
+  mapPath: /Maps/EstacaoPirata/brasstation.yml
   minPlayers: 0
   maxPlayers: 45
   stations:
