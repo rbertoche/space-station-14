@@ -1,5 +1,5 @@
 - type: gameMap
-  id: EstacaoPirata
+  id: Bras
   mapName: 'BrasStation'
   mapPath: /Maps/EstacaoPirata/brasstation.yml
   minPlayers: 0
@@ -63,7 +63,3 @@
             SalvageSpecialist: [ 2, 3 ]
             Quartermaster: [ 1, 1 ]
             Boxer: [ 2, 4 ]
-            SeniorPhysician: [ 1, 1 ]
-            SeniorResearcher: [ 1, 1 ]
-            SeniorEngineer: [ 1, 1 ]
-            SeniorOfficer: [ 1, 1 ]
