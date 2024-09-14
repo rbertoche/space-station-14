@@ -1,6 +1,6 @@
 - type: gameMap
-  id: EstacaoPirata
-  mapName: 'Estação Pirata'
+  id: Estacao Pirata
+  mapName: 'BrasStation'
   mapPath: /Maps/EstacaoPirata/estacao_pirata.yml
   minPlayers: 0
   maxPlayers: 45
@@ -9,7 +9,7 @@
       stationProto: StandardNanotrasenStation
       components:
         - type: StationEmergencyShuttle
-          emergencyShuttlePath: /Maps/Shuttles/emergency_raven.yml
+          emergencyShuttlePath: /Maps/Shuttles/DeltaV/NTES_Box.yml
         - type: StationNameSetup
           mapNameTemplate: '{0} BrasStation {1}'
           nameGenerator:
@@ -36,6 +36,13 @@
             ChiefMedicalOfficer: [ 1, 1 ]
             MedicalDoctor: [ 2, 3 ]
             Chemist: [ 1, 2 ]
+            MedicalBorg: [ 2, 2 ]
+            ForensicMantis: [ 1, 1 ]
+            Prisoner: [ 2, 3 ]
+            PrisonGuard: [ 2, 3 ]
+            ChiefJustice: [ 1, 1 ]
+            Lawyer: [ 2, 2 ]
+            MailCarrier: [ 1, 1 ]
             ResearchDirector: [ 1, 1 ]
             Scientist: [ 2, 3 ]
             ResearchAssistant: [ 1, 1 ]
