@@ -5,7 +5,7 @@
   minPlayers: 0
   maxPlayers: 45
   stations:
-    EstacaoPirata:
+    BrasStation:
       stationProto: StandardNanotrasenStation
       components:
         - type: StationEmergencyShuttle
