@@ -1,5 +1,5 @@
 - type: gameMap
-  id: Estacao Pirata
+  id: EstacaoPirata
   mapName: 'BrasStation'
   mapPath: /Maps/EstacaoPirata/estacao_pirata.yml
   minPlayers: 0
