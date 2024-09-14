@@ -41,6 +41,7 @@
             Prisoner: [ 2, 3 ]
             PrisonGuard: [ 2, 3 ]
             ChiefJustice: [ 1, 1 ]
+            Roboticist: [ 1, 2 ]
             Lawyer: [ 2, 2 ]
             MailCarrier: [ 1, 1 ]
             ResearchDirector: [ 1, 1 ]
