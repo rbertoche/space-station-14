@@ -9,7 +9,7 @@
       stationProto: StandardNanotrasenStation
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'EEB-{0} BrasStation S14{1}'
+          mapNameTemplate: 'EEB-{0} BrasStation S14-{1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: 'DV'
