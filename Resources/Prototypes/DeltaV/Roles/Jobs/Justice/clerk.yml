@@ -23,6 +23,8 @@
   canBeAntag: false
   access:
   - Clerk
+  - Prosecutor
+  - Lawyer
   - Justice
   - Security
   - Maintenance

@@ -15,6 +15,7 @@
   supervisors: job-supervisors-cj  # Delta V - Change supervisor to chief justice
   access:
   - Service
+  - Justice
   - Lawyer
   - Maintenance
 

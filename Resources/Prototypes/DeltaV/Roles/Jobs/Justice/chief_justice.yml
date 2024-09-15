@@ -24,6 +24,9 @@
   access:
   - Command
   - ChiefJustice
+  - Clerk
+  - Lawyer
+  - Prosecutor
   - Justice
   - Security
   - Maintenance
