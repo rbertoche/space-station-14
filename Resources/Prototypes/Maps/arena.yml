@@ -36,6 +36,11 @@
             MedicalIntern: [ 2, 3 ]
             Paramedic: [ 1, 2 ]
             Psychologist: [ 1, 1 ]
+          #justice
+            ChiefJustice: [ 1, 1 ]
+            Clerk: [ 1, 1 ]
+            Prosecutor: [ 1, 1 ]
+            Lawyer: [ 1, 1 ]
           #security
             Brigmedic: [ 1, 1 ]
             Detective: [ 1, 1 ]
@@ -53,7 +58,6 @@
             Clown: [ 1, 1 ]
             HeadOfPersonnel: [ 1, 1 ]
             Janitor: [ 2, 2 ]
-            Lawyer: [ 2, 2 ]
             Mime: [ 1, 1 ]
             Musician: [ 1, 1 ]
             Reporter: [ 2, 2 ]
