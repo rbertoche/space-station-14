@@ -10,10 +10,10 @@
         - type: StationEmergencyShuttle
           emergencyShuttlePath: /Maps/EstacaoPirata/emergency_neol.yml
         - type: StationNameSetup
-          mapNameTemplate: 'EEB-{0} RadStation SS14-{1}'
+          mapNameTemplate: '{0} RadStation EEB-{1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
-            prefixCreator: 'DV'
+            prefixCreator: '14'
         - type: StationJobs
           overflowJobs:
             - Passenger
