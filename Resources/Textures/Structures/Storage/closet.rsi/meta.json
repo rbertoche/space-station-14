@@ -107,6 +107,15 @@
       "name": "bomb_open"
     },
     {
+      "name": "bs"
+    },
+    {
+      "name": "bs_open"
+    },
+    {
+      "name": "bs_door"
+    },
+    {
       "name": "janitor_bomb"
     },
     {
