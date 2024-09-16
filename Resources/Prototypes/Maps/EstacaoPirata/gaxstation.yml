@@ -1,7 +1,7 @@
 - type: gameMap
   id: Gax
   mapName: 'GaxStation'
-  mapPath: /Maps/gaxstation.yml
+  mapPath: /Maps/EstacaoPirata/gaxstation.yml
   minPlayers: 10
   maxPlayers: 45
   fallback: true
@@ -9,13 +9,15 @@
     Gaxstation:
       stationProto: StandardNanotrasenStation
       components:
+        - type: StationEmergencyShuttle
+          emergencyShuttlePath: /Maps/EstacaoPirata/emergency_neol.yml
         - type: StationNameSetup
           mapNameTemplate: '{0} GaxStation {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
-            prefixCreator: 'DV'
+            prefixCreator: 'EB'
         - type: StationCargoShuttle
-          path: /Maps/Shuttles/cargo_gax.yml
+          path: /Maps/EstacaoPirata/cargo_gax.yml
         - type: StationJobs
           overflowJobs:
           - Passenger
