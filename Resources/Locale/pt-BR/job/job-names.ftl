@@ -50,7 +50,7 @@ job-name-visitor = visitante
 
 
 #Nyano
-job-name-mystagogue = dirertor de pesquisa
+job-name-mystagogue = diretor de pesquisa
 job-name-mantis = mantis forênsica
 job-name-epistemologist = acólito
 job-name-mail-carrier = carteiro
