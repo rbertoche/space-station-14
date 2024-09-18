@@ -30,9 +30,7 @@
   id: Lawyer
   name: id-card-access-level-lawyer
 
-- type: accessLevel
-  id: Library
-  name: id-card-access-level-library
+
 
 - type: accessGroup
   id: Service

@@ -6,6 +6,10 @@
   id: Research
   name: id-card-access-level-research
 
+- type: accessLevel
+  id: Library
+  name: id-card-access-level-library
+
 - type: accessGroup
   id: Research
   tags:
