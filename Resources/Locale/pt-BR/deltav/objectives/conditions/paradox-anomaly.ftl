@@ -1,2 +1,2 @@
-objective-paradox-anomaly-kill-title = Kill this universe's {$targetName}
-objective-paradox-anomaly-friend-title = Keep your new friend {$targetName} alive
+objective-paradox-anomaly-kill-title = Mate {$targetName} deste universo.
+objective-paradox-anomaly-friend-title = Mantenha seu novo amigo {$targetName} vivo.

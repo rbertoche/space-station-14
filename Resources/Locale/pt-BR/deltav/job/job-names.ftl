@@ -1,6 +1,6 @@
-job-name-medical-borg = Ciborgue Médico
-job-name-chief-justice = Juiz Chefe
-job-name-clerk = Escriturário
-job-name-prosecutor = Promotor
-job-name-lawyer = Advogado
-job-name-courier = Mensageiro
+job-name-medical-borg = ciborgue médico
+job-name-chief-justice = juiz chefe
+job-name-clerk = escriturário
+job-name-prosecutor = promotor
+job-name-lawyer = advogado
+job-name-courier = mensageiro

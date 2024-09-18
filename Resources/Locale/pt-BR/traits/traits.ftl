@@ -7,7 +7,7 @@ trait-description-Narcolepsy = Você adormece aleatoriamente
 trait-name-Pacifist = Pacifista
 trait-description-Pacifist = Você não pode atacar ou ferir nenhum ser vivo.
 
-trait-name-SelfAware = Self-Aware
+trait-name-SelfAware = Autoconsciente
 trait-description-SelfAware =
     Você possui uma intuição aguçada sobre seu corpo e seus sentidos.
     Você pode examinar com precisão a gravidade de seus ferimentos e queimaduras, como um analisador de saúde,
@@ -24,7 +24,7 @@ trait-examined-Blindness = [color=lightblue]{CAPITALIZE(POSS-ADJ($target))} os o
 trait-lightweight-name = Bêbado facilmente
 trait-lightweight-desc = Álcool tem um efeito mais forte em você
 
-trait-name-HeavyweightDrunk = Alcohol Tolerance
+trait-name-HeavyweightDrunk = Tolerância ao álcool
 trait-description-HeavyweightDrunk =
     Álcool tem medo de você.
 
@@ -42,10 +42,10 @@ trait-description-BloodDeficiency =
     Seu corpo perde mais sangue do que consegue repor.
     Você perde sangue com o tempo, e se não for tratado, acabará morrendo devido à perda de sangue.
 
-trait-name-Hemophilia = Hemophilia
+trait-name-Hemophilia = Hemofilia
 trait-description-Hemophilia =
-    Your body's ability to form blood clots is impaired.
-    You bleed twice as long, and you have easy bruising, taking 10% more Blunt damage.
+    A capacidade do seu corpo de formar coágulos sanguíneos está prejudicada.
+    Você sangra o dobro do tempo e tem hematomas fáceis, sofrendo 10% mais dano contundente.
 
 trait-name-Paracusia = Paracusia
 trait-description-Paracusia = Você ouve sons que não estão realmente ali
@@ -85,7 +85,7 @@ trait-description-CPRTraining = Em algum momento da sua vida, você recebeu trei
 trait-name-NormalVisionHarpy = Modificação Tricromática
 trait-description-NormalVisionHarpy = Seus olhos foram modificados por meio de medicina avançada para ver nas cores padrão de Vermelho, Verde e Azul.
 
-trait-name-Southern = Southern Drawl
+trait-name-Southern = Sotaque Sulista (em inglês)
 trait-description-Southern = você tem um jeito diferente de falar'.
 
 trait-name-Thieving = Furtividade
