@@ -30,8 +30,6 @@
   id: Lawyer
   name: id-card-access-level-lawyer
 
-
-
 - type: accessGroup
   id: Service
   tags:
