@@ -30,6 +30,10 @@
   id: Lawyer
   name: id-card-access-level-lawyer
 
+- type: accessLevel
+  id: Library
+  name: id-card-access-level-library
+
 - type: accessGroup
   id: Service
   tags:
@@ -44,7 +48,6 @@
   - Lawyer
   - Boxer # DeltaV - Add Boxer access
   - Clown # DeltaV - Add Clown access
-  - Library # DeltaV - Add Library access
   - Mime # DeltaV - Add Mime access
   - Musician # DeltaV - Add Musician access
   - Reporter # DeltaV - Add Reporter access

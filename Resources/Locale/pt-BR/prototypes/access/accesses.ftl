@@ -33,6 +33,7 @@ id-card-access-level-janitor = Zeladoria
 id-card-access-level-theatre = Teatro
 id-card-access-level-chapel = Capela
 id-card-access-level-lawyer = Advogado
+id-card-access-level-library = Bibliotecário
 
 id-card-access-level-maintenance = Manutenção
 
