@@ -136,3 +136,21 @@
       collection: VulpkaninWhines
     Howl:
       collection: VulpkaninHowls
+
+- type: emoteSounds
+  id: DogSounds
+  params:
+    variation: 0.125
+  sounds:
+    Scream:
+      collection: VulpkaninScreams
+    Growl:
+      collection: VulpkaninGrowls
+    Snarl:
+      collection: VulpkaninSnarls
+    Bark:
+      collection: VulpkaninBarks
+    Whine:
+      collection: VulpkaninWhines
+    Howl:
+      collection: VulpkaninHowls

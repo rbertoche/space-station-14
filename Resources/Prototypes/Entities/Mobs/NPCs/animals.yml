@@ -2636,8 +2636,14 @@
       state: corgi
   - type: Carriable
   - type: Physics
+  - type: Vocal
+    sounds:
+      Male: DogSounds
+      Female: DogSounds
+      Unsexed: DogSounds
   - type: Speech
     speechVerb: Canine
+    speechSounds: Vulpkanin
   - type: Fixtures
     fixtures:
       fix1:
@@ -2668,11 +2674,13 @@
     spawned:
     - id: FoodMeat
       amount: 2
+  - type: ScentTracker
   - type: LanguageKnowledge
     speaks:
     - Dog
     understands:
     - Dog
+    - GalacticCommon
   - type: InteractionPopup
     interactSuccessString: petting-success-dog
     interactFailureString: petting-failure-generic
@@ -2703,6 +2711,7 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: narsian
+  - type: ScentTracker
   - type: DamageStateVisuals
     states:
       Alive:
@@ -2736,6 +2745,11 @@
       gender: epicene
   - type: Bloodstream
     bloodReagent: DemonsBlood
+  - type: Vocal
+    sounds:
+      Male: DogSounds
+      Female: DogSounds
+      Unsexed: DogSounds
   - type: Damageable
     damageContainer: CorporealSpirit # Nyanotrasen - Corporeal Spirit allows Holy water to do damage
     damageModifierSet: Infernal
@@ -2763,10 +2777,16 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: puppy
+  - type: ScentTracker
   - type: Inventory
     speciesId: puppy
     templateId: pet
   - type: InventorySlots
+  - type: Vocal
+    sounds:
+      Male: DogSounds
+      Female: DogSounds
+      Unsexed: DogSounds
   - type: DamageStateVisuals
     states:
       Alive:
@@ -2822,6 +2842,11 @@
   - type: Speech
     speechSounds: Cat
     speechVerb: SmallMob
+  - type: Vocal
+    sounds:
+      Male: CatSounds
+      Female: CatSounds
+      Unsexed: CatSounds
   - type: Butcherable
     spawned:
     - id: FoodMeat
@@ -2924,6 +2949,11 @@
   - type: Temperature
     heatDamageThreshold: 423
     coldDamageThreshold: 0
+  - type: Vocal
+    sounds:
+      Male: CatSounds
+      Female: CatSounds
+      Unsexed: CatSounds
   - type: PressureImmunity
   - type: InteractionPopup
     successChance: 0.7

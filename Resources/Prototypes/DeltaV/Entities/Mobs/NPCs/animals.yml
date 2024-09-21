@@ -71,6 +71,7 @@
     - Fox
     understands:
     - Fox
+  - type: ScentTracker
 
 - type: entity
   name: security dog
@@ -105,6 +106,11 @@
   - type: Speech
     speechVerb: Canine
     speechSounds: Vulpkanin
+  - type: Vocal
+    sounds:
+      Male: DogSounds
+      Female: DogSounds
+      Unsexed: DogSounds
   - type: Fixtures
     fixtures:
       fix1:
@@ -166,6 +172,7 @@
     interactSuccessSpawn: EffectHearts
     interactSuccessSound:
       path: /Audio/DeltaV/Voice/Vulpkanin/dog_bark2.ogg
+  - type: ScentTracker
   - type: Grammar
     attributes:
       gender: epicene
@@ -179,6 +186,7 @@
     tags:
     - DoorBumpOpener
     - VimPilot
+
   - type: LanguageKnowledge
     speaks:
     - Dog
