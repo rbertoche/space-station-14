@@ -210,7 +210,7 @@ entities:
           version: 6
         5,-2:
           ind: 5,-2
-          tiles: UgAAAAAAUgAAAAAAUgAAAAAAUgAAAAAAUgAAAAAAXwAAAAAAUQAAAAAAXwAAAAAARQAAAAAAAgAAAAAASAAAAAAAXwAAAAAAFwAAAAAAFwAAAAAAXAAAAAAAXAAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAUAAAAAAAUAAAAAAAUAAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAASAAAAAAARQAAAAAARQAAAAAARQAAAAAARQAAAAAASAAAAAAASAAAAAAAUAAAAAAARQAAAAAAAgAAAAAARQAAAAAAUAAAAAAASAAAAAAARQAAAAAASAAAAAAASAAAAAAASwAAAAAAAgAAAAAAAgAAAAAAAgAAAAAASwAAAAAAAgAAAAAAAgAAAAAAUAAAAAAAAgAAAAAASwAAAAAAAgAAAAAAUAAAAAAAAgAAAAAAAgAAAAAAAgAAAAAASwAAAAAARQAAAAAASAAAAAAARQAAAAAASAAAAAAARQAAAAAASAAAAAAARQAAAAAAUAAAAAAARQAAAAAARQAAAAAASAAAAAAAUAAAAAAASAAAAAAARQAAAAAARQAAAAAARQAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAATwAAAAAATwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAUQAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAUQAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAATwAAAAAAXwAAAAAAUQAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAATwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAATwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAATwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAUQAAAAAAXwAAAAAAUQAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAUQAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAUQAAAAAAXwAAAAAATwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAATwAAAAAATwAAAAAAXwAAAAAAXwAAAAAATwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAUQAAAAAAXwAAAAAAUQAAAAAAUQAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAA
+          tiles: UgAAAAAAUgAAAAAAUgAAAAAAUgAAAAAAUgAAAAAAXwAAAAAAUQAAAAAAXwAAAAAARQAAAAAAAgAAAAAASAAAAAAAXwAAAAAAFwAAAAAAFwAAAAAAXAAAAAAAXAAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAUAAAAAAAUAAAAAAAUAAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAASAAAAAAARQAAAAAARQAAAAAARQAAAAAARQAAAAAASAAAAAAASAAAAAAAUAAAAAAARQAAAAAAAgAAAAAARQAAAAAAUAAAAAAASAAAAAAARQAAAAAASAAAAAAASAAAAAAASwAAAAAAAgAAAAAAAgAAAAAAAgAAAAAASwAAAAAAAgAAAAAAAgAAAAAAUAAAAAAAAgAAAAAASwAAAAAAAgAAAAAAUAAAAAAAAgAAAAAAAgAAAAAAAgAAAAAASwAAAAAARQAAAAAASAAAAAAARQAAAAAASAAAAAAARQAAAAAASAAAAAAARQAAAAAAUAAAAAAARQAAAAAARQAAAAAASAAAAAAAUAAAAAAASAAAAAAARQAAAAAARQAAAAAARQAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAATwAAAAAATwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAUQAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAUQAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAATwAAAAAAXwAAAAAAUQAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAATwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAATwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAATwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAUQAAAAAAXwAAAAAAUQAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAUQAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAUQAAAAAAXwAAAAAATwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAATwAAAAAATwAAAAAAXwAAAAAAXwAAAAAATwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAUQAAAAAAUQAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAUQAAAAAASwAAAAAAUQAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAA
           version: 6
         6,-2:
           ind: 6,-2
@@ -222,7 +222,7 @@ entities:
           version: 6
         5,-1:
           ind: 5,-1
-          tiles: XwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAUQAAAAAATwAAAAAAUQAAAAAAUQAAAAAAUQAAAAAAUQAAAAAATwAAAAAAUQAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAUQAAAAAATwAAAAAATwAAAAAAXwAAAAAATwAAAAAATwAAAAAATwAAAAAATwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAARQAAAAAARQAAAAAASAAAAAAASAAAAAAAUAAAAAAASAAAAAAASAAAAAAARQAAAAAASAAAAAAASAAAAAAASAAAAAAASAAAAAAARQAAAAAAUAAAAAAASAAAAAAASAAAAAAAAgAAAAAAAgAAAAAASwAAAAAASwAAAAAAUAAAAAAAAgAAAAAAAgAAAAAASwAAAAAASwAAAAAASwAAAAAAAgAAAAAAAgAAAAAAAgAAAAAAUAAAAAAAAgAAAAAASwAAAAAASAAAAAAARQAAAAAASAAAAAAARQAAAAAAUAAAAAAARQAAAAAAAgAAAAAASAAAAAAARQAAAAAARQAAAAAASAAAAAAASAAAAAAARQAAAAAAUAAAAAAASAAAAAAASAAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAUAAAAAAAUAAAAAAAUAAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAARQAAAAAASAAAAAAARQAAAAAAXwAAAAAASAAAAAAASwAAAAAARQAAAAAAXwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXwAAAAAASAAAAAAARQAAAAAARQAAAAAAXwAAAAAARQAAAAAAAgAAAAAASAAAAAAAXwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXwAAAAAARQAAAAAARQAAAAAARQAAAAAARQAAAAAARQAAAAAAAgAAAAAASAAAAAAAXwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXwAAAAAARQAAAAAASAAAAAAARQAAAAAARQAAAAAASAAAAAAAAgAAAAAASAAAAAAAXwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXwAAAAAASAAAAAAARQAAAAAASAAAAAAAXwAAAAAARQAAAAAASwAAAAAARQAAAAAAXwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXwAAAAAASAAAAAAARQAAAAAARQAAAAAAXwAAAAAASAAAAAAAAgAAAAAASAAAAAAAXwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAASAAAAAAAAgAAAAAARQAAAAAAXwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAARQAAAAAAAgAAAAAARQAAAAAAXwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXwAAAAAAXwAAAAAATwAAAAAATwAAAAAAXwAAAAAARQAAAAAASwAAAAAASAAAAAAAXwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          tiles: XwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAUQAAAAAASwAAAAAAUQAAAAAAUQAAAAAAUQAAAAAAUQAAAAAATwAAAAAAUQAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAUQAAAAAASwAAAAAASwAAAAAAXwAAAAAATwAAAAAATwAAAAAATwAAAAAATwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAASwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAARQAAAAAARQAAAAAASAAAAAAASAAAAAAAUAAAAAAASAAAAAAASAAAAAAARQAAAAAASAAAAAAASAAAAAAASAAAAAAASAAAAAAARQAAAAAAUAAAAAAASAAAAAAASAAAAAAAAgAAAAAAAgAAAAAASwAAAAAASwAAAAAAUAAAAAAAAgAAAAAAAgAAAAAASwAAAAAASwAAAAAASwAAAAAAAgAAAAAAAgAAAAAAAgAAAAAAUAAAAAAAAgAAAAAASwAAAAAASAAAAAAARQAAAAAASAAAAAAARQAAAAAAUAAAAAAARQAAAAAAAgAAAAAASAAAAAAARQAAAAAARQAAAAAASAAAAAAASAAAAAAARQAAAAAAUAAAAAAASAAAAAAASAAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAUAAAAAAAUAAAAAAAUAAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAARQAAAAAASAAAAAAARQAAAAAAXwAAAAAASAAAAAAASwAAAAAARQAAAAAAXwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXwAAAAAASAAAAAAARQAAAAAARQAAAAAAXwAAAAAARQAAAAAAAgAAAAAASAAAAAAAXwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXwAAAAAARQAAAAAARQAAAAAARQAAAAAARQAAAAAARQAAAAAAAgAAAAAASAAAAAAAXwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXwAAAAAARQAAAAAASAAAAAAARQAAAAAARQAAAAAASAAAAAAAAgAAAAAASAAAAAAAXwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXwAAAAAASAAAAAAARQAAAAAASAAAAAAAXwAAAAAARQAAAAAASwAAAAAARQAAAAAAXwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXwAAAAAASAAAAAAARQAAAAAARQAAAAAAXwAAAAAASAAAAAAAAgAAAAAASAAAAAAAXwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAASAAAAAAAAgAAAAAARQAAAAAAXwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAARQAAAAAAAgAAAAAARQAAAAAAXwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXwAAAAAAXwAAAAAATwAAAAAATwAAAAAAXwAAAAAARQAAAAAASwAAAAAASAAAAAAAXwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
           version: 6
         6,-1:
           ind: 6,-1
@@ -262,7 +262,7 @@ entities:
           version: 6
         9,-1:
           ind: 9,-1
-          tiles: RQAAAAAAXwAAAAAAPQAAAAAAPQAAAAAAXwAAAAAAUQAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARQAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAATwAAAAAATwAAAAAAXwAAAAAAXgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAXwAAAAAARQAAAAAARQAAAAAARQAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAUQAAAAAATwAAAAAAXwAAAAAAXgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARQAAAAAANAAAAAAARQAAAAAALwAAAAAALwAAAAAALwAAAAAALwAAAAAAXwAAAAAAUQAAAAAAXwAAAAAAXwAAAAAAXgAAAAAAXgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAASAAAAAAASAAAAAAALwAAAAAALwAAAAAAIAAAAAAAIAAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXgAAAAAAAAAAAAAAXgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARQAAAAAASAAAAAAARQAAAAAALwAAAAAALwAAAAAAIAAAAAAAIAAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXgAAAAAAXgAAAAAAXgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAASAAAAAAARQAAAAAALwAAAAAALwAAAAAAIAAAAAAAIAAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXgAAAAAAAAAAAAAAXgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAARQAAAAAASAAAAAAALwAAAAAALwAAAAAALwAAAAAALwAAAAAAXwAAAAAAXgAAAAAAXgAAAAAAAAAAAAAAXgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARQAAAAAASAAAAAAASAAAAAAARQAAAAAARQAAAAAARQAAAAAAXwAAAAAAXwAAAAAAXgAAAAAAXgAAAAAAXgAAAAAAXgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAASAAAAAAASAAAAAAARQAAAAAARQAAAAAARQAAAAAAXwAAAAAAXgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAASAAAAAAASAAAAAAARQAAAAAARQAAAAAAXwAAAAAAXwAAAAAAXgAAAAAAXgAAAAAAXgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARQAAAAAARQAAAAAARQAAAAAARQAAAAAAXwAAAAAAXwAAAAAAXgAAAAAAXgAAAAAAAAAAAAAAXgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXgAAAAAAXgAAAAAAXgAAAAAAXgAAAAAAXgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXgAAAAAAXgAAAAAAXgAAAAAAXgAAAAAAXgAAAAAAXgAAAAAAAAAAAAAAXgAAAAAAAAAAAAAAXgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXgAAAAAAAAAAAAAAAAAAAAAAXgAAAAAAAAAAAAAAAAAAAAAAXgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXgAAAAAAXgAAAAAAXgAAAAAAXgAAAAAAXgAAAAAAAAAAAAAAXgAAAAAAXgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+          tiles: RQAAAAAAXwAAAAAAPQAAAAAAPQAAAAAAXwAAAAAAUQAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARQAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAATwAAAAAATwAAAAAAXwAAAAAAXgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAXwAAAAAARQAAAAAARQAAAAAARQAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAUQAAAAAATwAAAAAAXwAAAAAAXgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARQAAAAAANAAAAAAARQAAAAAALwAAAAAALwAAAAAALwAAAAAALwAAAAAAXwAAAAAAUQAAAAAAXwAAAAAAXwAAAAAAXgAAAAAAXgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAASAAAAAAASAAAAAAALwAAAAAALwAAAAAAIAAAAAAAIAAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXgAAAAAAAAAAAAAAXgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARQAAAAAASAAAAAAARQAAAAAALwAAAAAALwAAAAAAIAAAAAAAIAAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXgAAAAAAXgAAAAAAXgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAASAAAAAAARQAAAAAALwAAAAAALwAAAAAAIAAAAAAAIAAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXgAAAAAAAAAAAAAAXgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAARQAAAAAASAAAAAAALwAAAAAALwAAAAAALwAAAAAALwAAAAAAXwAAAAAAXgAAAAAAXgAAAAAAAAAAAAAAXgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARQAAAAAASAAAAAAASAAAAAAARQAAAAAARQAAAAAARQAAAAAAXwAAAAAAXwAAAAAAXgAAAAAAXgAAAAAAXgAAAAAAXgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAASAAAAAAASAAAAAAARQAAAAAARQAAAAAARQAAAAAAXwAAAAAAXgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAASAAAAAAASAAAAAAARQAAAAAARQAAAAAAXwAAAAAAXwAAAAAAXgAAAAAAXgAAAAAAXgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUQAAAAAAUQAAAAAARQAAAAAARQAAAAAAXwAAAAAAXwAAAAAAXgAAAAAAXgAAAAAAAAAAAAAAXgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXwAAAAAAXgAAAAAAXgAAAAAAXgAAAAAAXgAAAAAAXgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXgAAAAAAXgAAAAAAXgAAAAAAXgAAAAAAXgAAAAAAXgAAAAAAAAAAAAAAXgAAAAAAAAAAAAAAXgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXgAAAAAAAAAAAAAAAAAAAAAAXgAAAAAAAAAAAAAAAAAAAAAAXgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXgAAAAAAXgAAAAAAXgAAAAAAXgAAAAAAXgAAAAAAAAAAAAAAXgAAAAAAXgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
           version: 6
         8,0:
           ind: 8,0
@@ -356,7 +356,7 @@ entities:
             color: '#E375DFFF'
             id: Blasto
           decals:
-            2850: 137.24884,-12.941301
+            2847: 137.24884,-12.941301
         - node:
             color: '#EFB34196'
             id: Bot
@@ -390,7 +390,7 @@ entities:
             3: -8,-11
             4: -7,-11
             5: -6,-11
-            4218: 73,5
+            4215: 73,5
         - node:
             color: '#52B4E996'
             id: BotGreyscale
@@ -456,7 +456,7 @@ entities:
             color: '#EFB34196'
             id: BrickTileSteelCornerNe
           decals:
-            3206: 46,0
+            3203: 46,0
         - node:
             color: '#52B4E996'
             id: BrickTileSteelCornerNw
@@ -481,7 +481,7 @@ entities:
             color: '#EFB34196'
             id: BrickTileSteelCornerNw
           decals:
-            3205: 42,0
+            3202: 42,0
         - node:
             color: '#52B4E996'
             id: BrickTileSteelCornerSe
@@ -504,7 +504,7 @@ entities:
             color: '#EFB34196'
             id: BrickTileSteelCornerSe
           decals:
-            3959: 46,-9
+            3956: 46,-9
         - node:
             color: '#52B4E996'
             id: BrickTileSteelCornerSw
@@ -526,7 +526,7 @@ entities:
             color: '#EFB34196'
             id: BrickTileSteelCornerSw
           decals:
-            3958: 42,-9
+            3955: 42,-9
         - node:
             color: '#52B4E996'
             id: BrickTileSteelInnerNe
@@ -619,14 +619,14 @@ entities:
             color: '#EFB34196'
             id: BrickTileSteelLineE
           decals:
-            3207: 46,-3
-            3208: 46,-4
-            3209: 46,-5
-            3210: 46,-6
-            3211: 46,-7
-            3934: 46,-2
-            3935: 46,-1
-            3939: 46,-8
+            3204: 46,-3
+            3205: 46,-4
+            3206: 46,-5
+            3207: 46,-6
+            3208: 46,-7
+            3931: 46,-2
+            3932: 46,-1
+            3936: 46,-8
         - node:
             color: '#52B4E996'
             id: BrickTileSteelLineN
@@ -656,9 +656,9 @@ entities:
             color: '#EFB34196'
             id: BrickTileSteelLineN
           decals:
-            3943: 43,0
-            3944: 44,0
-            3945: 45,0
+            3940: 43,0
+            3941: 44,0
+            3942: 45,0
         - node:
             color: '#52B4E996'
             id: BrickTileSteelLineS
@@ -684,9 +684,9 @@ entities:
             color: '#EFB34196'
             id: BrickTileSteelLineS
           decals:
-            3940: 43,-9
-            3941: 44,-9
-            3942: 45,-9
+            3937: 43,-9
+            3938: 44,-9
+            3939: 45,-9
         - node:
             color: '#52B4E996'
             id: BrickTileSteelLineW
@@ -713,24 +713,24 @@ entities:
             color: '#EFB34196'
             id: BrickTileSteelLineW
           decals:
-            3212: 42,-7
-            3213: 42,-6
-            3214: 42,-5
-            3215: 42,-4
-            3216: 42,-3
-            3936: 42,-2
-            3937: 42,-1
-            3938: 42,-8
+            3209: 42,-7
+            3210: 42,-6
+            3211: 42,-5
+            3212: 42,-4
+            3213: 42,-3
+            3933: 42,-2
+            3934: 42,-1
+            3935: 42,-8
         - node:
             color: '#334E6DC8'
             id: BrickTileWhiteBox
           decals:
-            3856: 3,5
-            3857: 3,6
-            3858: 7,5
-            3859: 7,6
-            3883: -2,1
-            3884: -2,0
+            3853: 3,5
+            3854: 3,6
+            3855: 7,5
+            3856: 7,6
+            3880: -2,1
+            3881: -2,0
         - node:
             color: '#A4610696'
             id: BrickTileWhiteBox
@@ -743,10 +743,10 @@ entities:
           decals:
             17: 9,2
             93: -5,-3
-            3838: 10,7
-            3845: 4,7
-            3874: 13,6
-            3888: -1,2
+            3835: 10,7
+            3842: 4,7
+            3871: 13,6
+            3885: -1,2
         - node:
             color: '#52B4E996'
             id: BrickTileWhiteCornerNe
@@ -758,7 +758,7 @@ entities:
           decals:
             389: 31,-36
             1430: 56,-22
-            4093: 16,-39
+            4090: 16,-39
         - node:
             color: '#A4610696'
             id: BrickTileWhiteCornerNe
@@ -782,8 +782,8 @@ entities:
             color: '#D4D4D428'
             id: BrickTileWhiteCornerNe
           decals:
-            4063: 20,-35
-            4064: 21,-36
+            4060: 20,-35
+            4061: 21,-36
         - node:
             color: '#D4D4D4FF'
             id: BrickTileWhiteCornerNe
@@ -799,7 +799,7 @@ entities:
             color: '#EFB34196'
             id: BrickTileWhiteCornerNe
           decals:
-            3192: 58,-4
+            3189: 58,-4
         - node:
             color: '#334E6DC8'
             id: BrickTileWhiteCornerNw
@@ -808,10 +808,10 @@ entities:
             72: 11,2
             84: -10,-7
             92: -6,-3
-            3837: 0,7
-            3846: 6,7
-            3866: -3,6
-            3887: -3,2
+            3834: 0,7
+            3843: 6,7
+            3863: -3,6
+            3884: -3,2
         - node:
             color: '#52B4E996'
             id: BrickTileWhiteCornerNw
@@ -827,8 +827,8 @@ entities:
             id: BrickTileWhiteCornerNw
           decals:
             1427: 51,-22
-            2825: 147,-9
-            4092: 14,-39
+            2822: 147,-9
+            4089: 14,-39
         - node:
             color: '#A4610696'
             id: BrickTileWhiteCornerNw
@@ -850,7 +850,7 @@ entities:
             color: '#D4D4D428'
             id: BrickTileWhiteCornerNw
           decals:
-            4067: 17,-35
+            4064: 17,-35
         - node:
             color: '#D4D4D4FF'
             id: BrickTileWhiteCornerNw
@@ -866,17 +866,17 @@ entities:
             color: '#EFB34196'
             id: BrickTileWhiteCornerNw
           decals:
-            3178: 52,-4
+            3175: 52,-4
         - node:
             color: '#334E6DC8'
             id: BrickTileWhiteCornerSe
           decals:
             98: -5,-9
-            3825: 10,4
-            3832: 4,4
-            3864: -1,4
-            3875: 13,4
-            3889: -1,-1
+            3822: 10,4
+            3829: 4,4
+            3861: -1,4
+            3872: 13,4
+            3886: -1,-1
         - node:
             color: '#52B4E996'
             id: BrickTileWhiteCornerSe
@@ -894,7 +894,7 @@ entities:
             386: 31,-39
             1428: 53,-26
             1431: 56,-23
-            4094: 16,-46
+            4091: 16,-46
         - node:
             color: '#A4610696'
             id: BrickTileWhiteCornerSe
@@ -917,7 +917,7 @@ entities:
             color: '#D4D4D428'
             id: BrickTileWhiteCornerSe
           decals:
-            4068: 21,-46
+            4065: 21,-46
         - node:
             color: '#D4D4D4FF'
             id: BrickTileWhiteCornerSe
@@ -933,8 +933,8 @@ entities:
             color: '#EFB34196'
             id: BrickTileWhiteCornerSe
           decals:
-            3187: 57,-9
-            3191: 58,-6
+            3184: 57,-9
+            3188: 58,-6
         - node:
             color: '#334E6DC8'
             id: BrickTileWhiteCornerSw
@@ -942,11 +942,11 @@ entities:
             77: 11,1
             81: -10,-8
             82: -9,-9
-            3798: 1,-3
-            3824: 0,4
-            3833: 6,4
-            3865: -3,4
-            3876: 11,4
+            3795: 1,-3
+            3821: 0,4
+            3830: 6,4
+            3862: -3,4
+            3873: 11,4
         - node:
             color: '#52B4E996'
             id: BrickTileWhiteCornerSw
@@ -958,8 +958,8 @@ entities:
           decals:
             392: 27,-39
             1429: 51,-26
-            2826: 147,-13
-            4095: 14,-46
+            2823: 147,-13
+            4092: 14,-46
         - node:
             color: '#A4610696'
             id: BrickTileWhiteCornerSw
@@ -983,8 +983,8 @@ entities:
             color: '#D4D4D428'
             id: BrickTileWhiteCornerSw
           decals:
-            4065: 17,-37
-            4066: 18,-46
+            4062: 17,-37
+            4063: 18,-46
         - node:
             color: '#D4D4D4FF'
             id: BrickTileWhiteCornerSw
@@ -999,14 +999,14 @@ entities:
             color: '#EFB34196'
             id: BrickTileWhiteCornerSw
           decals:
-            3179: 52,-6
-            3186: 56,-9
+            3176: 52,-6
+            3183: 56,-9
         - node:
             color: '#334E6DC8'
             id: BrickTileWhiteEndE
           decals:
-            3860: 2,5
-            3861: 2,6
+            3857: 2,5
+            3858: 2,6
         - node:
             color: '#52B4E996'
             id: BrickTileWhiteEndE
@@ -1016,9 +1016,9 @@ entities:
             color: '#334E6DC8'
             id: BrickTileWhiteEndN
           decals:
-            3867: -1,7
-            3873: 11,7
-            3886: -2,-1
+            3864: -1,7
+            3870: 11,7
+            3883: -2,-1
         - node:
             color: '#52B4E996'
             id: BrickTileWhiteEndN
@@ -1035,7 +1035,7 @@ entities:
             id: BrickTileWhiteEndN
           decals:
             1446: 52,-23
-            4096: 15,-39
+            4093: 15,-39
         - node:
             color: '#D381C996'
             id: BrickTileWhiteEndN
@@ -1047,7 +1047,7 @@ entities:
             id: BrickTileWhiteEndS
           decals:
             73: 14,0
-            3885: -2,2
+            3882: -2,2
         - node:
             color: '#52B4E996'
             id: BrickTileWhiteEndS
@@ -1064,7 +1064,7 @@ entities:
             id: BrickTileWhiteEndS
           decals:
             1444: 52,-25
-            4097: 15,-46
+            4094: 15,-46
         - node:
             color: '#D381C996'
             id: BrickTileWhiteEndS
@@ -1075,8 +1075,8 @@ entities:
             color: '#334E6DC8'
             id: BrickTileWhiteEndW
           decals:
-            3862: 8,6
-            3863: 8,5
+            3859: 8,6
+            3860: 8,5
         - node:
             color: '#52B4E996'
             id: BrickTileWhiteEndW
@@ -1086,9 +1086,9 @@ entities:
             color: '#334E6DC8'
             id: BrickTileWhiteInnerNe
           decals:
-            3821: 1,-3
-            3848: 4,6
-            3882: 11,6
+            3818: 1,-3
+            3845: 4,6
+            3879: 11,6
         - node:
             color: '#52B4E996'
             id: BrickTileWhiteInnerNe
@@ -1105,7 +1105,7 @@ entities:
             id: BrickTileWhiteInnerNe
           decals:
             361: 18,-44
-            2841: 148,-13
+            2838: 148,-13
         - node:
             color: '#A4610696'
             id: BrickTileWhiteInnerNe
@@ -1121,7 +1121,7 @@ entities:
             color: '#D4D4D428'
             id: BrickTileWhiteInnerNe
           decals:
-            4091: 20,-36
+            4088: 20,-36
         - node:
             color: '#D4D4D4FF'
             id: BrickTileWhiteInnerNe
@@ -1132,9 +1132,9 @@ entities:
             id: BrickTileWhiteInnerNw
           decals:
             88: -6,-7
-            3849: 6,6
-            3868: -1,6
-            3904: -3,0
+            3846: 6,6
+            3865: -1,6
+            3901: -3,0
         - node:
             color: '#52B4E996'
             id: BrickTileWhiteInnerNw
@@ -1166,8 +1166,8 @@ entities:
             color: '#334E6DC8'
             id: BrickTileWhiteInnerSe
           decals:
-            3822: 1,2
-            3836: 4,5
+            3819: 1,2
+            3833: 4,5
         - node:
             color: '#52B4E996'
             id: BrickTileWhiteInnerSe
@@ -1186,7 +1186,7 @@ entities:
           decals:
             362: 18,-37
             1443: 53,-23
-            2836: 148,-9
+            2833: 148,-9
         - node:
             color: '#A4610696'
             id: BrickTileWhiteInnerSe
@@ -1206,15 +1206,15 @@ entities:
             color: '#EFB34196'
             id: BrickTileWhiteInnerSe
           decals:
-            3190: 57,-6
+            3187: 57,-6
         - node:
             color: '#334E6DC8'
             id: BrickTileWhiteInnerSw
           decals:
             80: 14,1
             83: -9,-8
-            3823: 9,2
-            3835: 6,5
+            3820: 9,2
+            3832: 6,5
         - node:
             color: '#52B4E996'
             id: BrickTileWhiteInnerSw
@@ -1248,7 +1248,7 @@ entities:
             color: '#D4D4D428'
             id: BrickTileWhiteInnerSw
           decals:
-            4090: 18,-37
+            4087: 18,-37
         - node:
             color: '#D4D4D4FF'
             id: BrickTileWhiteInnerSw
@@ -1258,7 +1258,7 @@ entities:
             color: '#EFB34196'
             id: BrickTileWhiteInnerSw
           decals:
-            3183: 56,-6
+            3180: 56,-6
         - node:
             color: '#334E6DC8'
             id: BrickTileWhiteLineE
@@ -1274,15 +1274,15 @@ entities:
             95: -5,-6
             96: -5,-7
             97: -5,-8
-            3799: 1,-2
-            3800: 1,-1
-            3801: 1,0
-            3802: 1,1
-            3869: -1,6
-            3870: -1,5
-            3878: 13,5
-            3890: -1,1
-            3891: -1,0
+            3796: 1,-2
+            3797: 1,-1
+            3798: 1,0
+            3799: 1,1
+            3866: -1,6
+            3867: -1,5
+            3875: 13,5
+            3887: -1,1
+            3888: -1,0
         - node:
             color: '#52B4E996'
             id: BrickTileWhiteLineE
@@ -1303,21 +1303,21 @@ entities:
             1432: 53,-25
             1433: 53,-24
             1445: 52,-24
-            2833: 148,-12
-            2834: 148,-11
-            2835: 148,-10
-            4098: 16,-45
-            4099: 16,-44
-            4100: 16,-43
-            4101: 16,-42
-            4102: 16,-41
-            4103: 16,-40
-            4116: 15,-40
-            4117: 15,-41
-            4118: 15,-42
-            4119: 15,-43
-            4120: 15,-44
-            4121: 15,-45
+            2830: 148,-12
+            2831: 148,-11
+            2832: 148,-10
+            4095: 16,-45
+            4096: 16,-44
+            4097: 16,-43
+            4098: 16,-42
+            4099: 16,-41
+            4100: 16,-40
+            4113: 15,-40
+            4114: 15,-41
+            4115: 15,-42
+            4116: 15,-43
+            4117: 15,-44
+            4118: 15,-45
         - node:
             color: '#A4610696'
             id: BrickTileWhiteLineE
@@ -1368,14 +1368,14 @@ entities:
             color: '#D4D4D428'
             id: BrickTileWhiteLineE
           decals:
-            4082: 21,-37
-            4083: 21,-38
-            4084: 21,-39
-            4085: 21,-40
-            4086: 21,-41
-            4087: 21,-42
-            4088: 21,-43
-            4089: 21,-45
+            4079: 21,-37
+            4080: 21,-38
+            4081: 21,-39
+            4082: 21,-40
+            4083: 21,-41
+            4084: 21,-42
+            4085: 21,-43
+            4086: 21,-45
         - node:
             color: '#D4D4D4FF'
             id: BrickTileWhiteLineE
@@ -1397,9 +1397,9 @@ entities:
             color: '#EFB34196'
             id: BrickTileWhiteLineE
           decals:
-            3188: 57,-8
-            3189: 57,-7
-            3193: 58,-5
+            3185: 57,-8
+            3186: 57,-7
+            3190: 58,-5
         - node:
             color: '#334E6DC8'
             id: BrickTileWhiteLineN
@@ -1416,35 +1416,35 @@ entities:
             85: -9,-7
             86: -8,-7
             87: -7,-7
-            3814: 8,-3
-            3815: 7,-3
-            3816: 6,-3
-            3817: 5,-3
-            3818: 4,-3
-            3819: 3,-3
-            3820: 2,-3
-            3839: 1,7
-            3840: 2,7
-            3841: 3,7
-            3842: 9,7
-            3843: 8,7
-            3844: 7,7
-            3847: 5,6
-            3852: 4,5
-            3853: 5,5
-            3854: 6,5
-            3881: 12,6
-            3899: -9,0
-            3900: -8,0
-            3901: -7,0
-            3902: -6,0
-            3903: -5,0
-            3905: -9,-1
-            3906: -8,-1
-            3907: -7,-1
-            3908: -6,-1
-            3909: -5,-1
-            3916: -3,-1
+            3811: 8,-3
+            3812: 7,-3
+            3813: 6,-3
+            3814: 5,-3
+            3815: 4,-3
+            3816: 3,-3
+            3817: 2,-3
+            3836: 1,7
+            3837: 2,7
+            3838: 3,7
+            3839: 9,7
+            3840: 8,7
+            3841: 7,7
+            3844: 5,6
+            3849: 4,5
+            3850: 5,5
+            3851: 6,5
+            3878: 12,6
+            3896: -9,0
+            3897: -8,0
+            3898: -7,0
+            3899: -6,0
+            3900: -5,0
+            3902: -9,-1
+            3903: -8,-1
+            3904: -7,-1
+            3905: -6,-1
+            3906: -5,-1
+            3913: -3,-1
         - node:
             color: '#52B4E996'
             id: BrickTileWhiteLineN
@@ -1462,11 +1462,11 @@ entities:
             1438: 52,-22
             1439: 53,-22
             1440: 55,-22
-            2822: 150,-9
-            2823: 149,-9
-            2824: 148,-9
-            2839: 150,-13
-            2840: 149,-13
+            2819: 150,-9
+            2820: 149,-9
+            2821: 148,-9
+            2836: 150,-13
+            2837: 149,-13
         - node:
             color: '#A4610696'
             id: BrickTileWhiteLineN
@@ -1500,8 +1500,8 @@ entities:
             color: '#D4D4D428'
             id: BrickTileWhiteLineN
           decals:
-            4080: 18,-35
-            4081: 19,-35
+            4077: 18,-35
+            4078: 19,-35
         - node:
             color: '#D4D4D4FF'
             id: BrickTileWhiteLineN
@@ -1522,11 +1522,11 @@ entities:
             color: '#EFB34196'
             id: BrickTileWhiteLineN
           decals:
-            3194: 57,-4
-            3195: 56,-4
-            3196: 55,-4
-            3197: 54,-4
-            3198: 53,-4
+            3191: 57,-4
+            3192: 56,-4
+            3193: 55,-4
+            3194: 54,-4
+            3195: 53,-4
         - node:
             color: '#334E6DC8'
             id: BrickTileWhiteLineS
@@ -1543,37 +1543,37 @@ entities:
             99: -6,-9
             100: -7,-9
             101: -8,-9
-            3803: 2,2
-            3804: 3,2
-            3805: 4,2
-            3806: 5,2
-            3807: 6,2
-            3808: 7,2
-            3809: 8,2
-            3826: 1,4
-            3827: 2,4
-            3828: 3,4
-            3829: 7,4
-            3830: 8,4
-            3831: 9,4
-            3834: 5,5
-            3850: 5,6
-            3851: 4,6
-            3855: 6,6
-            3871: -2,4
-            3877: 12,4
-            3893: -3,-1
-            3894: -5,-1
-            3895: -6,-1
-            3896: -7,-1
-            3897: -9,-1
-            3898: -8,-1
-            3910: -9,0
-            3911: -8,0
-            3912: -7,0
-            3913: -6,0
-            3914: -5,0
-            3915: -3,0
+            3800: 2,2
+            3801: 3,2
+            3802: 4,2
+            3803: 5,2
+            3804: 6,2
+            3805: 7,2
+            3806: 8,2
+            3823: 1,4
+            3824: 2,4
+            3825: 3,4
+            3826: 7,4
+            3827: 8,4
+            3828: 9,4
+            3831: 5,5
+            3847: 5,6
+            3848: 4,6
+            3852: 6,6
+            3868: -2,4
+            3874: 12,4
+            3890: -3,-1
+            3891: -5,-1
+            3892: -6,-1
+            3893: -7,-1
+            3894: -9,-1
+            3895: -8,-1
+            3907: -9,0
+            3908: -8,0
+            3909: -7,0
+            3910: -6,0
+            3911: -5,0
+            3912: -3,0
         - node:
             color: '#52B4E996'
             id: BrickTileWhiteLineS
@@ -1592,11 +1592,11 @@ entities:
             1437: 52,-26
             1441: 55,-23
             1442: 54,-23
-            2827: 148,-13
-            2828: 149,-13
-            2829: 150,-13
-            2837: 149,-9
-            2838: 150,-9
+            2824: 148,-13
+            2825: 149,-13
+            2826: 150,-13
+            2834: 149,-9
+            2835: 150,-9
         - node:
             color: '#A4610696'
             id: BrickTileWhiteLineS
@@ -1630,8 +1630,8 @@ entities:
             color: '#D4D4D428'
             id: BrickTileWhiteLineS
           decals:
-            4069: 19,-46
-            4070: 20,-46
+            4066: 19,-46
+            4067: 20,-46
         - node:
             color: '#D4D4D4FF'
             id: BrickTileWhiteLineS
@@ -1652,9 +1652,9 @@ entities:
             color: '#EFB34196'
             id: BrickTileWhiteLineS
           decals:
-            3180: 53,-6
-            3181: 54,-6
-            3182: 55,-6
+            3177: 53,-6
+            3178: 54,-6
+            3179: 55,-6
         - node:
             color: '#334E6DC8'
             id: BrickTileWhiteLineW
@@ -1667,15 +1667,15 @@ entities:
             89: -6,-6
             90: -6,-5
             91: -6,-4
-            3797: 1,-2
-            3810: 9,1
-            3811: 9,0
-            3812: 9,-1
-            3813: 9,-2
-            3872: -3,5
-            3879: 11,5
-            3880: 11,6
-            3892: -3,1
+            3794: 1,-2
+            3807: 9,1
+            3808: 9,0
+            3809: 9,-1
+            3810: 9,-2
+            3869: -3,5
+            3876: 11,5
+            3877: 11,6
+            3889: -3,1
         - node:
             color: '#52B4E996'
             id: BrickTileWhiteLineW
@@ -1696,21 +1696,21 @@ entities:
             1435: 51,-24
             1436: 51,-23
             1447: 52,-24
-            2830: 147,-12
-            2831: 147,-11
-            2832: 147,-10
-            4104: 14,-40
-            4105: 14,-41
-            4106: 14,-42
-            4107: 14,-43
-            4108: 14,-44
-            4109: 14,-45
-            4110: 15,-45
-            4111: 15,-44
-            4112: 15,-43
-            4113: 15,-42
-            4114: 15,-41
-            4115: 15,-40
+            2827: 147,-12
+            2828: 147,-11
+            2829: 147,-10
+            4101: 14,-40
+            4102: 14,-41
+            4103: 14,-42
+            4104: 14,-43
+            4105: 14,-44
+            4106: 14,-45
+            4107: 15,-45
+            4108: 15,-44
+            4109: 15,-43
+            4110: 15,-42
+            4111: 15,-41
+            4112: 15,-40
         - node:
             color: '#A4610696'
             id: BrickTileWhiteLineW
@@ -1765,15 +1765,15 @@ entities:
             color: '#D4D4D428'
             id: BrickTileWhiteLineW
           decals:
-            4071: 18,-45
-            4072: 18,-44
-            4073: 18,-43
-            4074: 18,-42
-            4075: 18,-41
-            4076: 18,-40
-            4077: 18,-39
-            4078: 18,-38
-            4079: 17,-36
+            4068: 18,-45
+            4069: 18,-44
+            4070: 18,-43
+            4071: 18,-42
+            4072: 18,-41
+            4073: 18,-40
+            4074: 18,-39
+            4075: 18,-38
+            4076: 17,-36
         - node:
             color: '#D4D4D4FF'
             id: BrickTileWhiteLineW
@@ -1795,9 +1795,9 @@ entities:
             color: '#EFB34196'
             id: BrickTileWhiteLineW
           decals:
-            3184: 56,-7
-            3185: 56,-8
-            3199: 52,-5
+            3181: 56,-7
+            3182: 56,-8
+            3196: 52,-5
         - node:
             color: '#FFFFFFFF'
             id: BushATwo
@@ -1905,315 +1905,315 @@ entities:
             color: '#334E6DC8'
             id: CheckerNESW
           decals:
-            2699: 117,-17
-            2703: 118,-17
-            2706: 119,-17
-            2710: 120,-17
-            2713: 121,-17
-            2717: 121,-16
-            2719: 120,-16
-            2720: 119,-16
-            2723: 118,-16
-            2725: 117,-16
-            2727: 117,-15
-            2730: 118,-15
-            2731: 119,-15
-            2734: 120,-15
-            2737: 120,-14
-            2739: 119,-14
-            2741: 117,-14
-            2742: 117,-13
-            2743: 118,-13
-            2744: 119,-13
-            2745: 120,-12
-            2746: 119,-12
-            2747: 118,-12
-            2749: 117,-12
-            3917: -17,-7
-            3918: -16,-7
-            3919: -15,-7
-            3920: -14,-7
-            3921: -14,-6
-            3922: -15,-6
-            3923: -16,-6
-            3924: -17,-6
-            3925: -17,-5
-            3926: -16,-5
-            3927: -15,-5
-            3928: -14,-5
-            3929: -14,-4
-            3930: -15,-4
-            3931: -16,-4
-            3932: -17,-4
-            3933: -13,-5
+            2696: 117,-17
+            2700: 118,-17
+            2703: 119,-17
+            2707: 120,-17
+            2710: 121,-17
+            2714: 121,-16
+            2716: 120,-16
+            2717: 119,-16
+            2720: 118,-16
+            2722: 117,-16
+            2724: 117,-15
+            2727: 118,-15
+            2728: 119,-15
+            2731: 120,-15
+            2734: 120,-14
+            2736: 119,-14
+            2738: 117,-14
+            2739: 117,-13
+            2740: 118,-13
+            2741: 119,-13
+            2742: 120,-12
+            2743: 119,-12
+            2744: 118,-12
+            2746: 117,-12
+            3914: -17,-7
+            3915: -16,-7
+            3916: -15,-7
+            3917: -14,-7
+            3918: -14,-6
+            3919: -15,-6
+            3920: -16,-6
+            3921: -17,-6
+            3922: -17,-5
+            3923: -16,-5
+            3924: -15,-5
+            3925: -14,-5
+            3926: -14,-4
+            3927: -15,-4
+            3928: -16,-4
+            3929: -17,-4
+            3930: -13,-5
         - node:
             color: '#79150096'
             id: CheckerNESW
           decals:
-            4122: 19,-18
-            4123: 20,-18
-            4124: 21,-18
-            4125: 22,-18
-            4126: 23,-18
-            4127: 23,-17
-            4128: 22,-17
-            4129: 21,-17
-            4130: 20,-17
-            4131: 19,-17
-            4132: 19,-16
-            4133: 20,-16
-            4134: 21,-16
-            4135: 23,-16
-            4136: 22,-16
-            4137: 19,-19
-            4138: 20,-19
-            4139: 21,-19
-            4140: 22,-19
-            4141: 23,-19
-            4142: 18,-17
-            4143: 24,-17
+            4119: 19,-18
+            4120: 20,-18
+            4121: 21,-18
+            4122: 22,-18
+            4123: 23,-18
+            4124: 23,-17
+            4125: 22,-17
+            4126: 21,-17
+            4127: 20,-17
+            4128: 19,-17
+            4129: 19,-16
+            4130: 20,-16
+            4131: 21,-16
+            4132: 23,-16
+            4133: 22,-16
+            4134: 19,-19
+            4135: 20,-19
+            4136: 21,-19
+            4137: 22,-19
+            4138: 23,-19
+            4139: 18,-17
+            4140: 24,-17
         - node:
             color: '#9FED5896'
             id: CheckerNESW
           decals:
-            2842: 149,-10
-            2843: 150,-10
-            2844: 150,-11
-            2845: 149,-11
-            2846: 149,-12
-            2847: 150,-12
+            2839: 149,-10
+            2840: 150,-10
+            2841: 150,-11
+            2842: 149,-11
+            2843: 149,-12
+            2844: 150,-12
         - node:
             color: '#D4D4D428'
             id: CheckerNESW
           decals:
-            3964: 16,-26
-            3965: 17,-26
-            3966: 18,-26
-            3967: 14,-27
-            3968: 15,-27
-            3969: 16,-27
-            3970: 17,-27
-            3971: 18,-27
-            3972: 19,-27
-            3973: 20,-27
-            3974: 20,-28
-            3975: 19,-28
-            3976: 18,-28
-            3977: 17,-28
-            3978: 16,-28
-            3979: 15,-28
-            3980: 14,-29
-            3981: 15,-29
-            3982: 16,-29
-            3983: 17,-29
-            3984: 18,-29
-            3985: 19,-29
-            3986: 20,-29
-            3987: 20,-30
-            3988: 19,-30
-            3989: 18,-30
-            3990: 17,-30
-            3991: 16,-30
-            3992: 15,-30
-            3993: 14,-30
-            3994: 14,-31
-            3995: 15,-31
-            3996: 16,-31
-            3997: 17,-31
-            3998: 18,-31
-            3999: 19,-31
-            4000: 20,-31
-            4001: 19,-32
-            4002: 18,-32
-            4003: 17,-32
-            4004: 17,-33
-            4005: 18,-33
-            4006: 19,-33
-            4007: 20,-33
-            4008: 18,-34
-            4009: 17,-34
-            4010: 21,-30
-            4011: 21,-29
-            4012: 21,-28
+            3961: 16,-26
+            3962: 17,-26
+            3963: 18,-26
+            3964: 14,-27
+            3965: 15,-27
+            3966: 16,-27
+            3967: 17,-27
+            3968: 18,-27
+            3969: 19,-27
+            3970: 20,-27
+            3971: 20,-28
+            3972: 19,-28
+            3973: 18,-28
+            3974: 17,-28
+            3975: 16,-28
+            3976: 15,-28
+            3977: 14,-29
+            3978: 15,-29
+            3979: 16,-29
+            3980: 17,-29
+            3981: 18,-29
+            3982: 19,-29
+            3983: 20,-29
+            3984: 20,-30
+            3985: 19,-30
+            3986: 18,-30
+            3987: 17,-30
+            3988: 16,-30
+            3989: 15,-30
+            3990: 14,-30
+            3991: 14,-31
+            3992: 15,-31
+            3993: 16,-31
+            3994: 17,-31
+            3995: 18,-31
+            3996: 19,-31
+            3997: 20,-31
+            3998: 19,-32
+            3999: 18,-32
+            4000: 17,-32
+            4001: 17,-33
+            4002: 18,-33
+            4003: 19,-33
+            4004: 20,-33
+            4005: 18,-34
+            4006: 17,-34
+            4007: 21,-30
+            4008: 21,-29
+            4009: 21,-28
         - node:
             color: '#EFB34196'
             id: CheckerNESW
           decals:
-            3096: 48,-7
-            3097: 49,-7
-            3098: 48,-6
-            3099: 49,-6
-            3100: 48,-5
-            3101: 49,-5
-            3102: 48,-4
-            3103: 49,-4
-            3104: 48,-3
-            3105: 49,-3
-            3106: 49,-2
-            3107: 48,-2
-            3108: 48,-1
-            3109: 49,-1
-            3110: 49,0
-            3111: 48,0
-            3112: 48,1
-            3113: 49,1
-            3114: 49,2
-            3115: 48,2
-            3116: 48,3
-            3117: 49,3
-            3118: 49,4
-            3119: 48,4
-            3120: 48,5
-            3121: 49,5
-            3122: 48,7
-            3123: 49,7
-            3124: 49,8
-            3125: 48,8
-            3126: 48,9
-            3127: 49,9
-            3128: 49,10
-            3129: 48,10
-            3130: 48,11
-            3131: 50,8
-            3132: 50,9
-            3133: 51,9
-            3134: 51,8
-            3135: 52,8
-            3136: 52,9
-            3137: 53,9
-            3138: 53,8
-            3139: 54,8
-            3140: 54,9
-            3141: 54,7
-            3142: 53,7
-            3143: 52,7
-            3144: 51,7
-            3145: 46,4
-            3146: 45,4
-            3147: 44,4
-            3148: 43,4
-            3149: 42,3
-            3150: 43,3
-            3151: 43,2
-            3152: 44,2
-            3153: 44,3
-            3154: 45,3
-            3155: 45,2
-            3156: 46,2
-            3157: 46,3
-            3158: 51,0
-            3159: 51,-1
-            3160: 51,-2
-            3161: 52,-2
-            3162: 52,-1
-            3163: 53,-1
-            3164: 53,-2
-            3165: 54,-2
-            3166: 54,-1
-            3167: 55,0
-            3168: 55,-1
-            3169: 55,-2
-            3170: 56,-2
-            3171: 56,0
-            3172: 56,-1
-            3173: 57,-1
-            3174: 57,0
-            3175: 58,0
-            3176: 57,-2
-            3177: 58,-2
-            3200: 53,-5
-            3201: 54,-5
-            3202: 55,-5
-            3203: 56,-5
-            3204: 57,-5
+            3093: 48,-7
+            3094: 49,-7
+            3095: 48,-6
+            3096: 49,-6
+            3097: 48,-5
+            3098: 49,-5
+            3099: 48,-4
+            3100: 49,-4
+            3101: 48,-3
+            3102: 49,-3
+            3103: 49,-2
+            3104: 48,-2
+            3105: 48,-1
+            3106: 49,-1
+            3107: 49,0
+            3108: 48,0
+            3109: 48,1
+            3110: 49,1
+            3111: 49,2
+            3112: 48,2
+            3113: 48,3
+            3114: 49,3
+            3115: 49,4
+            3116: 48,4
+            3117: 48,5
+            3118: 49,5
+            3119: 48,7
+            3120: 49,7
+            3121: 49,8
+            3122: 48,8
+            3123: 48,9
+            3124: 49,9
+            3125: 49,10
+            3126: 48,10
+            3127: 48,11
+            3128: 50,8
+            3129: 50,9
+            3130: 51,9
+            3131: 51,8
+            3132: 52,8
+            3133: 52,9
+            3134: 53,9
+            3135: 53,8
+            3136: 54,8
+            3137: 54,9
+            3138: 54,7
+            3139: 53,7
+            3140: 52,7
+            3141: 51,7
+            3142: 46,4
+            3143: 45,4
+            3144: 44,4
+            3145: 43,4
+            3146: 42,3
+            3147: 43,3
+            3148: 43,2
+            3149: 44,2
+            3150: 44,3
+            3151: 45,3
+            3152: 45,2
+            3153: 46,2
+            3154: 46,3
+            3155: 51,0
+            3156: 51,-1
+            3157: 51,-2
+            3158: 52,-2
+            3159: 52,-1
+            3160: 53,-1
+            3161: 53,-2
+            3162: 54,-2
+            3163: 54,-1
+            3164: 55,0
+            3165: 55,-1
+            3166: 55,-2
+            3167: 56,-2
+            3168: 56,0
+            3169: 56,-1
+            3170: 57,-1
+            3171: 57,0
+            3172: 58,0
+            3173: 57,-2
+            3174: 58,-2
+            3197: 53,-5
+            3198: 54,-5
+            3199: 55,-5
+            3200: 56,-5
+            3201: 57,-5
         - node:
             color: '#79150096'
             id: CheckerNWSE
           decals:
-            2755: 111,-17
-            2756: 110,-17
-            2757: 110,-16
-            2758: 111,-16
-            2759: 111,-15
-            2760: 110,-15
-            2761: 111,-14
-            2762: 110,-13
-            2763: 111,-13
-            2764: 111,-12
-            2765: 110,-12
-            2766: 110,-11
-            2767: 109,-13
+            2752: 111,-17
+            2753: 110,-17
+            2754: 110,-16
+            2755: 111,-16
+            2756: 111,-15
+            2757: 110,-15
+            2758: 111,-14
+            2759: 110,-13
+            2760: 111,-13
+            2761: 111,-12
+            2762: 110,-12
+            2763: 110,-11
+            2764: 109,-13
         - node:
             color: '#83C4FFB4'
             id: CheckerNWSE
           decals:
-            3282: 57,4
-            3283: 58,4
-            3284: 58,3
-            3285: 57,3
-            3286: 57,2
-            3287: 58,2
+            3279: 57,4
+            3280: 58,4
+            3281: 58,3
+            3282: 57,3
+            3283: 57,2
+            3284: 58,2
         - node:
             color: '#D4D4D496'
             id: CheckerNWSE
           decals:
-            4013: 16,-26
-            4014: 17,-26
-            4015: 18,-26
-            4016: 14,-27
-            4017: 15,-27
-            4018: 16,-27
-            4019: 17,-27
-            4020: 18,-27
-            4021: 19,-27
-            4022: 20,-27
-            4023: 20,-28
-            4024: 19,-28
-            4025: 18,-28
-            4026: 17,-28
-            4027: 16,-28
-            4028: 15,-28
-            4029: 14,-28
-            4030: 14,-29
-            4031: 15,-29
-            4032: 16,-29
-            4033: 17,-29
-            4034: 18,-29
-            4035: 19,-29
-            4036: 20,-29
-            4037: 20,-30
-            4038: 19,-30
-            4039: 18,-30
-            4040: 17,-30
-            4041: 16,-30
-            4042: 15,-30
-            4043: 14,-30
-            4044: 14,-31
-            4045: 15,-31
-            4046: 16,-31
-            4047: 17,-31
-            4048: 18,-31
-            4049: 19,-31
-            4050: 20,-31
-            4051: 19,-32
-            4052: 18,-32
-            4053: 17,-32
-            4054: 17,-33
-            4055: 18,-33
-            4056: 19,-33
-            4057: 20,-33
-            4058: 18,-34
-            4059: 17,-34
-            4060: 21,-30
-            4061: 21,-29
-            4062: 21,-28
+            4010: 16,-26
+            4011: 17,-26
+            4012: 18,-26
+            4013: 14,-27
+            4014: 15,-27
+            4015: 16,-27
+            4016: 17,-27
+            4017: 18,-27
+            4018: 19,-27
+            4019: 20,-27
+            4020: 20,-28
+            4021: 19,-28
+            4022: 18,-28
+            4023: 17,-28
+            4024: 16,-28
+            4025: 15,-28
+            4026: 14,-28
+            4027: 14,-29
+            4028: 15,-29
+            4029: 16,-29
+            4030: 17,-29
+            4031: 18,-29
+            4032: 19,-29
+            4033: 20,-29
+            4034: 20,-30
+            4035: 19,-30
+            4036: 18,-30
+            4037: 17,-30
+            4038: 16,-30
+            4039: 15,-30
+            4040: 14,-30
+            4041: 14,-31
+            4042: 15,-31
+            4043: 16,-31
+            4044: 17,-31
+            4045: 18,-31
+            4046: 19,-31
+            4047: 20,-31
+            4048: 19,-32
+            4049: 18,-32
+            4050: 17,-32
+            4051: 17,-33
+            4052: 18,-33
+            4053: 19,-33
+            4054: 20,-33
+            4055: 18,-34
+            4056: 17,-34
+            4057: 21,-30
+            4058: 21,-29
+            4059: 21,-28
         - node:
             color: '#79150096'
             id: Delivery
           decals:
-            2768: 107,-13
-            2769: 107,-12
-            2770: 107,-11
+            2765: 107,-13
+            2766: 107,-12
+            2767: 107,-11
         - node:
             color: '#A4610696'
             id: Delivery
@@ -2224,22 +2224,22 @@ entities:
             color: '#EFB34196'
             id: Delivery
           decals:
-            3757: 60,-6
-            3758: 61,-6
-            3759: 62,-6
-            3760: 63,-6
-            3761: 63,-5
-            3762: 62,-5
-            3763: 61,-5
-            3764: 60,-5
-            3765: 60,-4
-            3766: 61,-4
-            3767: 62,-4
-            3768: 63,-4
-            3769: 63,-9
-            3770: 62,-9
-            3771: 61,-9
-            3772: 60,-9
+            3754: 60,-6
+            3755: 61,-6
+            3756: 62,-6
+            3757: 63,-6
+            3758: 63,-5
+            3759: 62,-5
+            3760: 61,-5
+            3761: 60,-5
+            3762: 60,-4
+            3763: 61,-4
+            3764: 62,-4
+            3765: 63,-4
+            3766: 63,-9
+            3767: 62,-9
+            3768: 61,-9
+            3769: 60,-9
         - node:
             color: '#52B4E996'
             id: DeliveryGreyscale
@@ -2856,163 +2856,163 @@ entities:
             2200: 92,-24
             2201: 92,-25
             2202: 92,-26
-            2203: 89,-16
-            2204: 88,-16
-            2205: 88,-15
-            2206: 115,-42
-            2207: 115,-43
-            2208: 115,-42
-            2209: 119,-43
-            2210: 119,-42
-            2211: 119,-43
-            2212: 119,-42
-            2213: 121,-42
-            2214: 120,-41
-            2215: 124,-40
-            2216: 127,-40
+            2203: 115,-42
+            2204: 115,-43
+            2205: 115,-42
+            2206: 119,-43
+            2207: 119,-42
+            2208: 119,-43
+            2209: 119,-42
+            2210: 121,-42
+            2211: 120,-41
+            2212: 124,-40
+            2213: 127,-40
+            2214: 131,-40
+            2215: 133,-39
+            2216: 133,-39
             2217: 131,-40
-            2218: 133,-39
-            2219: 133,-39
-            2220: 131,-40
-            2221: 131,-40
-            2222: 133,-37
-            2223: 133,-37
-            2224: 133,-36
-            2225: 133,-36
-            2226: 129,-39
-            2227: 129,-39
-            2228: 130,-39
-            2229: 130,-39
-            2530: 135,-40
-            2531: 135,-39
-            2533: 135,-38
-            2534: 136,-38
-            2535: 136,-39
-            2536: 136,-40
-            2537: 137,-40
-            2539: 138,-40
-            2540: 139,-40
-            2541: 140,-40
-            2542: 140,-39
-            2544: 139,-39
-            2545: 137,-39
-            2546: 138,-39
-            2547: 137,-38
-            2548: 138,-38
-            2549: 138,-37
-            2550: 139,-37
-            2551: 139,-38
-            2552: 140,-38
-            2553: 140,-37
-            2558: 136,-36
-            2559: 136,-35
-            2560: 137,-33
-            2561: 138,-33
-            2562: 138,-34
-            2563: 138,-31
-            2564: 138,-30
-            2565: 137,-28
-            2566: 140,-28
-            2567: 141,-28
-            2568: 141,-28
-            2569: 142,-28
-            2570: 142,-28
-            2571: 141,-25
-            2572: 141,-24
-            2573: 141,-23
-            2574: 142,-23
-            2575: 145,-23
+            2218: 131,-40
+            2219: 133,-37
+            2220: 133,-37
+            2221: 133,-36
+            2222: 133,-36
+            2223: 129,-39
+            2224: 129,-39
+            2225: 130,-39
+            2226: 130,-39
+            2527: 135,-40
+            2528: 135,-39
+            2530: 135,-38
+            2531: 136,-38
+            2532: 136,-39
+            2533: 136,-40
+            2534: 137,-40
+            2536: 138,-40
+            2537: 139,-40
+            2538: 140,-40
+            2539: 140,-39
+            2541: 139,-39
+            2542: 137,-39
+            2543: 138,-39
+            2544: 137,-38
+            2545: 138,-38
+            2546: 138,-37
+            2547: 139,-37
+            2548: 139,-38
+            2549: 140,-38
+            2550: 140,-37
+            2555: 136,-36
+            2556: 136,-35
+            2557: 137,-33
+            2558: 138,-33
+            2559: 138,-34
+            2560: 138,-31
+            2561: 138,-30
+            2562: 137,-28
+            2563: 140,-28
+            2564: 141,-28
+            2565: 141,-28
+            2566: 142,-28
+            2567: 142,-28
+            2568: 141,-25
+            2569: 141,-24
+            2570: 141,-23
+            2571: 142,-23
+            2572: 145,-23
+            2573: 146,-23
+            2574: 146,-23
+            2575: 146,-23
             2576: 146,-23
-            2577: 146,-23
-            2578: 146,-23
-            2579: 146,-23
+            2577: 149,-23
+            2578: 149,-23
+            2579: 149,-23
             2580: 149,-23
-            2581: 149,-23
-            2582: 149,-23
-            2583: 149,-23
-            2584: 149,-22
-            2585: 149,-22
-            2586: 149,-22
-            2587: 148,-21
-            2588: 148,-20
+            2581: 149,-22
+            2582: 149,-22
+            2583: 149,-22
+            2584: 148,-21
+            2585: 148,-20
+            2586: 149,-16
+            2587: 149,-16
+            2588: 149,-16
             2589: 149,-16
             2590: 149,-16
             2591: 149,-16
             2592: 149,-16
-            2593: 149,-16
-            2594: 149,-16
-            2595: 149,-16
+            2593: 152,-14
+            2594: 152,-14
+            2595: 152,-14
             2596: 152,-14
             2597: 152,-14
-            2598: 152,-14
-            2599: 152,-14
-            2600: 152,-14
+            2598: 152,-13
+            2599: 152,-13
+            2600: 152,-13
             2601: 152,-13
             2602: 152,-13
-            2603: 152,-13
-            2604: 152,-13
-            2605: 152,-13
-            2606: 152,-15
-            2607: 153,-15
-            2608: 153,-14
-            2609: 149,-17
-            2610: 149,-20
-            2611: 143,-25
-            2612: 144,-25
-            2613: 144,-26
-            2614: 145,-26
-            2615: 145,-25
-            2616: 146,-25
-            2617: 146,-26
-            2618: 147,-25
+            2603: 152,-15
+            2604: 153,-15
+            2605: 153,-14
+            2606: 149,-17
+            2607: 149,-20
+            2608: 143,-25
+            2609: 144,-25
+            2610: 144,-26
+            2611: 145,-26
+            2612: 145,-25
+            2613: 146,-25
+            2614: 146,-26
+            2615: 147,-25
+            2616: 151,-25
+            2617: 151,-25
+            2618: 151,-25
             2619: 151,-25
             2620: 151,-25
             2621: 151,-25
             2622: 151,-25
-            2623: 151,-25
-            2624: 151,-25
-            2625: 151,-25
+            2623: 150,-25
+            2624: 150,-25
+            2625: 150,-25
             2626: 150,-25
             2627: 150,-25
             2628: 150,-25
-            2629: 150,-25
-            2630: 150,-25
-            2631: 150,-25
+            2629: 149,-25
+            2630: 149,-25
+            2631: 149,-25
             2632: 149,-25
             2633: 149,-25
             2634: 149,-25
-            2635: 149,-25
-            2636: 149,-25
-            2637: 149,-25
+            2635: 148,-25
+            2636: 148,-25
+            2637: 148,-25
             2638: 148,-25
             2639: 148,-25
             2640: 148,-25
             2641: 148,-25
-            2642: 148,-25
-            2643: 148,-25
-            2644: 148,-25
+            2642: 147,-25
+            2643: 147,-25
+            2644: 147,-25
             2645: 147,-25
             2646: 147,-25
             2647: 147,-25
             2648: 147,-25
             2649: 147,-25
-            2650: 147,-25
-            2651: 147,-25
-            2652: 147,-25
+            2650: 146,-25
+            2651: 146,-25
+            2652: 146,-25
             2653: 146,-25
             2654: 146,-25
             2655: 146,-25
             2656: 146,-25
-            2657: 146,-25
-            2658: 146,-25
-            2659: 146,-25
+            2657: 146,-26
+            2658: 146,-26
+            2659: 146,-26
             2660: 146,-26
             2661: 146,-26
             2662: 146,-26
             2663: 146,-26
-            2664: 146,-26
-            2665: 146,-26
-            2666: 146,-26
+            2664: 145,-26
+            2665: 145,-26
+            2666: 145,-26
             2667: 145,-26
             2668: 145,-26
             2669: 145,-26
@@ -3020,9 +3020,9 @@ entities:
             2671: 145,-26
             2672: 145,-26
             2673: 145,-26
-            2674: 145,-26
-            2675: 145,-26
-            2676: 145,-26
+            2674: 145,-25
+            2675: 145,-25
+            2676: 145,-25
             2677: 145,-25
             2678: 145,-25
             2679: 145,-25
@@ -3030,588 +3030,585 @@ entities:
             2681: 145,-25
             2682: 145,-25
             2683: 145,-25
-            2684: 145,-25
-            2685: 145,-25
-            2686: 145,-25
+            2684: 144,-25
+            2685: 144,-25
+            2686: 144,-25
             2687: 144,-25
             2688: 144,-25
             2689: 144,-25
             2690: 144,-25
             2691: 144,-25
-            2692: 144,-25
-            2693: 144,-25
-            2694: 144,-25
+            2692: 144,-26
+            2693: 144,-26
+            2694: 144,-26
             2695: 144,-26
-            2696: 144,-26
             2697: 144,-26
             2698: 144,-26
-            2700: 144,-26
+            2699: 144,-26
             2701: 144,-26
-            2702: 144,-26
-            2704: 144,-26
+            2702: 143,-25
+            2704: 143,-25
             2705: 143,-25
-            2707: 143,-25
+            2706: 143,-25
             2708: 143,-25
             2709: 143,-25
             2711: 143,-25
             2712: 143,-25
-            2714: 143,-25
+            2713: 143,-25
             2715: 143,-25
-            2716: 143,-25
-            2718: 143,-25
-            2721: 151,-25
-            2722: 150,-25
-            2724: 149,-25
-            2726: 148,-25
-            2728: 147,-25
-            2729: 146,-25
-            2732: 146,-26
-            2733: 145,-26
-            2735: 145,-25
-            2736: 144,-25
-            2738: 144,-26
-            2740: 143,-25
-            2748: 151,-23
-            2750: 151,-22
-            2751: 151,-21
-            2752: 151,-20
-            2753: 150,-20
-            2754: 151,-24
-            2774: 147,-17
-            2775: 146,-17
-            2776: 146,-16
-            2777: 147,-16
-            2778: 147,-17
-            2779: 146,-17
-            2780: 146,-16
-            2781: 147,-16
-            2782: 147,-17
-            2783: 146,-17
-            2784: 146,-16
-            2785: 147,-16
-            2786: 147,-17
-            2787: 146,-17
-            2788: 146,-16
-            2789: 147,-16
-            2790: 147,-17
-            2791: 146,-17
-            2792: 146,-16
-            2793: 147,-16
+            2718: 151,-25
+            2719: 150,-25
+            2721: 149,-25
+            2723: 148,-25
+            2725: 147,-25
+            2726: 146,-25
+            2729: 146,-26
+            2730: 145,-26
+            2732: 145,-25
+            2733: 144,-25
+            2735: 144,-26
+            2737: 143,-25
+            2745: 151,-23
+            2747: 151,-22
+            2748: 151,-21
+            2749: 151,-20
+            2750: 150,-20
+            2751: 151,-24
+            2771: 147,-17
+            2772: 146,-17
+            2773: 146,-16
+            2774: 147,-16
+            2775: 147,-17
+            2776: 146,-17
+            2777: 146,-16
+            2778: 147,-16
+            2779: 147,-17
+            2780: 146,-17
+            2781: 146,-16
+            2782: 147,-16
+            2783: 147,-17
+            2784: 146,-17
+            2785: 146,-16
+            2786: 147,-16
+            2787: 147,-17
+            2788: 146,-17
+            2789: 146,-16
+            2790: 147,-16
+            2791: 147,-15
+            2792: 147,-15
+            2793: 147,-15
             2794: 147,-15
-            2795: 147,-15
-            2796: 147,-15
-            2797: 147,-15
-            2884: 105,-9
+            2881: 105,-9
+            2883: 106,-9
+            2884: 107,-9
+            2885: 107,-9
             2886: 106,-9
-            2887: 107,-9
-            2888: 107,-9
-            2889: 106,-9
-            2890: 110,-9
-            2891: 113,-10
-            2892: 113,-10
-            2893: 113,-10
-            2894: 115,-10
-            2895: 115,-10
-            2896: 115,-10
-            2898: 116,-10
-            2900: 116,-10
-            2902: 120,-10
-            2903: 120,-10
-            2904: 120,-10
-            2905: 120,-9
-            2906: 120,-9
+            2887: 110,-9
+            2888: 113,-10
+            2889: 113,-10
+            2890: 113,-10
+            2891: 115,-10
+            2892: 115,-10
+            2893: 115,-10
+            2895: 116,-10
+            2897: 116,-10
+            2899: 120,-10
+            2900: 120,-10
+            2901: 120,-10
+            2902: 120,-9
+            2903: 120,-9
+            2905: 121,-9
+            2906: 121,-9
             2908: 121,-9
-            2909: 121,-9
-            2911: 121,-9
+            2909: 122,-9
+            2911: 122,-9
             2912: 122,-9
-            2914: 122,-9
-            2915: 122,-9
-            2916: 123,-9
-            2917: 123,-9
-            2918: 123,-9
-            2919: 124,-9
-            2920: 124,-9
-            2921: 124,-9
+            2913: 123,-9
+            2914: 123,-9
+            2915: 123,-9
+            2916: 124,-9
+            2917: 124,-9
+            2918: 124,-9
+            2919: 123,-10
+            2920: 123,-10
+            2921: 123,-10
             2922: 123,-10
-            2923: 123,-10
-            2924: 123,-10
-            2925: 123,-10
-            2926: 122,-10
-            2927: 122,-10
-            2928: 122,-10
-            2929: 127,-10
-            2930: 130,-10
-            2931: 130,-10
-            2932: 130,-10
-            2933: 133,-10
-            2934: 133,-10
-            2935: 133,-10
-            2936: 133,-11
-            2937: 133,-11
-            2938: 133,-11
-            2939: 133,-12
-            2940: 133,-12
-            2941: 133,-12
+            2923: 122,-10
+            2924: 122,-10
+            2925: 122,-10
+            2926: 127,-10
+            2927: 130,-10
+            2928: 130,-10
+            2929: 130,-10
+            2930: 133,-10
+            2931: 133,-10
+            2932: 133,-10
+            2933: 133,-11
+            2934: 133,-11
+            2935: 133,-11
+            2936: 133,-12
+            2937: 133,-12
+            2938: 133,-12
+            2939: 134,-12
+            2940: 134,-12
+            2941: 134,-12
             2942: 134,-12
-            2943: 134,-12
-            2944: 134,-12
-            2945: 134,-12
-            2946: 134,-11
-            2947: 134,-11
-            2948: 134,-11
-            2949: 131,-12
-            2950: 131,-12
-            2951: 132,-12
-            2952: 132,-12
-            2953: 132,-12
-            2954: 132,-14
-            2955: 132,-14
-            2956: 132,-14
+            2943: 134,-11
+            2944: 134,-11
+            2945: 134,-11
+            2946: 131,-12
+            2947: 131,-12
+            2948: 132,-12
+            2949: 132,-12
+            2950: 132,-12
+            2951: 132,-14
+            2952: 132,-14
+            2953: 132,-14
+            2954: 132,-15
+            2955: 132,-16
+            2956: 132,-15
             2957: 132,-15
             2958: 132,-16
-            2959: 132,-15
+            2959: 132,-16
             2960: 132,-15
-            2961: 132,-16
-            2962: 132,-16
-            2963: 132,-15
+            2961: 133,-15
+            2962: 133,-15
+            2963: 133,-15
             2964: 133,-15
             2965: 133,-15
             2966: 133,-15
-            2967: 133,-15
-            2968: 133,-15
-            2969: 133,-15
-            2970: 134,-15
-            2971: 134,-16
-            2972: 135,-15
-            2973: 134,-14
-            2974: 102,-36
-            2975: 102,-35
-            2976: 102,-36
-            2977: 102,-35
-            2978: 103,-34
-            2979: 104,-34
-            2980: 103,-34
-            2981: 104,-34
-            2982: 106,-34
-            2983: 106,-33
-            2984: 108,-34
+            2967: 134,-15
+            2968: 134,-16
+            2969: 135,-15
+            2970: 134,-14
+            2971: 102,-36
+            2972: 102,-35
+            2973: 102,-36
+            2974: 102,-35
+            2975: 103,-34
+            2976: 104,-34
+            2977: 103,-34
+            2978: 104,-34
+            2979: 106,-34
+            2980: 106,-33
+            2981: 108,-34
+            2982: 108,-35
+            2983: 108,-35
+            2984: 108,-35
             2985: 108,-35
             2986: 108,-35
             2987: 108,-35
-            2988: 108,-35
-            2989: 108,-35
-            2990: 108,-35
+            2988: 108,-39
+            2989: 108,-39
+            2990: 108,-39
             2991: 108,-39
             2992: 108,-39
-            2993: 108,-39
-            2994: 108,-39
-            2995: 108,-39
-            2996: 105,-39
+            2993: 105,-39
+            2994: 106,-39
+            2995: 106,-39
+            2996: 106,-39
             2997: 106,-39
             2998: 106,-39
             2999: 106,-39
-            3000: 106,-39
-            3001: 106,-39
-            3002: 106,-39
+            3000: 106,-38
+            3001: 106,-38
+            3002: 106,-38
             3003: 106,-38
             3004: 106,-38
             3005: 106,-38
-            3006: 106,-38
-            3007: 106,-38
-            3008: 106,-38
+            3006: 105,-38
+            3007: 105,-38
+            3008: 105,-38
             3009: 105,-38
             3010: 105,-38
             3011: 105,-38
-            3012: 105,-38
-            3013: 105,-38
-            3014: 105,-38
+            3012: 105,-36
+            3013: 105,-36
+            3014: 105,-36
             3015: 105,-36
             3016: 105,-36
             3017: 105,-36
-            3018: 105,-36
-            3019: 105,-36
-            3020: 105,-36
+            3018: 104,-32
+            3019: 104,-32
+            3020: 104,-32
             3021: 104,-32
             3022: 104,-32
             3023: 104,-32
             3024: 104,-32
             3025: 104,-32
-            3026: 104,-32
-            3027: 104,-32
-            3028: 104,-32
-            3029: 104,-34
-            3030: 103,-34
-            3031: 102,-36
-            3032: 102,-35
-            3033: 104,-37
-            3217: 77,-9
-            3218: 77,-9
-            3219: 77,-9
-            3220: 76,-9
-            3221: 76,-9
-            3222: 76,-9
-            3223: 74,-9
-            3224: 74,-9
-            3225: 73,-9
-            3226: 73,-9
-            3227: 79,-7
-            3228: 79,-7
-            3229: 79,-6
-            3230: 79,-6
-            3231: 79,-5
-            3232: 79,-5
-            3233: 79,-4
-            3234: 79,-4
-            3235: 79,-3
-            3236: 79,-3
-            3237: 79,-3
-            3238: 79,-4
-            3239: 79,-4
-            3240: 79,-5
-            3241: 79,-5
-            3243: 76,-3
-            3244: 76,-3
-            3245: 76,-3
+            3026: 104,-34
+            3027: 103,-34
+            3028: 102,-36
+            3029: 102,-35
+            3030: 104,-37
+            3214: 77,-9
+            3215: 77,-9
+            3216: 77,-9
+            3217: 76,-9
+            3218: 76,-9
+            3219: 76,-9
+            3220: 74,-9
+            3221: 74,-9
+            3222: 73,-9
+            3223: 73,-9
+            3224: 79,-7
+            3225: 79,-7
+            3226: 79,-6
+            3227: 79,-6
+            3228: 79,-5
+            3229: 79,-5
+            3230: 79,-4
+            3231: 79,-4
+            3232: 79,-3
+            3233: 79,-3
+            3234: 79,-3
+            3235: 79,-4
+            3236: 79,-4
+            3237: 79,-5
+            3238: 79,-5
+            3240: 76,-3
+            3241: 76,-3
+            3242: 76,-3
+            3244: 71,-3
+            3245: 71,-3
+            3246: 71,-3
             3247: 71,-3
             3248: 71,-3
-            3249: 71,-3
-            3250: 71,-3
-            3251: 71,-3
-            3253: 80,0
-            3254: 82,-1
-            3255: 83,-1
+            3250: 80,0
+            3251: 82,-1
+            3252: 83,-1
+            3253: 81,2
+            3254: 81,2
+            3255: 81,2
             3256: 81,2
-            3257: 81,2
-            3258: 81,2
-            3259: 81,2
-            3260: 40,-7
-            3261: 40,-7
-            3262: 40,-6
-            3263: 40,-6
+            3257: 40,-7
+            3258: 40,-7
+            3259: 40,-6
+            3260: 40,-6
+            3261: 38,-6
+            3262: 39,-5
+            3263: 38,-6
             3264: 38,-6
             3265: 39,-5
-            3266: 38,-6
-            3267: 38,-6
-            3268: 39,-5
-            3269: 39,-5
-            3270: 39,-5
-            3271: 40,-4
-            3272: 39,-4
-            3273: 39,-3
+            3266: 39,-5
+            3267: 39,-5
+            3268: 40,-4
+            3269: 39,-4
+            3270: 39,-3
+            3271: 40,3
+            3272: 40,3
+            3273: 40,3
             3274: 40,3
-            3275: 40,3
-            3276: 40,3
-            3277: 40,3
-            3278: 40,2
-            3279: 40,2
-            3280: 40,2
-            3281: 40,-1
-            3288: 104,-6
-            3289: 105,-5
-            3290: 105,-4
-            3291: 105,-3
-            3292: 105,-2
-            3293: 107,-7
+            3275: 40,2
+            3276: 40,2
+            3277: 40,2
+            3278: 40,-1
+            3285: 104,-6
+            3286: 105,-5
+            3287: 105,-4
+            3288: 105,-3
+            3289: 105,-2
+            3290: 107,-7
+            3291: 108,-7
+            3292: 108,-7
+            3293: 108,-7
             3294: 108,-7
-            3295: 108,-7
-            3296: 108,-7
-            3297: 108,-7
-            3298: 110,-7
-            3299: 110,-7
-            3300: 110,-7
-            3301: 112,-7
-            3302: 112,-7
-            3303: 112,-7
+            3295: 110,-7
+            3296: 110,-7
+            3297: 110,-7
+            3298: 112,-7
+            3299: 112,-7
+            3300: 112,-7
+            3301: 115,-7
+            3302: 115,-7
+            3303: 115,-7
             3304: 115,-7
-            3305: 115,-7
-            3306: 115,-7
-            3307: 115,-7
+            3305: 120,-7
+            3306: 120,-7
+            3307: 120,-7
             3308: 120,-7
-            3309: 120,-7
-            3310: 120,-7
-            3311: 120,-7
+            3309: 124,-7
+            3310: 124,-7
+            3311: 124,-7
             3312: 124,-7
             3313: 124,-7
-            3314: 124,-7
-            3315: 124,-7
-            3316: 124,-7
-            3317: 119,-7
-            3318: 113,-7
-            3319: 119,-7
-            3320: 122,-7
-            3321: 123,-7
-            3322: 128,-8
-            3323: 127,-8
-            3324: 129,-8
-            3325: 129,-7
-            3326: 130,-8
-            3327: 130,-8
-            3328: 130,-8
-            3329: 129,-8
-            3330: 129,-8
-            3331: 128,-7
-            3332: 128,-7
-            3333: 127,-7
-            3334: 127,-7
-            3335: 131,-8
-            3336: 132,-8
-            3337: 132,-5
-            3338: 131,-5
-            3339: 131,-4
+            3314: 119,-7
+            3315: 113,-7
+            3316: 119,-7
+            3317: 122,-7
+            3318: 123,-7
+            3319: 128,-8
+            3320: 127,-8
+            3321: 129,-8
+            3322: 129,-7
+            3323: 130,-8
+            3324: 130,-8
+            3325: 130,-8
+            3326: 129,-8
+            3327: 129,-8
+            3328: 128,-7
+            3329: 128,-7
+            3330: 127,-7
+            3331: 127,-7
+            3332: 131,-8
+            3333: 132,-8
+            3334: 132,-5
+            3335: 131,-5
+            3336: 131,-4
+            3337: 132,-4
+            3338: 132,-4
+            3339: 132,-4
             3340: 132,-4
             3341: 132,-4
-            3342: 132,-4
-            3343: 132,-4
-            3344: 132,-4
-            3345: 132,-2
-            3346: 131,-2
-            3347: 132,-1
+            3342: 132,-2
+            3343: 131,-2
+            3344: 132,-1
+            3345: 132,0
+            3346: 132,0
+            3347: 132,0
             3348: 132,0
             3349: 132,0
             3350: 132,0
-            3351: 132,0
-            3352: 132,0
-            3353: 132,0
-            3354: 132,1
-            3355: 132,1
-            3356: 132,1
-            3357: 131,0
-            3358: 131,0
-            3359: 130,3
-            3360: 131,3
-            3361: 131,3
-            3362: 131,3
-            3363: 128,3
-            3364: 129,3
-            3365: 129,3
-            3366: 129,3
-            3367: 127,3
-            3368: 125,4
-            3369: 124,4
-            3370: 123,4
-            3371: 121,2
-            3372: 121,2
-            3373: 120,2
-            3374: 120,2
-            3375: 120,3
-            3376: 120,3
-            3377: 119,2
-            3378: 119,2
-            3379: 118,2
-            3380: 118,2
-            3381: 118,3
-            3382: 118,3
-            3383: 117,3
-            3384: 116,3
-            3385: 116,2
+            3351: 132,1
+            3352: 132,1
+            3353: 132,1
+            3354: 131,0
+            3355: 131,0
+            3356: 130,3
+            3357: 131,3
+            3358: 131,3
+            3359: 131,3
+            3360: 128,3
+            3361: 129,3
+            3362: 129,3
+            3363: 129,3
+            3364: 127,3
+            3365: 125,4
+            3366: 124,4
+            3367: 123,4
+            3368: 121,2
+            3369: 121,2
+            3370: 120,2
+            3371: 120,2
+            3372: 120,3
+            3373: 120,3
+            3374: 119,2
+            3375: 119,2
+            3376: 118,2
+            3377: 118,2
+            3378: 118,3
+            3379: 118,3
+            3380: 117,3
+            3381: 116,3
+            3382: 116,2
+            3383: 115,2
+            3384: 115,2
+            3385: 115,2
             3386: 115,2
-            3387: 115,2
-            3388: 115,2
-            3389: 115,2
+            3387: 115,3
+            3388: 115,3
+            3389: 115,3
             3390: 115,3
-            3391: 115,3
-            3392: 115,3
-            3393: 115,3
-            3394: 112,3
-            3395: 110,3
-            3396: 110,3
-            3397: 110,4
-            3398: 110,4
-            3399: 110,4
-            3400: 109,4
-            3401: 107,4
-            3402: 106,5
+            3391: 112,3
+            3392: 110,3
+            3393: 110,3
+            3394: 110,4
+            3395: 110,4
+            3396: 110,4
+            3397: 109,4
+            3398: 107,4
+            3399: 106,5
+            3400: 104,5
+            3401: 104,5
+            3402: 104,5
             3403: 104,5
-            3404: 104,5
-            3405: 104,5
-            3406: 104,5
-            3407: 107,-5
-            3408: 109,-4
-            3409: 108,-4
-            3410: 108,-2
-            3411: 108,-1
-            3412: 107,-2
-            3413: 109,-1
-            3414: 111,-4
-            3415: 111,-3
-            3416: 113,-4
-            3417: 113,-3
-            3418: 114,-3
-            3419: 113,-2
-            3420: 113,0
-            3421: 112,0
-            3422: 123,-4
-            3423: 123,-3
-            3424: 124,-3
-            3425: 123,1
-            3426: 123,2
-            3427: 124,2
+            3404: 107,-5
+            3405: 109,-4
+            3406: 108,-4
+            3407: 108,-2
+            3408: 108,-1
+            3409: 107,-2
+            3410: 109,-1
+            3411: 111,-4
+            3412: 111,-3
+            3413: 113,-4
+            3414: 113,-3
+            3415: 114,-3
+            3416: 113,-2
+            3417: 113,0
+            3418: 112,0
+            3419: 123,-4
+            3420: 123,-3
+            3421: 124,-3
+            3422: 123,1
+            3423: 123,2
+            3424: 124,2
+            3425: 123,-2
+            3426: 123,-2
+            3427: 123,-2
             3428: 123,-2
             3429: 123,-2
             3430: 123,-2
             3431: 123,-2
-            3432: 123,-2
-            3433: 123,-2
-            3434: 123,-2
+            3432: 125,-3
+            3433: 125,-3
+            3434: 125,-3
             3435: 125,-3
             3436: 125,-3
             3437: 125,-3
-            3438: 125,-3
-            3439: 125,-3
-            3440: 125,-3
+            3438: 123,-5
+            3439: 123,-5
+            3440: 123,-5
             3441: 123,-5
             3442: 123,-5
-            3443: 123,-5
-            3444: 123,-5
-            3445: 123,-5
-            3486: 108,4
-            3487: 105,1
-            3488: 105,1
-            3489: 106,1
-            3490: 106,1
-            3491: 106,2
-            3492: 106,2
+            3483: 108,4
+            3484: 105,1
+            3485: 105,1
+            3486: 106,1
+            3487: 106,1
+            3488: 106,2
+            3489: 106,2
+            3557: 9,-49
+            3558: 9,-49
+            3559: 9,-49
             3560: 9,-49
             3561: 9,-49
             3562: 9,-49
-            3563: 9,-49
-            3564: 9,-49
-            3565: 9,-49
+            3564: 9,-48
+            3565: 9,-48
+            3566: 9,-48
             3567: 9,-48
             3568: 9,-48
-            3569: 9,-48
-            3570: 9,-48
-            3571: 9,-48
+            3569: 10,-48
+            3570: 10,-48
+            3571: 10,-48
             3572: 10,-48
             3573: 10,-48
-            3574: 10,-48
-            3575: 10,-48
-            3576: 10,-48
+            3574: 10,-49
+            3576: 10,-49
             3577: 10,-49
-            3579: 10,-49
+            3578: 10,-49
             3580: 10,-49
-            3581: 10,-49
-            3583: 10,-49
-            3584: 10,-48
-            3586: 9,-48
-            3587: 9,-48
+            3581: 10,-48
+            3583: 9,-48
+            3584: 9,-48
+            3585: 9,-47
+            3586: 9,-47
+            3587: 9,-47
             3588: 9,-47
             3589: 9,-47
-            3590: 9,-47
-            3591: 9,-47
-            3592: 9,-47
+            3590: 9,-46
+            3591: 9,-46
+            3592: 9,-46
             3593: 9,-46
-            3594: 9,-46
-            3595: 9,-46
-            3596: 9,-46
+            3595: 10,-46
+            3596: 10,-46
+            3597: 10,-46
             3598: 10,-46
             3599: 10,-46
-            3600: 10,-46
-            3601: 10,-46
-            3602: 10,-46
-            3603: 11,-46
-            3604: 11,-46
-            3605: 11,-46
-            3606: 11,-45
+            3600: 11,-46
+            3601: 11,-46
+            3602: 11,-46
+            3603: 11,-45
+            3604: 10,-45
+            3605: 10,-45
+            3606: 10,-45
             3607: 10,-45
-            3608: 10,-45
-            3609: 10,-45
-            3610: 10,-45
-            3611: 10,-44
-            3612: 10,-44
-            3613: 11,-44
-            3614: 11,-44
-            3615: 12,-44
-            3616: 12,-43
-            3617: 12,-43
-            3618: 11,-43
-            3619: 11,-43
-            3620: 10,-43
-            3621: 10,-43
-            3622: 10,-45
-            3623: 9,-45
-            3624: 9,-45
-            3626: 8,-45
-            3627: 8,-45
-            3628: 7,-46
-            3629: 7,-47
+            3608: 10,-44
+            3609: 10,-44
+            3610: 11,-44
+            3611: 11,-44
+            3612: 12,-44
+            3613: 12,-43
+            3614: 12,-43
+            3615: 11,-43
+            3616: 11,-43
+            3617: 10,-43
+            3618: 10,-43
+            3619: 10,-45
+            3620: 9,-45
+            3621: 9,-45
+            3623: 8,-45
+            3624: 8,-45
+            3625: 7,-46
+            3626: 7,-47
+            3628: 7,-49
+            3629: 7,-49
+            3630: 7,-50
             3631: 7,-49
-            3632: 7,-49
-            3633: 7,-50
-            3634: 7,-49
-            3636: 7,-47
-            3637: 7,-47
-            3638: 10,-44
-            3639: 10,-44
-            3640: 10,-45
-            3641: 9,-45
-            3642: 9,-45
-            3643: 10,-46
-            3645: 11,-46
+            3633: 7,-47
+            3634: 7,-47
+            3635: 10,-44
+            3636: 10,-44
+            3637: 10,-45
+            3638: 9,-45
+            3639: 9,-45
+            3640: 10,-46
+            3642: 11,-46
+            3643: 11,-45
+            3644: 11,-45
+            3645: 11,-45
             3646: 11,-45
-            3647: 11,-45
-            3648: 11,-45
-            3649: 11,-45
+            3648: 12,-45
+            3649: 12,-45
+            3650: 12,-45
             3651: 12,-45
             3652: 12,-45
-            3653: 12,-45
             3654: 12,-45
             3655: 12,-45
+            3656: 12,-45
             3657: 12,-45
             3658: 12,-45
             3659: 12,-45
             3660: 12,-45
             3661: 12,-45
             3662: 12,-45
-            3663: 12,-45
-            3664: 12,-45
-            3665: 12,-45
-            3666: 11,-43
-            3667: 11,-43
-            3668: 11,-42
-            3669: 11,-42
-            3671: 11,-41
-            3672: 10,-41
-            3673: 10,-41
-            3674: 9,-41
+            3663: 11,-43
+            3664: 11,-43
+            3665: 11,-42
+            3666: 11,-42
+            3668: 11,-41
+            3669: 10,-41
+            3670: 10,-41
+            3671: 9,-41
+            3672: 9,-41
+            3673: 9,-41
             3675: 9,-41
-            3676: 9,-41
-            3678: 9,-41
-            3679: 8,-41
-            3680: 8,-42
+            3676: 8,-41
+            3677: 8,-42
+            3678: 8,-42
+            3679: 8,-42
             3681: 8,-42
             3682: 8,-42
-            3684: 8,-42
-            3685: 8,-42
-            3686: 7,-42
-            3687: 7,-42
+            3683: 7,-42
+            3684: 7,-42
+            3685: 7,-40
+            3686: 7,-40
             3688: 7,-40
-            3689: 7,-40
-            3691: 7,-40
-            3694: 9,-40
-            3695: 9,-40
-            3740: -12,-5
-            3741: -12,-5
-            3742: -12,-6
-            3743: 11,-15
-            3744: 11,-15
-            3745: 12,-15
-            3746: 15,-15
-            3747: 15,-15
-            3748: 15,-14
-            3749: 15,-14
-            3750: 17,-12
-            3751: 17,-12
-            3752: 17,-12
+            3691: 9,-40
+            3692: 9,-40
+            3737: -12,-5
+            3738: -12,-5
+            3739: -12,-6
+            3740: 11,-15
+            3741: 11,-15
+            3742: 12,-15
+            3743: 15,-15
+            3744: 15,-15
+            3745: 15,-14
+            3746: 15,-14
+            3747: 17,-12
+            3748: 17,-12
+            3749: 17,-12
+            3750: 17,-11
+            3751: 17,-11
+            3752: 17,-11
             3753: 17,-11
-            3754: 17,-11
-            3755: 17,-11
-            3756: 17,-11
-            4168: 33,-36
-            4169: 33,-37
-            4170: 33,-40
-            4171: 34,-37
-            4172: 33,-40
+            4165: 33,-36
+            4166: 33,-37
+            4167: 33,-40
+            4168: 34,-37
+            4169: 33,-40
         - node:
             cleanable: True
             color: '#FFFFFFFF'
@@ -3643,40 +3640,40 @@ entities:
             1353: 83,-37
             1354: 83,-38
             1355: 83,-39
-            2798: 146,-17
-            2799: 146,-16
-            2803: 147,-16
-            3446: 119,0
-            3447: 119,0
-            3456: 112,-3
-            3457: 112,-4
-            3458: 112,-2
-            3459: 111,-2
-            3471: 107,-1
-            3472: 109,1
-            3473: 109,1
+            2795: 146,-17
+            2796: 146,-16
+            2800: 147,-16
+            3443: 119,0
+            3444: 119,0
+            3453: 112,-3
+            3454: 112,-4
+            3455: 112,-2
+            3456: 111,-2
+            3468: 107,-1
+            3469: 109,1
+            3470: 109,1
+            3479: 128,-1
+            3480: 128,-1
+            3481: 128,-1
             3482: 128,-1
-            3483: 128,-1
-            3484: 128,-1
-            3485: 128,-1
-            4144: 15,-27
-            4145: 15,-29
-            4146: 17,-30
-            4147: 18,-33
-            4148: 17,-33
-            4149: 20,-31
-            4150: 19,-30
-            4151: 19,-28
-            4152: 17,-27
-            4153: 14,-31
-            4173: 37,-36
-            4174: 37,-36
-            4175: 37,-36
-            4183: 34,-36
-            4184: 34,-36
-            4185: 34,-36
-            4192: 33,-39
-            4195: 34,-38
+            4141: 15,-27
+            4142: 15,-29
+            4143: 17,-30
+            4144: 18,-33
+            4145: 17,-33
+            4146: 20,-31
+            4147: 19,-30
+            4148: 19,-28
+            4149: 17,-27
+            4150: 14,-31
+            4170: 37,-36
+            4171: 37,-36
+            4172: 37,-36
+            4180: 34,-36
+            4181: 34,-36
+            4182: 34,-36
+            4189: 33,-39
+            4192: 34,-38
         - node:
             cleanable: True
             color: '#FFFFFFFF'
@@ -3702,44 +3699,44 @@ entities:
             1290: 91,-46
             1291: 91,-45
             1295: 70,-56
-            2800: 147,-16
-            2804: 146,-16
-            3448: 116,0
-            3449: 116,0
-            3450: 118,-3
-            3451: 121,-3
-            3452: 118,-5
+            2797: 147,-16
+            2801: 146,-16
+            3445: 116,0
+            3446: 116,0
+            3447: 118,-3
+            3448: 121,-3
+            3449: 118,-5
+            3457: 109,0
+            3458: 109,0
+            3459: 109,0
             3460: 109,0
-            3461: 109,0
-            3462: 109,0
-            3463: 109,0
-            3467: 109,-2
-            3468: 109,-2
-            3469: 109,-2
-            3470: 107,-1
+            3464: 109,-2
+            3465: 109,-2
+            3466: 109,-2
+            3467: 107,-1
+            3471: 127,-4
+            3472: 127,-4
+            3473: 127,-4
             3474: 127,-4
             3475: 127,-4
-            3476: 127,-4
-            3477: 127,-4
-            3478: 127,-4
-            3479: 128,-5
-            3480: 128,-5
-            3481: 128,-5
+            3476: 128,-5
+            3477: 128,-5
+            3478: 128,-5
+            4156: 18,-27
+            4157: 18,-28
+            4158: 18,-27
             4159: 18,-27
-            4160: 18,-28
-            4161: 18,-27
-            4162: 18,-27
-            4163: 19,-32
-            4164: 19,-32
-            4165: 15,-30
-            4166: 16,-30
-            4167: 16,-30
-            4176: 36,-36
-            4186: 35,-36
-            4187: 35,-36
-            4188: 35,-36
-            4194: 37,-39
-            4196: 33,-38
+            4160: 19,-32
+            4161: 19,-32
+            4162: 15,-30
+            4163: 16,-30
+            4164: 16,-30
+            4173: 36,-36
+            4183: 35,-36
+            4184: 35,-36
+            4185: 35,-36
+            4191: 37,-39
+            4193: 33,-38
         - node:
             cleanable: True
             color: '#FFFFFFFF'
@@ -3770,35 +3767,35 @@ entities:
             1367: 83,-39
             1368: 83,-38
             1369: 83,-37
-            2801: 147,-17
-            2802: 147,-17
-            3453: 123,0
-            3454: 121,-1
-            3455: 124,1
-            3464: 107,-4
-            3465: 107,-4
-            3466: 109,-3
-            4154: 15,-30
-            4155: 18,-33
-            4156: 18,-32
-            4157: 17,-28
-            4158: 16,-31
-            4177: 35,-36
-            4178: 34,-36
+            2798: 147,-17
+            2799: 147,-17
+            3450: 123,0
+            3451: 121,-1
+            3452: 124,1
+            3461: 107,-4
+            3462: 107,-4
+            3463: 109,-3
+            4151: 15,-30
+            4152: 18,-33
+            4153: 18,-32
+            4154: 17,-28
+            4155: 16,-31
+            4174: 35,-36
+            4175: 34,-36
+            4176: 33,-36
+            4177: 33,-36
+            4178: 33,-36
             4179: 33,-36
-            4180: 33,-36
-            4181: 33,-36
-            4182: 33,-36
-            4189: 36,-36
-            4190: 36,-36
-            4191: 36,-36
-            4193: 36,-38
+            4186: 36,-36
+            4187: 36,-36
+            4188: 36,-36
+            4190: 36,-38
         - node:
             cleanable: True
             color: '#73B58FFF'
             id: Donk
           decals:
-            2858: 141.65182,-10.441072
+            2855: 141.65182,-10.441072
         - node:
             color: '#FFFFFFFF'
             id: FlowersBROne
@@ -3969,7 +3966,7 @@ entities:
             id: FullTileOverlayGreyscale
           decals:
             7: 20,4
-            3501: 25,-1
+            3498: 25,-1
         - node:
             color: '#52B4E996'
             id: FullTileOverlayGreyscale
@@ -3999,7 +3996,7 @@ entities:
             777: 57,-52
             778: 58,-52
             779: 59,-52
-            3498: 25,2
+            3495: 25,2
         - node:
             color: '#9FED5896'
             id: FullTileOverlayGreyscale
@@ -4009,37 +4006,37 @@ entities:
             375: 28,-37
             376: 28,-36
             382: 27,-37
-            3495: 27,0
+            3492: 27,0
         - node:
             color: '#A4610696'
             id: FullTileOverlayGreyscale
           decals:
             12: 18,4
-            3496: 27,1
+            3493: 27,1
         - node:
             color: '#D381C996'
             id: FullTileOverlayGreyscale
           decals:
             11: 20,6
-            3497: 27,2
+            3494: 27,2
         - node:
             color: '#D4D4D496'
             id: FullTileOverlayGreyscale
           decals:
             6: 17,6
-            3499: 25,1
+            3496: 25,1
         - node:
             color: '#DE3A3A96'
             id: FullTileOverlayGreyscale
           decals:
             10: 17,4
-            3494: 27,-1
+            3491: 27,-1
         - node:
             color: '#EFB34196'
             id: FullTileOverlayGreyscale
           decals:
             13: 18,6
-            3500: 25,0
+            3497: 25,0
         - node:
             color: '#FFFFFFFF'
             id: Grassa1
@@ -4099,37 +4096,37 @@ entities:
             color: '#79150096'
             id: LoadingArea
           decals:
-            2771: 106,-13
-            2772: 106,-12
-            2773: 106,-11
+            2768: 106,-13
+            2769: 106,-12
+            2770: 106,-11
         - node:
             color: '#DE3A3A96'
             id: MiniTileDarkCornerNe
           decals:
-            2528: 124,-28
-            2538: 125,-30
-            2554: 123,-30
+            2525: 124,-28
+            2535: 125,-30
+            2551: 123,-30
         - node:
             color: '#DE3A3A96'
             id: MiniTileDarkCornerNw
           decals:
-            2527: 123,-28
-            2543: 124,-30
-            2557: 125,-28
+            2524: 123,-28
+            2540: 124,-30
+            2554: 125,-28
         - node:
             color: '#DE3A3A96'
             id: MiniTileDarkCornerSe
           decals:
-            2525: 125,-31
-            2532: 124,-29
-            2555: 123,-31
+            2522: 125,-31
+            2529: 124,-29
+            2552: 123,-31
         - node:
             color: '#DE3A3A96'
             id: MiniTileDarkCornerSw
           decals:
-            2526: 124,-31
-            2529: 123,-29
-            2556: 125,-29
+            2523: 124,-31
+            2526: 123,-29
+            2553: 125,-29
         - node:
             color: '#3C44AACC'
             id: MiniTileOverlay
@@ -4144,10 +4141,10 @@ entities:
             color: '#DE3A3A96'
             id: MiniTileSteelBox
           decals:
-            2491: 138,-25
-            2492: 138,-24
-            2496: 138,-20
-            2506: 145,-20
+            2488: 138,-25
+            2489: 138,-24
+            2493: 138,-20
+            2503: 145,-20
         - node:
             color: '#79150096'
             id: MiniTileSteelCornerNe
@@ -4163,7 +4160,7 @@ entities:
             id: MiniTileSteelCornerNe
           decals:
             1512: 100,-38
-            2355: 125,-33
+            2352: 125,-33
         - node:
             color: '#D381C996'
             id: MiniTileSteelCornerNw
@@ -4174,8 +4171,8 @@ entities:
             id: MiniTileSteelCornerNw
           decals:
             1496: 92,-38
-            2344: 124,-36
-            2352: 123,-33
+            2341: 124,-36
+            2349: 123,-33
         - node:
             color: '#D381C996'
             id: MiniTileSteelCornerSe
@@ -4186,8 +4183,8 @@ entities:
             id: MiniTileSteelCornerSe
           decals:
             1511: 100,-39
-            2345: 124,-35
-            2354: 125,-38
+            2342: 124,-35
+            2351: 125,-38
         - node:
             color: '#79150096'
             id: MiniTileSteelCornerSw
@@ -4203,7 +4200,7 @@ entities:
             id: MiniTileSteelCornerSw
           decals:
             1495: 92,-39
-            2353: 123,-38
+            2350: 123,-38
         - node:
             color: '#79150096'
             id: MiniTileSteelEndN
@@ -4230,7 +4227,7 @@ entities:
             color: '#DE3A3A96'
             id: MiniTileSteelInnerNw
           decals:
-            2350: 125,-37
+            2347: 125,-37
         - node:
             color: '#79150096'
             id: MiniTileSteelInnerSe
@@ -4241,7 +4238,7 @@ entities:
             color: '#DE3A3A96'
             id: MiniTileSteelInnerSe
           decals:
-            2351: 123,-34
+            2348: 123,-34
         - node:
             color: '#79150096'
             id: MiniTileSteelInnerSw
@@ -4257,14 +4254,14 @@ entities:
             color: '#DE3A3A96'
             id: MiniTileSteelLineE
           decals:
-            2348: 123,-35
-            2362: 125,-34
-            2363: 125,-35
-            2364: 125,-36
-            2365: 125,-37
-            2497: 138,-21
-            2498: 138,-22
-            2499: 138,-23
+            2345: 123,-35
+            2359: 125,-34
+            2360: 125,-35
+            2361: 125,-36
+            2362: 125,-37
+            2494: 138,-21
+            2495: 138,-22
+            2496: 138,-23
         - node:
             color: '#D381C996'
             id: MiniTileSteelLineN
@@ -4292,54 +4289,54 @@ entities:
             1524: 97,-39
             1525: 98,-39
             1526: 99,-39
-            2347: 124,-37
-            2356: 124,-33
-            2421: 123,-24
-            2422: 124,-24
-            2423: 125,-24
-            2424: 126,-24
-            2425: 127,-24
-            2426: 128,-24
-            2427: 129,-24
-            2428: 130,-24
-            2429: 123,-26
-            2430: 124,-26
-            2431: 125,-26
-            2432: 126,-26
-            2433: 127,-26
-            2434: 128,-26
-            2435: 129,-26
-            2436: 130,-26
-            2451: 123,-25
-            2452: 124,-25
-            2453: 125,-25
-            2454: 126,-25
-            2455: 127,-25
-            2456: 128,-25
-            2457: 129,-25
-            2458: 130,-25
-            2472: 132,-26
-            2473: 133,-26
-            2474: 134,-26
-            2475: 135,-26
-            2476: 135,-25
-            2477: 134,-25
-            2478: 132,-25
-            2479: 132,-24
-            2480: 133,-24
-            2481: 134,-24
-            2482: 135,-24
-            2483: 133,-25
-            2484: 137,-26
-            2485: 137,-25
-            2486: 137,-24
-            2490: 138,-26
-            2507: 139,-20
-            2508: 140,-20
-            2509: 141,-20
-            2510: 142,-20
-            2511: 143,-20
-            2512: 144,-20
+            2344: 124,-37
+            2353: 124,-33
+            2418: 123,-24
+            2419: 124,-24
+            2420: 125,-24
+            2421: 126,-24
+            2422: 127,-24
+            2423: 128,-24
+            2424: 129,-24
+            2425: 130,-24
+            2426: 123,-26
+            2427: 124,-26
+            2428: 125,-26
+            2429: 126,-26
+            2430: 127,-26
+            2431: 128,-26
+            2432: 129,-26
+            2433: 130,-26
+            2448: 123,-25
+            2449: 124,-25
+            2450: 125,-25
+            2451: 126,-25
+            2452: 127,-25
+            2453: 128,-25
+            2454: 129,-25
+            2455: 130,-25
+            2469: 132,-26
+            2470: 133,-26
+            2471: 134,-26
+            2472: 135,-26
+            2473: 135,-25
+            2474: 134,-25
+            2475: 132,-25
+            2476: 132,-24
+            2477: 133,-24
+            2478: 134,-24
+            2479: 135,-24
+            2480: 133,-25
+            2481: 137,-26
+            2482: 137,-25
+            2483: 137,-24
+            2487: 138,-26
+            2504: 139,-20
+            2505: 140,-20
+            2506: 141,-20
+            2507: 142,-20
+            2508: 143,-20
+            2509: 144,-20
         - node:
             color: '#D381C996'
             id: MiniTileSteelLineS
@@ -4367,52 +4364,52 @@ entities:
             1517: 97,-38
             1518: 98,-38
             1519: 99,-38
-            2346: 124,-34
-            2357: 124,-38
-            2413: 123,-25
-            2414: 124,-25
-            2415: 125,-25
-            2416: 126,-25
-            2417: 127,-25
-            2418: 128,-25
-            2419: 129,-25
-            2420: 130,-25
-            2437: 123,-23
-            2438: 124,-23
-            2439: 125,-23
-            2440: 126,-23
-            2441: 127,-23
-            2442: 129,-23
-            2443: 130,-23
-            2444: 130,-24
-            2445: 129,-24
-            2446: 128,-24
-            2447: 127,-24
-            2448: 126,-24
-            2449: 125,-24
-            2450: 123,-24
-            2459: 124,-24
-            2460: 132,-25
-            2461: 133,-25
-            2462: 134,-25
-            2463: 135,-25
-            2464: 132,-24
-            2465: 133,-24
-            2466: 134,-24
-            2467: 135,-24
-            2468: 135,-23
-            2469: 134,-23
-            2470: 133,-23
-            2471: 132,-23
-            2487: 137,-23
-            2488: 137,-24
-            2489: 137,-25
-            2500: 139,-20
-            2501: 140,-20
-            2502: 141,-20
-            2503: 142,-20
-            2504: 143,-20
-            2505: 144,-20
+            2343: 124,-34
+            2354: 124,-38
+            2410: 123,-25
+            2411: 124,-25
+            2412: 125,-25
+            2413: 126,-25
+            2414: 127,-25
+            2415: 128,-25
+            2416: 129,-25
+            2417: 130,-25
+            2434: 123,-23
+            2435: 124,-23
+            2436: 125,-23
+            2437: 126,-23
+            2438: 127,-23
+            2439: 129,-23
+            2440: 130,-23
+            2441: 130,-24
+            2442: 129,-24
+            2443: 128,-24
+            2444: 127,-24
+            2445: 126,-24
+            2446: 125,-24
+            2447: 123,-24
+            2456: 124,-24
+            2457: 132,-25
+            2458: 133,-25
+            2459: 134,-25
+            2460: 135,-25
+            2461: 132,-24
+            2462: 133,-24
+            2463: 134,-24
+            2464: 135,-24
+            2465: 135,-23
+            2466: 134,-23
+            2467: 133,-23
+            2468: 132,-23
+            2484: 137,-23
+            2485: 137,-24
+            2486: 137,-25
+            2497: 139,-20
+            2498: 140,-20
+            2499: 141,-20
+            2500: 142,-20
+            2501: 143,-20
+            2502: 144,-20
         - node:
             color: '#D381C996'
             id: MiniTileSteelLineW
@@ -4423,14 +4420,14 @@ entities:
             color: '#DE3A3A96'
             id: MiniTileSteelLineW
           decals:
-            2349: 125,-36
-            2358: 123,-37
-            2359: 123,-36
-            2360: 123,-35
-            2361: 123,-34
-            2493: 138,-23
-            2494: 138,-22
-            2495: 138,-21
+            2346: 125,-36
+            2355: 123,-37
+            2356: 123,-36
+            2357: 123,-35
+            2358: 123,-34
+            2490: 138,-23
+            2491: 138,-22
+            2492: 138,-21
         - node:
             color: '#D381C996'
             id: MiniTileWhiteBox
@@ -4440,34 +4437,34 @@ entities:
             color: '#DE3A3A96'
             id: MiniTileWhiteBox
           decals:
-            2366: 119,-28
-            2367: 119,-29
-            2368: 119,-30
-            2369: 119,-31
-            2370: 119,-32
-            2371: 119,-33
-            2372: 119,-34
-            2373: 119,-35
-            2374: 119,-36
-            2375: 119,-37
-            2376: 119,-38
-            2377: 119,-39
-            2378: 119,-40
-            2379: 120,-40
-            2380: 120,-39
-            2381: 120,-38
-            2382: 120,-37
-            2383: 120,-36
-            2384: 120,-35
-            2385: 120,-34
-            2386: 120,-33
-            2387: 120,-32
-            2388: 120,-31
-            2389: 120,-30
-            2390: 120,-29
-            2391: 120,-28
-            2517: 128,-30
-            2518: 128,-29
+            2363: 119,-28
+            2364: 119,-29
+            2365: 119,-30
+            2366: 119,-31
+            2367: 119,-32
+            2368: 119,-33
+            2369: 119,-34
+            2370: 119,-35
+            2371: 119,-36
+            2372: 119,-37
+            2373: 119,-38
+            2374: 119,-39
+            2375: 119,-40
+            2376: 120,-40
+            2377: 120,-39
+            2378: 120,-38
+            2379: 120,-37
+            2380: 120,-36
+            2381: 120,-35
+            2382: 120,-34
+            2383: 120,-33
+            2384: 120,-32
+            2385: 120,-31
+            2386: 120,-30
+            2387: 120,-29
+            2388: 120,-28
+            2514: 128,-30
+            2515: 128,-29
         - node:
             color: '#52B4E996'
             id: MiniTileWhiteCornerNe
@@ -4492,10 +4489,10 @@ entities:
             color: '#DE3A3A96'
             id: MiniTileWhiteCornerNe
           decals:
-            2326: 110,-24
-            2329: 111,-23
-            2339: 109,-23
-            2513: 129,-28
+            2323: 110,-24
+            2326: 111,-23
+            2336: 109,-23
+            2510: 129,-28
         - node:
             color: '#52B4E996'
             id: MiniTileWhiteCornerNw
@@ -4520,9 +4517,9 @@ entities:
             color: '#DE3A3A96'
             id: MiniTileWhiteCornerNw
           decals:
-            2319: 107,-24
-            2333: 106,-23
-            2514: 127,-28
+            2316: 107,-24
+            2330: 106,-23
+            2511: 127,-28
         - node:
             color: '#52B4E996'
             id: MiniTileWhiteCornerSe
@@ -4548,25 +4545,25 @@ entities:
             color: '#DE3A3A96'
             id: MiniTileWhiteCornerSe
           decals:
-            2254: 121,-20
-            2255: 120,-20
-            2256: 119,-20
-            2257: 118,-20
-            2258: 117,-20
-            2259: 116,-20
-            2260: 115,-20
-            2261: 114,-20
-            2280: 115,-12
-            2281: 114,-12
-            2282: 113,-14
-            2283: 114,-14
-            2284: 115,-14
-            2285: 115,-16
-            2286: 114,-16
-            2287: 113,-16
-            2317: 110,-25
-            2332: 111,-26
-            2516: 129,-31
+            2251: 121,-20
+            2252: 120,-20
+            2253: 119,-20
+            2254: 118,-20
+            2255: 117,-20
+            2256: 116,-20
+            2257: 115,-20
+            2258: 114,-20
+            2277: 115,-12
+            2278: 114,-12
+            2279: 113,-14
+            2280: 114,-14
+            2281: 115,-14
+            2282: 115,-16
+            2283: 114,-16
+            2284: 113,-16
+            2314: 110,-25
+            2329: 111,-26
+            2513: 129,-31
         - node:
             color: '#52B4E996'
             id: MiniTileWhiteCornerSw
@@ -4592,37 +4589,37 @@ entities:
             color: '#DE3A3A96'
             id: MiniTileWhiteCornerSw
           decals:
-            2245: 113,-21
-            2246: 114,-21
-            2247: 115,-21
-            2248: 116,-21
-            2249: 117,-21
-            2250: 118,-21
-            2251: 119,-21
-            2252: 120,-21
-            2253: 121,-21
-            2262: 113,-19
-            2263: 114,-19
-            2264: 115,-19
-            2265: 116,-19
-            2266: 117,-19
-            2267: 118,-19
-            2268: 119,-19
-            2269: 120,-19
-            2270: 121,-19
-            2271: 113,-17
-            2272: 114,-17
-            2273: 115,-17
-            2274: 113,-15
-            2275: 114,-15
-            2276: 115,-15
-            2277: 113,-13
-            2278: 114,-13
-            2279: 115,-13
-            2325: 107,-25
-            2336: 106,-26
-            2340: 108,-26
-            2515: 127,-31
+            2242: 113,-21
+            2243: 114,-21
+            2244: 115,-21
+            2245: 116,-21
+            2246: 117,-21
+            2247: 118,-21
+            2248: 119,-21
+            2249: 120,-21
+            2250: 121,-21
+            2259: 113,-19
+            2260: 114,-19
+            2261: 115,-19
+            2262: 116,-19
+            2263: 117,-19
+            2264: 118,-19
+            2265: 119,-19
+            2266: 120,-19
+            2267: 121,-19
+            2268: 113,-17
+            2269: 114,-17
+            2270: 115,-17
+            2271: 113,-15
+            2272: 114,-15
+            2273: 115,-15
+            2274: 113,-13
+            2275: 114,-13
+            2276: 115,-13
+            2322: 107,-25
+            2333: 106,-26
+            2337: 108,-26
+            2512: 127,-31
         - node:
             color: '#79150096'
             id: MiniTileWhiteEndE
@@ -4632,51 +4629,51 @@ entities:
             color: '#DE3A3A96'
             id: MiniTileWhiteEndE
           decals:
-            2289: 114,-24
-            2292: 115,-25
-            2305: 117,-23
-            2306: 118,-24
-            2307: 119,-25
-            2308: 120,-26
-            2392: 118,-28
-            2393: 118,-29
-            2394: 118,-30
-            2395: 118,-31
-            2396: 118,-32
-            2397: 118,-33
-            2398: 118,-34
-            2399: 118,-35
-            2400: 118,-36
-            2401: 118,-37
-            2402: 118,-38
-            2403: 118,-39
-            2521: 129,-29
-            2522: 129,-30
+            2286: 114,-24
+            2289: 115,-25
+            2302: 117,-23
+            2303: 118,-24
+            2304: 119,-25
+            2305: 120,-26
+            2389: 118,-28
+            2390: 118,-29
+            2391: 118,-30
+            2392: 118,-31
+            2393: 118,-32
+            2394: 118,-33
+            2395: 118,-34
+            2396: 118,-35
+            2397: 118,-36
+            2398: 118,-37
+            2399: 118,-38
+            2400: 118,-39
+            2518: 129,-29
+            2519: 129,-30
         - node:
             color: '#DE3A3A96'
             id: MiniTileWhiteEndN
           decals:
-            2288: 114,-23
-            2293: 115,-24
-            2294: 116,-25
-            2300: 117,-26
-            2309: 118,-23
-            2310: 119,-24
-            2311: 120,-25
-            2520: 128,-28
+            2285: 114,-23
+            2290: 115,-24
+            2291: 116,-25
+            2297: 117,-26
+            2306: 118,-23
+            2307: 119,-24
+            2308: 120,-25
+            2517: 128,-28
         - node:
             color: '#DE3A3A96'
             id: MiniTileWhiteEndS
           decals:
-            2290: 114,-25
-            2291: 113,-24
-            2301: 116,-23
-            2302: 117,-24
-            2303: 118,-25
-            2304: 119,-26
-            2315: 120,-23
-            2316: 121,-24
-            2519: 128,-31
+            2287: 114,-25
+            2288: 113,-24
+            2298: 116,-23
+            2299: 117,-24
+            2300: 118,-25
+            2301: 119,-26
+            2312: 120,-23
+            2313: 121,-24
+            2516: 128,-31
         - node:
             color: '#79150096'
             id: MiniTileWhiteEndW
@@ -4686,25 +4683,25 @@ entities:
             color: '#DE3A3A96'
             id: MiniTileWhiteEndW
           decals:
-            2295: 113,-25
-            2296: 115,-23
-            2297: 116,-24
-            2298: 117,-25
-            2299: 118,-26
-            2312: 119,-23
-            2313: 120,-24
-            2314: 121,-25
-            2404: 121,-40
-            2405: 121,-39
-            2406: 121,-38
-            2407: 121,-37
-            2408: 121,-36
-            2409: 121,-35
-            2410: 121,-34
-            2411: 121,-33
-            2412: 121,-28
-            2523: 127,-29
-            2524: 127,-30
+            2292: 113,-25
+            2293: 115,-23
+            2294: 116,-24
+            2295: 117,-25
+            2296: 118,-26
+            2309: 119,-23
+            2310: 120,-24
+            2311: 121,-25
+            2401: 121,-40
+            2402: 121,-39
+            2403: 121,-38
+            2404: 121,-37
+            2405: 121,-36
+            2406: 121,-35
+            2407: 121,-34
+            2408: 121,-33
+            2409: 121,-28
+            2520: 127,-29
+            2521: 127,-30
         - node:
             color: '#52B4E996'
             id: MiniTileWhiteInnerNe
@@ -4719,12 +4716,12 @@ entities:
             color: '#D4D4D496'
             id: MiniTileWhiteInnerNe
           decals:
-            3493: 101,-11
+            3490: 101,-11
         - node:
             color: '#DE3A3A96'
             id: MiniTileWhiteInnerNe
           decals:
-            2327: 109,-24
+            2324: 109,-24
         - node:
             color: '#D4D4D496'
             id: MiniTileWhiteInnerNw
@@ -4734,7 +4731,7 @@ entities:
             color: '#DE3A3A96'
             id: MiniTileWhiteInnerNw
           decals:
-            2324: 109,-25
+            2321: 109,-25
         - node:
             color: '#52B4E996'
             id: MiniTileWhiteInnerSe
@@ -4744,7 +4741,7 @@ entities:
             color: '#DE3A3A96'
             id: MiniTileWhiteInnerSe
           decals:
-            2323: 108,-24
+            2320: 108,-24
         - node:
             color: '#79150096'
             id: MiniTileWhiteInnerSw
@@ -4759,7 +4756,7 @@ entities:
             color: '#DE3A3A96'
             id: MiniTileWhiteInnerSw
           decals:
-            2328: 108,-25
+            2325: 108,-25
         - node:
             color: '#52B4E996'
             id: MiniTileWhiteLineE
@@ -4791,9 +4788,9 @@ entities:
             color: '#DE3A3A96'
             id: MiniTileWhiteLineE
           decals:
-            2318: 109,-25
-            2330: 111,-24
-            2331: 111,-25
+            2315: 109,-25
+            2327: 111,-24
+            2328: 111,-25
         - node:
             color: '#3C44AACC'
             id: MiniTileWhiteLineN
@@ -4850,13 +4847,13 @@ entities:
             color: '#DE3A3A96'
             id: MiniTileWhiteLineN
           decals:
-            2241: 110,-19
-            2242: 111,-19
-            2243: 110,-21
-            2244: 111,-21
-            2322: 108,-25
-            2337: 107,-23
-            2338: 108,-23
+            2238: 110,-19
+            2239: 111,-19
+            2240: 110,-21
+            2241: 111,-21
+            2319: 108,-25
+            2334: 107,-23
+            2335: 108,-23
         - node:
             color: '#3C44AACC'
             id: MiniTileWhiteLineS
@@ -4916,14 +4913,14 @@ entities:
             color: '#DE3A3A96'
             id: MiniTileWhiteLineS
           decals:
-            2237: 110,-21
-            2238: 111,-21
-            2239: 110,-19
-            2240: 111,-19
-            2321: 109,-24
-            2341: 107,-26
-            2342: 109,-26
-            2343: 110,-26
+            2234: 110,-21
+            2235: 111,-21
+            2236: 110,-19
+            2237: 111,-19
+            2318: 109,-24
+            2338: 107,-26
+            2339: 109,-26
+            2340: 110,-26
         - node:
             color: '#3C44AACC'
             id: MiniTileWhiteLineW
@@ -4956,21 +4953,21 @@ entities:
             color: '#DE3A3A96'
             id: MiniTileWhiteLineW
           decals:
-            2320: 108,-24
-            2334: 106,-24
-            2335: 106,-25
+            2317: 108,-24
+            2331: 106,-24
+            2332: 106,-25
         - node:
             cleanable: True
             color: '#CDA873FF'
             id: Omni
           decals:
-            2859: 144.43997,-9.114016
+            2856: 144.43997,-9.114016
         - node:
             cleanable: True
             color: '#69F83EFF'
             id: Psyke
           decals:
-            2852: 140.65198,-14.9624195
+            2849: 140.65198,-14.9624195
         - node:
             color: '#334E6DC8'
             id: QuarterTileOverlayGreyscale
@@ -5010,33 +5007,33 @@ entities:
             color: '#EFB34196'
             id: QuarterTileOverlayGreyscale
           decals:
-            3056: 42,-11
-            3057: 43,-11
-            3058: 44,-11
-            3059: 45,-11
-            3060: 46,-11
-            3061: 47,-11
-            3062: 48,-11
-            3063: 49,-11
-            3064: 50,-11
-            3065: 51,-11
-            3066: 52,-11
-            3067: 53,-11
-            3068: 54,-11
-            3069: 55,-11
-            3070: 56,-11
-            3071: 57,-11
-            3072: 58,-11
-            3073: 59,-11
-            3074: 60,-11
-            3075: 61,-11
-            3076: 63,-11
-            3077: 64,-11
-            3078: 65,-11
-            3079: 67,-11
-            3080: 68,-11
-            3081: 69,-11
-            3082: 69,-11
+            3053: 42,-11
+            3054: 43,-11
+            3055: 44,-11
+            3056: 45,-11
+            3057: 46,-11
+            3058: 47,-11
+            3059: 48,-11
+            3060: 49,-11
+            3061: 50,-11
+            3062: 51,-11
+            3063: 52,-11
+            3064: 53,-11
+            3065: 54,-11
+            3066: 55,-11
+            3067: 56,-11
+            3068: 57,-11
+            3069: 58,-11
+            3070: 59,-11
+            3071: 60,-11
+            3072: 61,-11
+            3073: 63,-11
+            3074: 64,-11
+            3075: 65,-11
+            3076: 67,-11
+            3077: 68,-11
+            3078: 69,-11
+            3079: 69,-11
         - node:
             color: '#52B4E996'
             id: QuarterTileOverlayGreyscale180
@@ -5135,13 +5132,13 @@ entities:
             1834: 89,-47
             1835: 89,-46
             1836: 89,-45
-            4229: 85,-57
-            4230: 85,-56
-            4231: 85,-55
-            4232: 85,-54
-            4233: 85,-53
-            4234: 85,-52
-            4235: 85,-51
+            4226: 85,-57
+            4227: 85,-56
+            4228: 85,-55
+            4229: 85,-54
+            4230: 85,-53
+            4231: 85,-52
+            4232: 85,-51
         - node:
             color: '#D381C996'
             id: QuarterTileOverlayGreyscale270
@@ -5230,30 +5227,30 @@ entities:
             color: '#EFB34196'
             id: ThreeQuarterTileOverlayGreyscale
           decals:
-            3084: 48,-8
-            3090: 52,-8
-            3092: 51,-9
+            3081: 48,-8
+            3087: 52,-8
+            3089: 51,-9
         - node:
             color: '#EFB34196'
             id: ThreeQuarterTileOverlayGreyscale180
           decals:
-            3086: 53,-9
-            3091: 49,-9
-            3095: 51,-8
+            3083: 53,-9
+            3088: 49,-9
+            3092: 51,-8
         - node:
             color: '#EFB34196'
             id: ThreeQuarterTileOverlayGreyscale270
           decals:
-            3085: 48,-9
-            3089: 52,-9
-            3094: 50,-8
+            3082: 48,-9
+            3086: 52,-9
+            3091: 50,-8
         - node:
             color: '#EFB34196'
             id: ThreeQuarterTileOverlayGreyscale90
           decals:
-            3087: 53,-8
-            3088: 49,-8
-            3093: 50,-9
+            3084: 53,-8
+            3085: 49,-8
+            3090: 50,-9
         - node:
             color: '#9FED5896'
             id: WarnBox
@@ -5310,14 +5307,14 @@ entities:
             1554: 104,-43
             1555: 77,-28
             1556: 76,-11
-            2848: 143,-5
-            3242: 58,-1
-            3246: 42,4
-            3252: 49,11
-            4221: 85,0
-            4222: 100,5
-            4223: 102,-20
-            4224: 75,-44
+            2845: 143,-5
+            3239: 58,-1
+            3243: 42,4
+            3249: 49,11
+            4218: 85,0
+            4219: 100,5
+            4220: 102,-20
+            4221: 75,-44
         - node:
             color: '#52B4E996'
             id: WarnCornerGreyscaleNE
@@ -5379,7 +5376,7 @@ entities:
             color: '#EFB34196'
             id: WarnCornerSE
           decals:
-            3947: 43,-2
+            3944: 43,-2
         - node:
             color: '#FFFFFFC6'
             id: WarnCornerSE
@@ -5400,7 +5397,7 @@ entities:
             color: '#EFB34196'
             id: WarnCornerSW
           decals:
-            3946: 45,-2
+            3943: 45,-2
         - node:
             color: '#FFFFFFFF'
             id: WarnCornerSW
@@ -5430,8 +5427,8 @@ entities:
             color: '#EFB34196'
             id: WarnCornerSmallNE
           decals:
-            3508: 26,-2
-            3953: 42,-8
+            3505: 26,-2
+            3950: 42,-8
         - node:
             color: '#FFFFFFFF'
             id: WarnCornerSmallNE
@@ -5447,8 +5444,8 @@ entities:
             color: '#EFB34196'
             id: WarnCornerSmallNW
           decals:
-            3509: 26,-2
-            3952: 46,-8
+            3506: 26,-2
+            3949: 46,-8
         - node:
             color: '#FFFFFFC6'
             id: WarnCornerSmallNW
@@ -5463,9 +5460,9 @@ entities:
             color: '#EFB34196'
             id: WarnCornerSmallSE
           decals:
-            3506: 26,3
-            3954: 43,-1
-            3955: 42,-2
+            3503: 26,3
+            3951: 43,-1
+            3952: 42,-2
         - node:
             color: '#FFFFFFFF'
             id: WarnCornerSmallSE
@@ -5475,9 +5472,9 @@ entities:
             color: '#EFB34196'
             id: WarnCornerSmallSW
           decals:
-            3507: 26,3
-            3956: 45,-1
-            3957: 46,-2
+            3504: 26,3
+            3953: 45,-1
+            3954: 46,-2
         - node:
             color: '#FFFFFFC6'
             id: WarnCornerSmallSW
@@ -5648,56 +5645,56 @@ entities:
             2122: 105,-17
             2123: 105,-16
             2124: 105,-15
-            2230: 113,-18
-            2231: 114,-18
-            2232: 115,-18
-            2233: 131,-23
-            2234: 131,-25
-            2235: 131,-24
-            2236: 131,-26
-            2863: 84,-12
-            2864: 86,-10
-            2865: 87,-10
-            2866: 93,-11
-            2867: 93,-12
-            2868: 99,-10
-            2869: 100,-10
-            2870: 101,-10
-            2871: 103,-14
-            2872: 104,-14
-            2873: 102,-14
-            2874: 93,-13
-            2875: 84,-13
-            2876: 104,-27
-            2877: 103,-27
-            2878: 102,-27
-            2879: 101,-30
-            2880: 101,-29
-            2881: 101,-28
-            2882: 105,-30
-            2883: 105,-29
-            2885: 105,-28
-            2897: 110,-40
-            2899: 111,-40
-            2901: 112,-40
-            2907: 102,-43
-            2910: 102,-42
-            2913: 102,-41
-            3044: 47,2
-            3045: 47,3
-            3046: 47,4
-            3047: 48,6
-            3048: 49,6
-            3049: 50,0
-            3050: 50,-1
-            3051: 50,-2
-            3052: 49,-10
-            3053: 48,-10
-            3054: 52,-10
-            3055: 53,-10
-            3083: 62,-11
-            4219: 84,-11
-            4220: 85,-10
+            2227: 113,-18
+            2228: 114,-18
+            2229: 115,-18
+            2230: 131,-23
+            2231: 131,-25
+            2232: 131,-24
+            2233: 131,-26
+            2860: 84,-12
+            2861: 86,-10
+            2862: 87,-10
+            2863: 93,-11
+            2864: 93,-12
+            2865: 99,-10
+            2866: 100,-10
+            2867: 101,-10
+            2868: 103,-14
+            2869: 104,-14
+            2870: 102,-14
+            2871: 93,-13
+            2872: 84,-13
+            2873: 104,-27
+            2874: 103,-27
+            2875: 102,-27
+            2876: 101,-30
+            2877: 101,-29
+            2878: 101,-28
+            2879: 105,-30
+            2880: 105,-29
+            2882: 105,-28
+            2894: 110,-40
+            2896: 111,-40
+            2898: 112,-40
+            2904: 102,-43
+            2907: 102,-42
+            2910: 102,-41
+            3041: 47,2
+            3042: 47,3
+            3043: 47,4
+            3044: 48,6
+            3045: 49,6
+            3046: 50,0
+            3047: 50,-1
+            3048: 50,-2
+            3049: 49,-10
+            3050: 48,-10
+            3051: 52,-10
+            3052: 53,-10
+            3080: 62,-11
+            4216: 84,-11
+            4217: 85,-10
         - node:
             color: '#FFFFFFFF'
             id: WarnFull
@@ -5714,10 +5711,10 @@ entities:
             color: '#DE3A3A96'
             id: WarnFullGreyscale
           decals:
-            3960: 113,-12
-            3961: 113,-23
-            3962: 118,-40
-            3963: 146,-19
+            3957: 113,-12
+            3958: 113,-23
+            3959: 118,-40
+            3960: 146,-19
         - node:
             color: '#9FED5896'
             id: WarnLineE
@@ -5729,17 +5726,17 @@ entities:
             color: '#EFB34196'
             id: WarnLineE
           decals:
-            3034: 42,-3
-            3035: 42,-4
-            3036: 42,-5
-            3037: 42,-6
-            3038: 42,-7
-            3514: 26,2
-            3515: 26,1
-            3516: 26,0
-            3517: 26,-1
-            4225: 87,-4
-            4226: 87,3
+            3031: 42,-3
+            3032: 42,-4
+            3033: 42,-5
+            3034: 42,-6
+            3035: 42,-7
+            3511: 26,2
+            3512: 26,1
+            3513: 26,0
+            3514: 26,-1
+            4222: 87,-4
+            4223: 87,3
         - node:
             color: '#FFFFFFC6'
             id: WarnLineE
@@ -5785,14 +5782,14 @@ entities:
             color: '#EFB34196'
             id: WarnLineN
           decals:
-            3504: 25,3
-            3505: 27,3
-            3773: 64,-8
-            3774: 63,-8
-            3775: 62,-8
-            3776: 61,-8
-            3777: 60,-8
-            3948: 44,-1
+            3501: 25,3
+            3502: 27,3
+            3770: 64,-8
+            3771: 63,-8
+            3772: 62,-8
+            3773: 61,-8
+            3774: 60,-8
+            3945: 44,-1
         - node:
             color: '#FFFFFFC6'
             id: WarnLineN
@@ -5821,19 +5818,19 @@ entities:
             color: '#EFB34196'
             id: WarnLineS
           decals:
-            3039: 46,-7
-            3040: 46,-6
-            3041: 46,-5
-            3042: 46,-4
-            3043: 46,-3
-            3510: 26,-1
-            3511: 26,0
-            3512: 26,1
-            3513: 26,2
-            3783: 65,-7
-            3784: 65,-8
-            4227: 99,3
-            4228: 99,-4
+            3036: 46,-7
+            3037: 46,-6
+            3038: 46,-5
+            3039: 46,-4
+            3040: 46,-3
+            3507: 26,-1
+            3508: 26,0
+            3509: 26,1
+            3510: 26,2
+            3780: 65,-7
+            3781: 65,-8
+            4224: 99,3
+            4225: 99,-4
         - node:
             color: '#FFFFFFC6'
             id: WarnLineS
@@ -5869,16 +5866,16 @@ entities:
             color: '#EFB34196'
             id: WarnLineW
           decals:
-            3502: 25,-2
-            3503: 27,-2
-            3778: 60,-7
-            3779: 61,-7
-            3780: 62,-7
-            3781: 63,-7
-            3782: 64,-7
-            3949: 43,-8
-            3950: 44,-8
-            3951: 45,-8
+            3499: 25,-2
+            3500: 27,-2
+            3775: 60,-7
+            3776: 61,-7
+            3777: 62,-7
+            3778: 63,-7
+            3779: 64,-7
+            3946: 43,-8
+            3947: 44,-8
+            3948: 45,-8
         - node:
             color: '#FFFFFFC6'
             id: WarnLineW
@@ -5899,7 +5896,7 @@ entities:
             color: '#FFFFFFFF'
             id: WoodTrimThinBox
           decals:
-            4217: 73,-53
+            4214: 73,-53
         - node:
             color: '#FFFFFFC6'
             id: WoodTrimThinCornerNe
@@ -5928,15 +5925,15 @@ entities:
             2004: 56,-35
             2048: 77,-54
             2050: 74,-53
-            3531: 46,10
-            3538: 44,14
-            3597: 25,-12
-            3670: 29,-24
-            3677: 33,-24
-            3683: 37,-24
-            3714: 129,-33
-            3719: 124,-12
-            3735: 121,0
+            3528: 46,10
+            3535: 44,14
+            3594: 25,-12
+            3667: 29,-24
+            3674: 33,-24
+            3680: 37,-24
+            3711: 129,-33
+            3716: 124,-12
+            3732: 121,0
         - node:
             color: '#FFFFFFC6'
             id: WoodTrimThinCornerNw
@@ -5961,16 +5958,16 @@ entities:
             2000: 53,-32
             2047: 76,-54
             2049: 72,-53
-            3530: 42,10
-            3536: 42,14
-            3558: 20,-13
-            3559: 21,-12
-            3644: 35,-24
-            3650: 31,-24
-            3656: 27,-24
-            3713: 127,-33
-            3718: 122,-12
-            3731: 115,0
+            3527: 42,10
+            3533: 42,14
+            3555: 20,-13
+            3556: 21,-12
+            3641: 35,-24
+            3647: 31,-24
+            3653: 27,-24
+            3710: 127,-33
+            3715: 122,-12
+            3728: 115,0
         - node:
             color: '#FFFFFFC6'
             id: WoodTrimThinCornerSe
@@ -5994,15 +5991,15 @@ entities:
             2008: 48,-33
             2044: 74,-57
             2045: 77,-57
-            3532: 46,6
-            3537: 44,12
-            3555: 20,-14
-            3625: 29,-26
-            3630: 33,-26
-            3635: 37,-26
-            3715: 129,-35
-            3716: 124,-14
-            3737: 121,-4
+            3529: 46,6
+            3534: 44,12
+            3552: 20,-14
+            3622: 29,-26
+            3627: 33,-26
+            3632: 37,-26
+            3712: 129,-35
+            3713: 124,-14
+            3734: 121,-4
         - node:
             color: '#FFFFFFC6'
             id: WoodTrimThinCornerSw
@@ -6026,26 +6023,26 @@ entities:
             2012: 46,-39
             2043: 72,-57
             2046: 76,-57
-            3533: 42,6
-            3534: 43,12
-            3535: 42,13
-            3549: 24,-14
-            3690: 27,-26
-            3692: 31,-26
-            3693: 35,-26
-            3712: 127,-35
-            3717: 122,-14
-            3724: 115,-5
+            3530: 42,6
+            3531: 43,12
+            3532: 42,13
+            3546: 24,-14
+            3687: 27,-26
+            3689: 31,-26
+            3690: 35,-26
+            3709: 127,-35
+            3714: 122,-14
+            3721: 115,-5
         - node:
             color: '#FFFFFFFF'
             id: WoodTrimThinEndS
           decals:
-            3541: 25,-17
+            3538: 25,-17
         - node:
             color: '#FFFFFFFF'
             id: WoodTrimThinEndW
           decals:
-            3556: 19,-14
+            3553: 19,-14
         - node:
             color: '#FFFFFFC6'
             id: WoodTrimThinInnerNe
@@ -6064,21 +6061,21 @@ entities:
             id: WoodTrimThinInnerNw
           decals:
             1493: 94,-34
-            3557: 20,-14
-            3566: 21,-13
+            3554: 20,-14
+            3563: 21,-13
         - node:
             color: '#FFFFFFFF'
             id: WoodTrimThinInnerSe
           decals:
-            3554: 20,-13
-            3739: 119,-4
+            3551: 20,-13
+            3736: 119,-4
         - node:
             color: '#FFFFFFFF'
             id: WoodTrimThinInnerSw
           decals:
             1220: 15,-23
-            3548: 25,-14
-            3550: 24,-13
+            3545: 25,-14
+            3547: 24,-13
         - node:
             color: '#FFFFFFC6'
             id: WoodTrimThinLineE
@@ -6112,20 +6109,20 @@ entities:
             2053: 74,-56
             2054: 77,-56
             2055: 77,-55
-            3521: 46,7
-            3522: 46,8
-            3523: 46,9
-            3540: 44,13
-            3542: 25,-16
-            3543: 25,-15
-            3544: 25,-14
-            3545: 25,-13
-            3705: 29,-25
-            3706: 33,-25
-            3707: 37,-25
-            3711: 129,-34
-            3723: 124,-13
-            3736: 121,-2
+            3518: 46,7
+            3519: 46,8
+            3520: 46,9
+            3537: 44,13
+            3539: 25,-16
+            3540: 25,-15
+            3541: 25,-14
+            3542: 25,-13
+            3702: 29,-25
+            3703: 33,-25
+            3704: 37,-25
+            3708: 129,-34
+            3720: 124,-13
+            3733: 121,-2
         - node:
             color: '#FFFFFFC6'
             id: WoodTrimThinLineN
@@ -6172,21 +6169,21 @@ entities:
             2036: 53,-35
             2037: 54,-35
             2038: 55,-35
-            3524: 45,10
-            3525: 44,10
-            3526: 43,10
-            3539: 43,14
-            3578: 22,-12
-            3582: 23,-12
-            3585: 24,-12
-            3699: 28,-24
-            3700: 32,-24
-            3701: 36,-24
-            3708: 128,-33
-            3720: 123,-12
-            3732: 117,0
-            3733: 118,0
-            3734: 120,0
+            3521: 45,10
+            3522: 44,10
+            3523: 43,10
+            3536: 43,14
+            3575: 22,-12
+            3579: 23,-12
+            3582: 24,-12
+            3696: 28,-24
+            3697: 32,-24
+            3698: 36,-24
+            3705: 128,-33
+            3717: 123,-12
+            3729: 117,0
+            3730: 118,0
+            3731: 120,0
         - node:
             color: '#FFFFFFC6'
             id: WoodTrimThinLineS
@@ -6239,20 +6236,20 @@ entities:
             2027: 55,-39
             2029: 47,-33
             2039: 73,-57
-            3518: 43,6
-            3519: 44,6
-            3520: 45,6
-            3551: 23,-13
-            3552: 22,-13
-            3553: 21,-13
-            3696: 28,-26
-            3697: 32,-26
-            3698: 36,-26
-            3709: 128,-35
-            3721: 123,-14
-            3725: 116,-5
-            3726: 117,-5
-            3738: 120,-4
+            3515: 43,6
+            3516: 44,6
+            3517: 45,6
+            3548: 23,-13
+            3549: 22,-13
+            3550: 21,-13
+            3693: 28,-26
+            3694: 32,-26
+            3695: 36,-26
+            3706: 128,-35
+            3718: 123,-14
+            3722: 116,-5
+            3723: 117,-5
+            3735: 120,-4
         - node:
             color: '#FFFFFFC6'
             id: WoodTrimThinLineW
@@ -6289,186 +6286,186 @@ entities:
             2042: 72,-54
             2056: 76,-56
             2057: 76,-55
-            3527: 42,9
-            3528: 42,8
-            3529: 42,7
-            3546: 25,-16
-            3547: 25,-15
-            3702: 35,-25
-            3703: 31,-25
-            3704: 27,-25
-            3710: 127,-34
-            3722: 122,-13
-            3727: 115,-4
-            3728: 115,-3
-            3729: 115,-2
-            3730: 115,-1
+            3524: 42,9
+            3525: 42,8
+            3526: 42,7
+            3543: 25,-16
+            3544: 25,-15
+            3699: 35,-25
+            3700: 31,-25
+            3701: 27,-25
+            3707: 127,-34
+            3719: 122,-13
+            3724: 115,-4
+            3725: 115,-3
+            3726: 115,-2
+            3727: 115,-1
         - node:
             cleanable: True
             color: '#CD42BDFF'
             id: beepsky
           decals:
-            2860: 143.61919,-6.130932
+            2857: 143.61919,-6.130932
         - node:
             color: '#BC1F199B'
             id: c
           decals:
-            2805: 131.78151,-17.793196
+            2802: 131.78151,-17.793196
         - node:
             cleanable: True
             color: '#6CF8DFFF'
             id: carp
           decals:
-            2851: 137.86653,-16.717945
+            2848: 137.86653,-16.717945
         - node:
             angle: 0.8726646259971648 rad
             color: '#CD311F98'
             id: e
           decals:
-            2813: 134.25151,-20.318584
+            2810: 134.25151,-20.318584
         - node:
             angle: 0.8726646259971648 rad
             color: '#DCE1D4B4'
             id: e
           decals:
-            2811: 133.60591,-20.907991
+            2808: 133.60591,-20.907991
         - node:
             cleanable: True
             color: '#416C8FFF'
             id: evac
           decals:
-            2857: 145.5666,-7.917573
+            2854: 145.5666,-7.917573
         - node:
             cleanable: True
             color: '#639F69FF'
             id: ghost
           decals:
-            2853: 146.3202,-16.024126
-            2854: 146.76256,-16.585655
+            2850: 146.3202,-16.024126
+            2851: 146.76256,-16.585655
         - node:
             color: '#83C4FFA1'
             id: i
           decals:
-            2807: 132.56792,-17.830366
+            2804: 132.56792,-17.830366
         - node:
             color: '#E6BD59BD'
             id: o
           decals:
-            2809: 133.39153,-17.840986
+            2806: 133.39153,-17.840986
         - node:
             angle: 0.8726646259971648 rad
             color: '#BE6A1CAB'
             id: p
           decals:
-            2812: 133.90878,-20.613289
+            2809: 133.90878,-20.613289
         - node:
             angle: 0.8726646259971648 rad
             color: '#DEC047AB'
             id: p
           decals:
-            2810: 133.24724,-21.16287
+            2807: 133.24724,-21.16287
         - node:
             color: '#DEC047A1'
             id: peace
           decals:
-            2821: 135.20198,-18.15809
+            2818: 135.20198,-18.15809
         - node:
             color: '#DCE1D4FF'
             id: questionmark
           decals:
-            2815: 132.56976,-20.21504
-            2816: 132.98422,-18.853033
-            2817: 134.99275,-19.617668
-            2818: 131.73286,-19.386684
-            2819: 135.07246,-21.25845
-            2820: 134.31528,-18.709663
+            2812: 132.56976,-20.21504
+            2813: 132.98422,-18.853033
+            2814: 134.99275,-19.617668
+            2815: 131.73286,-19.386684
+            2816: 135.07246,-21.25845
+            2817: 134.31528,-18.709663
         - node:
             color: '#D794C2AB'
             id: r
           decals:
-            2806: 132.2066,-17.846296
+            2803: 132.2066,-17.846296
         - node:
             cleanable: True
             color: '#3479BDFF'
             id: revolution
           decals:
-            2861: 136.3612,-8.468323
+            2858: 136.3612,-8.468323
         - node:
             color: '#92D75992'
             id: s
           decals:
-            2808: 132.99832,-17.840986
+            2805: 132.99832,-17.840986
         - node:
             cleanable: True
             color: '#4D9282FF'
             id: shotgun
           decals:
-            2862: 140.49292,-6.567573
+            2859: 140.49292,-6.567573
         - node:
             cleanable: True
             color: '#301F05FF'
             id: splatter
           decals:
-            4197: 37,-36
-            4198: 37.102943,-35.87854
-            4199: 37.04254,-36.059746
-            4200: 37.04254,-36.22082
-            4201: 37.002274,-36.120148
-            4202: 37.14321,-36.42216
-            4203: 37.163345,-36.301357
-            4204: 37.24388,-36.16042
-            4205: 37.24388,-35.918808
-            4206: 37.24388,-35.818134
-            4207: 36.98214,-36.301357
-            4208: 37.022408,-36.522835
-            4209: 37.102943,-36.563103
-            4210: 37.18348,-36.522835
-            4211: 37.14321,-36.663773
-            4212: 37.062675,-36.663773
-            4213: 37.28415,-35.83827
-            4214: 37.304283,-35.798
-            4215: 37.304283,-35.757732
-            4216: 37.324417,-36.402027
+            4194: 37,-36
+            4195: 37.102943,-35.87854
+            4196: 37.04254,-36.059746
+            4197: 37.04254,-36.22082
+            4198: 37.002274,-36.120148
+            4199: 37.14321,-36.42216
+            4200: 37.163345,-36.301357
+            4201: 37.24388,-36.16042
+            4202: 37.24388,-35.918808
+            4203: 37.24388,-35.818134
+            4204: 36.98214,-36.301357
+            4205: 37.022408,-36.522835
+            4206: 37.102943,-36.563103
+            4207: 37.18348,-36.522835
+            4208: 37.14321,-36.663773
+            4209: 37.062675,-36.663773
+            4210: 37.28415,-35.83827
+            4211: 37.304283,-35.798
+            4212: 37.304283,-35.757732
+            4213: 37.324417,-36.402027
         - node:
             cleanable: True
             color: '#342409FF'
             id: splatter
           decals:
-            3785: 131.90999,-21.246532
-            3786: 131.86972,-21.306934
-            3787: 131.76906,-21.32707
-            3788: 131.93013,-21.387472
-            3789: 131.8496,-21.347204
-            3790: 131.8496,-21.226398
-            3791: 131.86972,-21.306934
-            3792: 131.90999,-21.32707
-            3793: 145.90793,-15.983757
-            3794: 145.90793,-15.983757
-            3795: 145.84753,-16.024025
-            3796: 145.92807,-16.10456
+            3782: 131.90999,-21.246532
+            3783: 131.86972,-21.306934
+            3784: 131.76906,-21.32707
+            3785: 131.93013,-21.387472
+            3786: 131.8496,-21.347204
+            3787: 131.8496,-21.226398
+            3788: 131.86972,-21.306934
+            3789: 131.90999,-21.32707
+            3790: 145.90793,-15.983757
+            3791: 145.90793,-15.983757
+            3792: 145.84753,-16.024025
+            3793: 145.92807,-16.10456
         - node:
             cleanable: True
             color: '#795625FF'
             id: splatter
           decals:
-            2856: 138.01411,-5.0211287
+            2853: 138.01411,-5.0211287
         - node:
             cleanable: True
             color: '#CD9566FF'
             id: stickman
           decals:
-            2849: 143.9812,-10.887865
+            2846: 143.9812,-10.887865
         - node:
             cleanable: True
             color: '#639F69FF'
             id: toilet
           decals:
-            2855: 137.97824,-4.976682
+            2852: 137.97824,-4.976682
         - node:
             color: '#CD311FFF'
             id: toilet
           decals:
-            2814: 131.77272,-21.067291
+            2811: 131.77272,-21.067291
     - type: GridAtmosphere
       version: 2
       data:
@@ -7452,7 +7449,8 @@ entities:
           22,-2:
             0: 4369
           23,-4:
-            0: 65535
+            0: 65407
+            2: 128
           23,-3:
             0: 4095
           24,-4:
@@ -7829,7 +7827,7 @@ entities:
             0: 65535
           16,3:
             0: 43695
-            2: 21840
+            3: 21840
           17,0:
             0: 65535
           17,1:
@@ -7838,7 +7836,7 @@ entities:
             0: 65535
           17,3:
             0: 43695
-            2: 21840
+            3: 21840
           18,0:
             0: 65535
           18,1:
@@ -7847,7 +7845,7 @@ entities:
             0: 65535
           18,3:
             0: 26351
-            2: 4368
+            3: 4368
           19,2:
             0: 13311
           9,0:
@@ -7896,7 +7894,7 @@ entities:
             0: 65535
           14,3:
             0: 48063
-            2: 17472
+            3: 17472
           15,0:
             0: 65535
           15,1:
@@ -7905,7 +7903,7 @@ entities:
             0: 65535
           15,3:
             0: 43695
-            2: 21840
+            3: 21840
           12,4:
             0: 30591
           12,5:
@@ -8008,6 +8006,21 @@ entities:
           - 0
         - volume: 2500
           temperature: 235
+          moles:
+          - 21.824879
+          - 82.10312
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        - volume: 2500
+          temperature: 293.14975
           moles:
           - 21.824879
           - 82.10312
@@ -10706,48 +10719,36 @@ entities:
     - type: Transform
       pos: 108.5,-55.5
       parent: 2
-    - type: DeviceLinkSink
-      links:
-      - 101
     - type: DeviceLinkSource
       linkedPorts:
-        9146:
+        invalid:
         - DoorStatus: InputA
   - uid: 103
     components:
     - type: Transform
       pos: 105.5,-56.5
       parent: 2
-    - type: DeviceLinkSink
-      links:
-      - 9146
     - type: DeviceLinkSource
       linkedPorts:
-        101:
+        invalid:
         - DoorStatus: InputB
   - uid: 104
     components:
     - type: Transform
       pos: 105.5,-55.5
       parent: 2
-    - type: DeviceLinkSink
-      links:
-      - 9146
     - type: DeviceLinkSource
       linkedPorts:
-        101:
+        invalid:
         - DoorStatus: InputA
   - uid: 9250
     components:
     - type: Transform
       pos: 108.5,-56.5
       parent: 2
-    - type: DeviceLinkSink
-      links:
-      - 101
     - type: DeviceLinkSource
       linkedPorts:
-        9146:
+        invalid:
         - DoorStatus: InputB
 - proto: AirlockExternalGlassEngineeringLocked
   entities:
@@ -11173,6 +11174,11 @@ entities:
     components:
     - type: Transform
       pos: 84.5,-6.5
+      parent: 2
+  - uid: 5688
+    components:
+    - type: Transform
+      pos: 90.5,-13.5
       parent: 2
 - proto: AirlockHeadOfPersonnelLocked
   entities:
@@ -11702,11 +11708,6 @@ entities:
     - type: Transform
       pos: 101.5,-23.5
       parent: 2
-  - uid: 256
-    components:
-    - type: Transform
-      pos: 90.5,-13.5
-      parent: 2
   - uid: 257
     components:
     - type: Transform
@@ -11887,24 +11888,6 @@ entities:
       parent: 2
 - proto: AirlockMedical
   entities:
-  - uid: 286
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 47.5,-43.5
-      parent: 2
-  - uid: 287
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 48.5,-49.5
-      parent: 2
-  - uid: 288
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 59.5,-49.5
-      parent: 2
   - uid: 289
     components:
     - type: Transform
@@ -12012,6 +11995,23 @@ entities:
     components:
     - type: Transform
       pos: 31.5,-49.5
+      parent: 2
+- proto: AirlockMedicalLocked
+  entities:
+  - uid: 101
+    components:
+    - type: Transform
+      pos: 47.5,-43.5
+      parent: 2
+  - uid: 286
+    components:
+    - type: Transform
+      pos: 48.5,-49.5
+      parent: 2
+  - uid: 287
+    components:
+    - type: Transform
+      pos: 59.5,-49.5
       parent: 2
 - proto: AirlockQuartermasterLocked
   entities:
@@ -13514,16 +13514,6 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 98.5,3.5
       parent: 2
-  - uid: 423
-    components:
-    - type: Transform
-      pos: 93.5,-59.5
-      parent: 2
-  - uid: 424
-    components:
-    - type: Transform
-      pos: 95.5,-59.5
-      parent: 2
   - uid: 425
     components:
     - type: Transform
@@ -13601,6 +13591,16 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 12.5,-34.5
+      parent: 2
+  - uid: 19427
+    components:
+    - type: Transform
+      pos: 93.5,-60.5
+      parent: 2
+  - uid: 19428
+    components:
+    - type: Transform
+      pos: 95.5,-60.5
       parent: 2
 - proto: AtmosFixBlockerMarker
   entities:
@@ -40948,23 +40948,11 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 100.5,-20.5
       parent: 2
-  - uid: 5686
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 89.5,-17.5
-      parent: 2
   - uid: 5687
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 92.5,-18.5
-      parent: 2
-  - uid: 5688
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 89.5,-16.5
       parent: 2
   - uid: 5689
     components:
@@ -41025,12 +41013,6 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 95.5,-17.5
-      parent: 2
-  - uid: 5699
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 88.5,-17.5
       parent: 2
   - uid: 5700
     components:
@@ -45071,11 +45053,6 @@ entities:
     - type: Transform
       pos: 108.5,-44.5
       parent: 2
-  - uid: 6432
-    components:
-    - type: Transform
-      pos: 88.5,-14.5
-      parent: 2
   - uid: 6433
     components:
     - type: Transform
@@ -45215,11 +45192,6 @@ entities:
     components:
     - type: Transform
       pos: 53.5,-14.5
-      parent: 2
-  - uid: 6454
-    components:
-    - type: Transform
-      pos: 88.5,-15.5
       parent: 2
   - uid: 6455
     components:
@@ -46806,13 +46778,6 @@ entities:
     - type: Transform
       pos: -0.5,-32.5
       parent: 2
-- proto: CrateBlueshieldKit
-  entities:
-  - uid: 19388
-    components:
-    - type: Transform
-      pos: -16.5,-3.5
-      parent: 2
 - proto: CrateChemistryD
   entities:
   - uid: 6663
@@ -47378,6 +47343,31 @@ entities:
     - type: Transform
       pos: 95.5,-14.5
       parent: 2
+    - type: Fixtures
+      fixtures:
+        fix1:
+          shape: !type:PolygonShape
+            radius: 0.01
+            vertices:
+            - -0.4,-0.4
+            - 0.4,-0.4
+            - 0.4,0.29
+            - -0.4,0.29
+          mask:
+          - Impassable
+          - LowImpassable
+          layer:
+          - BulletImpassable
+          - Opaque
+          density: 50
+          hard: True
+          restitution: 0
+          friction: 0.4
+    - type: EntityStorage
+      open: True
+      removedMasks: 20
+    - type: PlaceableSurface
+      isPlaceable: True
   - uid: 6743
     components:
     - type: Transform
@@ -47389,11 +47379,6 @@ entities:
     components:
     - type: Transform
       pos: 86.5,-24.5
-      parent: 2
-  - uid: 6745
-    components:
-    - type: Transform
-      pos: 90.5,-15.5
       parent: 2
 - proto: CrateMaterialCardboard
   entities:
@@ -47825,6 +47810,51 @@ entities:
     - type: SingletonDeviceNetServer
       active: False
       available: False
+- proto: CryogenicSleepUnitSpawner
+  entities:
+  - uid: 13468
+    components:
+    - type: Transform
+      pos: 90.5,-15.5
+      parent: 2
+  - uid: 18576
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 88.5,-15.5
+      parent: 2
+  - uid: 18588
+    components:
+    - type: Transform
+      pos: 90.5,-16.5
+      parent: 2
+- proto: CryogenicSleepUnitSpawnerLateJoin
+  entities:
+  - uid: 12637
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 88.5,-16.5
+      parent: 2
+  - uid: 15093
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 88.5,-14.5
+      parent: 2
+- proto: CryogenicSleepUnitSpawnerPrisoner
+  entities:
+  - uid: 424
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 144.5,-4.5
+      parent: 2
+  - uid: 19425
+    components:
+    - type: Transform
+      pos: 145.5,-4.5
+      parent: 2
 - proto: CryoPod
   entities:
   - uid: 6829
@@ -84814,6 +84844,11 @@ entities:
     - type: Transform
       pos: -10.5,-35.5
       parent: 2
+  - uid: 6454
+    components:
+    - type: Transform
+      pos: 89.5,-13.5
+      parent: 2
   - uid: 8841
     components:
     - type: Transform
@@ -88089,6 +88124,13 @@ entities:
     - type: Transform
       pos: 58.5,4.5
       parent: 2
+- proto: LockerBlueshieldFilled
+  entities:
+  - uid: 6745
+    components:
+    - type: Transform
+      pos: -16.5,-3.5
+      parent: 2
 - proto: LockerBoozeFilled
   entities:
   - uid: 12548
@@ -88491,39 +88533,6 @@ entities:
     - type: Transform
       pos: 7.5,-42.5
       parent: 2
-- proto: LogicGate
-  entities:
-  - uid: 101
-    components:
-    - type: Transform
-      pos: 107.510765,-54.5
-      parent: 2
-    - type: DeviceLinkSink
-      links:
-      - 104
-      - 103
-    - type: DeviceLinkSource
-      linkedPorts:
-        102:
-        - Output: DoorBolt
-        9250:
-        - Output: DoorBolt
-  - uid: 9146
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 106.514206,-54.5
-      parent: 2
-    - type: DeviceLinkSink
-      links:
-      - 102
-      - 9250
-    - type: DeviceLinkSource
-      linkedPorts:
-        104:
-        - Output: DoorBolt
-        103:
-        - Output: DoorBolt
 - proto: MachineAnomalyGenerator
   entities:
   - uid: 12605
@@ -88691,6 +88700,13 @@ entities:
     - type: Transform
       pos: 124.547966,-12.498388
       parent: 2
+- proto: MailTeleporter
+  entities:
+  - uid: 19426
+    components:
+    - type: Transform
+      pos: 82.5,-56.5
+      parent: 2
 - proto: MaintenanceFluffSpawner
   entities:
   - uid: 12630
@@ -88727,11 +88743,6 @@ entities:
     components:
     - type: Transform
       pos: 149.5,-22.5
-      parent: 2
-  - uid: 12637
-    components:
-    - type: Transform
-      pos: 88.5,-17.5
       parent: 2
   - uid: 12638
     components:
@@ -90275,6 +90286,26 @@ entities:
     components:
     - type: Transform
       pos: 64.5,15.5
+      parent: 2
+- proto: PlasmaReinforcedWindowDirectional
+  entities:
+  - uid: 19419
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -6.5,5.5
+      parent: 2
+  - uid: 19420
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -6.5,5.5
+      parent: 2
+  - uid: 19421
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -6.5,5.5
       parent: 2
 - proto: PlasticFlapsAirtightClear
   entities:
@@ -92894,6 +92925,12 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 48.5,5.5
       parent: 2
+  - uid: 15337
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 89.5,-16.5
+      parent: 2
   - uid: 17497
     components:
     - type: Transform
@@ -93300,15 +93337,10 @@ entities:
       parent: 2
 - proto: PoweredLightPostSmall
   entities:
-  - uid: 13468
-    components:
-    - type: Transform
-      pos: 26.5,-61.5
-      parent: 2
   - uid: 13469
     components:
     - type: Transform
-      pos: 22.5,-61.5
+      pos: 27.5,-59.5
       parent: 2
   - uid: 13470
     components:
@@ -93319,6 +93351,11 @@ entities:
     components:
     - type: Transform
       pos: 43.5,-35.5
+      parent: 2
+  - uid: 14223
+    components:
+    - type: Transform
+      pos: 21.5,-63.5
       parent: 2
 - proto: PoweredlightSodium
   entities:
@@ -96922,11 +96959,6 @@ entities:
     - type: Transform
       pos: 143.5,-7.5
       parent: 2
-  - uid: 14116
-    components:
-    - type: Transform
-      pos: 145.5,-4.5
-      parent: 2
   - uid: 14117
     components:
     - type: Transform
@@ -97446,11 +97478,6 @@ entities:
     components:
     - type: Transform
       pos: 81.5,-18.5
-      parent: 2
-  - uid: 14223
-    components:
-    - type: Transform
-      pos: 89.5,-14.5
       parent: 2
   - uid: 14224
     components:
@@ -98014,6 +98041,11 @@ entities:
       parent: 2
 - proto: ReinforcedWindow
   entities:
+  - uid: 6432
+    components:
+    - type: Transform
+      pos: 89.5,-13.5
+      parent: 2
   - uid: 6810
     components:
     - type: Transform
@@ -102025,6 +102057,14 @@ entities:
     - type: Transform
       pos: 52.5,-49.5
       parent: 2
+- proto: SignCryogenicsMed
+  entities:
+  - uid: 15333
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 91.5,-13.5
+      parent: 2
 - proto: SignDanger
   entities:
   - uid: 14868
@@ -102087,6 +102127,80 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 86.49735,-39.716476
+      parent: 2
+- proto: SignDirectionalCryo
+  entities:
+  - uid: 256
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 62.5,-13.5
+      parent: 2
+  - uid: 19388
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 66.5,-26.5
+      parent: 2
+  - uid: 19406
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 57.5,-30.5
+      parent: 2
+  - uid: 19407
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 27.5,-26.5
+      parent: 2
+  - uid: 19408
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 26.5,-48.5
+      parent: 2
+  - uid: 19409
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 61.5,-39.5
+      parent: 2
+  - uid: 19410
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 91.5,-38.5
+      parent: 2
+  - uid: 19411
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 86.5,-26.5
+      parent: 2
+  - uid: 19415
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 105.5,-25.5
+      parent: 2
+  - uid: 19416
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 104.5,-9.5
+      parent: 2
+  - uid: 19417
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 113.5,-40.5
+      parent: 2
+  - uid: 19418
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 84.5,-43.5
       parent: 2
 - proto: SignDirectionalEng
   entities:
@@ -102374,6 +102488,33 @@ entities:
     components:
     - type: Transform
       pos: 23.5,-7.5
+      parent: 2
+- proto: SignElectricalMed
+  entities:
+  - uid: 288
+    components:
+    - type: Transform
+      pos: 94.5,-26.5
+      parent: 2
+  - uid: 423
+    components:
+    - type: Transform
+      pos: 92.5,-26.5
+      parent: 2
+  - uid: 19429
+    components:
+    - type: Transform
+      pos: 81.5,-33.5
+      parent: 2
+  - uid: 19430
+    components:
+    - type: Transform
+      pos: 82.5,-33.5
+      parent: 2
+  - uid: 19431
+    components:
+    - type: Transform
+      pos: 43.5,-15.5
       parent: 2
 - proto: SignEngineering
   entities:
@@ -102714,11 +102855,6 @@ entities:
       parent: 2
 - proto: SolarAssembly
   entities:
-  - uid: 14910
-    components:
-    - type: Transform
-      pos: 90.5,-17.5
-      parent: 2
   - uid: 14911
     components:
     - type: Transform
@@ -102732,13 +102868,19 @@ entities:
   - uid: 14912
     components:
     - type: Transform
-      pos: 90.79243,-17.12339
+      pos: 95.464294,-14.49198
       parent: 2
+    - type: Physics
+      angularDamping: 0
+      linearDamping: 0
   - uid: 14913
     components:
     - type: Transform
-      pos: 90.81256,-17.485806
+      pos: 95.549126,-14.480585
       parent: 2
+    - type: Physics
+      angularDamping: 0
+      linearDamping: 0
 - proto: SolarPanel
   entities:
   - uid: 14914
@@ -103669,6 +103811,11 @@ entities:
       parent: 2
 - proto: SpawnMobMouse
   entities:
+  - uid: 14910
+    components:
+    - type: Transform
+      pos: 90.5,-18.5
+      parent: 2
   - uid: 15083
     components:
     - type: Transform
@@ -103719,11 +103866,6 @@ entities:
     components:
     - type: Transform
       pos: 93.5,-15.5
-      parent: 2
-  - uid: 15093
-    components:
-    - type: Transform
-      pos: 89.5,-15.5
       parent: 2
   - uid: 15094
     components:
@@ -105134,12 +105276,6 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 100.5,-21.5
       parent: 2
-  - uid: 15333
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 90.5,-15.5
-      parent: 2
   - uid: 15334
     components:
     - type: Transform
@@ -105156,12 +105292,6 @@ entities:
     components:
     - type: Transform
       pos: 93.5,-18.5
-      parent: 2
-  - uid: 15337
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 90.5,-17.5
       parent: 2
   - uid: 15338
     components:
@@ -119921,6 +120051,16 @@ entities:
       parent: 2
 - proto: WallSolid
   entities:
+  - uid: 5686
+    components:
+    - type: Transform
+      pos: 90.5,-17.5
+      parent: 2
+  - uid: 5699
+    components:
+    - type: Transform
+      pos: 89.5,-17.5
+      parent: 2
   - uid: 17857
     components:
     - type: Transform
@@ -123822,11 +123962,6 @@ entities:
     - type: Transform
       pos: 89.5,-19.5
       parent: 2
-  - uid: 18576
-    components:
-    - type: Transform
-      pos: 90.5,-16.5
-      parent: 2
   - uid: 18577
     components:
     - type: Transform
@@ -123882,11 +124017,6 @@ entities:
     - type: Transform
       pos: 89.5,-20.5
       parent: 2
-  - uid: 18588
-    components:
-    - type: Transform
-      pos: 88.5,-16.5
-      parent: 2
   - uid: 18589
     components:
     - type: Transform
@@ -123905,7 +124035,7 @@ entities:
   - uid: 18592
     components:
     - type: Transform
-      pos: 89.5,-13.5
+      pos: 88.5,-17.5
       parent: 2
   - uid: 18593
     components:
@@ -127108,6 +127238,13 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 60.5,-54.5
       parent: 2
+- proto: WindoorSecurePlasma
+  entities:
+  - uid: 19422
+    components:
+    - type: Transform
+      pos: -6.5,5.5
+      parent: 2
 - proto: WindoorSecureSalvageLocked
   entities:
   - uid: 19182
@@ -128021,6 +128158,30 @@ entities:
       parent: 2
 - proto: WindowTintedDirectional
   entities:
+  - uid: 9146
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 144.5,-4.5
+      parent: 2
+  - uid: 14116
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 144.5,-5.5
+      parent: 2
+  - uid: 19423
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 145.5,-4.5
+      parent: 2
+  - uid: 19424
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 145.5,-5.5
+      parent: 2
   - uid: 19504
     components:
     - type: Transform
