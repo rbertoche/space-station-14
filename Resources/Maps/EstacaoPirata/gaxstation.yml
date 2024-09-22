@@ -43,7 +43,7 @@ entities:
   - uid: 1
     components:
     - type: MetaData
-      name: map 15
+      name: NTEB14 'GaxStation' TG-182
     - type: Transform
     - type: Map
       mapPaused: True

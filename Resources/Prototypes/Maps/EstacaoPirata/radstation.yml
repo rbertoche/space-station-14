@@ -43,6 +43,7 @@
             ResearchDirector: [ 1, 1 ]
             Roboticist: [ 1, 2 ]
             Scientist: [ 5, 5 ]
+            ForensicMantis: [ 1, 1 ]
             ResearchAssistant: [ 2, 2 ]
             Borg: [ 1, 1 ]
             Chaplain: [ 1, 1 ]
