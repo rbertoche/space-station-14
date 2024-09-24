@@ -74,3 +74,22 @@
       collection: FelinidGrowls
     Purr:
       collection: FelinidPurrs
+
+- type: emoteSounds
+  id: CatSounds
+  params:
+    variation: 0.125
+  sounds:
+    Scream:
+      collection: FelinidScreams
+    Hiss:
+      collection: FelinidHisses
+    Meow:
+      collection: FelinidMeows
+    Mew:
+      collection: FelinidMews
+    Growl:
+      collection: FelinidGrowls
+    Purr:
+      collection: FelinidPurrs
+

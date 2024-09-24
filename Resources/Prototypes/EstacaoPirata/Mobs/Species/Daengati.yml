@@ -34,10 +34,10 @@
     damageModifierSet: Daengati
   - type: LanguageKnowledge
     speaks:
-    - GalacticCommon
+    - TauCetiBasic
     - Nekomimetic #Alterar essa linguagem para uma nova
     understands:
-    - GalacticCommon
+    - TauCetiBasic
     - Nekomimetic #Alterar essa linguagem para uma nova
 
 - type: entity

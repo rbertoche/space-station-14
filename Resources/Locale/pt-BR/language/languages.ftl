@@ -31,6 +31,12 @@ language-RobotTalk-description = A language consisting of harsh binary chirps, w
 language-Sign-name = Galactic Sign Language
 language-Sign-description = GSL for short, this sign language is prevalent among mute and deaf people.
 
+language-TauCetiBasic-name = Tau-Ceti Básico
+language-TauCetiBasic-description =
+    Um sucessor espiritual do Esperanto, estabelecido em 2404 em Tau Ceti por intelectuais Ceti.
+    Seu alfabeto e estrutura únicos e totalmente personalizados permitem que seja falado até mesmo pela maioria das espécies alienígenas.
+    É a língua oficial de Tau Ceti e tem tração crescente em círculos diplomáticos e universalistas em todo o espaço humano.
+
 language-Cat-name = Cat
 language-Cat-description = Meow
 
