@@ -1,6 +1,6 @@
 - type: gameMap
-  id: Aspid
-  mapName: 'NCS Aspid'
+  id: Aspide
+  mapName: 'NCS Áspide'
   mapPath: /Maps/EstacaoPirata/aspid.yml
   minPlayers: 35
   maxPlayers: 70
@@ -29,7 +29,6 @@
             Janitor: [ 2, 3 ]
             Chaplain: [ 1, 1 ]
             Librarian: [ 1, 1 ]
-            Lawyer: [ 2, 2 ]
             ServiceWorker: [ 1, 1 ]
             #engineering
             ChiefEngineer: [ 1, 1 ]
@@ -62,6 +61,11 @@
             PrisonGuard: [ 1, 2 ]
             SecurityOfficer: [ 3, 4 ]
             SecurityCadet: [ 4, 4 ]
+            #justice
+            ChiefJustice: [ 1, 1 ]
+            Clerk: [ 1, 1 ]
+            Lawyer: [ 2, 2 ]
+            Prosecutor: [ 1, 1]
             #supply
             Quartermaster: [ 1, 1 ]
             SalvageSpecialist: [ 3, 4 ]
