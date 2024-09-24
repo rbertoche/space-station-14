@@ -17,7 +17,7 @@
             !type:NanotrasenNameGenerator
             prefixCreator: 'EB'
         - type: StationCargoShuttle
-          path: /Maps/EstacaoPirata/cargo_gax.yml
+          path: /Maps/Shuttles/EstacaoPirata/cargo_gax.yml
         - type: StationJobs
           overflowJobs:
           - Passenger
