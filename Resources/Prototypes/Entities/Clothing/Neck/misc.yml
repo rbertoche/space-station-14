@@ -89,7 +89,7 @@
   - type: Armor
     modifiers:
       coefficients:
-        Heat: 0.10
+        Heat: 0.98
   - type: Sprite
     sprite: Clothing/Neck/Misc/raincoat.rsi
   - type: Clothing
