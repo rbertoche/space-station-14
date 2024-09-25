@@ -1,7 +1,6 @@
 using Content.Client.GameTicking.Managers;
 using Content.Shared.GameTicking;
 using Content.Shared.Input;
-using Content.Client.Options.UI.Tabs;
 using JetBrains.Annotations;
 using Robust.Client.Input;
 using Robust.Client.UserInterface.Controllers;
