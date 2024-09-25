@@ -49,7 +49,7 @@ job-name-zookeeper = funcionário do zoológico
 job-name-visitor = visitante
 
 
-#Nyano
+# Nyano
 job-name-mystagogue = diretor de pesquisa
 job-name-mantis = mantis forênsica
 job-name-epistemologist = acólito
