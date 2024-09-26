@@ -1,0 +1,21 @@
+
+### Informações sobre o Controller Utilizado
+
+Esse projeto esta usando um **controller** (RoundEndSummaryUIController.cs) desenvolvido por terceiros, contribuições creditadas a seguir.
+
+## Desenvolvedores Originais
+
+wafehling https://github.com/wafehling
+SlamBamActionman https://github.com/SlamBamActionman
+ShadowCommander https://github.com/ShadowCommander
+
+### Origem do Código
+
+- **Repositório**: https://github.com/space-wizards/space-station-14
+- **Commit**: https://github.com/space-wizards/space-station-14/commit/8febdc5fc4851f44802bc675d90d3412bd0d4da6
+
+### Licença
+
+O código original está sob a MIT License. Para mais informações consulte o link da licença:
+
+- https://github.com/space-wizards/space-station-14/blob/master/LICENSE.TXT
