@@ -52,7 +52,6 @@
             Clown: [ 1, 2 ]
             HeadOfPersonnel: [ 1, 1 ]
             Janitor: [ 2, 3 ]
-            Lawyer: [ 2, 2 ]
             Mime: [ 1, 2 ]
             Musician: [ 2, 3 ]
             Reporter: [ 2, 2 ]
@@ -64,6 +63,11 @@
             ResearchAssistant: [ 2, 4 ]
             Chaplain: [ 1, 1 ]
             Borg: [ 2, 3 ]
+          #justice
+            ChiefJustice: [ 1, 1 ]
+            Clerk: [ 1, 1 ]
+            Lawyer: [ 2, 2 ]
+            Prosecutor: [ 1, 1]
           #supply
             Quartermaster: [ 1, 1 ]
             CargoTechnician: [ 2, 4 ]
