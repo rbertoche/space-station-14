@@ -52,7 +52,6 @@
             Clown: [ 1, 2 ]
             HeadOfPersonnel: [ 1, 1 ]
             Janitor: [ 2, 3 ]
-            Lawyer: [ 2, 2 ]
             MartialArtist: [ 2, 2 ]
             Mime: [ 1, 2 ]
             Musician: [ 2, 2 ]
@@ -66,6 +65,11 @@
             ResearchAssistant: [ 2, 3 ]
             ResearchDirector: [ 1, 1 ]
             Scientist: [ 3, 4 ]
+          #justice
+            ChiefJustice: [ 1, 1 ]
+            Clerk: [ 1, 1 ]
+            Lawyer: [ 2, 21 ]
+            Prosecutor: [ 1, 1]
           #supply
             CargoTechnician: [ 4, 6 ]
             MailCarrier: [ 1, 2 ]

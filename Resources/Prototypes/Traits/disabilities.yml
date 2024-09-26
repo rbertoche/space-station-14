@@ -52,7 +52,7 @@
 
 - type: trait
   id: Muted
-  category: Speech
+  category: Mental
   points: 4
   requirements:
     - !type:CharacterJobRequirement
@@ -78,7 +78,7 @@
 
 - type: trait
   id: FrontalLisp
-  category: Speech
+  category: TraitsSpeechAccents
   requirements:
     - !type:CharacterJobRequirement
       inverted: true
@@ -89,6 +89,8 @@
       inverted: true
       species:
         - IPC
+    - !type:CharacterItemGroupRequirement
+      group: TraitsAccents
   components:
     - type: FrontalLisp
 

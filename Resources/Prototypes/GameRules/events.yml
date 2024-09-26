@@ -6,7 +6,7 @@
   - type: StationEvent
     weight: 12
     startDelay: 30
-    reoccurrenceDelay: 8
+    reoccurrenceDelay: 15
     duration: 35
   - type: AnomalySpawnRule
 
@@ -18,7 +18,7 @@
   - type: StationEvent
     weight: 5
     startDelay: 30
-    reoccurrenceDelay: 5
+    reoccurrenceDelay: 10
     duration: 35
   - type: BluespaceArtifactRule
 
@@ -192,7 +192,7 @@
     startAnnouncement: true
     startDelay: 10
     earliestStart: 15
-    reoccurrenceDelay: 3
+    reoccurrenceDelay: 30
     weight: 5
     duration: 50
   - type: VentCrittersRule
@@ -214,7 +214,7 @@
     startDelay: 10
     weight: 5
     duration: 50
-    reoccurrenceDelay: 15 # Cockroaches en masse are utmost annoying to deal with.
+    reoccurrenceDelay: 30 # Cockroaches en masse are utmost annoying to deal with.
   - type: VentCrittersRule
     entries:
     - id: MobCockroach
@@ -232,7 +232,7 @@
     startAnnouncement: true
     startDelay: 10
     earliestStart: 15
-    reoccurrenceDelay: 3
+    reoccurrenceDelay: 30
     weight: 5
     duration: 60
   - type: VentCrittersRule
@@ -258,7 +258,7 @@
     startDelay: 24
     duration: 60
     maxDuration: 120
-    reoccurrenceDelay: 2 # Gives a chance for multiple checks in a row, but not in parallel
+    reoccurrenceDelay: 20 # Gives a chance for multiple checks in a row, but not in parallel
   - type: PowerGridCheckRule
 
 - type: entity
@@ -284,7 +284,7 @@
     endAnnouncement: true
     duration: 120
     maxDuration: 240
-    reoccurrenceDelay: 5
+    reoccurrenceDelay: 10
   - type: SolarFlareRule
     onlyJamHeadsets: true
     affectedChannels:
@@ -338,7 +338,7 @@
     startAnnouncement: true
     startDelay: 10
     earliestStart: 20
-    reoccurrenceDelay: 12
+    reoccurrenceDelay: 20
     minimumPlayers: 15
     weight: 5
     duration: 60
@@ -377,6 +377,7 @@
   components:
   - type: StationEvent
     minimumPlayers: 1
+    reoccurrenceDelay: 15
   - type: VentCrittersRule
     entries:
     - id: MobAdultSlimesBlueAngry
@@ -393,6 +394,7 @@
   components:
   - type: StationEvent
     minimumPlayers: 1
+    reoccurrenceDelay: 15
   - type: VentCrittersRule
     entries:
     - id: MobGiantSpiderAngry

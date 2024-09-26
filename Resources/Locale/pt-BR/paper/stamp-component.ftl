@@ -17,3 +17,7 @@ stamp-component-stamped-name-warden = Diretor de Segurança
 stamp-component-stamped-name-trader = Mercante
 stamp-component-stamped-name-syndicate = Sindicato
 stamp-component-stamped-name-ce = Engenheiro Chefe
+stamp-component-stamped-name-chiefjustice = Juiz Chefe
+stamp-component-stamped-name-notary = Escriturário.
+stamp-component-stamped-name-psychologist = Psicólogo
+stamp-component-stamped-name-mantis = Mantis

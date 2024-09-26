@@ -10,14 +10,14 @@
       stationProto: StandardNanotrasenStation
       components:
         - type: StationEmergencyShuttle
-          emergencyShuttlePath: /Maps/EstacaoPirata/emergency_neol.yml
+          emergencyShuttlePath: /Maps/Shuttles/EstacaoPirata/emergency_neol.yml
         - type: StationNameSetup
           mapNameTemplate: '{0} GaxStation {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: 'EB'
         - type: StationCargoShuttle
-          path: /Maps/EstacaoPirata/cargo_gax.yml
+          path: /Maps/Shuttles/EstacaoPirata/cargo_gax.yml
         - type: StationJobs
           overflowJobs:
           - Passenger

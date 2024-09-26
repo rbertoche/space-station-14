@@ -8,7 +8,7 @@
       stationProto: StandardNanotrasenStation
       components:
         - type: StationEmergencyShuttle
-          emergencyShuttlePath: /Maps/EstacaoPirata/emergency_neol.yml
+          emergencyShuttlePath: /Maps/Shuttles/EstacaoPirata/emergency_neol.yml
         - type: StationNameSetup
           mapNameTemplate: '{0} RadStation {1}'
           nameGenerator:
@@ -43,6 +43,7 @@
             ResearchDirector: [ 1, 1 ]
             Roboticist: [ 1, 2 ]
             Scientist: [ 5, 5 ]
+            ForensicMantis: [ 1, 1 ]
             ResearchAssistant: [ 2, 2 ]
             Borg: [ 1, 1 ]
             Chaplain: [ 1, 1 ]
