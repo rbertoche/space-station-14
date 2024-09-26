@@ -177,6 +177,7 @@ ui-options-function-open-crafting-menu = Abrir menu de criação
 ui-options-function-open-inventory-menu = Abrir inventário
 ui-options-function-open-a-help = Abrir AHelp
 ui-options-function-open-abilities-menu = Abrir menu de ação
+ui-options-function-toggle-round-end-summary-window = Toggle round end summary window
 ui-options-function-open-entity-spawn-window = Abrir menu de spawn de entidades
 ui-options-function-open-sandbox-window = Abrir menu sandbox
 ui-options-function-open-tile-spawn-window = Abrir menu de spawn de azulejos
