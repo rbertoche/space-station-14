@@ -103,7 +103,6 @@ namespace Content.Client.Options.UI.Tabs
             _cfg.SetCVar(CCVars.HoldLookUp, args.Pressed);
             _cfg.SaveToFile();
         }
-        
         private void HandleDefaultWalk(BaseButton.ButtonToggledEventArgs args)
         {
             _cfg.SetCVar(CCVars.DefaultWalk, args.Pressed);

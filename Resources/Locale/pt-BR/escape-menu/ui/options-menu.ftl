@@ -158,6 +158,9 @@ ui-options-function-try-pull-object = Puxar objeto
 ui-options-function-move-pulled-object = Mover objeto puxado
 ui-options-function-release-pulled-object = Soltar objeto puxado
 ui-options-function-point = Apontar para local
+ui-options-function-rotate-object-clockwise = Rotacionar no sentido horário
+ui-options-function-rotate-object-counterclockwise = Rotacionar no sentido anti-horário
+ui-options-function-flip-object = Inverter
 
 ui-options-function-focus-chat-input-window = Foco no Chat
 ui-options-function-focus-local-chat-window = Foco no Chat (IC)

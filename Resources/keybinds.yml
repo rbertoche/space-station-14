@@ -278,13 +278,15 @@ binds:
 - function: RotateObjectClockwise
   type: State
   key: R
+  mod1: Shift
 - function: RotateObjectCounterclockwise
   type: State
   key: R
-  mod1: Shift
+  mod1: Control
 - function: FlipObject
   type: State
   key: F
+  mod1: Shift
 - function: TextCursorLeft
   type: State
   key: Left
