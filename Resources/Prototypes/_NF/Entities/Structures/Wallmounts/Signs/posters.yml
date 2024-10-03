@@ -7,3 +7,63 @@
   - type: Sprite
     sprite: _NF/Structures/Wallmounts/posters.rsi
     state: nf_poster1_legit
+
+- type: entity
+  parent: PosterBase
+  id: NFPosterContrabandLvhiStation
+  name: "LVHI Tetotum Station"
+  description: "This poster depicts Tetotum Space Station constructed by Langstad-Voigt Heavy Industries."
+  components:
+  - type: Sprite
+    sprite: _NF/Structures/Wallmounts/posters.rsi
+    state: nf_poster1_contraband
+
+- type: entity
+  parent: PosterBase
+  id: NFPosterContrabandLvhiShuttle
+  name: "LVHI Fleet"
+  description: "This poster depicts a shuttle exiting the planet's atmosphere. The text advertises the use of Langstad-Voigt Heavy Industries shuttles for planetary exploration."
+  components:
+  - type: Sprite
+    sprite: _NF/Structures/Wallmounts/posters.rsi
+    state: nf_poster2_contraband
+
+- type: entity
+  parent: PosterBase
+  id: NFPosterContrabandLvhiSpace
+  name: "LVHI Mining"
+  description: "This poster depicts a mineral-rich planet orbited by a moon, with both celestial bodies brightly illuminated by a blue star. The text promotes the use of Langstad-Voigt Heavy Industries shuttles for deep space exploration."
+  components:
+  - type: Sprite
+    sprite: _NF/Structures/Wallmounts/posters.rsi
+    state: nf_poster3_contraband
+    
+- type: entity
+  parent: PosterBase
+  id: NFPosterContrabandFsbLogo
+  name: "Far Star Biotech Logo"
+  description: "Far Star Biotech: Wherever you are know that your body is safe with us."
+  components:
+  - type: Sprite
+    sprite: _NF/Structures/Wallmounts/posters.rsi
+    state: nf_poster4_contraband
+    
+- type: entity
+  parent: PosterBase
+  id: NFPosterContrabandFsbStasis
+  name: "Far Star Biotech Stasis"
+  description: "The FSB Stasis! Ensuring the worst mistake you've ever made is just the worst mistake you've made so far."
+  components:
+  - type: Sprite
+    sprite: _NF/Structures/Wallmounts/posters.rsi
+    state: nf_poster5_contraband
+    
+- type: entity
+  parent: PosterBase
+  id: NFPosterContrabandFsbApothecary
+  name: "Far Star Biotech Apothecary"
+  description: "The FSB Apothecary! For the seasoned chemist, the FSB Apothecary offers top-of-the-line service at the price you deserve."
+  components:
+  - type: Sprite
+    sprite: _NF/Structures/Wallmounts/posters.rsi
+    state: nf_poster6_contraband

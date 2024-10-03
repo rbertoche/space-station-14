@@ -2,6 +2,7 @@ using System.Linq;
 using System.Numerics;
 using System.Threading;
 using System.Threading.Tasks;
+using Content.Server._NF.Salvage; // Frontier: job complete event
 using Content.Server.Atmos;
 using Content.Server.Atmos.Components;
 using Content.Server.Atmos.EntitySystems;
@@ -28,14 +29,11 @@ using Content.Shared.Salvage.Expeditions;
 using Content.Shared.Salvage.Expeditions.Modifiers;
 using Content.Shared.Shuttles.Components;
 using Content.Shared.Storage;
-using Robust.Shared.Collections;
 using Robust.Shared.Map;
 using Robust.Shared.Map.Components;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using Robust.Shared.Timing;
-using Robust.Shared.Utility;
-using Content.Server.Shuttles.Components;
 
 namespace Content.Server.Salvage;
 
@@ -58,6 +56,12 @@ public sealed class SpawnSalvageMissionJob : Job<bool>
     public readonly EntityUid Station;
     public readonly EntityUid? CoordinatesDisk;
     private readonly SalvageMissionParams _missionParams;
+
+    // Frontier: Used for saving state between async job
+#pragma warning disable IDE1006 // suppressing _ prefix complaints to reduce merge conflict area
+    private EntityUid mapUid = EntityUid.Invalid;
+#pragma warning restore IDE1006
+    // End Frontier
 
     public SpawnSalvageMissionJob(
         double maxTime,
@@ -99,9 +103,37 @@ public sealed class SpawnSalvageMissionJob : Job<bool>
 
     protected override async Task<bool> Process()
     {
+        // Frontier: gracefully handle expedition failures
+        bool success = true;
+        string? errorStackTrace = null;
+        try
+        {
+            await InternalProcess().ContinueWith((t) => { success = false; errorStackTrace = t.Exception?.InnerException?.StackTrace; }, TaskContinuationOptions.OnlyOnFaulted);
+        }
+        finally
+        {
+            ExpeditionSpawnCompleteEvent ev = new(Station, success, _missionParams.Index);
+            _entManager.EventBus.RaiseLocalEvent(Station, ev);
+            if (errorStackTrace != null)
+                Logger.ErrorS("salvage", $"Expedition generation failed with exception: {errorStackTrace}!");
+            if (!success)
+            {
+                // Invalidate station, expedition cancellation will be handled by task handler
+                if (_entManager.TryGetComponent<SalvageExpeditionComponent>(mapUid, out var salvage))
+                    salvage.Station = EntityUid.Invalid;
+
+                _entManager.QueueDeleteEntity(mapUid);
+            }
+        }
+        return success;
+        // End Frontier: gracefully handle expedition failures
+    }
+
+    private async Task<bool> InternalProcess() // Frontier: make process an internal function (for a try block indenting an entire), add "out EntityUid mapUid" param
+    {
         Logger.DebugS("salvage", $"Spawning salvage mission with seed {_missionParams.Seed}");
         var config = _missionParams.MissionType;
-        var mapUid = _map.CreateMap(out var mapId, runMapInit: false);
+        mapUid = _map.CreateMap(out var mapId, runMapInit: false); // Frontier: remove "var"
         MetaDataComponent? metadata = null;
         var grid = _entManager.EnsureComponent<MapGridComponent>(mapUid);
         var random = new Random(_missionParams.Seed);
@@ -135,12 +167,12 @@ public sealed class SpawnSalvageMissionJob : Job<bool>
             var biomeSystem = _entManager.System<BiomeSystem>();
             biomeSystem.SetTemplate(mapUid, biome, _prototypeManager.Index<BiomeTemplatePrototype>(missionBiome.BiomePrototype));
             biomeSystem.SetSeed(mapUid, biome, mission.Seed);
-            _entManager.Dirty(biome);
+            _entManager.Dirty(mapUid, biome);
 
             // Gravity
             var gravity = _entManager.EnsureComponent<GravityComponent>(mapUid);
             gravity.Enabled = true;
-            _entManager.Dirty(gravity, metadata);
+            _entManager.Dirty(mapUid, gravity, metadata);
 
             // Atmos
             var air = _prototypeManager.Index<SalvageAirMod>(mission.Air);
@@ -155,7 +187,7 @@ public sealed class SpawnSalvageMissionJob : Job<bool>
             {
                 var lighting = _entManager.EnsureComponent<MapLightComponent>(mapUid);
                 lighting.AmbientLightColor = mission.Color.Value;
-                _entManager.Dirty(lighting);
+                _entManager.Dirty(mapUid, lighting);
             }
         }
 
@@ -177,33 +209,35 @@ public sealed class SpawnSalvageMissionJob : Job<bool>
         _entManager.InitializeAndStartEntity(ftlUid);*/
 
         // so we just gunna yeet them there instead why not. they chose this life.
-        var stationData = _entManager.GetComponent<StationDataComponent>(Station);
+        /*var stationData = _entManager.GetComponent<StationDataComponent>(Station);
         var shuttleUid = _stationSystem.GetLargestGrid(stationData);
         if (shuttleUid is { Valid : true } vesselUid)
         {
             var shuttle = _entManager.GetComponent<ShuttleComponent>(vesselUid);
             _shuttle.FTLToCoordinates(vesselUid, shuttle, new EntityCoordinates(mapUid, Vector2.Zero), 0f, 5.5f, 50f);
-        }
+        }*/
 
-        var landingPadRadius = 38; //we go a liiitle bigger for the shipses
+        var landingPadRadius = 4; // Frontier: 24<4 - using this as a margin (4-16), not a radius
         var minDungeonOffset = landingPadRadius + 4;
 
         // We'll use the dungeon rotation as the spawn angle
         var dungeonRotation = _dungeon.GetDungeonRotation(_missionParams.Seed);
 
-        Dungeon dungeon = default!;
+        Dungeon dungeon = default!; // Frontier: explicitly type as Dungeon
 
-        if (config != SalvageMissionType.Mining)
+        Vector2 dungeonOffset = new Vector2(); // Frontier: needed for dungeon offset
+        if (config != SalvageMissionType.Mining) // Frontier: why?
         {
             var maxDungeonOffset = minDungeonOffset + 12;
             var dungeonOffsetDistance = minDungeonOffset + (maxDungeonOffset - minDungeonOffset) * random.NextFloat();
-            var dungeonOffset = new Vector2(0f, dungeonOffsetDistance);
+            dungeonOffset = new Vector2(0f, dungeonOffsetDistance);
             dungeonOffset = dungeonRotation.RotateVec(dungeonOffset);
             var dungeonMod = _prototypeManager.Index<SalvageDungeonModPrototype>(mission.Dungeon);
-            var dungeonConfig = _prototypeManager.Index<DungeonConfigPrototype>(dungeonMod.Proto);
-            dungeon =
-                await WaitAsyncTask(_dungeon.GenerateDungeonAsync(dungeonConfig, mapUid, grid, (Vector2i) dungeonOffset,
+            var dungeonConfig = _prototypeManager.Index(dungeonMod.Proto);
+            var dungeons = await WaitAsyncTask(_dungeon.GenerateDungeonAsync(dungeonConfig, mapUid, grid, (Vector2i) dungeonOffset,
                     _missionParams.Seed));
+
+            dungeon = dungeons.First();
 
             // Aborty
             if (dungeon.Rooms.Count == 0)
@@ -214,15 +248,58 @@ public sealed class SpawnSalvageMissionJob : Job<bool>
             expedition.DungeonLocation = dungeonOffset;
         }
 
+        // Frontier: get map bounding box
+        Box2 dungeonBox = new Box2(dungeonOffset, dungeonOffset);
+        foreach (var tile in dungeon.AllTiles)
+        {
+            dungeonBox = dungeonBox.ExtendToContain(tile);
+        }
+
+        var stationData = _entManager.GetComponent<StationDataComponent>(Station);
+
+        // Frontier: get ship bounding box relative to largest grid coords
+        var shuttleUid = _stationSystem.GetLargestGrid(stationData);
+        Box2 shuttleBox = new Box2();
+
+        if (shuttleUid is { Valid: true } vesselUid &&
+            _entManager.TryGetComponent<MapGridComponent>(vesselUid, out var gridComp))
+        {
+            shuttleBox = gridComp.LocalAABB;
+        }
+
+        // Frontier: offset ship spawn point from bounding boxes
+        Vector2 dungeonProjection = new Vector2(dungeonBox.Width * (float) -Math.Sin(dungeonRotation) / 2, dungeonBox.Height * (float) Math.Cos(dungeonRotation) / 2); // Project boxes to get relevant offset for dungeon rotation.
+        Vector2 shuttleProjection = new Vector2(shuttleBox.Width * (float) -Math.Sin(dungeonRotation) / 2, shuttleBox.Height * (float) Math.Cos(dungeonRotation) / 2); // Note: sine is negative because of CCW rotation (starting north, then west)
+        Vector2 coords = dungeonBox.Center - dungeonProjection - dungeonOffset - shuttleProjection - shuttleBox.Center; // Coordinates to spawn the ship at to center it with the dungeon's bounding boxes
+        coords = coords.Rounded(); // Ensure grid is aligned to map coords
+
+        // Frontier: delay ship FTL
+        if (shuttleUid is { Valid: true })
+        {
+            var shuttle = _entManager.GetComponent<ShuttleComponent>(shuttleUid.Value);
+            _shuttle.FTLToCoordinates(shuttleUid.Value, shuttle, new EntityCoordinates(mapUid, coords), 0f, 5.5f, 50f);
+        }
+
         List<Vector2i> reservedTiles = new();
 
-        foreach (var tile in grid.GetTilesIntersecting(new Circle(Vector2.Zero, landingPadRadius), false))
-        {
-            if (!_biome.TryGetBiomeTile(mapUid, grid, tile.GridIndices, out _))
-                continue;
+        // Frontier: no need for intersecting tiles, we offset the map
 
-            reservedTiles.Add(tile.GridIndices);
-        }
+        // Vector2 clearBoxCenter = dungeonBox.Center - dungeonProjection - dungeonOffset - shuttleProjection;
+        // float clearBoxHalfWidth = shuttleBox.Width / 2.0f + 4.0f;
+        // float clearBoxHalfHeight = shuttleBox.Height / 2.0f + 4.0f;
+        // Box2 shuttleClearBox = new Box2(clearBoxCenter.X - clearBoxHalfWidth,
+        //     clearBoxCenter.Y - clearBoxHalfHeight,
+        //     clearBoxCenter.X + clearBoxHalfWidth,
+        //     clearBoxCenter.Y + clearBoxHalfHeight);
+
+        // foreach (var tile in _map.GetTilesIntersecting(mapUid, grid, shuttleClearBox, false))
+        // {
+        //     if (!_biome.TryGetBiomeTile(mapUid, grid, tile.GridIndices, out _))
+        //         continue;
+
+        //     reservedTiles.Add(tile.GridIndices);
+        // }
+        // End Frontier
 
         // Mission setup
         switch (config)
@@ -243,7 +320,6 @@ public sealed class SpawnSalvageMissionJob : Job<bool>
         // Handle loot
         // We'll always add this loot if possible
         foreach (var lootProto in _prototypeManager.EnumeratePrototypes<SalvageLootPrototype>())
-
         {
             if (!lootProto.Guaranteed)
                 continue;
@@ -334,7 +410,7 @@ public sealed class SpawnSalvageMissionJob : Job<bool>
                     continue;
                 }
 
-                var spawnPosition = grid.GridTileToLocal(spawnTile);
+                var spawnPosition = _map.GridTileToLocal(mapUid, grid, spawnTile);
                 var uid = _entManager.SpawnEntity(shaggy, spawnPosition);
                 _entManager.AddComponent<SalvageStructureComponent>(uid);
                 structureComp.Structures.Add(uid);
@@ -354,7 +430,7 @@ public sealed class SpawnSalvageMissionJob : Job<bool>
         var roomIndex = random.Next(dungeon.Rooms.Count);
         var room = dungeon.Rooms[roomIndex];
         var tile = room.Tiles.ElementAt(random.Next(room.Tiles.Count));
-        var position = grid.GridTileToLocal(tile);
+        var position = _map.GridTileToLocal(mapUid, grid, tile);
 
         var faction = _prototypeManager.Index<SalvageFactionPrototype>(mission.Faction);
         var prototype = faction.Configs["Megafauna"];
@@ -402,13 +478,13 @@ public sealed class SpawnSalvageMissionJob : Job<bool>
                         var spawnTile = validSpawns[^1];
                         validSpawns.RemoveAt(validSpawns.Count - 1);
 
-                        if (!_anchorable.TileFree(grid, spawnTile, (int) CollisionGroup.MachineLayer,
-                                (int) CollisionGroup.MachineLayer))
+                        if (!_anchorable.TileFree(grid, spawnTile, (int)CollisionGroup.MachineLayer,
+                                (int)CollisionGroup.MachineLayer))
                         {
                             continue;
                         }
 
-                        var spawnPosition = grid.GridTileToLocal(spawnTile);
+                        var spawnPosition = _map.GridTileToLocal(mapUid, grid, spawnTile); // Frontier: grid<_map
 
                         var uid = _entManager.CreateEntityUninitialized(entry, spawnPosition);
                         _entManager.RemoveComponent<GhostTakeoverAvailableComponent>(uid);

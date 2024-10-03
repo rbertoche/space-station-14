@@ -1,17 +1,12 @@
 - type: loadout
   id: DetectiveNFClothingUniformJumpsuitDetectiveNF
-  equipment: DetectiveNFClothingUniformJumpsuitDetectiveNF
-
-- type: startingGear
-  id: DetectiveNFClothingUniformJumpsuitDetectiveNF
+  hideEffects:
+  - !type:GroupLoadoutEffect
+    proto: PantsCapableNF
   equipment:
     jumpsuit: ClothingUniformJumpsuitDetective
 
 - type: loadout
-  id: DetectiveNFClothingUniformJumpskirtDetectiveNF
-  equipment: DetectiveNFClothingUniformJumpskirtDetectiveNF
-
-- type: startingGear
   id: DetectiveNFClothingUniformJumpskirtDetectiveNF
   equipment:
     jumpsuit: ClothingUniformJumpskirtDetective

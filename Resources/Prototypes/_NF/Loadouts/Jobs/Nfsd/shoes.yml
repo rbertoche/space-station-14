@@ -1,17 +1,15 @@
 - type: loadout
   id: NfsdClothingShoesBootsBrown
-  equipment: NfsdClothingShoesBootsBrown
-
-- type: startingGear
-  id: NfsdClothingShoesBootsBrown
+  hideEffects:
+  - !type:GroupLoadoutEffect
+    proto: ShoesCapableNF
   equipment:
     shoes: ClothingShoesBootsNfsdBrownFilled
 
 - type: loadout
   id: NfsdClothingShoesBootsCream
-  equipment: NfsdClothingShoesBootsCream
-
-- type: startingGear
-  id: NfsdClothingShoesBootsCream
+  hideEffects:
+  - !type:GroupLoadoutEffect
+    proto: ShoesCapableNF
   equipment:
     shoes: ClothingShoesBootsNfsdCreamFilled

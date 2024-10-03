@@ -63,24 +63,6 @@
   canBuildInImpassable: true
 
 - type: construction
-  name: solar assembly
-  id: SolarPanel
-  graph: SolarPanel
-  startNode: start
-  targetNode: solarpanel
-  category: construction-category-utilities
-  description: "Can be turned into a solar panel or solar tracker."
-  icon:
-    sprite: Structures/Power/Generation/solar_panel.rsi
-    state: solar_assembly
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canBuildInImpassable: false
-  conditions:
-    - !type:TileNotBlocked
-      failIfSpace: false
-
-- type: construction
   name: cable terminal
   id: CableTerminal
   graph: CableTerminal
@@ -111,6 +93,7 @@
   canBuildInImpassable: true
 
 - type: construction
+  hide: true # Frontier
   name: wallmount generator
   id: WallmountGenerator
   graph: WallmountGenerator
@@ -126,6 +109,7 @@
   canBuildInImpassable: true
 
 - type: construction
+  hide: true # Frontier
   name: wallmount APU
   id: WallmountGeneratorAPU
   graph: WallmountGenerator
@@ -394,7 +378,7 @@
   targetNode: half
   category: construction-category-utilities
   placementMode: SnapgridCenter
-  canBuildInImpassable: false
+  canBuildInImpassable: true
   icon:
     sprite: Structures/Piping/Atmospherics/pipe.rsi
     state: pipeHalf
@@ -408,7 +392,7 @@
   targetNode: straight
   category: construction-category-utilities
   placementMode: SnapgridCenter
-  canBuildInImpassable: false
+  canBuildInImpassable: true
   icon:
     sprite: Structures/Piping/Atmospherics/pipe.rsi
     state: pipeStraight
@@ -422,7 +406,7 @@
   targetNode: bend
   category: construction-category-utilities
   placementMode: SnapgridCenter
-  canBuildInImpassable: false
+  canBuildInImpassable: true
   icon:
     sprite: Structures/Piping/Atmospherics/pipe.rsi
     state: pipeBend
@@ -436,7 +420,7 @@
   targetNode: tjunction
   category: construction-category-utilities
   placementMode: SnapgridCenter
-  canBuildInImpassable: false
+  canBuildInImpassable: true
   icon:
     sprite: Structures/Piping/Atmospherics/pipe.rsi
     state: pipeTJunction
@@ -450,7 +434,7 @@
   targetNode: fourway
   category: construction-category-utilities
   placementMode: SnapgridCenter
-  canBuildInImpassable: false
+  canBuildInImpassable: true
   icon:
     sprite: Structures/Piping/Atmospherics/pipe.rsi
     state: pipeFourway
@@ -467,12 +451,12 @@
   placementMode: SnapgridCenter
   canBuildInImpassable: false
   icon:
-    sprite: Structures/Piping/Atmospherics/vent.rsi
+    sprite: _NF/Structures/Piping/Atmospherics/vent.rsi # Frontier
     state: vent_off
   layers:
   - sprite: Structures/Piping/Atmospherics/pipe.rsi
     state: pipeHalf
-  - sprite: Structures/Piping/Atmospherics/vent.rsi
+  - sprite: _NF/Structures/Piping/Atmospherics/vent.rsi # Frontier
     state: vent_off
   conditions:
     - !type:NoUnstackableInTile
@@ -488,13 +472,13 @@
   placementMode: SnapgridCenter
   canBuildInImpassable: false
   icon:
-    sprite: Structures/Piping/Atmospherics/vent.rsi
-    state: vent_off
+    sprite: _NF/Structures/Piping/Atmospherics/vent.rsi # Frontier
+    state: vent_passive
   layers:
   - sprite: Structures/Piping/Atmospherics/pipe.rsi
     state: pipeHalf
-  - sprite: Structures/Piping/Atmospherics/vent.rsi
-    state: vent_off
+  - sprite: _NF/Structures/Piping/Atmospherics/vent.rsi # Frontier
+    state: vent_passive
   conditions:
     - !type:NoUnstackableInTile
 
@@ -509,12 +493,12 @@
   placementMode: SnapgridCenter
   canBuildInImpassable: false
   icon:
-    sprite: Structures/Piping/Atmospherics/scrubber.rsi
+    sprite: _NF/Structures/Piping/Atmospherics/scrubber.rsi # Frontier
     state: scrub_off
   layers:
   - sprite: Structures/Piping/Atmospherics/pipe.rsi
     state: pipeHalf
-  - sprite: Structures/Piping/Atmospherics/scrubber.rsi
+  - sprite: _NF/Structures/Piping/Atmospherics/scrubber.rsi # Frontier
     state: scrub_off
   conditions:
     - !type:NoUnstackableInTile
@@ -678,12 +662,12 @@
   placementMode: SnapgridCenter
   canBuildInImpassable: false
   icon:
-    sprite: Structures/Piping/Atmospherics/vent.rsi
+    sprite: _NF/Structures/Piping/Atmospherics/vent.rsi # Frontier
     state: vent_off
   layers:
   - sprite: Structures/Piping/Atmospherics/pipe.rsi
     state: pipeStraight
-  - sprite: Structures/Piping/Atmospherics/vent.rsi
+  - sprite: _NF/Structures/Piping/Atmospherics/vent.rsi # Frontier
     state: vent_off
 
 - type: construction
@@ -790,7 +774,7 @@
 # INTERCOM
 - type: construction
   name: intercom
-  id: IntercomAssesmbly
+  id: IntercomAssembly
   graph: Intercom
   startNode: start
   targetNode: intercom

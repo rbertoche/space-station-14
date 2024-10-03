@@ -21,7 +21,7 @@
   name: random cargo spawner
   suffix: Generic
   parent: MarkerBase
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
     - type: Sprite
       layers:
@@ -70,7 +70,7 @@
 #        - CrateEngineeringSingularityCollector
 #        - CrateEngineeringParticleAccelerator
 #        - CrateEngineeringSolar
-        - CrateFoodMRE
+#        - CrateFoodMRE
         - CrateFunInstrumentsVariety
         - CrateFunInstrumentsBrass
         - CrateFunInstrumentsString
@@ -78,7 +78,7 @@
         - CrateFunInstrumentsKeyedPercussion
         - CrateFunInstrumentsSpecial
         - CrateFunArtSupplies
-        - CrateFunParty
+#        - CrateFunParty # Cake
         - CrateFunWaterGuns
         - CrateFunPlushie
         - CrateFunBoardGames
@@ -118,7 +118,7 @@
   name: random cargo spawner
   suffix: Animal
   parent: MarkerBase
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
     - type: Sprite
       layers:

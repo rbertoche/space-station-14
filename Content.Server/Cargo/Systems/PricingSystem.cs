@@ -1,8 +1,7 @@
-using System.Linq;
 using Content.Server.Administration;
 using Content.Server.Body.Systems;
 using Content.Server.Cargo.Components;
-using Content.Server.Chemistry.Containers.EntitySystems;
+using Content.Shared.Chemistry.EntitySystems;
 using Content.Shared.Administration;
 using Content.Shared.Body.Components;
 using Content.Shared.Cargo.Components;
@@ -18,6 +17,8 @@ using Robust.Shared.Map.Components;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
 using Content.Server.Materials.Components; // Frontier
+using System.Linq;
+using Content.Shared.Research.Prototypes;
 
 namespace Content.Server.Cargo.Systems;
 
@@ -31,7 +32,7 @@ public sealed class PricingSystem : EntitySystem
     [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
     [Dependency] private readonly BodySystem _bodySystem = default!;
     [Dependency] private readonly MobStateSystem _mobStateSystem = default!;
-    [Dependency] private readonly SolutionContainerSystem _solutionContainerSystem = default!;
+    [Dependency] private readonly SharedSolutionContainerSystem _solutionContainerSystem = default!;
 
     /// <inheritdoc/>
     public override void Initialize()
@@ -157,6 +158,26 @@ public sealed class PricingSystem : EntitySystem
         {
             price += _prototypeManager.Index<MaterialPrototype>(id).Price * quantity;
         }
+        return price;
+    }
+
+    public double GetLatheRecipePrice(LatheRecipePrototype recipe)
+    {
+        var price = 0.0;
+
+        if (recipe.Result is { } result)
+        {
+            price += GetEstimatedPrice(_prototypeManager.Index(result));
+        }
+
+        if (recipe.ResultReagents is { } resultReagents)
+        {
+            foreach (var (reagent, amount) in resultReagents)
+            {
+                price += (_prototypeManager.Index(reagent).PricePerUnit * amount).Double();
+            }
+        }
+
         return price;
     }
 
@@ -380,18 +401,29 @@ public sealed class PricingSystem : EntitySystem
         return price;
     }
 
+    // New Frontiers - Stack Vendor Prices - Gets overwrite values for vendor prices.
+    // This code is licensed under AGPLv3. See AGPLv3.txt
     private double GetVendPrice(EntityPrototype prototype)
     {
         var price = 0.0;
 
-        if (prototype.Components.TryGetValue(_factory.GetComponentName(typeof(StaticPriceComponent)), out var vendProto))
+        // Prefer static price to stack price component, take the first positive value read.
+        if (prototype.Components.TryGetValue(_factory.GetComponentName(typeof(StaticPriceComponent)), out var staticProto))
         {
-            var vendPrice = (StaticPriceComponent) vendProto.Component;
-            price += vendPrice.VendPrice;
+            var staticComp = (StaticPriceComponent) staticProto.Component;
+            if (staticComp.VendPrice > 0.0)
+                price += staticComp.VendPrice;
+        }
+        if (price == 0.0 && prototype.Components.TryGetValue(_factory.GetComponentName(typeof(StackPriceComponent)), out var stackProto))
+        {
+            var stackComp = (StackPriceComponent) stackProto.Component;
+            if (stackComp.VendPrice > 0.0)
+                price += stackComp.VendPrice;
         }
 
         return price;
     }
+    // End of modified code
 
     /// <summary>
     /// Appraises a grid, this is mainly meant to be used by yarrs.

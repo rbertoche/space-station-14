@@ -77,11 +77,6 @@ public sealed partial class CargoSystem
 
     private void OnPalletUIOpen(EntityUid uid, CargoPalletConsoleComponent component, BoundUIOpenedEvent args)
     {
-        var player = args.Actor;
-
-        if (player == null)
-            return;
-
         UpdatePalletConsoleInterface(uid);
     }
 
@@ -95,11 +90,6 @@ public sealed partial class CargoSystem
 
     private void OnPalletAppraise(EntityUid uid, CargoPalletConsoleComponent component, CargoPalletAppraiseMessage args)
     {
-        var player = args.Actor;
-
-        if (player == null)
-            return;
-
         UpdatePalletConsoleInterface(uid);
     }
 
@@ -278,7 +268,7 @@ public sealed partial class CargoSystem
             return false;
 
 
-        var ev = new EntitySoldEvent(toSell);
+        var ev = new EntitySoldEvent(toSell, gridUid); // Frontier: add gridUid
         RaiseLocalEvent(ref ev);
 
         foreach (var ent in toSell)
@@ -363,11 +353,6 @@ public sealed partial class CargoSystem
 
     private void OnPalletSale(EntityUid uid, CargoPalletConsoleComponent component, CargoPalletSellMessage args)
     {
-        var player = args.Actor;
-
-        if (player == null)
-            return;
-
         var xform = Transform(uid);
 
         if (xform.GridUid is not EntityUid gridUid)
@@ -403,4 +388,4 @@ public sealed partial class CargoSystem
 /// deleted but after the price has been calculated.
 /// </summary>
 [ByRefEvent]
-public readonly record struct EntitySoldEvent(HashSet<EntityUid> Sold);
+public readonly record struct EntitySoldEvent(HashSet<EntityUid> Sold, EntityUid Grid);

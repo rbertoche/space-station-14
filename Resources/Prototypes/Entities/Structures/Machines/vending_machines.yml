@@ -5,6 +5,10 @@
   description: Just add capitalism!
   abstract: true
   components:
+  - type: ActionGrant
+    actions:
+    - ActionVendingThrow
+  - type: StationAiWhitelist
   - type: AmbientOnPowered
   - type: AmbientSound
     volume: -9
@@ -96,12 +100,15 @@
   - type: Actions
   - type: SentienceTarget
     flavorKind: station-event-random-sentience-flavor-mechanical
+    weight: 0.025 # fuck you in particular (it now needs 40 vending machines to be as likely as 1 interesting animal)
   - type: StaticPrice
-    price: 1000
+    price: 1000 # Frontier: 100<1000
   - type: Appearance
   - type: WiresVisuals
-  - type: MarketModifier
-    mod: 10
+  - type: MarketModifier # Frontier
+    mod: 10 # Frontier
+  - type: PotentialDeadDrop # Frontier
+    hintText: dead-drop-hint-vendor # Frontier
 
 - type: entity
   parent: VendingMachine
@@ -141,13 +148,13 @@
     noRot: false
 
 - type: entity
-  parent: [BaseStructureUnanchorable, VendingMachine] # Frontier
+  parent: [BaseStructureDisableAnchoring, VendingMachine] # Frontier
   id: VendingMachineAmmo
   name: liberation station
   description: An overwhelming amount of ancient patriotism washes over you just by looking at the machine.
   components:
   - type: VendingMachine
-    pack: AmmoVendInventory
+    pack: WeaponryWorksVendInventory # Frontier AmmoVendInventory<WeaponryWorksVendInventory
     offState: off
     brokenState: broken
     normalState: normal-unshaded
@@ -166,8 +173,8 @@
       shader: unshaded
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
-  - type: MarketModifier
-    mod: 11.132
+  - type: MarketModifier # Frontier
+    mod: 12 # Frontier
 
 - type: entity
   parent: VendingMachine
@@ -197,14 +204,50 @@
       shader: unshaded
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
-  - type: MarketModifier
-    mod: 5
+  - type: MarketModifier # Frontier
+    mod: 5 # Frontier
   - type: GuideHelp
     guides:
     - Bartender
+    - Drinks
 
 - type: entity
-  parent: [BaseStructureIndestructible, BaseStructureAccessReaderImmuneToEmag, VendingMachine] # Frontier
+  parent: VendingMachineBooze
+  id: VendingMachineBoozeSyndicate # syndie booze-o-mat for nukie outpost
+  name: Bruise-O-Mat
+  description: A refurbished Booze-O-Mat for boosting operative morale. An imprint of a blood-red hardsuit is visible on one side, and the paint seems ashed off on the other side.
+  components:
+  - type: VendingMachine
+    pack: BoozeOMatInventory
+    offState: off
+    brokenState: broken
+    normalState: normal-unshaded
+    denyState: deny-unshaded
+    loopDeny: false
+  - type: Advertise
+    pack: BruiseOMatAds
+  - type: SpeakOnUIClosed
+    pack: BruiseOMatGoodbyes
+  - type: Speech
+  - type: Sprite
+    sprite: Structures/Machines/VendingMachines/bruiseomat.rsi
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: AccessReader
+    access: [["SyndicateAgent"]]
+  - type: GuideHelp
+    guides:
+    - Bartender
+    - Drinks
+
+- type: entity
+  parent: VendingMachine
   id: VendingMachineCart
   name: PTech
   description: PTech vending! Providing a ROBUST selection of PDAs, cartridges, and anything else a dull paper pusher needs!
@@ -232,8 +275,6 @@
     color: "#ffb0b0"
   - type: AccessReader
     access: [["HeadOfPersonnel"]]
-  - type: MarketModifier
-    mod: 5
 
 - type: entity
   parent: VendingMachine
@@ -265,8 +306,8 @@
     radius: 1.5
     energy: 1.6
     color: "#4b93ad"
-  - type: MarketModifier
-    mod: 5
+  - type: MarketModifier # Frontier
+    mod: 5 # Frontier
 
 - type: entity
   parent: VendingMachine
@@ -686,12 +727,14 @@
       shader: unshaded
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  # - type: AccessReader # Frontier
+  #   access: [["Kitchen"]] # Frontier
   - type: PointLight
     radius: 1.5
     energy: 1.6
     color: "#4b93ad"
-  - type: MarketModifier
-    mod: 5
+  - type: MarketModifier # Frontier
+    mod: 5 # Frontier
 
 - type: entity
   parent: VendingMachine
@@ -784,8 +827,6 @@
     radius: 1.5
     energy: 1.6
     color: "#b89e2a"
-  - type: MarketModifier
-    mod: 10
 
 - type: entity
   parent: VendingMachine
@@ -815,8 +856,8 @@
       shader: unshaded
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
-  - type: MarketModifier
-    mod: 5
+  - type: MarketModifier # Frontier
+    mod: 5 # Frontier
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -852,8 +893,8 @@
       shader: unshaded
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
-  - type: MarketModifier
-    mod: 5
+  - type: MarketModifier # Frontier
+    mod: 5 # Frontier
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -888,8 +929,8 @@
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: AccessReader
     access: [["Security"]]
-  - type: MarketModifier
-    mod: 5
+  - type: MarketModifier # Frontier
+    mod: 5 # Frontier
   - type: PointLight
     radius: 1
     energy: 1.2
@@ -897,6 +938,7 @@
   - type: GuideHelp
     guides:
     - Security
+    # - Antagonists # Frontier: removed guidebook entry
 
 - type: entity
   parent: VendingMachine
@@ -930,16 +972,16 @@
     radius: 1.5
     energy: 1.6
     color: "#326e3f"
-  - type: MarketModifier
-    mod: 5
+  - type: MarketModifier # Frontier
+    mod: 5 # Frontier
 
 - type: entity
   parent: VendingMachineSeedsUnlocked
   id: VendingMachineSeeds
   suffix: Hydroponics
   components:
-  - type: MarketModifier
-    mod: 5
+  - type: MarketModifier # Frontier
+    mod: 5 # Frontier
 
 - type: entity
   parent: VendingMachine
@@ -1122,8 +1164,6 @@
     radius: 1.5
     energy: 1.6
     color: "#389690"
-  - type: MarketModifier
-    mod: 9.64
 
 - type: entity
   parent: VendingMachine
@@ -1223,8 +1263,8 @@
       shader: unshaded
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
-  - type: MarketModifier
-    mod: 5
+  - type: MarketModifier # Frontier
+    mod: 5 # Frontier
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -1352,9 +1392,9 @@
   - type: PointLight
     radius: 1.5
     energy: 1.6
-    color: "#9dc5c9"
-  - type: MarketModifier
-    mod: 10
+    color: "#b89f25"
+  # - type: AccessReader # Frontier
+  #   access: [["Salvage"]] # Frontier
   # - type: GuideHelp # Frontier: removed guidebook entry
   #   guides: # Frontier: removed guidebook entry
   #   - Salvage # Frontier: removed guidebook entry
@@ -1392,8 +1432,8 @@
     radius: 1.5
     energy: 1.6
     color: "#d4ab33"
-  - type: MarketModifier
-    mod: 5
+  - type: MarketModifier # Frontier
+    mod: 5 # Frontier
 
 # wallmounted machines
 
@@ -1438,8 +1478,14 @@
       shader: unshaded
     - texture: Structures/Machines/VendingMachines/maintenance_panel.png
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
-  - type: MarketModifier
-    mod: 5
+  - type: MarketModifier # Frontier
+    mod: 5 # Frontier
+  - type: PointLight
+    radius: 1.3
+    energy: 1.6
+    color: "#43ccb5"
+  # - type: AccessReader # Frontier
+  #   access: [["Medical"]] # Frontier
   - type: GuideHelp
     guides:
     - Medical
@@ -1471,6 +1517,12 @@
       shader: unshaded
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: PointLight
+    radius: 1.5
+    energy: 1.6
+    color: "#326e3f"
+  # - type: AccessReader # Frontier
+  #   access: [["Hydroponics"]] # Frontier
 
 - type: entity
   parent: VendingMachine
@@ -1523,6 +1575,10 @@
       shader: unshaded
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: PointLight
+    radius: 1.5
+    energy: 1.6
+    color: "#d82929"
   - type: AccessReader
     access: [["Security"]]
 
@@ -1603,6 +1659,12 @@
       shader: unshaded
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: PointLight
+    radius: 1.5
+    energy: 1.6
+    color: "#b89e2a"
+  # - type: AccessReader # Frontier
+  #   access: [["Cargo"]] # Frontier
 
 - type: entity
   parent: VendingMachine
@@ -1709,6 +1771,12 @@
       shader: unshaded
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: PointLight
+    radius: 1.5
+    energy: 1.6
+    color: "#b89e2a"
+  # - type: AccessReader # Frontier
+  #   access: [["Engineering"]] # Frontier
 
 - type: entity
   parent: VendingMachine
@@ -1735,6 +1803,12 @@
       shader: unshaded
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: PointLight
+    radius: 1.5
+    energy: 1.6
+    color: "#b89e2a"
+  # - type: AccessReader # Frontier
+  #   access: [["Engineering"]] # Frontier
 
 - type: entity
   parent: VendingMachine
@@ -1813,6 +1887,12 @@
       shader: unshaded
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: PointLight
+    radius: 1.5
+    energy: 1.6
+    color: "#6927C5"
+  # - type: AccessReader # Frontier
+  #   access: [["Janitor"]] # Frontier
 
 - type: entity
   parent: VendingMachine
@@ -1841,7 +1921,7 @@
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
 
 - type: entity
-  parent: [BaseStructureUnanchorable, VendingMachine] # Frontier
+  parent: [BaseStructureDisableAnchoring, VendingMachine] # Frontier
   id: VendingMachineSyndieDrobe
   name: SyndieDrobe
   description: Wardrobe machine encoded by the syndicate, contains elite outfits for various operations.
@@ -1865,7 +1945,11 @@
       shader: unshaded
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
-  - type: AccessReader
+  - type: PointLight
+    radius: 1.5
+    energy: 1.6
+    color: "#d82929"
+#  - type: AccessReader # Frontier
 #    access: [["NuclearOperative"], ["SyndicateAgent"]]
 
 - type: entity
@@ -1947,10 +2031,10 @@
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
 
 - type: entity
-  parent: [BaseStructureUnanchorable, VendingMachine] # Frontier
+  parent: [BaseStructureDisableAnchoring, VendingMachine] # Frontier
   id: VendingMachineCentDrobe
   name: CentDrobe
-  description: A one-of-a-kind vending machine for all your centcom aesthetic needs!
+  description: A one-of-a-kind vending machine for all your centcomm aesthetic needs!
   components:
   - type: VendingMachine
     pack: CentDrobeInventory
@@ -2009,10 +2093,10 @@
     pack: HappyHonkAds
   - type: SpeakOnUIClosed
     pack: HappyHonkGoodbyes
-  - type: AccessReader # Frontier
+#  - type: AccessReader # Frontier
 #    access: [["Kitchen"], ["Theatre"]] # Frontier
-  - type: MarketModifier
-    mod: 5
+  - type: MarketModifier # Frontier
+    mod: 5 # Frontier
 
 # Gas Tank Dispenser
 
@@ -2028,8 +2112,8 @@
   - type: Sprite
     sprite: Structures/Machines/VendingMachines/tankdispenser.rsi #TODO add visualiser for remaining tanks as layers
     state: dispenser
-  - type: MarketModifier
-    mod: 5
+  - type: MarketModifier # Frontier
+    mod: 5 # Frontier
 
 - type: entity
   parent: VendingMachine
@@ -2071,6 +2155,7 @@
   - type: GuideHelp
     guides:
     - Chemicals
+    - Chemist
 
 - type: entity
   parent: VendingMachineChemicals
@@ -2085,6 +2170,6 @@
     normalState: normal
     denyState: deny
     ejectDelay: 2
-  - type: AccessReader # Frontier
+#  - type: AccessReader # Frontier
 #    access: [["SyndicateAgent"]] # Frontier
 

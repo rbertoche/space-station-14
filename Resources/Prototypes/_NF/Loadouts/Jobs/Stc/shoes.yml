@@ -1,0 +1,8 @@
+- type: loadout
+  id: StcClothingShoesBootsLaceup
+  hideEffects:
+  - !type:GroupLoadoutEffect
+    proto: ShoesCapableNF
+  price: 0
+  equipment:
+    shoes: ClothingShoesBootsLaceup

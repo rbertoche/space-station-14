@@ -33,12 +33,27 @@ namespace Content.Shared.Lathe
         [DataField]
         public SoundSpecifier? ProducingSound;
 
+        [DataField]
+        public string? ReagentOutputSlotId;
+
+        /// <summary>
+        /// The default amount that's displayed in the UI for selecting the print amount.
+        /// </summary>
+        [DataField, AutoNetworkedField]
+        public int DefaultProductionAmount = 1;
+
         #region Visualizer info
         [DataField]
         public string? IdleState;
 
         [DataField]
         public string? RunningState;
+
+        [DataField]
+        public string? UnlitIdleState;
+
+        [DataField]
+        public string? UnlitRunningState;
         #endregion
 
         /// <summary>
@@ -60,8 +75,19 @@ namespace Content.Shared.Lathe
         [DataField, ViewVariables(VVAccess.ReadWrite), AutoNetworkedField]
         public float MaterialUseMultiplier = 1;
 
+        /// <summary>
+        /// A modifier that changes how long it takes to print a recipe
+        /// </summary>
+        [DataField, ViewVariables(VVAccess.ReadOnly), AutoNetworkedField]
+        public float FinalTimeMultiplier = 1;
+
+        /// <summary>
+        /// A modifier that changes how much of a material is needed to print a recipe
+        /// </summary>
+        [DataField, ViewVariables(VVAccess.ReadOnly), AutoNetworkedField]
+        public float FinalMaterialUseMultiplier = 1;
+
         public const float DefaultPartRatingMaterialUseMultiplier = 0.85f; // Frontier: restored for machine parts
-        #endregion
 
         //Frontier Upgrade Code Restore
         /// <summary>
@@ -89,6 +115,7 @@ namespace Content.Shared.Lathe
         [DataField]
         public float PartRatingMaterialUseMultiplier = DefaultPartRatingMaterialUseMultiplier;
         // End Frontier
+        #endregion
     }
 
     public sealed class LatheGetRecipesEvent : EntityEventArgs
@@ -97,7 +124,7 @@ namespace Content.Shared.Lathe
 
         public bool getUnavailable;
 
-        public List<ProtoId<LatheRecipePrototype>> Recipes = new();
+        public HashSet<ProtoId<LatheRecipePrototype>> Recipes = new();
 
         public LatheGetRecipesEvent(EntityUid lathe, bool forced)
         {

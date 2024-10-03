@@ -1,11 +1,19 @@
 - type: entity
+  abstract: true
+  id: MobSyndicateNavalTimedDespawn
+  components:
+  - type: TimedDespawn
+    lifetime: 3000 # 50 mins (max blue space event duration involving these mobs - 40 mins)
+
+- type: entity
   name: syndicate naval agent
   abstract: true
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   parent:
   - MobHumanoidHostileBase
   - MobHumanoidInvetory
   - MobHumanoidHostileAISimpleRanged
+  #- MobSyndicateNavalTimedDespawn
   id: MobSyndicateNavalBase
   components:
   - type: Body
@@ -13,7 +21,14 @@
     requiredLegs: 2
   - type: NpcFactionMember
     factions:
-    - Syndicate
+    - SyndicateNF
+  - type: RandomHumanoidAppearance
+    randomizeName: false
+  - type: RandomMetadata
+    nameSegments:
+    - SyndicateNamesPrefix
+    - SyndicateNamesNormal
+    - SyndicateNamesElite
   #- type: AutoImplant
     #implants:
     #- DeathRattleImplant
@@ -30,6 +45,12 @@
     maximumWait: 120
     nextAdvertisementTime: 10
   - type: AutoWakeUp
+  - type: TriggerOnBeingGibbed
+  - type: GibOnTrigger
+    deleteItems: true
+    deleteOrgans: true
+    gib: false
+    useArgumentEntity: true
 
 # Humans
 # Syndicate Captain, "armed" with AP Python
@@ -37,7 +58,8 @@
   name: syndicate captain
   parent: MobSyndicateNavalBase
   id: MobSyndicateNavalCaptainA
-  noSpawn: true
+  description: The executive officer in lieu of the commander, syndicate captains ensure operations onboard go smoothly. Equipped with a magnum revolver.
+  categories: [ HideSpawnMenu ]
   components:
     - type: Loadout
       prototypes:
@@ -61,7 +83,7 @@
 - type: entity
   parent: MobSyndicateNavalCaptainA
   id: MobSyndicateNavalCaptainB
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
     - type: Loadout
       prototypes:
@@ -74,7 +96,7 @@
 - type: entity
   parent: MobSyndicateNavalCaptainA
   id: MobSyndicateNavalCaptainC
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
     - type: Loadout
       prototypes:
@@ -87,7 +109,7 @@
 - type: entity
   parent: MobSyndicateNavalCaptainA
   id: MobSyndicateNavalCaptainD
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
     - type: Loadout
       prototypes:
@@ -102,7 +124,8 @@
   name: syndicate engineer
   parent: MobSyndicateNavalBase
   id: MobSyndicateNavalEngineerA
-  noSpawn: true
+  description: On a shuttle, the engineer has the annoying job of making sure absolutely everything is running correctly. Syndicate shuttles are no different.
+  categories: [ HideSpawnMenu ]
   components:
     - type: Loadout
       prototypes:
@@ -126,7 +149,7 @@
 - type: entity
   parent: MobSyndicateNavalEngineerA
   id: MobSyndicateNavalEngineerB
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
     - type: Loadout
       prototypes:
@@ -139,7 +162,7 @@
 - type: entity
   parent: MobSyndicateNavalEngineerB
   id: MobSyndicateNavalEngineerC
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
     - type: Loadout
       prototypes:
@@ -148,7 +171,7 @@
 - type: entity
   parent: MobSyndicateNavalEngineerB
   id: MobSyndicateNavalEngineerD
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
     - type: Loadout
       prototypes:
@@ -164,7 +187,8 @@
   name: syndicate medic
   parent: MobSyndicateNavalBase
   id: MobSyndicateNavalMedicA
-  noSpawn: true
+  description: Medical specialist. Knows how to treat patients humanely and how to treat prisoners inhumanely. Uses darts laced with harmful chemicals - impedrezene or chloral hydrate.
+  categories: [ HideSpawnMenu ]
   components:
     - type: Loadout
       prototypes:
@@ -189,7 +213,7 @@
 - type: entity
   parent: MobSyndicateNavalMedicA
   id: MobSyndicateNavalMedicB
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
     - type: Loadout
       prototypes:
@@ -198,7 +222,7 @@
 - type: entity
   parent: MobSyndicateNavalMedicA
   id: MobSyndicateNavalMedicC
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
     - type: Loadout
       prototypes:
@@ -211,7 +235,7 @@
 - type: entity
   parent: MobSyndicateNavalMedicA
   id: MobSyndicateNavalMedicD
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
     - type: Loadout
       prototypes:
@@ -226,7 +250,8 @@
   name: syndicate second officer
   parent: MobSyndicateNavalBase
   id: MobSyndicateNavalSecondOfficerA
-  noSpawn: true
+  description: The captain's right hand is entrusted with relaying the captain's orders to the crew and ensuring they are carried out promptly. Carries a laser pistol for self-defense.
+  categories: [ HideSpawnMenu ]
   components:
     - type: Loadout
       prototypes:
@@ -251,7 +276,7 @@
 - type: entity
   parent: MobSyndicateNavalSecondOfficerA
   id: MobSyndicateNavalSecondOfficerB
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
     - type: Loadout
       prototypes:
@@ -260,7 +285,7 @@
 - type: entity
   parent: MobSyndicateNavalSecondOfficerA
   id: MobSyndicateNavalSecondOfficerC
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
     - type: Loadout
       prototypes:
@@ -269,7 +294,7 @@
 - type: entity
   parent: MobSyndicateNavalSecondOfficerA
   id: MobSyndicateNavalSecondOfficerD
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
     - type: Loadout
       prototypes:
@@ -283,7 +308,9 @@
   name: syndicate operative
   parent: MobSyndicateNavalBase
   id: MobSyndicateNavalOperatorA
-  noSpawn: true
+  description: |-
+   "Everything is a nail if you have a hammer." In this case, everything is a target because he has an SMG and an itchy trigger finger.
+  categories: [ HideSpawnMenu ]
   components:
     - type: Loadout
       prototypes:
@@ -294,13 +321,13 @@
         path: /Audio/_NF/Effects/silence.ogg
     - type: BasicEntityAmmoProvider
       proto: BulletPistol
-      capacity: 8
-      count: 8
+      capacity: 7
+      count: 7
     - type: Gun
       showExamineText: false
       minAngle: 10
       maxAngle: 30
-      fireRate: 8
+      fireRate: 5
       angleIncrease: 3
       angleDecay: 6
       selectedMode: FullAuto
@@ -311,7 +338,7 @@
 - type: entity
   parent: MobSyndicateNavalOperatorA
   id: MobSyndicateNavalOperatorB
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
     - type: Loadout
       prototypes:
@@ -320,7 +347,7 @@
 - type: entity
   parent: MobSyndicateNavalOperatorA
   id: MobSyndicateNavalOperatorC
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
     - type: Loadout
       prototypes:
@@ -329,7 +356,7 @@
 - type: entity
   parent: MobSyndicateNavalOperatorA
   id: MobSyndicateNavalOperatorD
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
     - type: Loadout
       prototypes:
@@ -340,7 +367,9 @@
   name: syndicate grenadier
   parent: MobSyndicateNavalBase
   id: MobSyndicateNavalGrenadierA
-  noSpawn: true
+  description: |-
+   "Huh? Say it louder! I can't hear you!" Equipped with the infamous China Lake, grenadiers have immense destructive capability, and should be priority targets.
+  categories: [ HideSpawnMenu ]
   components:
     - type: Loadout
       prototypes:
@@ -367,7 +396,7 @@
 - type: entity
   parent: MobSyndicateNavalGrenadierA
   id: MobSyndicateNavalGrenadierB
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
     - type: Loadout
       prototypes:
@@ -380,7 +409,7 @@
 - type: entity
   parent: MobSyndicateNavalGrenadierA
   id: MobSyndicateNavalGrenadierC
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
     - type: Loadout
       prototypes:
@@ -393,7 +422,7 @@
 - type: entity
   parent: MobSyndicateNavalGrenadierA
   id: MobSyndicateNavalGrenadierD
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
     - type: Loadout
       prototypes:
@@ -408,7 +437,8 @@
   name: syndicate saboteur
   parent: MobSyndicateNavalBase
   id: MobSyndicateNavalSaboteurA
-  noSpawn: true
+  description: Specialist trained in the art of sabotaging NT shuttles and facilities. Equipped with EMP rounds, take caution.
+  categories: [ HideSpawnMenu ]
   components:
     - type: Loadout
       prototypes:
@@ -432,7 +462,7 @@
 - type: entity
   parent: MobSyndicateNavalSaboteurA
   id: MobSyndicateNavalSaboteurB
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
     - type: Loadout
       prototypes:
@@ -441,7 +471,7 @@
 - type: entity
   parent: MobSyndicateNavalSaboteurA
   id: MobSyndicateNavalSaboteurC
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
     - type: Loadout
       prototypes:
@@ -450,7 +480,7 @@
 - type: entity
   parent: MobSyndicateNavalSaboteurA
   id: MobSyndicateNavalSaboteurD
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
     - type: Loadout
       prototypes:
@@ -463,7 +493,7 @@
   - MobHumanoidHostileBase
   - MobHumanoidHostileAISimpleMelee
   id: MobExperimentationVictim
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
     - type: NameIdentifier
       group: GenericNumber
@@ -482,9 +512,12 @@
 # Syndicate Commander, "armed" with AK
 - type: entity
   name: syndicate commander # Mega Fauna for Dungeons
-  parent: MobSyndicateNavalBase
+  parent:
+  - MobSyndicateNavalBase
+  - MobLaserReflect # Added to prevent laser abuse from players
   id: MobSyndicateNavalCommanderA
-  noSpawn: true
+  description: A regional commander of Syndicate operations, this officer holds ultimate local command and responsibility. Armed with an assault rifle and heavily armored.
+  categories: [ HideSpawnMenu ]
   components:
     - type: Loadout
       prototypes:
@@ -514,7 +547,7 @@
 - type: entity
   parent: MobSyndicateNavalCommanderA
   id: MobSyndicateNavalCommanderB
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
     - type: Loadout
       prototypes:
@@ -534,7 +567,7 @@
 - type: entity
   parent: MobSyndicateNavalCommanderB
   id: MobSyndicateNavalCommanderC
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
     - type: Loadout
       prototypes:
@@ -543,7 +576,7 @@
 - type: entity
   parent: MobSyndicateNavalCommanderB
   id: MobSyndicateNavalCommanderD
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
     - type: Loadout
       prototypes:
@@ -554,7 +587,8 @@
   name: syndicate deckhand
   parent: MobSyndicateNavalBase
   id: MobSyndicateNavalDeckhandA
-  noSpawn: true
+  description: Lowest ranking member of the Syndicate Naval Forces. Your regular "Johnny-on-the-spot" when it comes to menial tasks.
+  categories: [ HideSpawnMenu ]
   components:
     - type: Loadout
       prototypes:
@@ -578,7 +612,7 @@
 - type: entity
   parent: MobSyndicateNavalDeckhandA
   id: MobSyndicateNavalDeckhandB
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
     - type: Loadout
       prototypes:
@@ -587,7 +621,7 @@
 - type: entity
   parent: MobSyndicateNavalDeckhandA
   id: MobSyndicateNavalDeckhandC
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
     - type: Loadout
       prototypes:
@@ -596,7 +630,7 @@
 - type: entity
   parent: MobSyndicateNavalDeckhandA
   id: MobSyndicateNavalDeckhandD
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
     - type: Loadout
       prototypes:
@@ -609,7 +643,7 @@
   - MobSyndicateNavalBase
   - MobHumanoidHostileAISimpleMelee
   id: MobSyndicateNavalMime
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
     - type: Loadout
       prototypes:
@@ -631,7 +665,8 @@
   name: syndicate chemwarrior
   parent: MobSyndicateNavalBase
   id: MobSyndicateNavalChemwarriorA
-  noSpawn: true
+  description: Carrying tanks filled with dangerous chemicals, chemwarriors attack their enemies with a noxious spray.
+  categories: [ HideSpawnMenu ]
   components:
   - type: Loadout
     prototypes:
@@ -655,7 +690,7 @@
 - type: entity
   parent: MobSyndicateNavalChemwarriorA
   id: MobSyndicateNavalChemwarriorB
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Loadout
     prototypes:
@@ -668,7 +703,7 @@
 - type: entity
   parent: MobSyndicateNavalChemwarriorA
   id: MobSyndicateNavalChemwarriorC
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Loadout
     prototypes:
@@ -681,7 +716,7 @@
 - type: entity
   parent: MobSyndicateNavalChemwarriorA
   id: MobSyndicateNavalChemwarriorD
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Loadout
     prototypes:
@@ -690,3 +725,89 @@
     proto: SplatterChemWeh
     capacity: 1
     count: 1
+
+# Void Troopers
+# Syndicate Captain, "armed" with Python
+- type: entity
+  name: syndicate captain
+  parent:
+  - MobSyndicateNavalCaptainA
+  - MobLaserReflect # Added to prevent laser abuse from players
+  id: MobSyndicateNavalCaptainVoid
+  categories: [ HideSpawnMenu ]
+  components:
+    - type: Loadout
+      prototypes:
+        - SyndicateNavalCaptainVoidGear
+    - type: BasicEntityAmmoProvider
+      proto: BulletMagnum
+      capacity: 1
+      count: 1
+
+# Second Officer, "armed" with Advanced Laser Pistol
+- type: entity
+  parent:
+  - MobSyndicateNavalSecondOfficerA
+  - MobLaserReflect # Added to prevent laser abuse from players
+  id: MobSyndicateNavalSecondOfficerVoid
+  categories: [ HideSpawnMenu ]
+  components:
+    - type: Loadout
+      prototypes:
+        - SyndicateNavalSecondOfficerVoidGear
+
+# Syndicate Security Operative, "armed" with Atreides SMG
+- type: entity
+  parent:
+  - MobSyndicateNavalOperatorA
+  - MobLaserReflect # Added to prevent laser abuse from players
+  id: MobSyndicateNavalOperatorVoid
+  categories: [ HideSpawnMenu ]
+  components:
+    - type: Loadout
+      prototypes:
+        - SyndicateNavalOperatorVoidGear
+
+# Syndicate Engineer, "armed" with shotgun
+- type: entity
+  parent:
+  - MobSyndicateNavalEngineerA
+  - MobLaserReflect # Added to prevent laser abuse from players
+  id: MobSyndicateNavalEngineerVoid
+  categories: [ HideSpawnMenu ]
+  components:
+    - type: Damageable
+      damageModifierSet: MobMercenaryDamageModifierSet
+    - type: Loadout
+      prototypes:
+        - SyndicateNavalEngineerVoidGear
+    - type: BasicEntityAmmoProvider
+      proto: ShellShotgun
+      capacity: 1
+      count: 1
+
+# Syndicate Deckhand, "armed" with Viper
+- type: entity
+  parent:
+  - MobSyndicateNavalDeckhandA
+  - MobLaserReflect # Added to prevent laser abuse from players
+  id: MobSyndicateNavalDeckhandVoid
+  categories: [ HideSpawnMenu ]
+  components:
+    - type: Damageable
+      damageModifierSet: MobMercenaryDamageModifierSet
+    - type: Loadout
+      prototypes:
+        - SyndicateNavalDeckhandVoidGear
+
+# Syndicate Medic, "armed" poisoned darts
+- type: entity
+  parent:
+  - MobSyndicateNavalMedicA
+  - MobLaserReflect # Added to prevent laser abuse from players
+  id: MobSyndicateNavalMedicVoid
+  categories: [ HideSpawnMenu ]
+  components:
+    - type: Loadout
+      prototypes:
+        - SyndicateNavalMedicVoidGear

@@ -1,11 +1,11 @@
 - type: entity
   name: emp emitter
-  parent: BaseWeaponBattery
+  parent: [BaseC2ContrabandUnredeemable, BaseWeaponBattery]
   id: WeaponEmpEmitter
   description: Releases electromagnetic pulses that disrupt or damage many electronic devices or drain power cells, has a slow self charging nuclear powered battery.
   components:
   - type: Sprite
-    sprite: _NF/Objects/Weapons/EMP-Gun.rsi
+    sprite: _NF/Objects/Weapons/Guns/Projectiles/emp.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -13,7 +13,7 @@
       map: ["enum.GunVisualLayers.MagUnshaded"]
       shader: unshaded
   - type: Clothing
-    sprite: _NF/Objects/Weapons/EMP-Gun.rsi
+    sprite: _NF/Objects/Weapons/Guns/Projectiles/emp.rsi
   - type: Gun
     fireRate: 1
     selectedMode: SemiAuto
@@ -37,9 +37,8 @@
   - type: Appearance
 
 - type: entity
-  parent:
-  - BaseWeaponBattery
   id: WeaponLaserTurboNF
+  parent: [ BaseC3Contraband, BaseWeaponBattery ]
   name: turbo laser mk3
   description: "A turbo laser ripped from the guardian unit. Appears to be a rather old model. Doesn't seem to be working properly. Supposedly highly illegal."
   components:
@@ -104,8 +103,8 @@
     zeroVisible: true
 
 - type: entity
-  parent: WeaponLaserGun
   id: WeaponLaserPistolNF
+  parent: [ BaseC1Contraband, WeaponLaserGun ]
   name: laser pistol
   suffix: Frontier
   description: Slightly outdated design of civilian-grade laser pistol.

@@ -1,0 +1,12 @@
+#T0
+- type: loadout
+  id: StationRepClothingBackpackMessengerSr
+  price: 0
+  equipment:
+    back: ClothingBackpackMessengerSr
+
+- type: loadout
+  id: StationRepClothingBackpackIan
+  price: 0
+  equipment:
+    back: ClothingBackpackIan

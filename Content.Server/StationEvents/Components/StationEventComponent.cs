@@ -70,12 +70,9 @@ public sealed partial class StationEventComponent : Component
     public int MinimumPlayers;
 
     /// <summary>
-    ///     How many players need to be present on station for the event to not run
-    /// </summary>
-    /// <remarks>
-    ///     To avoid running safe events with high-pop
+    ///     Frontier - How many players need to be present on station for the event to not run, to avoid running safe events with high-pop
     /// </remarks>
-    [DataField("maximumPlayers")]
+    [DataField]
     public int MaximumPlayers = 999;
 
     /// <summary>
@@ -90,4 +87,10 @@ public sealed partial class StationEventComponent : Component
     [DataField("endTime", customTypeSerializer: typeof(TimeOffsetSerializer))]
     [AutoPausedField]
     public TimeSpan? EndTime;
+
+    /// <summary>
+    /// If false, the event won't trigger during ongoing evacuation.
+    /// </summary>
+    [DataField]
+    public bool OccursDuringRoundEnd = true;
 }

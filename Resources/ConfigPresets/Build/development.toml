@@ -1,8 +1,12 @@
 ﻿[game]
 # Straight in-game baby
 lobbyenabled = false
-map = "Frontier"
+map = "NFDev"
 role_timers = false
+
+[ghost]
+role_time = 0.5
+quick_lottery = true
 
 [gateway]
 generator_enabled = false
@@ -16,7 +20,7 @@ preload = false
 
 [salvage]
 expedition_cooldown = 30.0
-expedition_failed_cooldown = 30.0
+expedition_failed_cooldown = 10.0
 
 [shuttle]
 grid_fill = false

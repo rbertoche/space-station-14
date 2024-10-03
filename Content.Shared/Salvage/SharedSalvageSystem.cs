@@ -109,20 +109,20 @@ public abstract partial class SharedSalvageSystem : EntitySystem
 
         if (air.Description != string.Empty)
         {
-            mods.Add(air.Description);
+            mods.Add(Loc.GetString(air.Description));
         }
 
         // only show the description if there is an atmosphere since wont matter otherwise
         var temp = GetBiomeMod<SalvageTemperatureMod>(biome.ID, rand, ref rating);
         if (temp.Description != string.Empty && !air.Space)
         {
-            mods.Add(temp.Description);
+            mods.Add(Loc.GetString(temp.Description));
         }
 
         var light = GetBiomeMod<SalvageLightMod>(biome.ID, rand, ref rating);
         if (light.Description != string.Empty)
         {
-            mods.Add(light.Description);
+            mods.Add(Loc.GetString(light.Description));
         }
 
         var time = GetMod<SalvageTimeMod>(rand, ref rating);
@@ -131,9 +131,9 @@ public abstract partial class SharedSalvageSystem : EntitySystem
         exactDuration = MathF.Round(exactDuration / 15f) * 15f;
         var duration = TimeSpan.FromSeconds(exactDuration);
 
-        if (time.Description != string.Empty)
+        if (!time.Hidden && time.Description != string.Empty)
         {
-            mods.Add(time.Description);
+            mods.Add(Loc.GetString(time.Description));
         }
 
         var rewards = GetRewards(difficulty, rand);
@@ -198,23 +198,23 @@ public abstract partial class SharedSalvageSystem : EntitySystem
     /// </summary>
     private string[] RewardsForDifficulty(DifficultyRating rating)
     {
-        var common = "SalvageRewardCommon";
-        var uncommon = "SalvageRewardUncommon";
-        var rare = "SalvageRewardRare";
-        var epic = "SalvageRewardEpic";
-        var legendary = "SalvageRewardLegendary";
+        var t1 = "ExpeditionRewardT1"; // Frontier - Update tiers
+        var t2 = "ExpeditionRewardT2"; // Frontier - Update tiers
+        var t3 = "ExpeditionRewardT3"; // Frontier - Update tiers
+        var t4 = "ExpeditionRewardT4"; // Frontier - Update tiers
+        var t5 = "ExpeditionRewardT5"; // Frontier - Update tiers
         switch (rating)
         {
             case DifficultyRating.Minimal:
-                return new string[] { common };
+                return new string[] { t1 }; // Frontier - Update tiers
             case DifficultyRating.Minor:
-                return new string[] { uncommon };
+                return new string[] { t2 }; // Frontier - Update tiers
             case DifficultyRating.Moderate:
-                return new string[] { rare };
+                return new string[] { t3 }; // Frontier - Update tiers
             case DifficultyRating.Hazardous:
-                return new string[] { epic };
+                return new string[] { t4 }; // Frontier - Update tiers
             case DifficultyRating.Extreme:
-                return new string[] { legendary };
+                return new string[] { t5 }; // Frontier - Update tiers
             default:
                 throw new NotImplementedException();
         }

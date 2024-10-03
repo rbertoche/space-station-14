@@ -1,89 +1,64 @@
 - type: loadout
   id: LawyerClothingUniformJumpsuitLawyerBlack
-  equipment: LawyerClothingUniformJumpsuitLawyerBlack
-
-- type: startingGear
-  id: LawyerClothingUniformJumpsuitLawyerBlack
+  hideEffects:
+  - !type:GroupLoadoutEffect
+    proto: PantsCapableNF
   equipment:
     jumpsuit: ClothingUniformJumpsuitLawyerBlack
 
 - type: loadout
-  id: LawyerClothingUniformJumpskirtLawyerBlack
-  equipment: LawyerClothingUniformJumpskirtLawyerBlack
-
-- type: startingGear
   id: LawyerClothingUniformJumpskirtLawyerBlack
   equipment:
     jumpsuit: ClothingUniformJumpskirtLawyerBlack
 
 - type: loadout
   id: LawyerClothingUniformJumpsuitLawyerBlue
-  equipment: LawyerClothingUniformJumpsuitLawyerBlue
-
-- type: startingGear
-  id: LawyerClothingUniformJumpsuitLawyerBlue
+  hideEffects:
+  - !type:GroupLoadoutEffect
+    proto: PantsCapableNF
   equipment:
     jumpsuit: ClothingUniformJumpsuitLawyerBlue
 
 - type: loadout
-  id: LawyerClothingUniformJumpskirtLawyerBlue
-  equipment: LawyerClothingUniformJumpskirtLawyerBlue
-
-- type: startingGear
   id: LawyerClothingUniformJumpskirtLawyerBlue
   equipment:
     jumpsuit: ClothingUniformJumpskirtLawyerBlue
 
 - type: loadout
   id: LawyerClothingUniformJumpsuitLawyerPurple
-  equipment: LawyerClothingUniformJumpsuitLawyerPurple
-
-- type: startingGear
-  id: LawyerClothingUniformJumpsuitLawyerPurple
+  hideEffects:
+  - !type:GroupLoadoutEffect
+    proto: PantsCapableNF
   equipment:
     jumpsuit: ClothingUniformJumpsuitLawyerPurple
 
 - type: loadout
-  id: LawyerClothingUniformJumpskirtLawyerPurple
-  equipment: LawyerClothingUniformJumpskirtLawyerPurple
-
-- type: startingGear
   id: LawyerClothingUniformJumpskirtLawyerPurple
   equipment:
     jumpsuit: ClothingUniformJumpskirtLawyerPurple
 
 - type: loadout
   id: LawyerClothingUniformJumpsuitLawyerRed
-  equipment: LawyerClothingUniformJumpsuitLawyerRed
-
-- type: startingGear
-  id: LawyerClothingUniformJumpsuitLawyerRed
+  hideEffects:
+  - !type:GroupLoadoutEffect
+    proto: PantsCapableNF
   equipment:
     jumpsuit: ClothingUniformJumpsuitLawyerRed
 
 - type: loadout
-  id: LawyerClothingUniformJumpskirtLawyerRed
-  equipment: LawyerClothingUniformJumpskirtLawyerRed
-
-- type: startingGear
   id: LawyerClothingUniformJumpskirtLawyerRed
   equipment:
     jumpsuit: ClothingUniformJumpskirtLawyerRed
 
 - type: loadout
   id: LawyerClothingUniformJumpsuitLawyerGood
-  equipment: LawyerClothingUniformJumpsuitLawyerGood
-
-- type: startingGear
-  id: LawyerClothingUniformJumpsuitLawyerGood
+  hideEffects:
+  - !type:GroupLoadoutEffect
+    proto: PantsCapableNF
   equipment:
     jumpsuit: ClothingUniformJumpsuitLawyerGood
 
 - type: loadout
-  id: LawyerClothingUniformJumpskirtLawyerGood
-  equipment: LawyerClothingUniformJumpskirtLawyerGood
-
-- type: startingGear
   id: LawyerClothingUniformJumpskirtLawyerGood
   equipment:
     jumpsuit: ClothingUniformJumpskirtLawyerGood

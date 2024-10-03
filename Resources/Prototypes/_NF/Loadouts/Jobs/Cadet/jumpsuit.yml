@@ -1,17 +1,12 @@
 - type: loadout
   id: CadetClothingUniformJumpsuitCadet
-  equipment: CadetClothingUniformJumpsuitCadet
-
-- type: startingGear
-  id: CadetClothingUniformJumpsuitCadet
+  hideEffects:
+  - !type:GroupLoadoutEffect
+    proto: PantsCapableNF
   equipment:
     jumpsuit: ClothingUniformJumpsuitNfsdShort
 
 - type: loadout
-  id: CadetClothingUniformJumpskirtCadet
-  equipment: CadetClothingUniformJumpskirtCadet
-
-- type: startingGear
   id: CadetClothingUniformJumpskirtCadet
   equipment:
     jumpsuit: ClothingUniformJumpskirtNfsdShort

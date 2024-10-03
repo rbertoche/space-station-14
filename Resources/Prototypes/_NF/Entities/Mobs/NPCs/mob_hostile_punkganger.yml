@@ -1,9 +1,25 @@
 - type: entity
+  abstract: true
+  id: MobVandalizer
+  components:
+  - type: Timer
+  - type: TimedSpawner
+    prototypes:
+    - SpawnerHoloGraffitiRandom
+    chance: 1.0
+    intervalSeconds: 300 # every 5 minutes
+    minimumEntitiesSpawned: 1
+    maximumEntitiesSpawned: 1
+
+- type: entity
   name: punk
   abstract: true
   parent:
   - MobHumanoidHostileBase
+  - MobVandalizer
   id: MobPunkBase
+  description: |-
+   "Criminally-inclined individuals", as NT Security documents call them, these are armed with a variety of weapons. These weapons range from makeshift shivs and machined truncheons to rusty pistols and shotguns. Some may be armored, so plan appropriately.
   components:
   - type: NpcFactionMember
     factions:
@@ -13,6 +29,10 @@
       0: Alive
       100: Critical
       130: Dead
+  - type: SlowOnDamage
+    speedModifierThresholds:
+      60: 0.7
+      80: 0.5
   - type: Stamina
     critThreshold: 100
   - type: RechargeBasicEntityAmmo
@@ -45,7 +65,7 @@
   - MobPunkBase
   - MobHumanoidHostileAISimpleMelee
   id: MobPunkGangerMelee
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Loadout
     prototypes:
@@ -56,7 +76,7 @@
   - MobPunkBase
   - MobHumanoidHostileAISimpleRanged
   id: MobPunkGangerPistol
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Loadout
     prototypes:
@@ -78,7 +98,7 @@
   - MobPunkBase
   - MobHumanoidHostileAISimpleRanged
   id: MobPunkGangerShotgun
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Loadout
     prototypes:
@@ -100,7 +120,7 @@
   - MobPunkBase
   - MobHumanoidHostileAISimpleMelee
   id: MobPunkGangerArmoredMelee
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Loadout
     prototypes:
@@ -112,7 +132,8 @@
   - MobHumanoidHostileAISimpleRanged
   id: MobPunkGangerArmoredElite
   name: punk gang leader
-  noSpawn: true
+  description: It takes a formidable figure to lead a pack of street trash. These leaders usually wield scavenged SMGs and wear armor taken from unfortunate security forces. Usually high on meth and booze.
+  categories: [ HideSpawnMenu ]
   components:
   - type: Loadout
     prototypes:
@@ -132,3 +153,4 @@
     availableModes:
     - FullAuto
     soundGunshot: /Audio/Weapons/Guns/Gunshots/smg.ogg
+  - type: Jittering

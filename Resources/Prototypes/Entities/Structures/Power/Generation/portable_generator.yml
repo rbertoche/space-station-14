@@ -185,8 +185,11 @@
         - output_mv
       sprite: Structures/Power/Generation/portable_generator.rsi
       state: portgen0
+    - type: PowerSupplier
+      supplyRampRate: 5000
+      supplyRampTolerance: 1500
     - type: MaterialStorageMagnetPickup # Frontier
-      range: 0.30
+      range: 0.30 # Frontier
 
 - type: entity
   name: S.U.P.E.R.P.A.C.M.A.N.-type portable generator
@@ -243,8 +246,11 @@
         - output_mv
       sprite: Structures/Power/Generation/portable_generator.rsi
       state: portgen1
+    - type: PowerSupplier
+      supplyRampRate: 7500
+      supplyRampTolerance: 2500
     - type: MaterialStorageMagnetPickup # Frontier
-      range: 0.30
+      range: 0.30 # Frontier
 
 - type: entity
   name: J.R.P.A.C.M.A.N.-type portable generator
@@ -293,11 +299,11 @@
     - type: Machine
       board: PortableGeneratorJrPacmanMachineCircuitboard
     - type: FuelGenerator
-      targetPower: 4000 # Frontier - 2000<4000
+      targetPower: 6000 # Frontier - 2000<6000
       minTargetPower: 1000
-      optimalPower: 5000
+      optimalPower: 6000 # Frontier - 2000<6000
       maxTargetPower: 15000
-      # 7.5 minutes at full tank.
+      # 30~ minutes at full tank.
       optimalBurnRate: 0.11111111
       # Shallow curve
       fuelEfficiencyConstant: 0.5
@@ -308,7 +314,7 @@
     - type: SolutionContainerManager
       solutions:
         tank:
-          maxVol: 100 # Frontier - 50<100
+          maxVol: 200 # Frontier - 50<200
     - type: RefillableSolution
       solution: tank
     - type: PortableGenerator

@@ -49,7 +49,6 @@
       - id: ClothingHandsGlovesLatex
 #      - id: ClothingHeadsetMedical # Frontier
       - id: ClothingEyesHudMedical # Frontier
-#      - id: ClothingBeltMedical
 #      - id: ClothingHeadHatSurgcapGreen
 #        prob: 0.1
 #        orGroup: Surgcaps
@@ -124,9 +123,9 @@
       - id: ClothingHandsGlovesLatex
 #      - id: ClothingHeadsetMedical # Frontier
       - id: ClothingMaskSterile
-#      - id: HandLabeler
-      - id: ClothingEyesGlassesChemical # Frontier
-      - id: SheetPlasma1 # Frontier
+#      - id: HandLabeler # Frontier
+      - id: ClothingEyesGlassesChemical
+      - id: SheetPlasma1
         amount: 3
 
 - type: entity

@@ -1,17 +1,12 @@
 - type: loadout
   id: BailiffClothingUniformJumpsuitBailiff
-  equipment: BailiffClothingUniformJumpsuitBailiff
-
-- type: startingGear
-  id: BailiffClothingUniformJumpsuitBailiff
+  hideEffects:
+  - !type:GroupLoadoutEffect
+    proto: PantsCapableNF
   equipment:
     jumpsuit: ClothingUniformJumpsuitNfsdTacCream
 
 - type: loadout
-  id: BailiffClothingUniformJumpskirtBailiff
-  equipment: BailiffClothingUniformJumpskirtBailiff
-
-- type: startingGear
   id: BailiffClothingUniformJumpskirtBailiff
   equipment:
     jumpsuit: ClothingUniformJumpskirtNfsd

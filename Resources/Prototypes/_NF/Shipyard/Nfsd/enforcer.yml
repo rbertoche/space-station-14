@@ -5,7 +5,11 @@
   # price: 21350
   # category: Small
   # group: Security
+  # access: Bailiff
   # shuttlePath: /Maps/_NF/Shuttles/Nfsd/enforcer.yml
+  # guidebookPage: Null
+  # class:
+  # - Fighter # Where does this belong?
 
 # - type: gameMap
   # id: Enforcer

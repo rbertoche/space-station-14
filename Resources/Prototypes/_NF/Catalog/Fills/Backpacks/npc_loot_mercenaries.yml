@@ -6,7 +6,7 @@
   name: mercanary gear bundle
   description: Loot boxes? Here?
   abstract: true
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   suffix: NPC Loot
   components:
   - type: Sprite
@@ -26,7 +26,7 @@
   name: mercanary ammo bundle
   description: Loot boxes? Here?
   abstract: true
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   suffix: NPC Loot
   components:
   - type: Sprite
@@ -44,7 +44,7 @@
 - type: entity
   parent: MercenaryDuffelGiftBox
   id: ClothingBackpackDuffelMecranaryTier1Pistol
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: SpawnItemsOnUse
     items:
@@ -64,13 +64,20 @@
     # Items
     - id: ClothingNeckIFFNeutral
       prob: 0.2
+    # Bonus Loot T1
+    - id: SpaceCash500
+      prob: 0.9
+    - id: SpaceCash1000
+      prob: 0.7
+    - id: SpawnDungeonLootPartsEngi
+      prob: 0.7
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
 - type: entity
   parent: MercenaryWebbingBox
   id: ClothingBeltWebbingMecranaryTier1Pistol
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: SpawnItemsOnUse
     items:
@@ -90,8 +97,8 @@
 
 - type: entity
   parent: MercenaryDuffelGiftBox
-  id: ClothingBackpackDuffelMecranaryTier1Mosin
-  noSpawn: true
+  id: ClothingBackpackDuffelMecranaryTier1Novalite
+  categories: [ HideSpawnMenu ]
   components:
   - type: SpawnItemsOnUse
     items:
@@ -103,7 +110,7 @@
     - id: SpaceCash500
       prob: 0.45
     # Weapons
-    - id: WeaponSniperMosin
+    - id: WeaponRifleNovaliteC1
       prob: 0.9
     # Armor
     - id: ClothingOuterVestWebMercenary
@@ -111,19 +118,39 @@
     # Items
     - id: ClothingNeckIFFNeutral
       prob: 0.2
+    # Bonus Loot T2
+    - id: SpaceCash1000
+      prob: 0.9
+    - id: SpawnDungeonLootMaterialsBasicFull
+      prob: 0.7
+    - id: SpaceCash1000
+      prob: 0.7
+    - id: SpawnDungeonLootPartsEngi
+      amount: 2
+      prob: 0.7
+    - id: SpawnDungeonLootCircuitBoardEngi
+      prob: 0.7
+    - id: SpawnDungeonLootToolsAdvancedEngineering
+      prob: 0.3
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
 - type: entity
   parent: MercenaryWebbingBox
-  id: ClothingBeltWebbingMecranaryTier1Mosin
-  noSpawn: true
+  id: ClothingBeltWebbingMecranaryTier1Novalite
+  categories: [ HideSpawnMenu ]
   components:
   - type: SpawnItemsOnUse
     items:
-    - id: MagazineBoxLightRifle
+    - id: MagazineBoxRifle
       prob: 0.9
-    - id: MagazineBoxLightRifleBig
+    - id: MagazineNovaliteC1Empty
+      prob: 0.9
+    - id: MagazineNovaliteC1Empty
+      prob: 0.9
+    - id: MagazineNovaliteC1
+      prob: 0.2
+    - id: MagazineBoxRifleBig
       prob: 0.2
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
@@ -132,7 +159,7 @@
 - type: entity
   parent: MercenaryDuffelGiftBox
   id: ClothingBackpackDuffelMecranaryTier2Shotgun
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: SpawnItemsOnUse
     items:
@@ -152,13 +179,27 @@
     # Items
     - id: ClothingNeckIFFNeutral
       prob: 0.2
+    # Bonus Loot T2
+    - id: SpaceCash1000
+      prob: 0.9
+    - id: SpawnDungeonLootMaterialsBasicFull
+      prob: 0.7
+    - id: SpaceCash1000
+      prob: 0.7
+    - id: SpawnDungeonLootPartsEngi
+      amount: 2
+      prob: 0.7
+    - id: SpawnDungeonLootCircuitBoardEngi
+      prob: 0.7
+    - id: SpawnDungeonLootToolsAdvancedEngineering
+      prob: 0.3
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
 - type: entity
   parent: MercenaryWebbingBox
   id: ClothingBeltWebbingMecranaryTier2Shotgun
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: SpawnItemsOnUse
     items:
@@ -172,7 +213,7 @@
 - type: entity
   parent: MercenaryDuffelGiftBox
   id: ClothingBackpackDuffelMecranaryTier2Revolver
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: SpawnItemsOnUse
     items:
@@ -196,13 +237,27 @@
     # Items
     - id: ClothingNeckIFFNeutral
       prob: 0.2
+    # Bonus Loot T2
+    - id: SpaceCash1000
+      prob: 0.9
+    - id: SpaceCash1000
+      prob: 0.7
+    - id: SpawnDungeonLootMaterialsValuableFull
+      prob: 0.7
+    - id: SpawnDungeonLootPartsEngi
+      amount: 2
+      prob: 0.7
+    - id: SpawnDungeonLootCircuitBoardEngi
+      prob: 0.7
+    - id: SpawnDungeonLootToolsAdvancedEngineering
+      prob: 0.3
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
 - type: entity
   parent: MercenaryWebbingBox
   id: ClothingBeltWebbingMecranaryTier2Revolver
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: Clothing/Belt/bandolier.rsi
@@ -226,7 +281,7 @@
 - type: entity
   parent: MercenaryDuffelGiftBox
   id: ClothingBackpackDuffelMecranaryTier3Medic
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: Clothing/Back/Duffels/medical.rsi
@@ -251,13 +306,29 @@
       prob: 0.45
     - id: ClothingNeckIFFNeutral
       prob: 0.2
+    # Bonus Loot T3
+    - id: SpaceCash1000
+      prob: 0.9
+    - id: SpaceCash500
+      prob: 0.9
+    - id: SpawnDungeonLootMaterialsBasicFull
+      prob: 0.7
+    - id: SpaceCash1000
+      prob: 0.7
+    - id: SpawnDungeonLootPartsEngi
+      amount: 2
+      prob: 0.7
+    - id: SpawnDungeonLootFlatpacks
+      prob: 0.5
+    - id: SpawnDungeonLootToolsAdvancedEngineering
+      prob: 0.4
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
 - type: entity
   parent: MercenaryWebbingBox
   id: ClothingBeltMecranaryTier3Medic
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: Clothing/Belt/emt.rsi
@@ -282,11 +353,79 @@
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
+- type: entity
+  parent: MercenaryDuffelGiftBox
+  id: ClothingBackpackDuffelMecranaryTier3Assault
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: Clothing/Back/Duffels/duffel.rsi
+    state: icon
+  - type: SpawnItemsOnUse
+    items:
+    # Cash
+    - id: SpaceCash500
+      prob: 0.9
+    - id: SpaceCash500
+      prob: 0.4
+    - id: SpaceCash1000
+      prob: 0.2
+    # Weapons
+    - id: WeaponRifleGestio
+      prob: 0.9
+    # Armor
+    # Items
+    - id: SpawnDungeonLootKitsFirstAid
+      prob: 0.2
+    - id: ClothingNeckIFFNeutral
+      prob: 0.2
+    # Bonus Loot T3
+    - id: SpaceCash1000
+      prob: 0.9
+    - id: SpaceCash500
+      prob: 0.9
+    - id: SpaceCash1000
+      prob: 0.7
+    - id: SpawnDungeonLootMaterialsValuableFull
+      prob: 0.7
+    - id: SpawnDungeonLootPartsEngi
+      amount: 2
+      prob: 0.7
+    - id: SpawnDungeonLootFlatpacks
+      prob: 0.5
+    - id: SpawnDungeonLootToolsAdvancedEngineering
+      prob: 0.4
+    sound:
+      path: /Audio/Items/jumpsuit_equip.ogg
+
+- type: entity
+  parent: MercenaryWebbingBox
+  id: ClothingBeltMecranaryTier3Assault
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: Clothing/Belt/militarywebbing.rsi
+    state: icon
+  - type: SpawnItemsOnUse
+    items:
+    - id: MagazineLightRifleLowCapacity
+      prob: 0.6
+    - id: MagazineLightRifleLowCapacity
+      prob: 0.6
+    - id: MagazineBoxLightRifle
+      prob: 0.7
+    - id: Tourniquet
+      prob: 0.4
+    - id: MagazineBoxLightRifleBig
+      prob: 0.2
+    sound:
+      path: /Audio/Items/jumpsuit_equip.ogg
+
 ## TIER 4
 - type: entity
   parent: MercenaryDuffelGiftBox
   id: ClothingBackpackDuffelMecranaryTier4Captain
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     sprite: _NF/Clothing/Back/Messenger/color.rsi
@@ -347,5 +486,19 @@
       prob: 0.2
     - id: AmmoTechFabCircuitboard
       prob: 0.1
+    # Bonus Loot T4
+    - id: SpaceCash2500
+      prob: 0.9
+    - id: SpawnDungeonLootFlatpacks
+      prob: 0.9
+    - id: SpaceCash1000
+      prob: 0.7
+    - id: SpawnDungeonLootMaterialsValuableFull
+      prob: 0.7
+    - id: SpawnDungeonLootPartsEngi
+      amount: 3
+      prob: 0.7
+    - id: SpawnDungeonLootVaultGuns
+      prob: 0.4
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg

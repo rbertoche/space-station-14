@@ -1,17 +1,12 @@
 - type: loadout
-  id: JanitorClothingUniformJumpsuitJanitor
-  equipment: JanitorClothingUniformJumpsuitJanitor
-
-- type: startingGear
-  id: JanitorClothingUniformJumpsuitJanitor
+  id: JanitorNFClothingUniformJumpsuitJanitor
+  hideEffects:
+  - !type:GroupLoadoutEffect
+    proto: PantsCapableNF
   equipment:
     jumpsuit: ClothingUniformJumpsuitJanitor
 
 - type: loadout
-  id: JanitorClothingUniformJumpskirtJanitor
-  equipment: JanitorClothingUniformJumpskirtJanitor
-
-- type: startingGear
-  id: JanitorClothingUniformJumpskirtJanitor
+  id: JanitorNFClothingUniformJumpskirtJanitor
   equipment:
     jumpsuit: ClothingUniformJumpskirtJanitor

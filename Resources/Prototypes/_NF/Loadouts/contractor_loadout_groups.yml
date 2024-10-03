@@ -85,9 +85,20 @@
   - ContractorClothingUniformJumpsuitGenetics
   - ContractorClothingUniformJumpskirtGenetics
   - ContractorClothingUniformJumpsuitPsychologist
+  - ContractorClothingUniformJumpskirtPsychologist
   - ContractorClothingUniformJumpsuitScientistFormal
   - ContractorClothingUniformJumpsuitRoboticist
   - ContractorClothingUniformJumpskirtRoboticist
+  - ContractorClothingUniformJumpsuitLawyerBlue
+  - ContractorClothingUniformJumpskirtLawyerBlue
+  - ContractorClothingUniformJumpsuitLawyerPurple
+  - ContractorClothingUniformJumpskirtLawyerPurple
+  - ContractorClothingUniformJumpsuitLawyerRed
+  - ContractorClothingUniformJumpskirtLawyerRed
+  - ContractorClothingUniformJumpsuitLawyerBlack
+  - ContractorClothingUniformJumpskirtLawyerBlack
+  - ContractorClothingUniformJumpsuitLawyerGood
+  - ContractorClothingUniformJumpskirtLawyerGood
   - ContractorClothingUniformRandomPunkCroptop # Punkish (Randomized visuals)
   - ContractorClothingUniformRandomPunkTanktop # Punkish (Randomized visuals)
   - ContractorClothingUniformRandomArmlessNoSkirt # Punkish (Randomized visuals)
@@ -102,6 +113,8 @@
   - ContractorClothingUniformJumpskirtSeniorPhysician
   - ContractorClothingUniformJumpsuitCMO
   - ContractorClothingUniformJumpskirtCMO
+  - ContractorClothingUniformTurtleneckCMO
+  - ContractorClothingUniformTurtleskirtCMO
   - ContractorClothingUniformJumpsuitSeniorResearcher
   - ContractorClothingUniformJumpskirtSeniorResearcher
   - ContractorClothingUniformJumpsuitResearchDirector
@@ -161,6 +174,9 @@
   - ContractorClothingUniformJumpsuitMilitaryColorPurple
   - ContractorClothingUniformJumpsuitMilitaryColorLightBrown
   - ContractorClothingUniformJumpsuitMilitaryColorBrown
+  fallbacks:
+  - ContractorClothingUniformJumpsuitColorGrey
+  - ContractorClothingUniformJumpskirtColorGrey
 
 - type: loadoutGroup
   id: ContractorBackpack
@@ -233,12 +249,15 @@
   - ContractorClothingBackpackDuffelMime
   - ContractorClothingBackpackSatchelMime
   - ContractorClothingBackpackMessengerMime
-  
+  fallbacks:
+  - ContractorClothingBackpack
+
 - type: loadoutGroup
   id: ContractorOuterClothing
   name: loadout-group-contractor-outerclothing
   minLimit: 0
   loadouts:
+  - ContractorClothingOuterVestTank
   - ContractorClothingOuterSuitEmergency
   - ContractorClothingOuterHardsuitEVA
   - ContractorClothingOuterHardsuitBasic
@@ -323,6 +342,8 @@
   - ContractorWetFloorSign
   - ContractorClothingOuterCoatExpensive
   - ContractorClothingOuterCoatSpaceAsshole
+  fallbacks:
+  - ContractorClothingOuterVestTank # Vox-only, default them to have this equipped
 
 - type: loadoutGroup
   id: ContractorBelt
@@ -418,6 +439,8 @@
   - ContractorClothingShoesSkates
   - ContractorClothingShoesClownLarge
   - ContractorClothingShoesBling
+  fallbacks:
+  - ContractorClothingShoesColorBlack
 
 - type: loadoutGroup
   id: ContractorHead
@@ -496,7 +519,31 @@
   - ContractorClothingHeadHatCone
   - ContractorClothingHeadBandGold
   - ContractorClothingHeadHatTophat
-  
+
+- type: loadoutGroup
+  id: ContractorEars
+  name: loadout-group-contractor-ears
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - ContractorClothingHeadsetGreyCommon
+  - ContractorClothingHeadsetCargoCommon
+  - ContractorClothingHeadsetMiningCommon
+  - ContractorClothingHeadsetCommandCommon
+  - ContractorClothingHeadsetEngineeringCommon
+  - ContractorClothingHeadsetMedicalCommon
+  - ContractorClothingHeadsetScienceCommon
+  - ContractorClothingHeadsetMedicalScienceCommon
+  - ContractorClothingHeadsetRoboticsCommon
+  - ContractorClothingHeadsetServiceCommon
+  - ContractorClothingHeadsetAltCargoCommon
+  - ContractorClothingHeadsetAltCommandCommon
+  - ContractorClothingHeadsetAltEngineeringCommon
+  - ContractorClothingHeadsetAltMedicalCommon
+  - ContractorClothingHeadsetAltScienceCommon
+  fallbacks:
+  - ContractorClothingHeadsetGreyCommon
+
 - type: loadoutGroup
   id: ContractorGloves
   name: loadout-group-contractor-gloves
@@ -535,6 +582,7 @@
   - ContractorClothingNeckTieBH
   - ContractorClothingNeckTieRed
   - ContractorClothingNeckTieSci
+  - ContractorClothingNeckLawyerbadge
   - ContractorClothingNeckHeadphones
   - ContractorClothingNeckCrucifix
   - ContractorClothingNeckBellCollar
@@ -580,7 +628,7 @@
   id: ContractorPDA
   name: loadout-group-contractor-id
   loadouts:
-  - ContractorClearPDA
+  - ContractorClearNFPDA
   - ContractorSalvagePDA
   - ContractorResearchAssistantPDA
   - ContractorCargoPDA
@@ -613,7 +661,9 @@
   - ContractorMusicianPDA
   - ContractorClownPDA
   - ContractorMimePDA
-  
+  fallbacks:
+  - ContractorClearNFPDA
+
 - type: loadoutGroup
   id: ContractorGlasses
   name: loadout-group-contractor-glasses
@@ -632,7 +682,7 @@
   - ContractorClothingEyesPunkInfoShades # Punkish (Randomized visuals)
   - ContractorClothingEyesEyepatchHudDiag
   - ContractorClothingEyesEyepatchHudMedical
-  
+
 - type: loadoutGroup
   id: ContractorUtility # Right Hand - 1 only
   name: loadout-group-contractor-utility
@@ -653,7 +703,7 @@
   - ContractorHandheldCrewMonitor
   - ContractorHypoMini
   - ContractorBible
-  
+
 - type: loadoutGroup
   id: ContractorFun # Left Hand - 1 only
   name: loadout-group-contractor-fun
@@ -674,6 +724,7 @@
   - ContractorBalloonNT
   - ContractorPonderingOrb
   - ContractorPlushieRGBee
+  - ContractorMysterySpaceBladeBox
   - ContractorHoloGraffitiProjector # Punkish (might be annoying)
   - ContractorFlashlightUmbrella
   - ContractorDawInstrumentFlatpack
@@ -683,7 +734,6 @@
 - type: loadoutGroup
   id: ContractorFace
   name: loadout-group-contractor-face
-  minLimit: 0
   loadouts:
   - ContractorClothingMaskBreath
   - ContractorClothingMaskBreathMedical
@@ -698,6 +748,8 @@
   - ContractorClothingMaskScaredMime
   - ContractorClothingMaskSadMime
   - ContractorClothingMaskClown
+  fallbacks:
+  - ContractorClothingMaskBreath
 
 - type: loadoutGroup
   id: ContractorTrinkets
@@ -712,6 +764,10 @@
   - ContractorCigarCase
   - ContractorNFAshtray
   - ContractorSmokingPipeFilledTobacco
+  - ContractorTobaccoPouchBrownFilled
+  - ContractorTobaccoPouchBlueFilled
+  - ContractorTobaccoPouchRedFilled
+  - ContractorTobaccoPouchPurpleFilled
   - ContractorVape
   - ContractorCigarGoldCase
   - ContractorMatchbox
@@ -723,6 +779,7 @@
   - ContractorDrinkFlask
   - ContractorDrinkVacuumFlask
   - ContractorFlashlightLantern
+  - ContractorCardBoxBlack
   - ContractorBasketball
   - ContractorFootball
   - ContractorBeachBall
@@ -751,18 +808,23 @@
   - ContractorBoxSurvivalNFNitrogen
   - ContractorBoxSurvivalNFOxygenExtended
   - ContractorBoxSurvivalNFNitrogenExtended
+  fallbacks:
+  - ContractorBoxSurvivalNFOxygen
+  - ContractorBoxSurvivalNFNitrogen
 
 - type: loadoutGroup
   id: ContractorEncryptionKey
   name: loadout-group-contractor-encryption-key
-  minLimit: 1
-  maxLimit: 3
+  minLimit: 0
+  maxLimit: 4
   loadouts:
   - ContractorEncryptionKeyTraffic
   - ContractorEncryptionKeyMedical
   - ContractorEncryptionKeyCargo
   - ContractorEncryptionKeyEngineering
   - ContractorEncryptionKeyScience
+  fallbacks:
+  - ContractorEncryptionKeyTraffic
 
 - type: loadoutGroup
   id: ContractorImplanter
@@ -774,3 +836,25 @@
   - ContractorLightImplanter
   - ContractorBikeHornImplanter
   - ContractorSadTromboneImplanter
+  fallbacks:
+  - ContractorMedicalTrackingImplanter
+
+- type: loadoutGroup
+  id: ContractorBureaucracy
+  name: loadout-group-contractor-bureaucracy
+  minLimit: 0
+  maxLimit: 3
+  loadouts:
+  - ContractorBoxFolderMedicalDoctor
+  - ContractorBrbSign
+  - ContractorHandLabeler
+  - ContractorStampsApprovedDenied
+  - ContractorRubberStampCaptain
+  - ContractorRubberStampChaplain
+  - ContractorRubberStampDoctor
+  - ContractorRubberStampEngineer
+  - ContractorRubberStampLawyer
+  - ContractorRubberStampPsychologist
+  - ContractorRubberStampTrader
+  - ContractorRubberStampClown
+  - ContractorRubberStampMime

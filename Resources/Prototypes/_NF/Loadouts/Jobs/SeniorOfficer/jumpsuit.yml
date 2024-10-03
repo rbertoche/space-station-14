@@ -1,17 +1,12 @@
 - type: loadout
   id: SeniorOfficerClothingUniformJumpsuitSeniorOfficer
-  equipment: SeniorOfficerClothingUniformJumpsuitSeniorOfficer
-
-- type: startingGear
-  id: SeniorOfficerClothingUniformJumpsuitSeniorOfficer
+  hideEffects:
+  - !type:GroupLoadoutEffect
+    proto: PantsCapableNF
   equipment:
     jumpsuit: ClothingUniformJumpsuitNfsdTacBlack
 
 - type: loadout
-  id: SeniorOfficerClothingUniformJumpskirtSeniorOfficer
-  equipment: SeniorOfficerClothingUniformJumpskirtSeniorOfficer
-
-- type: startingGear
   id: SeniorOfficerClothingUniformJumpskirtSeniorOfficer
   equipment:
     jumpsuit: ClothingUniformJumpskirtNfsd

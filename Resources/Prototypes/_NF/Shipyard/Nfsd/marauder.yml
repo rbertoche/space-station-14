@@ -5,7 +5,11 @@
   price: 80000
   category: Large
   group: Security
+  access: Bailiff
   shuttlePath: /Maps/_NF/Shuttles/Nfsd/marauder.yml
+  guidebookPage: Null
+  class:
+  - Capital
 
 - type: gameMap
   id: Marauder

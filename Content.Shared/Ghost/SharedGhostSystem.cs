@@ -19,10 +19,16 @@ namespace Content.Shared.Ghost
         {
             base.Initialize();
             SubscribeLocalEvent<GhostComponent, UseAttemptEvent>(OnAttempt);
-            SubscribeLocalEvent<GhostComponent, InteractionAttemptEvent>(OnAttempt);
+            SubscribeLocalEvent<GhostComponent, InteractionAttemptEvent>(OnAttemptInteract);
             SubscribeLocalEvent<GhostComponent, EmoteAttemptEvent>(OnAttempt);
             SubscribeLocalEvent<GhostComponent, DropAttemptEvent>(OnAttempt);
             SubscribeLocalEvent<GhostComponent, PickupAttemptEvent>(OnAttempt);
+        }
+
+        private void OnAttemptInteract(Entity<GhostComponent> ent, ref InteractionAttemptEvent args)
+        {
+            if (!ent.Comp.CanGhostInteract)
+                args.Cancelled = true;
         }
 
         private void OnAttempt(EntityUid uid, GhostComponent component, CancellableEntityEventArgs args)
@@ -91,6 +97,13 @@ namespace Content.Shared.Ghost
         /// Whether this warp represents a warp point or a player
         /// </summary>
         public bool IsWarpPoint { get;  }
+
+        // Frontier: warp point hiding
+        /// <summary>
+        /// Whether this warp requires admin access to warp to
+        /// </summary>
+        public bool AdminOnly { get; }
+        // End Frontier
     }
 
     /// <summary>

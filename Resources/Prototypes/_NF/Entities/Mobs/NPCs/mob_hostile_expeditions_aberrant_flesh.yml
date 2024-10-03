@@ -2,6 +2,7 @@
 - type: entity
   parent:
   - MobNonHumanHostileBase
+  - MobHumanoidHostileAISimpleMelee
   id: BaseMobFleshExpeditions
   name: aberrant flesh
   description: A shambling mass of flesh, animated through anomalous energy.
@@ -10,24 +11,12 @@
   - type: NpcFactionMember
     factions:
     - AberrantFleshExpeditionNF
-  - type: HTN
-    rootTask:
-       task: SimpleHostileCompound
-    blackboard:
-      NavClimb: !type:Bool
-        true
-      NavInteract: !type:Bool
-        true
-      NavPry: !type:Bool
-        true
-      NavSmash: !type:Bool
-        true
   - type: Sprite
     drawdepth: Mobs
     sprite: _NF/Mobs/Aliens/flesh.rsi
   - type: MovementSpeedModifier
-    baseWalkSpeed: 1
-    baseSprintSpeed: 1.5
+    baseWalkSpeed: 3
+    baseSprintSpeed: 3.5
   - type: MobState
     allowedStates:
     - Alive
@@ -36,6 +25,10 @@
     thresholds:
       0: Alive
       70: Dead
+  - type: SlowOnDamage
+    speedModifierThresholds:
+      42: 0.7
+      56: 0.5
   - type: Stamina
     critThreshold: 50
   - type: Butcherable
@@ -51,7 +44,7 @@
     animation: WeaponArcClaw
     damage:
       types:
-        Slash: 8
+        Blunt: 8
         Structural: 20
   - type: ReplacementAccent
     accent: genericAggressive
@@ -60,7 +53,8 @@
 - type: entity
   parent: BaseMobFleshExpeditions
   id: MobFleshJaredExpeditions
-  noSpawn: true
+  description: Jareds are mindless meat shields who run at threats without any concern for their survival. They seem to be more fragile than the average human.
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     layers:
@@ -74,11 +68,19 @@
         Base: dead
       Dead:
         Base: dead
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      50: Dead
+  - type: SlowOnDamage
+    speedModifierThresholds:
+      30: 0.7
+      40: 0.5
 
 - type: entity
   parent: MobFleshJaredExpeditions
   id: MobFleshJaredOldExpeditions
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -90,7 +92,8 @@
 - type: entity
   parent: BaseMobFleshExpeditions
   id: MobFleshGolemExpeditions
-  noSpawn: true
+  description: Golems are mindless brutes, similar to Jareds but with a heavier build. This makes them slightly more resilient, but less agile.
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     layers:
@@ -104,15 +107,14 @@
         Base: dead
       Dead:
         Base: dead
-  - type: MobThresholds
-    thresholds:
-      0: Alive
-      50: Dead
+  - type: MovementSpeedModifier
+    baseWalkSpeed: 3
+    baseSprintSpeed: 3
 
 - type: entity
   parent: MobFleshGolemExpeditions
   id: MobFleshGolemAltExpeditions
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     layers:
@@ -130,7 +132,7 @@
 - type: entity
   parent: MobFleshGolemExpeditions
   id: MobFleshGolemOldExpeditions
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -150,10 +152,71 @@
 - type: entity
   parent:
   - BaseMobFleshExpeditions
+  - MobLaserReflect # Added to prevent laser abuse from players
+  id: MobFleshAssimilatedMiner
+  description: An unfortunate miner that was infected upon contact with aberrant flesh and has been slowly assimilated.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    drawdepth: Mobs
+    sprite: _NF/Mobs/Aliens/flesh_assimilated_miner.rsi
+    layers:
+    - map: [ "enum.DamageStateVisualLayers.Base" ]
+      state: base
+    - map: [ "enum.DamageStateVisualLayers.BaseUnshaded" ]
+      state: base_unshaded
+      shader: unshaded
+  - type: MobState
+    allowedStates:
+    - Alive
+    - Critical
+    - Dead
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      100: Critical
+      140: Dead
+  - type: SlowOnDamage
+    speedModifierThresholds:
+      60: 0.7
+      80: 0.5
+  - type: Stamina
+    critThreshold: 100
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: base
+        BaseUnshaded: base_unshaded
+      Critical:
+        Base: crit
+        BaseUnshaded: crit_unshaded
+      Dead:
+        Base: dead
+        BaseUnshaded: dead_unshaded
+
+- type: entity
+  parent:
+  - BaseMobFleshExpeditions
   - MobHumanoidHostileAISimpleRanged
   id: MobFleshClampExpeditions
-  noSpawn: true
+  description: Clamps are flying variants that have mutated to shoot biological projectiles, such as bone spikes containing naturally secreted gastro toxins or small living organisms known simply as "maws".
+  categories: [ HideSpawnMenu ]
   components:
+  - type: CanMoveInAir
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.30 # Lowered the value, to allow them to fit through the airlocks
+        density: 100
+        mask:
+          - FlyingMobMask
+        layer:
+          - FlyingMobLayer
+  - type: FootstepModifier
+    footstepSoundCollection:
+      path: /Audio/_NF/Effects/silence.ogg
   - type: Sprite
     layers:
     - map: [ "enum.DamageStateVisualLayers.Base" ]
@@ -170,15 +233,16 @@
     thresholds:
       0: Alive
       40: Dead
-  - type: MovementSpeedModifier
-    baseWalkSpeed: 2
-    baseSprintSpeed: 2.5
+  - type: SlowOnDamage
+    speedModifierThresholds:
+      24: 0.7
+      32: 0.5
   - type: RechargeBasicEntityAmmo
-    rechargeCooldown: 6
+    rechargeCooldown: 4
     rechargeSound:
       path: /Audio/_NF/Effects/silence.ogg
   - type: BasicEntityAmmoProvider
-    proto: DartAberrantFleshHorrorSpikeCluster
+    proto: DartAberrantFleshHorrorSpike #DartAberrantFleshHorrorSpikeCluster
     capacity: 1
     count: 1
   - type: Gun
@@ -193,7 +257,7 @@
 - type: entity
   parent: MobFleshClampExpeditions
   id: MobFleshClampOldExpeditions
-  noSpawn: true
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -221,8 +285,24 @@
 - type: entity
   parent: BaseMobFleshExpeditions
   id: MobFleshLoverExpeditions
-  noSpawn: true
+  description: The Lover shares similarities with Jareds and Golems. Its light frame makes it fragile, but capable of flight.
+  categories: [ HideSpawnMenu ]
   components:
+  - type: CanMoveInAir
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.30 # Lowered the value, to allow them to fit through the airlocks
+        density: 100
+        mask:
+          - FlyingMobMask
+        layer:
+          - FlyingMobLayer
+  - type: FootstepModifier
+    footstepSoundCollection:
+      path: /Audio/_NF/Effects/silence.ogg
   - type: Sprite
     layers:
     - map: [ "enum.DamageStateVisualLayers.Base" ]
@@ -239,17 +319,21 @@
     thresholds:
       0: Alive
       30: Dead
+  - type: SlowOnDamage
+    speedModifierThresholds:
+      18: 0.7
+      24: 0.5
   - type: MovementSpeedModifier
-    baseWalkSpeed: 2
-    baseSprintSpeed: 2.5
+    baseWalkSpeed: 4
+    baseSprintSpeed: 4.5
 
 # EXPEDITION BOSS
 - type: entity
   parent: BaseMobFleshExpeditions
   id: MobHorrorExpeditions
   name: aberrant flesh horror
-  description: Not so shambling mass of flesh with menacing bone spikes protruding from its unnaturally elongated fingers.
-  noSpawn: true
+  description: Tougher and more resilient than the average aberrant flesh monster, the Horror possesses sharp bone protrusions and highly developed musculature, allowing it to rend the flesh of its victims and tear through armor with efficiency.
+  categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
     layers:
@@ -269,9 +353,13 @@
     thresholds:
       0: Alive
       200: Dead
+  - type: SlowOnDamage
+    speedModifierThresholds:
+      120: 0.7
+      160: 0.5
   - type: MovementSpeedModifier
-    baseWalkSpeed: 2.8
-    baseSprintSpeed: 3.8
+    baseWalkSpeed: 3.5
+    baseSprintSpeed: 4
   - type: MeleeWeapon
     soundHit:
         path: /Audio/Weapons/Xeno/alien_claw_flesh3.ogg
@@ -287,8 +375,8 @@
   parent: BaseMobFleshExpeditions
   id: MobMawExpeditions
   name: aberrant flesh maw
-  description: Don't put your fingers in it. Unless?..
-  noSpawn: true
+  description: Immobile, flesh-boring creatures that are launched at victims. They'll latch on with their teeth and bite their victims until killed or shaken off. Don't put your fingers in it. Unless?..
+  categories: [ HideSpawnMenu ]
   components:
   - type: DamageOtherOnHit
     damage:

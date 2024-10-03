@@ -8,7 +8,6 @@
     contents:
       - id: ClothingNeckCloakPirateCap
       - id: Cutlass # Frontier EnergyCutlass<Cutlass
-      - id: DeathAcidifierImplanter # Frontier MicroBombImplanter<DeathAcidifierImplanter
       - id: ClothingHeadsetAltFreelancer # Frontier
 
 - type: entity
@@ -42,6 +41,17 @@
   - type: StorageFill
     contents:
       - id: CannonBall
+        amount: 6
+
+- type: entity
+  id: CratePirateChestCannonBallEmp
+  name: shockshot chest
+  suffix: Filled
+  parent: CratePirateGrey
+  components:
+  - type: StorageFill
+    contents:
+      - id: CannonBallEmp
         amount: 6
 
 - type: entity

@@ -92,6 +92,12 @@
       - PosterContrabandInterdyne
       - PosterContrabandWaffleCorp
       - PosterContrabandMissingSpacepen
+      - NFPosterContrabandLvhiStation # Frontier
+      - NFPosterContrabandLvhiShuttle # Frontier
+      - NFPosterContrabandLvhiSpace # Frontier
+      - NFPosterContrabandFsbLogo # Frontier
+      - NFPosterContrabandFsbStasis # Frontier
+      - NFPosterContrabandFsbApothecary # Frontier
     chance: 1
 
 - type: entity
@@ -150,5 +156,5 @@
       - PosterLegitPeriodicTable
       - PosterLegitRenault
       - PosterLegitNTTGC
-      - NFPosterLegitMagnusWatching
+      - NFPosterLegitMagnusWatching # Frontier
     chance: 1
