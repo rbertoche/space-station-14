@@ -50204,18 +50204,20 @@ entities:
     - type: Transform
       pos: -12.663173,-12.436495
       parent: 2
-- proto: ChemDispenser
+- proto: chem_master
   entities:
   - uid: 8054
     components:
     - type: Transform
-      pos: -9.5,-7.5
+      pos: -5.5,-7.5
       parent: 2
   - uid: 8055
     components:
     - type: Transform
-      pos: -5.5,-7.5
+      pos: -9.5,-7.5
       parent: 2
+- proto: ChemDispenser
+  entities:
   - uid: 8056
     components:
     - type: Transform
