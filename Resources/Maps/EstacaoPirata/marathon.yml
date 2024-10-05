@@ -10941,11 +10941,6 @@ entities:
     - type: Transform
       pos: 38.5,27.5
       parent: 2
-  - uid: 421
-    components:
-    - type: Transform
-      pos: 43.5,26.5
-      parent: 2
   - uid: 422
     components:
     - type: Transform
@@ -11265,6 +11260,11 @@ entities:
       parent: 2
 - proto: AirlockScienceGlassLocked
   entities:
+  - uid: 421
+    components:
+    - type: Transform
+      pos: 43.5,26.5
+      parent: 2
   - uid: 475
     components:
     - type: Transform
