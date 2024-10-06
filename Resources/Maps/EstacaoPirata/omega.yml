@@ -28542,6 +28542,13 @@ entities:
     - type: Transform
       pos: -20.5,-5.5
       parent: 2
+- proto: CloningPod
+  entities:
+  - uid: 8548
+    components:
+    - type: Transform
+      pos: -14.5,-15.5
+      parent: 2
 - proto: ClosetBombFilled
   entities:
   - uid: 4590
@@ -30923,6 +30930,14 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 16.5,17.5
       parent: 2
+- proto: ComputerCloningConsole
+  entities:
+  - uid: 4848
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -14.5,-16.5
+      parent: 2
 - proto: ComputerComms
   entities:
   - uid: 4833
@@ -31015,12 +31030,6 @@ entities:
       parent: 2
 - proto: ComputerFrame
   entities:
-  - uid: 4848
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -14.5,-16.5
-      parent: 2
   - uid: 4849
     components:
     - type: Transform
@@ -31134,6 +31143,13 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 17.5,29.5
+      parent: 2
+- proto: ComputerShuttleSalvage
+  entities:
+  - uid: 12645
+    components:
+    - type: Transform
+      pos: 26.5,15.5
       parent: 2
 - proto: ComputerSolarControl
   entities:
@@ -56725,18 +56741,6 @@ entities:
     - type: Transform
       pos: -8.5,-18.5
       parent: 2
-- proto: MachineFrame
-  entities:
-  - uid: 8547
-    components:
-    - type: Transform
-      pos: -16.5,-15.5
-      parent: 2
-  - uid: 8548
-    components:
-    - type: Transform
-      pos: -14.5,-15.5
-      parent: 2
 - proto: MachineFrameDestroyed
   entities:
   - uid: 8549
@@ -56927,6 +56931,13 @@ entities:
     components:
     - type: Transform
       pos: -37.5,-37.5
+      parent: 2
+- proto: MedicalScanner
+  entities:
+  - uid: 8547
+    components:
+    - type: Transform
+      pos: -16.5,-15.5
       parent: 2
 - proto: MedicalTechFab
   entities:
@@ -57125,6 +57136,11 @@ entities:
     components:
     - type: Transform
       pos: -32.481808,-7.2820773
+      parent: 2
+  - uid: 12646
+    components:
+    - type: Transform
+      pos: -16.361057,-18.557222
       parent: 2
 - proto: NitrogenCanister
   entities:
@@ -63767,6 +63783,13 @@ entities:
     components:
     - type: Transform
       pos: 13.5722065,-27.387243
+      parent: 2
+- proto: ReverseEngineeringMachine
+  entities:
+  - uid: 12643
+    components:
+    - type: Transform
+      pos: 6.5,-14.5
       parent: 2
 - proto: RevolverCapGun
   entities:
@@ -70707,6 +70730,13 @@ entities:
     components:
     - type: Transform
       pos: 0.5,-3.5
+      parent: 2
+- proto: VendingMachineCourierDrobe
+  entities:
+  - uid: 12644
+    components:
+    - type: Transform
+      pos: 20.5,23.5
       parent: 2
 - proto: VendingMachineCuraDrobe
   entities:
