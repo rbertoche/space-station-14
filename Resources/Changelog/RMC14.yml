@@ -1,43 +1,6 @@
 ﻿Entries:
 - author: DrSmugleaf
   changes:
-  - message: Fixed barbed wire damage not piercing through xeno armor. It now always
-      deals the same amount of damage, regardless of armor.
-    type: Fix
-  - message: Fixed barbed wire damage being too low. It now deals 10 damage, up from
-      6.
-    type: Fix
-  id: 288
-  time: '2024-07-08T02:26:18.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/2872
-- author: DrSmugleaf
-  changes:
-  - message: Fixed explosions destroying destroyable items inside backpacks, belts,
-      pouches, webbings, armors and helmets. Any items stored inside will no longer
-      be destroyed by an explosion.
-    type: Fix
-  - message: Helmets now have two slots for items instead of a single 3 space area,
-      allowing for two injectors, bandages, ointments or pill packets to fit inside,
-      for example.
-    type: Tweak
-  - message: 'Fixed small items fitting into helmets. Only tiny items and the following
-      items can be fit into helmets: auto injectors, pill packets, bandages, ointment,
-      flasks, scalpels, cigarettes, pizza slices, pens, crayons and flashlights,'
-    type: Fix
-  id: 289
-  time: '2024-07-08T02:26:09.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/2868
-- author: DrSmugleaf
-  changes:
-  - message: Fixed thick resin structures (the hivelord ones) being cheaper to build
-      than intended. The thick wall now costs 170 plasma, up from 120. The thick membrane
-      now costs 120, up from 95. The thick door now costs 145, up from 120.
-    type: Fix
-  id: 290
-  time: '2024-07-08T02:26:26.0000000+00:00'
-  url: https://github.com/RMC-14/RMC-14/pull/2873
-- author: DrSmugleaf
-  changes:
   - message: Fixed being able to eat req invoices and being able to put them into
       fax machines.
     type: Fix
@@ -4656,5 +4619,31 @@
   id: 787
   time: '2024-10-06T01:39:05.0000000+00:00'
   url: https://github.com/RMC-14/RMC-14/pull/4292
+- author: DrSmugleaf
+  changes:
+  - message: Fix the dropship landing rotated at Trijent Dam's LZ2.
+    type: Fix
+  - message: Fix the Liaison's escape pod crashing if launched early.
+    type: Fix
+  - message: Fix a visual bug with laser designators always saying that you can't
+      use them there.
+    type: Fix
+  id: 788
+  time: '2024-10-06T22:58:13.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/4302
+- author: deltanedas
+  changes:
+  - message: Fixed tail stab looking like you hurt your fellow xenos on your client.
+    type: Fix
+  id: 789
+  time: '2024-10-06T23:26:32.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/4295
+- author: DrSmugleaf
+  changes:
+  - message: Fixed the SEA not starting with 45 vendor points.
+    type: Fix
+  id: 790
+  time: '2024-10-06T23:34:17.0000000+00:00'
+  url: https://github.com/RMC-14/RMC-14/pull/4315
 Name: RMC14
 Order: -1
