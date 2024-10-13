@@ -171,7 +171,7 @@ trait-description-SolCommon =
 trait-name-Tradeband = Banda Comercial
 trait-description-Tradeband =
     Descendente das línguas latinas e românicas da antiga Terra - banda comercial continua sendo a língua principal da classe alta da humanidade.
-    A língua soa elegante e bem estruturada para a maioria das pessoas. Ela permanece popular entre comerciantes - diplomats - e aqueles que buscam manter um pedaço de um passado romântico.
+    A língua soa elegante e bem estruturada para a maioria das pessoas. Ela permanece popular entre comerciantes - diplomatas - e aqueles que buscam manter um pedaço de um passado romântico.
 
 trait-name-Freespeak = Fala Livre (Sarjeta)
 trait-description-Freespeak =
@@ -235,12 +235,12 @@ trait-description-NaturalTelepath = Como um telepata natural, você é capaz de 
 trait-name-TrapAvoider = Evitador de Armadilhas
 trait-description-TrapAvoider =
     Você possui um senso preternatural para armadilhas e as evitará inconscientemente. Você nunca acionará
-    armadilhas no chão, como minas terrestres, fios de tropeço, ratoeiras (se for pequeno o suficiente), etc.
+    armadilhas no chão, como minas terrestres, fios de armadilha, ratoeiras (se for pequeno o suficiente), etc.
 
-trait-name-AnomalousPositronics = Positrônico anômalo
+trait-name-AnomalousPositronics = Positrônicos Anômalos
 trait-description-AnomalousPositronics =
     Seja por um design intencional do fabricante, modificações do mercado negro ou omissão acidental,
-    seu cérebro positrônico carece de seu isolamento psíquico padrão. Como um ser que pode ser argumentado ter uma alma,
+    seu cérebro positrônico carece de seu isolamento psiônico padrão. Como um ser que pode ser argumentado ter uma alma,
     isso, por extensão, significa que é possível que você seja influenciado pela Noosfera.
 
 trait-name-Photophobia = Fotofobia
@@ -269,7 +269,7 @@ trait-name-Talons = Garras Perfurantes
 trait-description-Talons =
     Suas pontas dos dedos foram substituídas por garras perfurantes.
     Elas podem vir de modificações genéticas, implantes cultivados em laboratório
-    ou até mesmo garras retráteis de plástico duro incorporadas em um membro protético.
+    ou até mesmo garras retráteis de plástico rígido incorporadas em um membro protético.
     Seus ataques corpo a corpo desarmados causam dano perfurante em vez do tipo de dano padrão para sua espécie.
     Isso não tem efeito sobre o dano causado com qualquer forma de ataque corpo a corpo armado.
 
@@ -277,7 +277,7 @@ trait-name-Claws = Garras Cortantes
 trait-description-Claws =
     Suas pontas dos dedos foram substituídas por garras cortantes.
     Elas podem vir de modificações genéticas, implantes cultivados em laboratório
-    ou até mesmo garras retráteis de plástico duro incorporadas em um membro protético.
+    ou até mesmo garras retráteis de plástico rígido incorporadas em um membro protético.
     Seus ataques corpo a corpo desarmados causam dano cortante em vez do tipo de dano padrão para sua espécie.
     Isso não tem efeito sobre o dano causado com qualquer forma de ataque corpo a corpo armado.
 
@@ -293,11 +293,11 @@ trait-description-StrikingCalluses =
     Uma melhoria icônica comumente encontrada no mundo das artes marciais cibernéticas.
     A Calosidade Marcante consistem em depósitos dérmicos ósseos enxertados nas mãos do usuário, seja dentro da palma
     para o estilo de luta ‘Estilo Tigre’, ou logo abaixo dos nós dos dedos para aqueles que preferem o boxe tradicional.
-    Proprietários de membros protéticos ou biônicos teriam, em vez disso, uma concha de plástico duro sobre os nós dos dedos.
+    Proprietários de membros protéticos ou biônicos teriam, em vez disso, uma concha de plástico rígido sobre os nós dos dedos.
     Essas melhorias aumentam o dano de ataque desarmado em 1 ponto base, mas não conferem
     nenhum benefício a qualquer forma de ataque corpo a corpo armado.
 
-trait-name-Spinarette = Fiar Biônico
+trait-name-Spinarette = Fiandeira Biônica
 trait-description-Spinarette =
     Esse órgão cultivado em laboratório - registrado e patenteado pela Cybersun Corporation, é comercializado como um aprimoramento
     altamente utilitário e vendido em clínicas por todo o espaço conhecido. Consiste em um nódulo que é tradicionalmente
@@ -307,7 +307,7 @@ trait-description-Spinarette =
 
 trait-name-AddictionNicotine = Vício em Nicotina
 trait-description-AddictionNicotine =
-    Você tem um vício em nicotina e precisará de pausas frequentes para fumar para manter seu humor sob controle.
+    Você tem um vício em nicotina e precisará de pausas frequentes para fumar, a fim de manter seu humor sob controle.
 
 trait-name-ValyrianStandard = Valyrian Padrão
 trait-description-ValyrianStandard =
@@ -325,15 +325,15 @@ trait-description-HighPotential =
 
 trait-name-LowAmplification = kα Deficiente
 trait-description-LowAmplifiction =
-    Suas habilidades psiônicas são visivelmente mais fracas do que as usadas por outros psiônicos.
+    Suas habilidades psiônicas são visivelmente mais fracas do que as usadas por outros psions.
 
 trait-name-HighAmplification = kα Abudante
 trait-description-HighAmplification =
-    Suas habilidades psiônicas são mais fortes do que as de outros psiônicos.
+    Suas habilidades psiônicas são mais fortes do que as de outros psions.
 
 trait-name-PowerOverwhelming = Poder Esmagador
 trait-description-PowerOverwhelming =
-    TESTEMUNHEM MEU ÓDIO, MORTAIS, TEMAM ANTE MEU PODER PSIÔNICOS! A REALIDADE É COMO EU DETERMINO.
+    TESTEMUNHEM MEU ÓDIO, MORTAIS, TEMAM ANTE MEU PODER PSIÔNICO! A REALIDADE É COMO EU DETERMINO.
 
 trait-name-LowDampening = kδ Defeituoso
 trait-description-LowDampening =
